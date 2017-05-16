@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<SkinSet>
+  
+  <lifeStage>
+    <appliesToAll>true</appliesToAll>
+    <variants>
+      <skin>
+	    <commonality>0.05</commonality>
+        <texName>MegascorpionR</texName>
+      </skin>
+	  <skin>
+        <color>(209,208,188)</color>
+	    <commonality>0.2</commonality>
+        <texName>Megascorpion</texName>
+      </skin>
+	  <skin>
+        <color>(115,99,91)</color>
+	    <commonality>0.2</commonality>
+        <texName>Megascorpion</texName>
+      </skin>
+	  <skin>
+        <color>(132,143,123)</color>
+	    <commonality>0.2</commonality>
+        <texName>Megascorpion</texName>
+      </skin>
+	  <skin>
+        <color>(72,85,99)</color>
+	    <commonality>0.2</commonality>
+        <texName>Megascorpion</texName>
+      </skin>
+	  <skin>
+        <color>(156,147,100)</color>
+	    <commonality>0.4</commonality>
+        <texName>Megascorpion</texName>
+      </skin>
+    </variants>
+    <winterCoat>
+      <useWinterCoat>false</useWinterCoat>
+    </winterCoat>
+  </lifeStage>
+  
+</SkinSet>

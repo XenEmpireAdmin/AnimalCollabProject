@@ -1,0 +1,645 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="AnimalThingBase" Name="BigCatThingBase" Abstract="True">
+    <statBases>
+      <MoveSpeed>6.5</MoveSpeed>
+      <ComfyTemperatureMin>-8</ComfyTemperatureMin>
+      <MarketValue>650</MarketValue>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.5</defaultCooldownTime>
+        <meleeDamageBaseAmount>11</meleeDamageBaseAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.5</defaultCooldownTime>
+        <meleeDamageBaseAmount>11</meleeDamageBaseAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.85</defaultCooldownTime>
+        <meleeDamageBaseAmount>15</meleeDamageBaseAmount>
+        <meleeDamageDef>Bite</meleeDamageDef>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+    </verbs>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <herdAnimal>false</herdAnimal>
+      <predator>true</predator>
+      <baseBodySize>1.4</baseBodySize>
+      <baseHungerRate>0.3</baseHungerRate>
+      <baseHealthScale>1.8</baseHealthScale>
+      <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+	  <useMeatFrom>Cat</useMeatFrom>
+      <leatherInsulation>0.9</leatherInsulation>
+      <wildness>0.80</wildness>
+      <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
+      <gestationPeriodDays>22.5</gestationPeriodDays>
+	  <litterSizeCurve>
+        <points>
+          <li>(1.5, 0)</li>
+          <li>(2, 1)</li>
+          <li>(3, 1)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>13</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.3</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.85</minAge>
+          <soundWounded>Pawn_Cougar_Injured</soundWounded>
+          <soundDeath>Pawn_Cougar_Death</soundDeath>
+          <soundAngry>Pawn_Cougar_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>StandardAnimal</li>
+      <li>BadassAnimal</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase" Name="BigCatKindBase" Abstract="True">
+    <combatPower>155</combatPower>
+    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <wildSpawn_EcoSystemWeight>0.42</wildSpawn_EcoSystemWeight>
+  </PawnKindDef>
+
+
+  <!--===============================================-->
+
+  <ThingDef ParentName="BigCatThingBase">
+    <defName>ACPLion</defName>
+    <label>lion</label>
+    <description>Possibly the most famous of the ancient big cats, lions are easily distinguished by the males' overly large mane- a rather unique example of sexual dimorphism in their genetic family. Lions live in pride groups, usually consisting of a single alpha male and a harem of females which typically do all the actual hunting. Historical attempts at removing this gross sexist inequality unfortunately proved unsuccessful.</description>
+    <race>
+      <leatherLabel>tawny pelt</leatherLabel>
+      <leatherColor>(225,169,95)</leatherColor>
+	  <herdAnimal>true</herdAnimal>
+      <baseBodySize>1.5</baseBodySize>
+      <baseHungerRate>0.3</baseHungerRate>
+      <baseHealthScale>1.9</baseHealthScale>
+      <wildness>0.85</wildness>
+	  <wildBiomes>
+		<ExtremeDesert>0.02</ExtremeDesert>
+		<Desert>0.07</Desert>
+		<AridShrubland>0.08</AridShrubland>
+		<TropicalRainforest>0.01</TropicalRainforest>
+      </wildBiomes>
+      <lifeExpectancy>15</lifeExpectancy>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BigCatKindBase">
+    <defName>ACPLion</defName>
+    <label>lion</label>
+    <race>ACPLion</race>
+	<combatPower>255</combatPower>
+	<wildSpawn_GroupSizeRange>
+      <min>3</min>
+      <max>5</max>
+    </wildSpawn_GroupSizeRange>
+    <labelMale>lion</labelMale>
+    <labelFemale>lioness</labelFemale>
+    <lifeStages>
+      <li>
+		<label>lion cub</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cats/Lion/LionFemale</texPath>
+          <drawSize>1.1</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cats/Lion/LionMale</texPath>
+          <drawSize>1.4</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+		<femaleGraphicData>
+          <texPath>Things/Pawn/Animal/Cats/Lion/LionFemale</texPath>
+          <drawSize>1.4</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cats/Lion/LionMale</texPath>
+          <drawSize>2.18</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.1)</offset>
+          </shadowData>
+        </bodyGraphicData>
+		<femaleGraphicData>
+          <texPath>Things/Pawn/Animal/Cats/Lion/LionFemale</texPath>
+          <drawSize>2.18</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.1)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>2.18</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+ <!--===============================================-->
+
+  <ThingDef ParentName="BigCatThingBase">
+    <defName>ACPTiger</defName>
+    <label>tiger</label>
+    <description>The largest unmodified cat. A solitary hunter of great power and danger. Also fetchingly stripey.</description>
+    <race>
+      <useLeatherFrom>ACPLion</useLeatherFrom>
+      <baseBodySize>1.6</baseBodySize>
+      <baseHungerRate>0.3</baseHungerRate>
+      <baseHealthScale>1.9</baseHealthScale>
+      <wildness>0.85</wildness>
+	  <wildBiomes>
+		<Desert>0.02</Desert>
+		<AridShrubland>0.04</AridShrubland>
+		<TropicalRainforest>0.07</TropicalRainforest>
+      </wildBiomes>
+      <lifeExpectancy>15</lifeExpectancy>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BigCatKindBase">
+    <defName>ACPTiger</defName>
+    <label>tiger</label>
+    <race>ACPTiger</race>
+	<combatPower>260</combatPower>
+    <labelMale>tiger</labelMale>
+    <labelFemale>tigress</labelFemale>
+    <lifeStages>
+      <li>
+		<label>tiger cub</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cats/Tiger/Tiger</texPath>
+          <drawSize>1.1</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cats/Tiger/Tiger</texPath>
+          <drawSize>1.4</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cats/Tiger/Tiger</texPath>
+          <drawSize>2.18</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.1)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>2.18</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+  
+  <!--===============================================-->
+
+  <ThingDef ParentName="BigCatThingBase">
+    <defName>ACPCheetah</defName>
+    <label>cheetah</label>
+    <description>Though not the most powerful of hunters, the cheetah ia an unusually fast sprinter. Escaping one that has chosen to attack will be difficult.</description>
+	<statBases>
+		<MoveSpeed>7.5</MoveSpeed>
+	</statBases>
+	<verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.4</defaultCooldownTime>
+        <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.4</defaultCooldownTime>
+        <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.65</defaultCooldownTime>
+        <meleeDamageBaseAmount>9</meleeDamageBaseAmount>
+        <meleeDamageDef>Bite</meleeDamageDef>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+    </verbs>
+	<race>
+      <useLeatherFrom>ACPLion</useLeatherFrom>
+      <baseBodySize>0.75</baseBodySize>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BigCatKindBase">
+    <defName>ACPCheetah</defName>
+    <label>cheetah</label>
+    <race>ACPCheetah</race>
+    <lifeStages>
+      <li>
+		<label>cheetah cub</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cats/Cheetah/CheetahCub</texPath>
+          <drawSize>1.05</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.05</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cats/Cheetah/Cheetah</texPath>
+          <drawSize>1.35</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.35</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cats/Cheetah/Cheetah</texPath>
+          <drawSize>2.12</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.1)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>2.12</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+
+  <!--===============================================-->
+
+  <ThingDef ParentName="BigCatThingBase">
+    <defName>ACPAmurLeopard</defName>
+    <label>amur leopard</label>
+    <description>The amur leopards barely avoided extinction before being spread across the 'verse. Due to their thick pelt and compact stature they can withstand the cold better than most large cats.</description>
+    <statBases>
+      <ComfyTemperatureMin>-45</ComfyTemperatureMin>
+      <MarketValue>320</MarketValue>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.5</defaultCooldownTime>
+        <meleeDamageBaseAmount>8</meleeDamageBaseAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.5</defaultCooldownTime>
+        <meleeDamageBaseAmount>8</meleeDamageBaseAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.85</defaultCooldownTime>
+        <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
+        <meleeDamageDef>Bite</meleeDamageDef>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+    </verbs>
+    <race>
+      <baseBodySize>0.7</baseBodySize>
+      <baseHungerRate>0.2</baseHungerRate>
+      <baseHealthScale>0.75</baseHealthScale>
+      <useLeatherFrom>ACPLion</useLeatherFrom>
+      <wildness>0.80</wildness>
+	  <wildBiomes>
+		<TemperateForest>0.08</TemperateForest>
+		<BorealForest>0.065</BorealForest>
+		<Tundra>0.04</Tundra>
+      </wildBiomes>
+      <gestationPeriodDays>21</gestationPeriodDays>
+      <lifeExpectancy>12</lifeExpectancy>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BigCatKindBase">
+    <defName>ACPAmurLeopard</defName>
+    <label>amur leopard</label>
+    <race>ACPAmurLeopard</race>
+    <combatPower>110</combatPower>
+    <wildSpawn_EcoSystemWeight>0.22</wildSpawn_EcoSystemWeight>
+    <lifeStages>
+      <li>
+        <label>amur leopard cub</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cats/Amur Leopard/Leopard</texPath>
+          <drawSize>0.9</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>0.9</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cats/Amur Leopard/Leopard</texPath>
+          <drawSize>1.3</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.3</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cats/Amur Leopard/Leopard</texPath>
+          <drawSize>1.5</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.1)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+
+  <!--===============================================-->
+
+  <ThingDef ParentName="BigCatThingBase">
+    <defName>ACPSnowLeopard</defName>
+    <label>snow leopard</label>
+    <description>As one of the smaller big cats the snow leopard thrives in colder regions, where its pale coloring camouflages it particularly well.</description>
+    <statBases>
+      <ComfyTemperatureMin>-45</ComfyTemperatureMin>
+      <MarketValue>320</MarketValue>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.5</defaultCooldownTime>
+        <meleeDamageBaseAmount>8</meleeDamageBaseAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.5</defaultCooldownTime>
+        <meleeDamageBaseAmount>8</meleeDamageBaseAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.85</defaultCooldownTime>
+        <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
+        <meleeDamageDef>Bite</meleeDamageDef>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+    </verbs>
+    <race>
+      <baseBodySize>0.7</baseBodySize>
+      <baseHungerRate>0.2</baseHungerRate>
+      <baseHealthScale>0.75</baseHealthScale>
+      <leatherColor>(200,200,200)</leatherColor>
+      <leatherInsulation>1.15</leatherInsulation>
+      <leatherLabel>grey pelt</leatherLabel>
+      <wildness>0.80</wildness>
+	  <wildBiomes>
+		<TemperateForest>0.035</TemperateForest>
+		<BorealForest>0.06</BorealForest>
+		<Tundra>0.075</Tundra>
+		<IceSheet>0.01</IceSheet>
+      </wildBiomes>
+      <gestationPeriodDays>22.5</gestationPeriodDays>
+      <lifeExpectancy>15</lifeExpectancy>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BigCatKindBase">
+    <defName>ACPSnowLeopard</defName>
+    <label>snow leopard</label>
+    <race>ACPSnowLeopard</race>
+    <combatPower>110</combatPower>
+    <wildSpawn_EcoSystemWeight>0.22</wildSpawn_EcoSystemWeight>
+    <lifeStages>
+      <li>
+        <label>snow leopard cub</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cats/Snow Leopard/SnowLeopard</texPath>
+          <drawSize>1</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cats/Snow Leopard/SnowLeopard</texPath>
+          <drawSize>1.2</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cats/Snow Leopard/SnowLeopard</texPath>
+          <drawSize>1.4</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.1)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  
+</Defs>

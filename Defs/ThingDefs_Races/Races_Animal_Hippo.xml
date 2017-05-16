@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+
+  
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>ACPHippopotamus</defName>
+    <label>hippopotamus</label>
+    <description>A large mammal often found in arid areas close to water. Hippos may look adorable, but are one of the most dangerous animals.</description>
+    <statBases>
+      <MoveSpeed>5.50</MoveSpeed>
+      <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+      <MarketValue>280</MarketValue>
+    </statBases>
+    <verbs>
+      <li>
+		<verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>2.6</defaultCooldownTime>
+        <meleeDamageBaseAmount>18</meleeDamageBaseAmount>
+        <meleeDamageDef>Bite</meleeDamageDef>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+      <body>QuadrupedAnimalWithHooves</body>
+      <baseBodySize>2.4</baseBodySize>
+      <baseHungerRate>0.3</baseHungerRate>
+      <baseHealthScale>1.85</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+	  <leatherColor>(92,92,92)</leatherColor>
+	  <leatherLabel>blubbery leather</leatherLabel>
+	  <leatherInsulation>1.8</leatherInsulation>
+	  <meatLabel>blubbery meat</meatLabel>
+      <wildness>0.25</wildness>
+	  <wildBiomes>
+		<ExtremeDesert>0.02</ExtremeDesert>
+		<Desert>0.15</Desert>
+		<AridShrubland>0.25</AridShrubland>
+		<TropicalRainforest>0.08</TropicalRainforest>
+		<TemperateForest>0.01</TemperateForest>
+      </wildBiomes>
+      <trainableIntelligence>Advanced</trainableIntelligence>
+      <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
+      <gestationPeriodDays>21</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 3)</li>
+          <li>(2, 1)</li>
+          <li>(2.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>45</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.1</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.5</minAge>
+          <soundWounded>Pawn_Elephant_Injured</soundWounded>
+          <soundDeath>Pawn_Elephant_Dead</soundDeath>
+          <soundCall>Pawn_Elephant_Call</soundCall>
+          <soundAngry>Pawn_Elephant_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>StandardAnimal</li>
+      <li>BadassAnimal</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>ACPHippopotamus</defName>
+    <label>hippopotamus</label>
+	<labelPlural>hippopotamuses</labelPlural>
+    <race>ACPHippopotamus</race>
+    <combatPower>270</combatPower>
+    <wildSpawn_EcoSystemWeight>0.3</wildSpawn_EcoSystemWeight>
+    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <wildSpawn_GroupSizeRange>
+      <min>5</min>
+      <max>8</max>
+    </wildSpawn_GroupSizeRange>
+    <lifeStages>
+      <li>
+	    <label>hippopotamus calf</label>
+		<labelPlural>hippopotamus calves</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Ungulates/Hippo/Hippo</texPath>
+          <drawSize>1.5</drawSize>
+          <shadowData>
+            <volume>(0.30, 0.25, 0.20)</volume>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Ungulates/Hippo/Hippo</texPath>
+          <drawSize>1.9</drawSize>
+          <shadowData>
+            <volume>(0.375, 0.375, 0.375)</volume>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <drawSize>1.9</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Ungulates/Hippo/Hippo</texPath>
+          <drawSize>2.5</drawSize>
+          <shadowData>
+            <volume>(0.5, 0.5, 0.4)</volume>
+            <offset>(0,0,-0.05)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <drawSize>2.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+  
+  
+</ThingDefs>

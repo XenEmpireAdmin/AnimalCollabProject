@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<SkinSet>
+  
+  <lifeStage>
+    <appliesToAll>true</appliesToAll>
+    <variants>
+      <skin>
+        <color>(240,240,240)</color>
+        <commonality>0.3</commonality>
+        <texName>RedWolf_V1</texName>
+        <useComplexShader>false</useComplexShader>
+      </skin>
+
+      <skin>
+        <color>(245,245,245)</color>
+        <commonality>0.03</commonality>
+        <texName>RedWolf_V2</texName>
+        <useComplexShader>false</useComplexShader>
+      </skin>
+
+      <skin>
+        <color>(65,65,70)</color>
+        <commonality>0.3</commonality>
+        <texName>RedWolf_V1</texName>
+        <useComplexShader>false</useComplexShader>
+      </skin>
+
+      <skin>
+        <color>(84,84,84)</color>
+        <commonality>0.3</commonality>
+        <texName>RedWolf_V1</texName>
+        <useComplexShader>false</useComplexShader>
+      </skin>
+
+      <skin>
+        <color>(104,104,104)</color>
+        <commonality>0.3</commonality>
+        <texName>RedWolf_V1</texName>
+        <useComplexShader>false</useComplexShader>
+      </skin>
+
+      <skin>
+        <color>(110,79,45)</color>
+        <commonality>0.3</commonality>
+        <texName>RedWolf_V1</texName>
+        <useComplexShader>false</useComplexShader>
+      </skin>
+
+      <skin>
+        <color>(129,100,78)</color>
+        <commonality>0.15</commonality>
+        <texName>RedWolf_V1</texName>
+        <useComplexShader>false</useComplexShader>
+      </skin>
+
+      <skin>
+        <color>(139,100,78)</color>
+        <commonality>0.15</commonality>
+        <texName>RedWolf_V1</texName>
+        <useComplexShader>false</useComplexShader>
+      </skin>
+
+      <skin>
+        <color>(90,57,37)</color>
+        <commonality>0.15</commonality>
+        <texName>RedWolf_V1</texName>
+        <useComplexShader>false</useComplexShader>
+      </skin>
+    </variants>
+    <winterCoat>
+      <useWinterCoat>true</useWinterCoat>
+    </winterCoat>
+  </lifeStage>
+  
+</SkinSet>

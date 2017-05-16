@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<SkinSet>
+  
+  <lifeStage>
+    <appliesToAll>true</appliesToAll>
+    <variants>
+      <skin>
+        <texName>RedPanda_V1</texName>
+      </skin>
+    </variants>
+  </lifeStage>
+  
+</SkinSet>

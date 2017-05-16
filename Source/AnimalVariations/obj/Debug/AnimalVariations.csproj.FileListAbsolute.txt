@@ -1,0 +1,11 @@
+C:\Users\TJX\Desktop\XenAnimalVar\AnimalVariations\AnimalVariations\bin\Debug\AnimalVariations.dll
+C:\Users\TJX\Desktop\XenAnimalVar\AnimalVariations\AnimalVariations\bin\Debug\AnimalVariations.pdb
+C:\Users\TJX\Desktop\XenAnimalVar\AnimalVariations\AnimalVariations\bin\Debug\Assembly-CSharp.dll
+C:\Users\TJX\Desktop\XenAnimalVar\AnimalVariations\AnimalVariations\bin\Debug\UnityEngine.dll
+C:\Users\TJX\Desktop\XenAnimalVar\AnimalVariations\AnimalVariations\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\TJX\Desktop\XenAnimalVar\AnimalVariations\AnimalVariations\bin\Debug\NAudio.dll
+C:\Users\TJX\Desktop\XenAnimalVar\AnimalVariations\AnimalVariations\bin\Debug\NVorbis.dll
+C:\Users\TJX\Desktop\XenAnimalVar\AnimalVariations\AnimalVariations\bin\Debug\UnityEngine.xml
+C:\Users\TJX\Desktop\XenAnimalVar\AnimalVariations\AnimalVariations\obj\Debug\AnimalVariations.csprojResolveAssemblyReference.cache
+C:\Users\TJX\Desktop\XenAnimalVar\AnimalVariations\AnimalVariations\obj\Debug\AnimalVariations.dll
+C:\Users\TJX\Desktop\XenAnimalVar\AnimalVariations\AnimalVariations\obj\Debug\AnimalVariations.pdb

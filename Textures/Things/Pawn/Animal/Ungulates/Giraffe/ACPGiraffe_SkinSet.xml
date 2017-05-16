@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<SkinSet>
+  
+  <lifeStage>
+    <appliesToAll>true</appliesToAll>
+    <variants>
+	  <skin>
+	    <commonality>1</commonality>
+        <texName>Giraffe</texName>
+      </skin>
+	  <skin>
+	    <commonality>0.001</commonality>
+        <texName>BGiraffe</texName>
+      </skin>
+    </variants>
+    <winterCoat>
+      <useWinterCoat>false</useWinterCoat>
+    </winterCoat>
+  </lifeStage>
+  
+</SkinSet>

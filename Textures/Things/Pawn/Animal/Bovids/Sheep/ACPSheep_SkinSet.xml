@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<SkinSet>
+  
+  <lifeStage>
+    <appliesToAll>true</appliesToAll>
+    <variants>
+      <skin>
+        <color>(240,240,240)</color>
+        <commonality>0.3</commonality>
+        <texName>Sheep_V1</texName>
+        <useComplexShader>true</useComplexShader>
+      </skin>
+      
+      <skin>
+        <color>(240,240,240)</color>
+        <commonality>0.3</commonality>
+        <texName>Sheep_V2</texName>
+        <useComplexShader>true</useComplexShader>
+      </skin>
+      
+      <skin>
+        <color>(240,240,240)</color>
+        <commonality>0.3</commonality>
+        <texName>Sheep_V3</texName>
+        <useComplexShader>true</useComplexShader>
+      </skin>
+      
+      <skin>
+        <color>(64,64,64)</color>
+        <commonality>0.3</commonality>
+        <texName>Sheep_V1</texName>
+        <useComplexShader>true</useComplexShader>
+      </skin>
+      
+      <skin>
+        <color>(64,64,64)</color>
+        <commonality>0.3</commonality>
+        <texName>Sheep_V2</texName>
+        <useComplexShader>true</useComplexShader>
+      </skin>
+      
+      <skin>
+        <color>(64,64,64)</color>
+        <commonality>0.3</commonality>
+        <texName>Sheep_V3</texName>
+        <useComplexShader>true</useComplexShader>
+      </skin>
+      
+      <skin>
+        <color>(129,100,78)</color>
+        <commonality>0.15</commonality>
+        <texName>Sheep_V1</texName>
+        <useComplexShader>true</useComplexShader>
+      </skin>
+      
+      <skin>
+        <color>(129,100,78)</color>
+        <commonality>0.15</commonality>
+        <texName>Sheep_V2</texName>
+        <useComplexShader>true</useComplexShader>
+      </skin>
+      
+      <skin>
+        <color>(129,100,78)</color>
+        <commonality>0.15</commonality>
+        <texName>Sheep_V3</texName>
+        <useComplexShader>true</useComplexShader>
+      </skin>
+
+      <skin>
+        <color>(126,133,145)</color>
+        <commonality>0.15</commonality>
+        <texName>Sheep_V1</texName>
+        <useComplexShader>true</useComplexShader>
+      </skin>
+      
+      <skin>
+        <color>(126,133,145)</color>
+        <commonality>0.15</commonality>
+        <texName>Sheep_V2</texName>
+        <useComplexShader>true</useComplexShader>
+      </skin>
+      
+      <skin>
+        <color>(126,133,145)</color>
+        <commonality>0.15</commonality>
+        <texName>Sheep_V3</texName>
+        <useComplexShader>true</useComplexShader>
+      </skin>
+      
+      <skin>
+        <color>(237,199,217)</color>
+        <commonality>0.05</commonality>
+        <texName>Sheep_V3</texName>
+        <useComplexShader>true</useComplexShader>
+      </skin>
+    </variants>  
+  </lifeStage>
+  
+</SkinSet>

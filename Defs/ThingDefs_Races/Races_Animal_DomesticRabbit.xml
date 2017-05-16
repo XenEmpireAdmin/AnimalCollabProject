@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <ThingDef ParentName="BaseHare">
+    <thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
+    <defName>ACPDomesticRabbit</defName>
+    <label>domestic rabbit</label>
+    <description>The most innocent of domestic animals. Friendly but weak, rabbits have long been kept for companionship, food, and irresistable cuteness.</description>
+    <race>
+      <useLeatherFrom>Hare</useLeatherFrom>
+	  <useMeatFrom>Hare</useMeatFrom>
+	  <nuzzleMtbHours>15</nuzzleMtbHours>
+	  <wildness>0</wildness>
+	  <petness>1</petness>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="HareBase">
+    <defName>ACPDomesticRabbit</defName>
+    <label>domestic rabbit</label>
+    <race>ACPDomesticRabbit</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/Rabbit</texPath>
+          <drawSize>0.45</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <drawSize>0.45</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/Rabbit</texPath>
+          <drawSize>0.6</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <drawSize>0.6</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/Rabbit</texPath>
+          <drawSize>0.7</drawSize>
+          <shadowData>
+            <volume>(0.32, 0.35, 0.32)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <drawSize>0.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  
+</Defs>

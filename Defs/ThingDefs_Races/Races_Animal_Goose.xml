@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Abstract="True" ParentName="BigBirdThingBase" Name="GooseThingBase">
+    <statBases>
+      <MoveSpeed>3.8</MoveSpeed>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+      <MarketValue>250</MarketValue>
+	</statBases>
+    <race>
+      <herdAnimal>true</herdAnimal>
+      <baseBodySize>0.65</baseBodySize>
+      <baseHungerRate>0.4</baseHungerRate>
+      <baseHealthScale>0.8</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+      <wildness>0.4</wildness>
+      <lifeExpectancy>10</lifeExpectancy>
+	  <useMeatFrom>Cassowary</useMeatFrom>
+    </race>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.65</defaultCooldownTime>
+        <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.85</defaultCooldownTime>
+        <meleeDamageBaseAmount>8</meleeDamageBaseAmount>
+        <meleeDamageDef>Bite</meleeDamageDef>
+        <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+    </verbs>
+  </ThingDef>
+  
+  <PawnKindDef Abstract="True" ParentName="BigBirdKindBase" Name="GooseKindBase">
+    <combatPower>75</combatPower>
+  </PawnKindDef>
+   
+  <!--===============================================-->
+  
+  <ThingDef ParentName="GooseThingBase">
+    <defName>ACPDomesticGoose</defName>
+    <label>domestic goose</label>
+    <description>A large domestic bird frequently kept for its meat and feathers.</description>
+	<race>
+	  <leatherColor>(255,240,215)</leatherColor>
+	  <leatherLabel>bird leather</leatherLabel>
+	  <leatherInsulation>0.2</leatherInsulation>
+	  <wildness>0.2</wildness>
+	</race>
+    <comps>
+      <li Class="CompProperties_EggLayer">
+	    <eggUnfertilizedDef>ACPEggDGooseUnfertilized</eggUnfertilizedDef>
+        <eggFertilizedDef>ACPEggDGooseFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>4</eggLayIntervalDays>
+        <eggCountRange>1</eggCountRange>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <PawnKindDef ParentName="GooseKindBase">
+    <defName>ACPDomesticGoose</defName>
+    <label>domestic goose</label>
+	<labelPlural>domestic geese</labelPlural>
+    <race>ACPDomesticGoose</race>
+	<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
+    <labelMale>domestic gander</labelMale>
+    <labelFemale>domestic goose</labelFemale>
+    <lifeStages>
+      <li>
+        <label>domestic gosling</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Birds/Goose/Gosling</texPath>
+          <drawSize>0.5</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>0.45</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Birds/Goose/DomesticGoose</texPath>
+          <drawSize>1</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>0.9</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Birds/Goose/DomesticGoose</texPath>
+          <drawSize>1.2</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  
+  <ThingDef ParentName="GooseThingBase">
+    <defName>ACPWildGoose</defName>
+    <label>wild goose</label>
+    <description>A large bird capable of long flights in a very distinct V-shaped pattern.</description>
+    <race>
+      <useLeatherFrom>ACPDomesticGoose</useLeatherFrom>
+      <wildBiomes>
+		<AridShrubland>0.03</AridShrubland>
+		<TropicalRainforest>0.05</TropicalRainforest>
+		<TemperateForest>0.22</TemperateForest>
+		<BorealForest>0.23</BorealForest>
+      </wildBiomes>
+      <wildness>0.5</wildness>
+      <manhunterOnTameFailChance>0.15</manhunterOnTameFailChance>
+     </race>
+     <comps>
+      <li Class="CompProperties_EggLayer">
+        <eggFertilizedDef>ACPEggWGooseFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>15</eggLayIntervalDays>
+		<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+		<eggCountRange>
+          <min>2</min>
+          <max>5</max>
+        </eggCountRange>      
+	  </li>
+      </comps>
+  </ThingDef>
+
+  <PawnKindDef ParentName="GooseKindBase">
+    <defName>ACPWildGoose</defName>
+    <label>wild goose</label>
+	<labelPlural>wild geese</labelPlural>
+    <race>ACPWildGoose</race>
+    <labelMale>gander</labelMale>
+    <labelFemale>goose</labelFemale>
+    <lifeStages>
+      <li>
+        <label>gosling</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Birds/Goose/Gosling</texPath>
+          <drawSize>0.55</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>0.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Birds/Goose/Goose</texPath>
+          <drawSize>1.1</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Birds/Goose/Goose</texPath>
+          <drawSize>1.3</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+	<wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <wildSpawn_EcoSystemWeight>0.3</wildSpawn_EcoSystemWeight>
+	<wildSpawn_GroupSizeRange>
+      <min>4</min>
+      <max>7</max>
+    </wildSpawn_GroupSizeRange>
+  </PawnKindDef>
+  
+  
+</Defs>

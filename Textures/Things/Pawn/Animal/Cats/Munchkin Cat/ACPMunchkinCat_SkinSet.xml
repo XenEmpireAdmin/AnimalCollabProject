@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<SkinSet>
+  
+  <lifeStage>
+    <appliesToAll>true</appliesToAll>
+    <variants>
+      <skin>
+        <commonality>1</commonality>
+        <texName>1</texName>
+      </skin>
+      
+      <skin>
+        <commonality>1</commonality>
+        <texName>2</texName>
+      </skin>
+      
+      <skin>
+        <commonality>1</commonality>
+        <texName>3</texName>
+      </skin>
+      
+      <skin>
+        <commonality>1</commonality>
+        <texName>4</texName>
+      </skin>
+      
+      <skin>
+        <commonality>1</commonality>
+        <texName>5</texName>
+      </skin>
+      
+      <skin>
+        <commonality>1</commonality>
+        <texName>6</texName>
+      </skin>
+      
+      <skin>
+        <commonality>1</commonality>
+        <texName>7</texName>
+      </skin>
+      
+      <skin>
+        <commonality>1</commonality>
+        <texName>8</texName>
+      </skin>
+      
+      <skin>
+        <commonality>1</commonality>
+        <texName>9</texName>
+      </skin>
+
+      <skin>
+        <commonality>1</commonality>
+        <texName>10</texName>
+      </skin>
+      
+      <skin>
+        <commonality>1</commonality>
+        <texName>11</texName>
+      </skin>
+      
+      <skin>
+        <commonality>1</commonality>
+        <texName>12</texName>
+      </skin>
+    </variants>  
+  </lifeStage>
+  
+</SkinSet>

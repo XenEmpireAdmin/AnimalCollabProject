@@ -1,0 +1,38 @@
+Variant Skins XML Info
+
+Q: What do I name the xml file?
+A: *_SkinSet.xml, where * represents the defName of the animal.
+
+Q: Where do I put the *_SkinSet.xml file?
+A: Typically "right alonside where you have your animal's textures", but specifically: wherever the PawnKindDef's oldest lifeStage bodyGraphicData (non-female) points its texPath to.
+
+
+== Valid XML Elements ==
+
+- lifeStage: indexed entry for the life stage of the animal. Entries correpsond to the life stages of the animal in list order.
+  - appliesToAll: defines whether nor not this lifeStage data applies to all life stages. If used, the parent lifeStage element should be the only one in the xml.
+
+  - variants: list of skin variants
+    - skin: holds data for each skin
+      - color: multiplies the texture by this color. Default = (255,255,255)
+      - commonality: how often a skin will appear. Range = 0.0 - 1.0, Default = 1.0
+      - texName: Name or local path (from this XML's folder) of the texture-set to be used for this skin. Default is the original graphic texture.
+      - useComplexShader: Explicitly changes whether or not Cutout or CutoutComplex is used. Range = true - false, default = original graphic shader.
+      - scale: Uniformly scales the drawSize of the variant skin relative to the drawSize of the original graphic set. ie: scale of 2 is twice as large as original graphic. Default = 1.0
+
+  - variantsFemale: list of skin variants for females (assuming the animal uses femaleGraphicData)
+    - Fields are all the same as 'variants'
+
+  - winterCoat: holds data for winter coat graphic
+    - useWinterCoat: Explicity defines whether or not to use a winter coat. Default is false.
+    - color: The color modulation of the texture set
+    - texName: Name or local path (from this XML's folder) of the texture-set to be used for the winter coat. Default is the original graphic texture, or the original graphic texture with "_winter" appended, if it exists.
+    - texNameFemale : Same as above, but for females.
+    - useComplexShader: Explicitly changes whether or not Cutout or CutoutComplex is used. Range = true - false, default = original graphic's shader.
+
+    
+
+== Important Notes ==
+
+- Each lifeStage of a creature must have an equal number of variants (per gender); that is to say, if the lifeStage of a baby has 3 variants, its juvenile and adult stages must also have 3 analogous variants to transition into when the animal ages.
+- Female animals with seperate female graphic data will use variants from the variantsFemale element instead. You can have a different amount of variants for females; the two lists are entirely seperate.
