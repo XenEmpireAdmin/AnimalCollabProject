@@ -115,7 +115,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Bears/BlackBear/BlackBear</texPath>
-          <drawSize>2.0</drawSize>
+          <drawSize>2.4</drawSize>
           <shadowData>
             <volume>(0.8, 0.6, 0.6)</volume>
             <offset>(0,0,-0.3)</offset>
@@ -123,10 +123,10 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-          <drawSize>2.0</drawSize>
+          <drawSize>2.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
   </PawnKindDef>
-
+  
 </Defs>

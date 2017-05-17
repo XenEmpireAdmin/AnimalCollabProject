@@ -36,7 +36,7 @@
       </li>
     </verbs>
     <race>
-      <body>QuadrupedAnimalWithPaws</body>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
       <baseBodySize>0.25</baseBodySize>
       <baseHungerRate>0.35</baseHungerRate>
       <baseHealthScale>0.5</baseHealthScale>
@@ -112,6 +112,10 @@
           <texPath>Things/Pawn/Animal/Bears/RedPanda/RedPanda</texPath>
           <drawSize>1.0</drawSize>
           <shaderType>Cutout</shaderType>
+		  <shadowData>
+            <volume>(0.3, 0.35, 0.25)</volume>
+            <offset>(0,0,-0.08)</offset>
+          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
@@ -123,6 +127,10 @@
           <texPath>Things/Pawn/Animal/Bears/RedPanda/RedPanda</texPath>
           <drawSize>1.6</drawSize>
           <shaderType>Cutout</shaderType>
+		  <shadowData>
+            <volume>(0.35, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.08)</offset>
+          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
@@ -131,4 +139,5 @@
       </li>
     </lifeStages>
   </PawnKindDef> 
+  
 </Defs>

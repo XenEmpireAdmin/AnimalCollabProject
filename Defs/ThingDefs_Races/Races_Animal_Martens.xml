@@ -151,7 +151,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>0.5</drawSize>
+          <drawSize>0.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -165,7 +165,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.4</drawSize>
+          <drawSize>0.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -187,7 +187,7 @@
 	</femaleGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.5</drawSize>
+          <drawSize>1.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -283,17 +283,17 @@
 	<label>ermine kit</label>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Weasels/Ermine/Ermine</texPath>
-          <drawSize>0.3</drawSize>
+          <drawSize>0.4</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>0.7</drawSize>
+          <drawSize>0.35</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Weasels/Ermine/Ermine</texPath>
-          <drawSize>0.5</drawSize>
+          <drawSize>0.6</drawSize>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
             <offset>(0,0,-0.3)</offset>
@@ -301,13 +301,13 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>0.9</drawSize>
+          <drawSize>0.55</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Weasels/Ermine/Ermine</texPath>
-          <drawSize>0.8</drawSize>
+          <drawSize>0.9</drawSize>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
             <offset>(0,0,-0.1)</offset>
@@ -315,7 +315,7 @@
         </bodyGraphicData>
 	<femaleGraphicData>
           <texPath>Things/Pawn/Animal/Weasels/Ermine/Ermine</texPath>
-          <drawSize>0.6</drawSize>
+          <drawSize>0.8</drawSize>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
             <offset>(0,0,-0.1)</offset>
@@ -323,7 +323,7 @@
 	</femaleGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.3</drawSize>
+          <drawSize>0.75</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

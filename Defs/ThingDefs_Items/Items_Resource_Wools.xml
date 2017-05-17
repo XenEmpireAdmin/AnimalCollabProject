@@ -1,6 +1,61 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Resources> 
 
+<ThingDef ParentName="WoolBase">
+    <defName>ACPAngoraWool</defName>
+    <label>angora wool</label>
+    <description>A light silky wool produced by the angora rabbit, it is very warm.</description>
+    <graphicData>
+		<color>(255,255,255)</color>
+    </graphicData>	
+	<statBases>
+		<MarketValue>16.0</MarketValue>
+		<DeteriorationRate>2.6</DeteriorationRate>
+    </statBases>	
+    <stuffProps>
+		<color>(255,255,255)</color>
+		<commonality>0.15</commonality>
+		<statOffsets>
+			<ArmorRating_Heat>0.05</ArmorRating_Heat>
+			<ArmorRating_Electric>0.05</ArmorRating_Electric>
+		</statOffsets>
+		<statFactors>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.1</ArmorRating_Heat>
+			<Insulation_Cold>3.4</Insulation_Cold>
+			<Insulation_Heat>3.2</Insulation_Heat>
+		</statFactors>
+	</stuffProps>
+</ThingDef>
+
+<ThingDef ParentName="WoolBase">
+    <defName>ACPLlamaWool</defName>
+    <label>llama wool</label>
+    <description>Soft warm wool from a llama.</description>
+    <graphicData>
+		<color>(114,64,45)</color>
+    </graphicData>
+	<statBases>
+		<MarketValue>5.0</MarketValue>
+		<DeteriorationRate>2.6</DeteriorationRate>
+    </statBases>	
+    <stuffProps>
+		<color>(114,64,45)</color> 
+		<commonality>0.15</commonality>
+		<statOffsets>
+			<ArmorRating_Heat>0.05</ArmorRating_Heat> 
+			<ArmorRating_Electric>0.05</ArmorRating_Electric> 
+		</statOffsets>
+		<statFactors>
+			<ArmorRating_Sharp>1.0</ArmorRating_Sharp>
+			<ArmorRating_Heat>1.8</ArmorRating_Heat>
+			<Insulation_Cold>2.9</Insulation_Cold> 
+			<Insulation_Heat>3.4</Insulation_Heat> 
+		</statFactors>
+	</stuffProps>
+</ThingDef>
+
+
   <ThingDef ParentName="WoolBase">
     <defName>ACPSpidersilk</defName>
     <label>spidersilk</label>

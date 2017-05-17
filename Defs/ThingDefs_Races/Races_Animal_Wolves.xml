@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  
-
   <ThingDef ParentName="AnimalThingBase">
      <thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
     <defName>ACPDirewolf</defName>
@@ -17,7 +15,7 @@
     <statBases>
       <MoveSpeed>5.10</MoveSpeed>
       <ComfyTemperatureMin>-65</ComfyTemperatureMin>
-      <MarketValue>450</MarketValue>
+      <MarketValue>650</MarketValue>
     </statBases>
     <verbs>
       <li>
@@ -208,13 +206,13 @@
     <statBases>
       <MoveSpeed>5.10</MoveSpeed>
       <ComfyTemperatureMin>-65</ComfyTemperatureMin>
-      <MarketValue>450</MarketValue>
+      <MarketValue>1250</MarketValue>
     </statBases>
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <defaultCooldownTime>1.5</defaultCooldownTime>
-        <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
+        <meleeDamageBaseAmount>14</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -229,7 +227,7 @@
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <defaultCooldownTime>1.5</defaultCooldownTime>
-        <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
+        <meleeDamageBaseAmount>14</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -244,7 +242,7 @@
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <defaultCooldownTime>2.0</defaultCooldownTime>
-        <meleeDamageBaseAmount>12</meleeDamageBaseAmount>
+        <meleeDamageBaseAmount>16</meleeDamageBaseAmount>
         <meleeDamageDef>Bite</meleeDamageDef>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -260,12 +258,12 @@
 		    <comps>
       <li Class="CompProperties_Milkable">
         <milkDef>Milk</milkDef>
-        <milkIntervalDays>2</milkIntervalDays>
-        <milkAmount>26</milkAmount>
+        <milkIntervalDays>5</milkIntervalDays>
+        <milkAmount>25</milkAmount>
       </li>
       <li Class="CompProperties_Shearable">
         <woolDef>ACPBDireWolfWool</woolDef>
-        <shearIntervalDays>2</shearIntervalDays>
+        <shearIntervalDays>7</shearIntervalDays>
         <woolAmount>100</woolAmount>
       </li>
     </comps>
@@ -273,7 +271,7 @@
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <predator>true</predator>
       <petness>0.60</petness>
-      <baseBodySize>1.0</baseBodySize>
+      <baseBodySize>2.0</baseBodySize>
       <baseHungerRate>0.25</baseHungerRate>
       <baseHealthScale>1.15</baseHealthScale>
       <foodType>CarnivoreAnimal</foodType>
@@ -293,7 +291,7 @@
       <leatherLabel>Black wolf fur</leatherLabel>
       <leatherInsulation>1.1</leatherInsulation>
 	  <useMeatFrom>WolfTimber</useMeatFrom>
-      <gestationPeriodDays>18.5</gestationPeriodDays>
+      <gestationPeriodDays>25.5</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
       <trainableIntelligence>Advanced</trainableIntelligence>
       <wildness>0.85</wildness>
@@ -310,7 +308,7 @@
           <li>(3.5, 0)</li>
         </points>
       </litterSizeCurve>
-      <lifeExpectancy>15</lifeExpectancy>
+      <lifeExpectancy>40</lifeExpectancy>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
@@ -343,7 +341,7 @@
     <defName>ACPBlackwolf</defName>
     <label>black dire wolf</label>
     <race>ACPBlackwolf</race>
-    <combatPower>75</combatPower>
+    <combatPower>175</combatPower>
     <lifeStages>
       <li>
         <label>black dire wolf puppy</label>
@@ -364,7 +362,7 @@
           <drawSize>2.7</drawSize>
 		  <color>(64,64,70)</color>
           <shadowData>
-            <volume>(0.25, 0.3, 0.25)</volume>
+            <volume>(0.4, 0.5, 04)</volume>
             <offset>(0,0,-0.15)</offset>
           </shadowData>
         </bodyGraphicData>
@@ -379,7 +377,7 @@
           <drawSize>3.05</drawSize>
 		  <color>(64,64,70)</color>
           <shadowData>
-            <volume>(0.3, 0.4, 0.3)</volume>
+            <volume>(0.5, 0.6, 0.5)</volume>
             <offset>(0,0,-0.15)</offset>
           </shadowData>
         </bodyGraphicData>
@@ -406,13 +404,13 @@
     <statBases>
       <MoveSpeed>5.10</MoveSpeed>
       <ComfyTemperatureMin>-85</ComfyTemperatureMin>
-      <MarketValue>1250</MarketValue>
+      <MarketValue>1950</MarketValue>
     </statBases>
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <defaultCooldownTime>1.25</defaultCooldownTime>
-        <meleeDamageBaseAmount>13</meleeDamageBaseAmount>
+        <meleeDamageBaseAmount>16</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -427,7 +425,7 @@
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <defaultCooldownTime>1.25</defaultCooldownTime>
-        <meleeDamageBaseAmount>12</meleeDamageBaseAmount>
+        <meleeDamageBaseAmount>16</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -442,7 +440,7 @@
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <defaultCooldownTime>1.30</defaultCooldownTime>
-        <meleeDamageBaseAmount>15</meleeDamageBaseAmount>
+        <meleeDamageBaseAmount>20</meleeDamageBaseAmount>
         <meleeDamageDef>Bite</meleeDamageDef>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -477,7 +475,7 @@
         </wildBiomes>
       <useLeatherFrom>WolfArctic</useLeatherFrom>
       <useMeatFrom>WolfTimber</useMeatFrom>
-      <gestationPeriodDays>18.5</gestationPeriodDays>
+      <gestationPeriodDays>30</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
       <trainableIntelligence>Advanced</trainableIntelligence>
       <wildness>0.95</wildness>
@@ -561,7 +559,7 @@
           <texPath>Things/Pawn/Animal/Wolves/SpiritWolf/SpiritLG</texPath>
           <drawSize>3.55</drawSize>
           <shadowData>
-            <volume>(0.3, 0.4, 0.3)</volume>
+            <volume>(0.5, 0.6, 0.5)</volume>
             <offset>(0,0,-0.15)</offset>
           </shadowData>
         </bodyGraphicData>
@@ -569,7 +567,7 @@
           <texPath>Things/Pawn/Animal/Wolves/SpiritWolf/Spiritwolf</texPath>
           <drawSize>3.55</drawSize>
           <shadowData>
-            <volume>(0.3, 0.4, 0.3)</volume>
+            <volume>(0.6, 0.7, 0.6)</volume>
             <offset>(0,0,-0.15)</offset>
           </shadowData>
         </femaleGraphicData>

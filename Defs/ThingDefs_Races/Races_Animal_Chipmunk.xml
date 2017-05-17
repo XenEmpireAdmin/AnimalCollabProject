@@ -106,6 +106,10 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Rodents/Chipmunk/Chipmunk</texPath>
           <drawSize>0.6</drawSize>
+		  <shadowData>
+            <volume>(0.1, 0.1, 0.1)</volume>
+            <offset>(0,0,-0.01)</offset>
+          </shadowData>			  
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
@@ -115,7 +119,11 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Rodents/Chipmunk/Chipmunk</texPath>
-          <drawSize>.7</drawSize>
+          <drawSize>0.7</drawSize>
+		  <shadowData>
+            <volume>(0.1, 0.1, 0.1)</volume>
+            <offset>(0,0,-0.01)</offset>
+          </shadowData>		  
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
@@ -124,4 +132,5 @@
       </li>
     </lifeStages>
   </PawnKindDef>
+  
 </Defs>

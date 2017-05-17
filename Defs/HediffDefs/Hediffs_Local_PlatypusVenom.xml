@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HediffDef ParentName="InfectionBase">
+    <defName>PlatypusVenom</defName>
+    <label>platypus venom</label>
+    <makesSickThought>true</makesSickThought>
+    <lethalSeverity>1</lethalSeverity>
+    <tendable>true</tendable>
+    <comps>
+	    <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>
+          <min>15000</min>
+          <max>15000</max>
+        </disappearsAfterTicks>
+      </li>
+      <li Class="HediffCompProperties_TendDuration">
+        <tendDuration>30000</tendDuration>
+        <severityPerDayTended>-0.75</severityPerDayTended>
+      </li>
+    </comps>
+    <stages>
+	   <li>
+	    <label>minor</label>
+		<painOffset>0.5</painOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.25</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.25</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.33</minSeverity>
+        <label>major</label>
+		<painOffset>0.6</painOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.35</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.35</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.78</minSeverity>
+        <label>extreme</label>
+        <lifeThreatening>true</lifeThreatening>
+        <painOffset>0.75</painOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.50</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.50</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+ 
+</Defs>

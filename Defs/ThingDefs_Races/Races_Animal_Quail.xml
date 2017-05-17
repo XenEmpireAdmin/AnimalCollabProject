@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Animal -->
+  
+<ThingDef ParentName="AnimalThingBase">
+	<defName>ACPValleyQuail</defName>
+	<label>valley quail</label>
+	<description>A ground dwelling gamebird known for their plumage and small speckled eggs.</description>
+    
+	<statBases>
+		<MoveSpeed>2.3</MoveSpeed>
+		<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+		<MarketValue>75</MarketValue>
+		<LeatherAmount>0</LeatherAmount>
+    </statBases>
+    
+	<verbs>
+		<li>
+			<verbClass>Verb_MeleeAttack</verbClass>
+			<defaultCooldownTime>1.65</defaultCooldownTime>
+			<meleeDamageBaseAmount>4</meleeDamageBaseAmount>
+			<meleeDamageDef>Bite</meleeDamageDef>
+			<linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+		</li>
+    </verbs>
+    
+	<comps>
+		<li Class="CompProperties_EggLayer">
+			<eggUnfertilizedDef>ACPQuailEggUnfertilized</eggUnfertilizedDef>
+			<eggFertilizedDef>ACPQuailEggFertilized</eggFertilizedDef>
+			<eggFertilizationCountMax>1</eggFertilizationCountMax>
+			<eggLayIntervalDays>15</eggLayIntervalDays>
+			<eggCountRange>
+				<min>12</min>
+				<max>20</max>
+			</eggCountRange>
+		</li>
+    </comps>
+    
+	<race>
+		<body>Bird</body>
+		<herdAnimal>true</herdAnimal>
+		<baseHungerRate>0.25</baseHungerRate>
+		<baseBodySize>0.25</baseBodySize>
+		<baseHealthScale>0.35</baseHealthScale>
+		<foodType>VegetarianRoughAnimal</foodType>
+		<useMeatFrom>Cassowary</useMeatFrom>
+		<trainableIntelligence>None</trainableIntelligence>
+		<wildness>0.55</wildness>
+		<gestationPeriodDays>7</gestationPeriodDays>
+		<mateMtbHours>3</mateMtbHours>
+		<litterSizeCurve>
+			<points>
+			<li>(0.99, 0)</li>
+			<li>(1, 1)</li>
+			<li>(1.01, 0)</li>
+			</points>
+		</litterSizeCurve>
+		<lifeExpectancy>6</lifeExpectancy>
+		
+		<lifeStageAges>
+        <li>
+			<def>AnimalBaby</def>
+			<minAge>0</minAge>
+				<soundWounded>Pawn_Chick_Call</soundWounded>
+				<soundDeath>Pawn_Chick_Call</soundDeath>
+				<soundCall>Pawn_Chick_Call</soundCall>
+				<soundAngry>Pawn_Chick_Call</soundAngry>
+        </li>
+		<li>
+			<def>AnimalJuvenile</def>
+			<minAge>0.10</minAge>
+        </li>
+		<li>
+			<def>AnimalAdult</def>
+			<minAge>0.30</minAge>
+				<soundWounded>Pawn_Chicken_Wounded</soundWounded>
+				<soundDeath>Pawn_Chicken_Death</soundDeath>
+				<soundCall>Pawn_Chicken_Call</soundCall>
+				<soundAngry>Pawn_Chicken_Angry</soundAngry>
+        </li>
+		</lifeStageAges>
+		
+		<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+		<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		
+		<wildBiomes>
+		<AridShrubland>0.30</AridShrubland>		
+		<TemperateForest>0.20</TemperateForest>
+		<BorealForest>0.10</BorealForest>
+		</wildBiomes>
+		
+    </race>
+    
+	<tradeTags>
+		<li>StandardAnimal</li>
+    </tradeTags>
+
+</ThingDef>
+
+<!-- Quail Assets -->
+
+<PawnKindDef ParentName="AnimalKindBase">
+    <defName>ACPValleyQuail</defName>
+    <label>valley quail</label>
+    <race>ACPValleyQuail</race>
+    <combatPower>15</combatPower>
+   	<wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+		<wildSpawn_EcoSystemWeight>0.05</wildSpawn_EcoSystemWeight>
+		<wildSpawn_GroupSizeRange>
+			<min>3</min>
+			<max>8</max>
+		</wildSpawn_GroupSizeRange>
+    <labelMale>quail cock</labelMale>
+    <labelFemale>quail hen</labelFemale>
+    
+	<lifeStages>
+		<li>
+			<label>chick</label>
+			<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/Birds/Quail/VQuailChick</texPath>
+				<drawSize>0.45</drawSize>
+			</bodyGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+				<drawSize>0.4</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+		<li>
+			<labelMale>cock</labelMale>
+			<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/Birds/Quail/VQuailCock</texPath>
+				<drawSize>0.75</drawSize>
+			<shadowData>
+				<volume>(0.25, 0.35, 0.2)</volume>
+				<offset>(0,0,-0.05)</offset>
+			</shadowData>
+			</bodyGraphicData>
+			<femaleGraphicData>
+				<texPath>Things/Pawn/Animal/Birds/Quail/VQuailHen</texPath>
+				<drawSize>0.75</drawSize>
+			<shadowData>
+				<volume>(0.25, 0.35, 0.2)</volume>
+				<offset>(0,0,-0.05)</offset>
+			</shadowData>
+			</femaleGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+				<drawSize>0.7</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+		<li>
+			<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/Birds/Quail/VQuailCock</texPath>
+				<drawSize>0.85</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.4, 0.3)</volume>
+				<offset>(0,0,-0.05)</offset>
+			</shadowData>
+			</bodyGraphicData>
+			<femaleGraphicData>
+				<texPath>Things/Pawn/Animal/Birds/Quail/VQuailHen</texPath>
+				<drawSize>0.80</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.4, 0.3)</volume>
+				<offset>(0,0,-0.05)</offset>
+			</shadowData>
+			</femaleGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+				<drawSize>0.75</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+    </lifeStages>
+	
+  </PawnKindDef>
+
+  
+</Defs>

@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
 
-
-  
   <ThingDef ParentName="AnimalThingBase">
     <defName>ACPHippopotamus</defName>
     <label>hippopotamus</label>
@@ -16,7 +14,7 @@
       <li>
 		<verbClass>Verb_MeleeAttack</verbClass>
         <defaultCooldownTime>2.6</defaultCooldownTime>
-        <meleeDamageBaseAmount>18</meleeDamageBaseAmount>
+        <meleeDamageBaseAmount>35</meleeDamageBaseAmount>
         <meleeDamageDef>Bite</meleeDamageDef>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
@@ -31,7 +29,7 @@
 	  <leatherLabel>blubbery leather</leatherLabel>
 	  <leatherInsulation>1.8</leatherInsulation>
 	  <meatLabel>blubbery meat</meatLabel>
-      <wildness>0.25</wildness>
+      <wildness>0.75</wildness>
 	  <wildBiomes>
 		<ExtremeDesert>0.02</ExtremeDesert>
 		<Desert>0.15</Desert>
@@ -40,7 +38,7 @@
 		<TemperateForest>0.01</TemperateForest>
       </wildBiomes>
       <trainableIntelligence>Advanced</trainableIntelligence>
-      <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
+      <manhunterOnTameFailChance>0.6</manhunterOnTameFailChance>
       <gestationPeriodDays>21</gestationPeriodDays>
       <litterSizeCurve>
         <points>
@@ -84,7 +82,7 @@
     <label>hippopotamus</label>
 	<labelPlural>hippopotamuses</labelPlural>
     <race>ACPHippopotamus</race>
-    <combatPower>270</combatPower>
+    <combatPower>450</combatPower>
     <wildSpawn_EcoSystemWeight>0.3</wildSpawn_EcoSystemWeight>
     <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
     <wildSpawn_GroupSizeRange>
@@ -99,7 +97,7 @@
           <texPath>Things/Pawn/Animal/Ungulates/Hippo/Hippo</texPath>
           <drawSize>1.5</drawSize>
           <shadowData>
-            <volume>(0.30, 0.25, 0.20)</volume>
+            <volume>(0.4, 0.4, 0.35)</volume>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -112,7 +110,7 @@
           <texPath>Things/Pawn/Animal/Ungulates/Hippo/Hippo</texPath>
           <drawSize>1.9</drawSize>
           <shadowData>
-            <volume>(0.375, 0.375, 0.375)</volume>
+            <volume>(0.5, 0.5, 0.45)</volume>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -123,15 +121,15 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Ungulates/Hippo/Hippo</texPath>
-          <drawSize>2.5</drawSize>
+          <drawSize>2.8</drawSize>
           <shadowData>
-            <volume>(0.5, 0.5, 0.4)</volume>
+            <volume>(0.7, 0.7, 0.6)</volume>
             <offset>(0,0,-0.05)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-          <drawSize>2.5</drawSize>
+          <drawSize>2.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

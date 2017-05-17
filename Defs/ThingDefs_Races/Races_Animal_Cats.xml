@@ -110,7 +110,6 @@
     <wildSpawn_EcoSystemWeight>0.42</wildSpawn_EcoSystemWeight>
   </PawnKindDef>
 
-
   <!--===============================================-->
 
   <ThingDef ParentName="BigCatThingBase">
@@ -150,12 +149,12 @@
       <li>
 		<label>lion cub</label>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cats/Lion/LionFemale</texPath>
+          <texPath>Things/Pawn/Animal/Cats/Lion/LionCub</texPath>
           <drawSize>1.1</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.1</drawSize>
+          <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -177,13 +176,13 @@
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.4</drawSize>
+          <drawSize>1.3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Cats/Lion/LionMale</texPath>
-          <drawSize>2.18</drawSize>
+          <drawSize>2.2</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
             <offset>(0,0,-0.1)</offset>
@@ -191,7 +190,7 @@
         </bodyGraphicData>
 		<femaleGraphicData>
           <texPath>Things/Pawn/Animal/Cats/Lion/LionFemale</texPath>
-          <drawSize>2.18</drawSize>
+          <drawSize>2.2</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
             <offset>(0,0,-0.1)</offset>
@@ -199,7 +198,7 @@
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>2.18</drawSize>
+          <drawSize>2.1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -237,12 +236,12 @@
       <li>
 		<label>tiger cub</label>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cats/Tiger/Tiger</texPath>
+          <texPath>Things/Pawn/Animal/Cats/Tiger/TigerCub</texPath>
           <drawSize>1.1</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.1</drawSize>
+          <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -256,13 +255,13 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.4</drawSize>
+          <drawSize>1.3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Cats/Tiger/Tiger</texPath>
-          <drawSize>2.18</drawSize>
+          <drawSize>2.2</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
             <offset>(0,0,-0.1)</offset>
@@ -270,7 +269,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>2.18</drawSize>
+          <drawSize>2.1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -290,7 +289,7 @@
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <defaultCooldownTime>1.4</defaultCooldownTime>
-        <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
+        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -305,7 +304,7 @@
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <defaultCooldownTime>1.4</defaultCooldownTime>
-        <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
+        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -319,8 +318,8 @@
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.65</defaultCooldownTime>
-        <meleeDamageBaseAmount>9</meleeDamageBaseAmount>
+        <defaultCooldownTime>1.75</defaultCooldownTime>
+        <meleeDamageBaseAmount>8</meleeDamageBaseAmount>
         <meleeDamageDef>Bite</meleeDamageDef>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -348,17 +347,17 @@
 		<label>cheetah cub</label>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Cats/Cheetah/CheetahCub</texPath>
-          <drawSize>1.05</drawSize>
+          <drawSize>0.7</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.05</drawSize>
+          <drawSize>0.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Cats/Cheetah/Cheetah</texPath>
-          <drawSize>1.35</drawSize>
+          <drawSize>0.9</drawSize>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
             <offset>(0,0,-0.3)</offset>
@@ -366,13 +365,13 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.35</drawSize>
+          <drawSize>0.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Cats/Cheetah/Cheetah</texPath>
-          <drawSize>2.12</drawSize>
+          <drawSize>1.7</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
             <offset>(0,0,-0.1)</offset>
@@ -380,7 +379,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>2.12</drawSize>
+          <drawSize>1.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -470,8 +469,8 @@
       <li>
         <label>amur leopard cub</label>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cats/Amur Leopard/Leopard</texPath>
-          <drawSize>0.9</drawSize>
+          <texPath>Things/Pawn/Animal/Cats/Amur Leopard/LeopardCub</texPath>
+          <drawSize>1</drawSize>
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -482,7 +481,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Cats/Amur Leopard/Leopard</texPath>
-          <drawSize>1.3</drawSize>
+          <drawSize>1.4</drawSize>
           <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
@@ -497,7 +496,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Cats/Amur Leopard/Leopard</texPath>
-          <drawSize>1.5</drawSize>
+          <drawSize>1.6</drawSize>
           <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
@@ -599,8 +598,8 @@
       <li>
         <label>snow leopard cub</label>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cats/Snow Leopard/SnowLeopard</texPath>
-          <drawSize>1</drawSize>
+          <texPath>Things/Pawn/Animal/Cats/Snow Leopard/SnowLeopardCub</texPath>
+          <drawSize>1.1</drawSize>
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -611,7 +610,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Cats/Snow Leopard/SnowLeopard</texPath>
-          <drawSize>1.2</drawSize>
+          <drawSize>1.3</drawSize>
           <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
@@ -626,7 +625,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Cats/Snow Leopard/SnowLeopard</texPath>
-          <drawSize>1.4</drawSize>
+          <drawSize>1.55</drawSize>
           <shaderType>CutoutComplex</shaderType>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>

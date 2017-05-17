@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ 
+  <ThingDef ParentName="AnimalThingBase">
+    <thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
+    <defName>ACPPtarmigan</defName>
+    <label>ptarmigan</label>
+    <description>A small gamebird notable for its feathered feet, to better survive in frigid temperatures.</description>
+    <statBases>
+      <MoveSpeed>2.0</MoveSpeed>
+      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
+      <ComfyTemperatureMax>30</ComfyTemperatureMax>
+      <MarketValue>75</MarketValue>
+      <LeatherAmount>0</LeatherAmount>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.65</defaultCooldownTime>
+        <meleeDamageBaseAmount>4</meleeDamageBaseAmount>
+        <meleeDamageDef>Bite</meleeDamageDef>
+        <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <comps>
+      <li Class="CompProperties_EggLayer">
+        <eggUnfertilizedDef>ACPEggPtarmiganUnfertilized</eggUnfertilizedDef>
+        <eggFertilizedDef>ACPEggPtarmiganFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>5</eggLayIntervalDays>
+        <eggCountRange>
+	  <min>1</min>
+          <max>5</max>
+	</eggCountRange>
+      </li>
+    </comps>
+    <race>
+      <body>Bird</body>
+      <baseHungerRate>0.25</baseHungerRate>
+      <baseBodySize>0.25</baseBodySize>
+      <baseHealthScale>0.35</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+	  <useMeatFrom>Cassowary</useMeatFrom>
+      <trainableIntelligence>None</trainableIntelligence>
+      <wildness>0.05</wildness>
+      <gestationPeriodDays>7</gestationPeriodDays>
+      <mateMtbHours>3</mateMtbHours>
+      <litterSizeCurve>
+        <points>
+          <li>(0.99, 0)</li>
+          <li>(1, 1)</li>
+          <li>(1.01, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>6</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+	  <soundWounded>Pawn_Chick_Call</soundWounded>
+	  <soundDeath>Pawn_Chick_Call</soundDeath>
+	  <soundCall>Pawn_Chick_Call</soundCall>
+	  <soundAngry>Pawn_Chick_Call</soundAngry>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.10</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.30</minAge>
+          <soundWounded>Pawn_Chicken_Wounded</soundWounded>
+          <soundDeath>Pawn_Chicken_Death</soundDeath>
+          <soundCall>Pawn_Chicken_Call</soundCall>
+          <soundAngry>Pawn_Chicken_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+      <wildBiomes>
+	<Tundra>0.05</Tundra>
+	<BorealForest>0.6</BorealForest>
+      </wildBiomes>
+    </race>
+    <tradeTags>
+      <li>StandardAnimal</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>ACPPtarmigan</defName>
+    <label>ptarmigan</label>
+    <race>ACPPtarmigan</race>
+    <combatPower>15</combatPower>
+    <wildSpawn_EcoSystemWeight>0.20</wildSpawn_EcoSystemWeight>
+    <labelMale>ptarmigan cock</labelMale>
+    <labelFemale>ptarmigan hen</labelFemale>
+    <lifeStages>
+      <li>
+        <label>chick</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Birds/Ptarmigan/PtarmiganHen</texPath>
+          <drawSize>0.45</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <drawSize>0.45</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <labelMale>cockerel</labelMale>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Birds/Ptarmigan/PtarmiganCock</texPath>
+          <drawSize>0.75</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.35, 0.25)</volume>
+            <offset>(0,0,-0.05)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Animal/Birds/Ptarmigan/PtarmiganHen</texPath>
+          <drawSize>0.73</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.35, 0.25)</volume>
+            <offset>(0,0,-0.05)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <drawSize>0.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Birds/Ptarmigan/PtarmiganCock</texPath>
+          <drawSize>0.87</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.05)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Animal/Birds/Ptarmigan/PtarmiganHen</texPath>
+          <drawSize>0.85</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.05)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <drawSize>0.85</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+</Defs>

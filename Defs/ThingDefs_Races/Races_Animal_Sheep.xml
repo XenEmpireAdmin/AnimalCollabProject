@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
   <ThingDef ParentName="AnimalThingBase">
    <thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
     <defName>ACPSheep</defName>
@@ -107,7 +106,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.35</drawSize>
+          <drawSize>1.3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -122,7 +121,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.6</drawSize>
+          <drawSize>1.55</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

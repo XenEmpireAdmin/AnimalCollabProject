@@ -1,58 +1,41 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
   <ThingDef ParentName="AnimalThingBase">
-  <thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
-    <defName>MegaFerret</defName>
+    <defName>ACPMegaFerret</defName>
     <label>Megaferret</label>
-    <description>This carnivorous animal from the weasel genus is cuddly and adorable. They're little thieves, so guard your possessions</description>
+    <description>This carnivorous animal from the weasel genus is cuddly and adorable. This version seems to have been genetically enhanced to make an even better pet!</description>
     <statBases>
       <MoveSpeed>7.2</MoveSpeed>
       <ComfyTemperatureMin>-95</ComfyTemperatureMin>
-      <MarketValue>215</MarketValue>
+      <MarketValue>950</MarketValue>
     </statBases>
 	<comps>
-		  <li Class="CompProperties_Milkable">
-        <milkDef>Milk</milkDef>
-        <milkIntervalDays>1</milkIntervalDays>
-        <milkAmount>18</milkAmount>
-      </li>
 	      <li Class="CompProperties_Shearable">
-        <woolDef>FerretSilk</woolDef>
-        <shearIntervalDays>1</shearIntervalDays>
-        <woolAmount>100</woolAmount>
-      </li>
-	   <li Class="CompProperties_EggLayer">
-        <eggFertilizedDef>EggMFFertilized</eggFertilizedDef>
-        <eggFertilizationCountMax>1</eggFertilizationCountMax>
-        <eggLayIntervalDays>0.9</eggLayIntervalDays>
-        <eggProgressUnfertilizedMax>0.9</eggProgressUnfertilizedMax>
-        <eggCountRange>
-          <min>1</min>
-          <max>2</max>
-        </eggCountRange>
+        <woolDef>ACPFerretSilk</woolDef>
+        <shearIntervalDays>6</shearIntervalDays>
+        <woolAmount>35</woolAmount>
       </li>
 	  </comps>
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <defaultCooldownTime>0.55</defaultCooldownTime>
-        <meleeDamageBaseAmount>23</meleeDamageBaseAmount>
+        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <defaultCooldownTime>0.55</defaultCooldownTime>
-        <meleeDamageBaseAmount>23</meleeDamageBaseAmount>
+        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>0.35</defaultCooldownTime>
-        <meleeDamageBaseAmount>36</meleeDamageBaseAmount>
+        <defaultCooldownTime>1.35</defaultCooldownTime>
+        <meleeDamageBaseAmount>9</meleeDamageBaseAmount>
         <meleeDamageDef>Bite</meleeDamageDef>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
@@ -60,27 +43,18 @@
     <race>
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <herdAnimal>true</herdAnimal>
-      <baseBodySize>2.75</baseBodySize>
-      <baseHungerRate>0.08</baseHungerRate>
-      <baseHealthScale>5.95</baseHealthScale>
-      <foodType>CarnivoreAnimal,OvivoreAnimal</foodType>
-      <leatherColor>(96,66,55)</leatherColor>
-      <leatherLabel>Megaferret fur</leatherLabel>
-      <leatherInsulation>1</leatherInsulation>
+      <baseBodySize>1.05</baseBodySize>
+      <baseHungerRate>0.28</baseHungerRate>
+      <baseHealthScale>1.15</baseHealthScale>
+      <foodType>CarnivoreAnimalStrict, Kibble, AnimalProduct</foodType>
+	  <useLeatherFrom>ACPSnowLeopard</useLeatherFrom>
+	  <useMeatFrom>Alphabeaver</useMeatFrom>
 	  <nameOnTameChance>1</nameOnTameChance>
       <trainableIntelligence>Advanced</trainableIntelligence>
-      <wildness>0.05</wildness>
-      <wildBiomes>
-        <Desert>0.02</Desert>
-        <AridShrubland>0.04</AridShrubland>
-        <TropicalRainforest>0.05</TropicalRainforest>
-        <TemperateForest>0.2</TemperateForest>
-        <BorealForest>0.2</BorealForest>
-        <Tundra>0.01</Tundra>
-      </wildBiomes>
+      <wildness>0.3</wildness>
       <petness>0.9</petness>
       <nuzzleMtbHours>30</nuzzleMtbHours>
-      <gestationPeriodDays>2</gestationPeriodDays>
+      <gestationPeriodDays>25</gestationPeriodDays>
       <litterSizeCurve>
         <points>
           <li>(1.5, 0)</li>
@@ -89,7 +63,7 @@
           <li>(3.5, 0)</li>
         </points>
       </litterSizeCurve>
-      <lifeExpectancy>190</lifeExpectancy>
+      <lifeExpectancy>25</lifeExpectancy>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
@@ -97,11 +71,11 @@
         </li>
         <li>
           <def>AnimalJuvenile</def>
-          <minAge>0.17</minAge>
+          <minAge>0.57</minAge>
         </li>
         <li>
           <def>AnimalAdult</def>
-          <minAge>0.4</minAge>
+          <minAge>1.4</minAge>
           <soundWounded>Pawn_Alphabeaver_Wounded</soundWounded>
           <soundDeath>Pawn_Alphabeaver_Death</soundDeath>
           <soundCall>Pawn_Alphabeaver_Call</soundCall>
@@ -118,18 +92,13 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>MegaFerret</defName>
-    <label>Megaferret</label>
-    <race>MegaFerret</race>
-	<labelMale>Megaferret hob</labelMale>
-	<labelFemale>Megaferret jill</labelFemale>
-    <combatPower>23</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.25</wildSpawn_EcoSystemWeight>
-    <wildSpawn_GroupSizeRange>
-      <min>2</min>
-      <max>5</max>
-    </wildSpawn_GroupSizeRange>
+    <defName>ACPMegaFerret</defName>
+    <label>megaferret</label>
+    <race>ACPMegaFerret</race>
+	<labelMale>megaferret hob</labelMale>
+	<labelFemale>megaferret jill</labelFemale>
+    <combatPower>43</combatPower>
+    <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
     <lifeStages>
       <li>
         <label>kit</label>
@@ -146,6 +115,10 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Weasels/Ferret/MFerret</texPath>
           <drawSize>0.95</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.2)</volume>
+            <offset>(0,0,-0.08)</offset>
+          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
@@ -165,7 +138,7 @@
           <texPath>Things/Pawn/Animal/Weasels/Ferret/MFerret</texPath>
           <drawSize>1.25</drawSize>
           <shadowData>
-            <volume>(0.35, 0.4, 0.3)</volume>
+            <volume>(0.4, 0.5, 0.4)</volume>
             <offset>(0,0,-0.1)</offset>
           </shadowData>
 	 </femaleGraphicData>

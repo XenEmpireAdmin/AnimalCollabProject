@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <HediffDef>
+    <defName>ToxicVenom</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.35, 0.8, 0.35)</defaultLabelColor>
+    <label>toxic venom</label>
+    <initialSeverity>0.01</initialSeverity>
+    <lethalSeverity>1</lethalSeverity>
+    <stages>
+      <li>
+	<label>initial stage</label>
+	<minSeverity>0</minSeverity>
+      </li>
+      <li>
+	<label>middle stage</label>
+	<minSeverity>0.333</minSeverity>
+	<capMods>
+	  <li>
+	    <capacity>Manipulation</capacity>
+	    <setMax>0.5</setMax>
+	  </li>
+	  <li>
+	    <capacity>Consciousness</capacity>
+	    <setMax>0.5</setMax>
+	  </li>
+	  <li>
+	    <capacity>Moving</capacity>
+	    <setMax>0.5</setMax>
+	  </li>
+	</capMods>
+      </li>
+      <li>
+	<label>end stage</label>
+	<minSeverity>0.777</minSeverity>
+	<capMods>
+	  <li>
+	    <capacity>Manipulation</capacity>
+	    <setMax>0</setMax>
+	  </li>
+	  <li>
+	    <capacity>Consciousness</capacity>
+	    <setMax>0</setMax>
+	  </li>
+	  <li>
+	    <capacity>Moving</capacity>
+	    <setMax>0</setMax>
+	  </li>
+	</capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_Immunizable">
+        <immunityPerDayNotSick>0</immunityPerDayNotSick>
+        <immunityPerDaySick>0.05</immunityPerDaySick>
+        <severityPerDayNotImmune>0.888</severityPerDayNotImmune>
+        <severityPerDayImmune>-0.333</severityPerDayImmune>
+      </li>
+    </comps>
+  </HediffDef>
+  
+</Defs>

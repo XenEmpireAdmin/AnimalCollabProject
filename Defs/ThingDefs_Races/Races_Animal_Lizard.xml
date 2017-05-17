@@ -1,54 +1,47 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <!--===============================================-->
-	
   <ThingDef ParentName="AnimalThingBase">
     <defName>ACPXenguana</defName>
     <label>xenguana</label>
     <description>A large reptile, tamed by the mysterious Xenn people.</description>
     <statBases>
-      <MoveSpeed>6.63</MoveSpeed>
+      <MoveSpeed>5.63</MoveSpeed>
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
-      <MarketValue>100</MarketValue>
+      <MarketValue>2100</MarketValue>
     </statBases>
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <defaultCooldownTime>1.05</defaultCooldownTime>
-        <meleeDamageBaseAmount>12</meleeDamageBaseAmount>
+        <meleeDamageBaseAmount>8</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <defaultCooldownTime>1.05</defaultCooldownTime>
-        <meleeDamageBaseAmount>18</meleeDamageBaseAmount>
+        <meleeDamageBaseAmount>8</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.05</defaultCooldownTime>
+        <defaultCooldownTime>1.35</defaultCooldownTime>
         <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
         <meleeDamageDef>Bite</meleeDamageDef>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
     </verbs>
     <comps>
-	  <li Class="CompProperties_Milkable">
-        <milkDef>Milk</milkDef>
-        <milkIntervalDays>1</milkIntervalDays>
-        <milkAmount>18</milkAmount>
-      </li>
       <li Class="CompProperties_EggLayer">
         <eggFertilizedDef>ACPEggxenguanaFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
-        <eggLayIntervalDays>0.9</eggLayIntervalDays>
-        <eggProgressUnfertilizedMax>0.9</eggProgressUnfertilizedMax>
+        <eggLayIntervalDays>1</eggLayIntervalDays>
+        <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
         <eggCountRange>
-          <min>3</min>
-          <max>5</max>
+          <min>1</min>
+          <max>2</max>
         </eggCountRange>
       </li>
     </comps>
@@ -57,8 +50,8 @@
       <body>QuadrupedAnimalWithClawsTailAndJowl</body>
 	  <petness>1</petness>
       <herdAnimal>true</herdAnimal>
-      <baseBodySize>5.0</baseBodySize>
-      <baseHealthScale>5.5</baseHealthScale>
+      <baseBodySize>2.0</baseBodySize>
+      <baseHealthScale>1.5</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
       <leatherColor>(59,102,208)</leatherColor>
       <leatherLabel>xenguana skin</leatherLabel>
@@ -66,10 +59,10 @@
 	  <useMeatFrom>Iguana</useMeatFrom>
 	  <nameOnTameChance>1</nameOnTameChance>
       <trainableIntelligence>Advanced</trainableIntelligence>
-      <wildness>0</wildness>
+      <wildness>0.45</wildness>
 	       <nuzzleMtbHours>12</nuzzleMtbHours>
 			<packAnimal>true</packAnimal>
-      <gestationPeriodDays>2</gestationPeriodDays>
+      <gestationPeriodDays>25</gestationPeriodDays>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -78,7 +71,7 @@
           <li>(3.5, 0)</li>
         </points>
       </litterSizeCurve>
-      <lifeExpectancy>512</lifeExpectancy>
+      <lifeExpectancy>55</lifeExpectancy>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>
@@ -116,7 +109,11 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Reptiles/Xenguana/Xenguana</texPath>
-          <drawSize>1.6</drawSize>
+          <drawSize>1.2</drawSize>
+		  <shadowData>
+            <volume>(0.2, 0.3, 0.2)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
@@ -126,25 +123,29 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Reptiles/Xenguana/Xenguana</texPath>
-          <drawSize>2.2</drawSize>
-        </bodyGraphicData>
+          <drawSize>1.7</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.35, 0.25)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
+		</bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>1.25</drawSize>
+          <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Reptiles/Xenguana/Xenguana</texPath>
-          <drawSize>3.5</drawSize>
+          <drawSize>2.2</drawSize>
           <shadowData>
-            <volume>(0.25, 0.3, 0.25)</volume>
+            <volume>(0.35, 0.45, 0.35)</volume>
             <offset>(0,0,0)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>1.4</drawSize>
+          <drawSize>2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -153,11 +154,12 @@
 	  <!--===============================================-->
 	  
    <ThingDef ParentName="AnimalThingBase">
+	<thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
     <defName>ACPXGecko</defName>
     <label>gecko</label>
     <description>A small reptile, subspecies can be found in a variety of climates and biospheres.</description>
     <statBases>
-      <MoveSpeed>6.63</MoveSpeed>
+      <MoveSpeed>4.63</MoveSpeed>
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
       <MarketValue>100</MarketValue>
     </statBases>
@@ -172,14 +174,14 @@
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <defaultCooldownTime>1.05</defaultCooldownTime>
-        <meleeDamageBaseAmount>4</meleeDamageBaseAmount>
+        <meleeDamageBaseAmount>3</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <defaultCooldownTime>1.05</defaultCooldownTime>
-        <meleeDamageBaseAmount>3</meleeDamageBaseAmount>
+        <meleeDamageBaseAmount>4</meleeDamageBaseAmount>
         <meleeDamageDef>Bite</meleeDamageDef>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
@@ -277,6 +279,10 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Reptiles/Geckos/Gecko</texPath>
           <drawSize>0.7</drawSize>
+          <shadowData>
+            <volume>(0.2, 0.25, 0.2)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
@@ -286,7 +292,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Reptiles/Geckos/Gecko</texPath>
-          <drawSize>0.9</drawSize>
+          <drawSize>1.1</drawSize>
           <shadowData>
             <volume>(0.25, 0.3, 0.25)</volume>
             <offset>(0,0,0)</offset>
@@ -294,7 +300,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>0.4</drawSize>
+          <drawSize>0.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

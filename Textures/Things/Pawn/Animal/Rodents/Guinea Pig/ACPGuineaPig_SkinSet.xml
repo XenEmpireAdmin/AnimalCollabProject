@@ -6,7 +6,7 @@
     <appliesToAll>true</appliesToAll>
     <variants>
 	  <skin>
-	    <commonality>0.4</commonality>
+	    <commonality>0.1</commonality>
         <texName>GuineaPig1</texName>
       </skin>
 	  <skin>

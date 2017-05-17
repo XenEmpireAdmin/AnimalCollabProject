@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BodyPartDef>
+    <defName>RearLeftSpur</defName>
+    <label>rear left spur</label>
+    <hitPoints>30</hitPoints>
+	<oldInjuryBaseChance>0.001</oldInjuryBaseChance>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RearRightSpur</defName>
+    <label>rear right spur</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0.001</oldInjuryBaseChance>
+    <isSolid>true</isSolid>
+    <isAlive>false</isAlive>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>Bill</defName>
+    <label>bill</label>
+    <hitPoints>35</hitPoints>
+    <oldInjuryBaseChance>0.02</oldInjuryBaseChance>
+    <skinCovered>true</skinCovered>
+  </BodyPartDef>
+
+</Defs>

@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
    <!-- ====================================================== -->
 
     <ThingDef ParentName="AnimalThingBase">
@@ -129,17 +128,21 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>0.6</drawSize>
+          <drawSize>0.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Cats/Munchkin Cat/Munchkin</texPath>
           <drawSize>0.8</drawSize>
+          <shadowData>
+            <volume>(0.2, 0.25, 0.2)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>0.8</drawSize>
+          <drawSize>0.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -153,7 +156,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>1.0</drawSize>
+          <drawSize>0.9</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

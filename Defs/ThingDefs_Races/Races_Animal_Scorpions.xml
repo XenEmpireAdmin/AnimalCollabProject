@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BaseInsect">
+    <thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
+    <defName>ACPMegascorpion</defName>
+    <label>megascorpion</label>
+    <description>A large, genetically-engineered insectoid closely resembling a scorpion. As an eusocial animal, they will not breed as most animals.</description>
+    <statBases>
+      <MoveSpeed>4</MoveSpeed>
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+      <ComfyTemperatureMin>0</ComfyTemperatureMin>
+      <ComfyTemperatureMax>75</ComfyTemperatureMax>
+      <MarketValue>120</MarketValue>
+      <LeatherAmount>0</LeatherAmount>
+    </statBases>
+    <verbs>
+	  <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.55</defaultCooldownTime>
+        <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
+        <meleeDamageDef>ScorpionSting</meleeDamageDef>
+        <linkedBodyPartsGroup>StingerAttackTool</linkedBodyPartsGroup>
+      </li>
+	  <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.95</defaultCooldownTime>
+        <meleeDamageBaseAmount>12</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <linkedBodyPartsGroup>PincerAttackTool</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+      <body>ScorpionLike</body>
+      <baseBodySize>0.7</baseBodySize>
+      <baseHungerRate>0.10</baseHungerRate>
+      <baseHealthScale>0.4</baseHealthScale>
+      <useMeatFrom>Megaspider</useMeatFrom>
+      <trainableIntelligence>Advanced</trainableIntelligence>
+      <packAnimal>true</packAnimal>
+      <wildness>0.95</wildness>
+	  <wildBiomes>
+		<ExtremeDesert>0.18</ExtremeDesert>
+		<Desert>0.1</Desert>
+		<AridShrubland>0.02</AridShrubland>
+      </wildBiomes>
+      <manhunterOnTameFailChance>0.08</manhunterOnTameFailChance>
+      <lifeExpectancy>25</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>EusocialInsectLarva</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>EusocialInsectJuvenile</def>
+          <minAge>0.03</minAge>
+        </li>
+        <li>
+          <def>EusocialInsectAdult</def>
+          <minAge>0.4</minAge>
+          <soundWounded>Pawn_Megascarab_Wounded</soundWounded>
+          <soundDeath>Pawn_Megascarab_Death</soundDeath>
+          <soundCall>Pawn_Megascarab_Call</soundCall>
+          <soundAngry>Pawn_Megascarab_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>Insectoid</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>ACPMegascorpion</defName>
+    <label>megascorpion</label>
+    <race>ACPMegascorpion</race>
+    <combatPower>95</combatPower>
+    <wildSpawn_EcoSystemWeight>0.25</wildSpawn_EcoSystemWeight>
+    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Insects/Scorpions/Megascorpion</texPath>
+          <drawSize>1</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <drawSize>0.8</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Insects/Scorpions/Megascorpion</texPath>
+          <drawSize>1.25</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <drawSize>0.9</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Insects/Scorpions/Megascorpion</texPath>
+          <drawSize>1.5</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.5, 0.4)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <drawSize>1.0</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+</Defs>

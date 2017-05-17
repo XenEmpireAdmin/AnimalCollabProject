@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Def>
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>ACPTapir</defName>
+    <label>tapir</label>
+    <description>Tapirs are cool right?</description>
+    <statBases>
+      <MoveSpeed>3.6</MoveSpeed>
+      <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+	  <ComfyTemperatureMax>50</ComfyTemperatureMax>
+      <MarketValue>300</MarketValue>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.65</defaultCooldownTime>
+        <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
+        <meleeDamageDef>Bite</meleeDamageDef>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+      <body>BodyLongnose</body>
+      <baseHungerRate>0.4</baseHungerRate>
+      <baseBodySize>0.9</baseBodySize>
+      <baseHealthScale>1</baseHealthScale>
+      <foodType>OmnivoreRoughAnimal</foodType>
+	  <useLeatherFrom>ACPBlackRhinoceros</useLeatherFrom>
+      <leatherStatFactors>
+        <MarketValue>3.45</MarketValue>
+        <ArmorRating_Heat>4</ArmorRating_Heat>
+      </leatherStatFactors>
+      <wildness>0.57</wildness>
+      <trainableIntelligence>Advanced</trainableIntelligence>
+      <useMeatFrom>Pig</useMeatFrom>
+      <gestationPeriodDays>13</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(3, 1)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>11</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.1</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.5</minAge>
+          <soundWounded>Pawn_Wildboar_Wounded</soundWounded>
+          <soundDeath>Pawn_Wildboar_Death</soundDeath>
+          <soundCall>Pawn_Wildboar_Call</soundCall>
+          <soundAngry>Pawn_Wildboar_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>StandardAnimal</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>ACPTapir</defName>
+    <label>tapir</label>
+    <race>ACPTapir</race>
+    <combatPower>45</combatPower>
+    <wildSpawn_EcoSystemWeight>0.5</wildSpawn_EcoSystemWeight>
+    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <labelFemale>tapir sow</labelFemale>
+    <lifeStages>
+      <li>
+        <label>tapir piglet</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Ungulates/Tapir/TapirBaby</texPath>
+          <drawSize>0.6</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>0.55</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Ungulates/Tapir/Tapir</texPath>
+          <drawSize>1.15</drawSize>
+		  <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.03)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Animal/Ungulates/Tapir/Tapir</texPath>
+          <drawSize>1.1</drawSize>
+		  <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.03)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Ungulates/Tapir/Tapir</texPath>
+          <drawSize>1.42</drawSize>
+		  <shadowData>
+            <volume>(0.4, 0.5, 0.4)</volume>
+            <offset>(0,0,-0.03)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Animal/Ungulates/Tapir/Tapir</texPath>
+          <drawSize>1.30</drawSize>
+		  <shadowData>
+            <volume>(0.4, 0.5, 0.4)</volume>
+            <offset>(0,0,-0.03)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.3</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Def>

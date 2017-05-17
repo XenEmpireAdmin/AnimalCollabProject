@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
   <ThingDef ParentName="BigBirdThingBase">
     <defName>ACPKiwi</defName>
     <label>kiwi</label>
@@ -95,6 +94,10 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Birds/Kiwi/Kiwi</texPath>
           <drawSize>0.7</drawSize>
+          <shadowData>
+            <volume>(0.15, 0.2, 0.15)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>

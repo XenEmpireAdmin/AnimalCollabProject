@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>ACPSpottedSeal</defName>
+    <label>seal</label>
+    <description>A small aquatic mammal, not much into clubbing.</description>
+    <statBases>
+      <MoveSpeed>2.8</MoveSpeed>
+      <ComfyTemperatureMin>-55</ComfyTemperatureMin>
+      <MarketValue>300</MarketValue>
+    </statBases>
+    <verbs>
+      <li>
+		<verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>2.0</defaultCooldownTime>
+        <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
+        <meleeDamageDef>Bite</meleeDamageDef>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+      </li>
+    </verbs>
+    <race>
+      <herdAnimal>true</herdAnimal>
+      <body>WalrusLike</body>
+      <baseHungerRate>0.4</baseHungerRate>
+      <baseBodySize>0.6</baseBodySize>
+      <baseHealthScale>1.2</baseHealthScale>
+      <foodType>OmnivoreRoughAnimal</foodType>
+	  <useLeatherFrom>ACPHippopotamus</useLeatherFrom>
+	  <useMeatFrom>ACPHippopotamus</useMeatFrom>
+      <gestationPeriodDays>16</gestationPeriodDays>
+      <wildness>0.85</wildness>
+      <wildBiomes>
+        <SeaIce>0.4</SeaIce>
+        <IceSheet>0.45</IceSheet>
+        <Tundra>0.2</Tundra>
+        <BorealForest>0.02</BorealForest>
+      </wildBiomes>
+      <nuzzleMtbHours>160</nuzzleMtbHours>
+      <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+      <lifeExpectancy>40</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.7</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>1.3</minAge>
+          <soundWounded>Pawn_Wildboar_Wounded</soundWounded>
+          <soundDeath>Pawn_Wildboar_Death</soundDeath>
+          <soundCall>Pawn_Wildboar_Call</soundCall>
+          <soundAngry>Pawn_Wildboar_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>StandardAnimal</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>ACPSpottedSeal</defName>
+    <label>seal</label>
+    <race>ACPSpottedSeal</race>
+    <combatPower>130</combatPower>
+    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <wildSpawn_EcoSystemWeight>1</wildSpawn_EcoSystemWeight>
+    <wildSpawn_GroupSizeRange>
+      <min>6</min>
+      <max>12</max>
+    </wildSpawn_GroupSizeRange>
+    <lifeStages>
+      <li>
+        <label>seal pup</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Seals/Spotted Seal/SealPup</texPath>
+          <drawSize>1</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.2, 0.2)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>0.9</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Seals/Spotted Seal/Seal</texPath>
+          <drawSize>1.2</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Seals/Spotted Seal/Seal</texPath>
+          <drawSize>1.6</drawSize>
+          <shadowData>
+            <volume>(0.5, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+</Defs>

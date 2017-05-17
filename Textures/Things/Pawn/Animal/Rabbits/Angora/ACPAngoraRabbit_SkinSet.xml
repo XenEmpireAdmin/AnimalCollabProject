@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<SkinSet>
+  
+  <lifeStage>
+    <appliesToAll>true</appliesToAll>
+    <variants>
+	  <skin>
+        <color>(221,221,221)</color>
+	    <commonality>1</commonality>
+        <texName>AngoraRabbit</texName>
+      </skin>
+	  <skin>
+        <color>(118,118,128)</color>
+	    <commonality>0.5</commonality>
+        <texName>AngoraRabbit</texName>
+      </skin>
+	  <skin>
+        <color>(241,212,181)</color>
+	    <commonality>0.5</commonality>
+        <texName>AngoraRabbit</texName>
+      </skin>
+    </variants>
+    <winterCoat>
+      <useWinterCoat>false</useWinterCoat>
+    </winterCoat>
+  </lifeStage>
+  
+</SkinSet>

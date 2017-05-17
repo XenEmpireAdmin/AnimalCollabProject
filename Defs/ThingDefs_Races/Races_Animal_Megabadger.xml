@@ -104,7 +104,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-          <drawSize>0.8</drawSize>
+          <drawSize>1.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -118,7 +118,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-          <drawSize>2.2</drawSize>
+          <drawSize>2.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -132,7 +132,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-          <drawSize>3.8</drawSize>
+          <drawSize>3.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

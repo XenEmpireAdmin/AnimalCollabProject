@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <DamageDef Name="LocalInjuryBase" Abstract="True">
+    <workerClass>DamageWorker_AddInjury</workerClass>
+  </DamageDef>
+
+  
+
+  <DamageDef Name="Sting" ParentName="LocalInjuryBase">
+    <defName>Sting</defName>
+    <label>sting</label>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been stung to death.</deathMessage>
+    <hediff>Sting</hediff>
+    <hediffSolid>Crack</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Slice</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+  </DamageDef>
+  
+  <DamageDef ParentName="Sting">
+    <defName>ScorpionSting</defName>
+    <label>scorpion sting</label>
+    <additionalHediffs>
+      <li>
+        <hediff>ScorpionVenom</hediff>
+        <severityPerDamageDealt>0.05</severityPerDamageDealt>
+      </li>
+    </additionalHediffs>
+  </DamageDef>
+
+    <DamageDef ParentName="Sting">
+    <defName>QuillSting</defName>
+    <label>porcupine sting</label>
+  </DamageDef>
+  
+</Defs>

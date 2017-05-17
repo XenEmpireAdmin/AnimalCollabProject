@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
   <ThingDef ParentName="AnimalThingBase">
    <thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
     <defName>ACPFerret</defName>
@@ -43,7 +42,7 @@
       <baseBodySize>0.25</baseBodySize>
       <baseHungerRate>0.08</baseHungerRate>
       <baseHealthScale>0.65</baseHealthScale>
-      <foodType>CarnivoreAnimal</foodType>
+      <foodType>CarnivoreAnimalStrict, Kibble, AnimalProduct</foodType>
       <leatherColor>(237,222,190)</leatherColor>
       <leatherLabel>buff leather</leatherLabel>
       <leatherInsulation>1</leatherInsulation>
@@ -129,6 +128,10 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Weasels/Ferret/Ferret</texPath>
           <drawSize>0.85</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.2)</volume>
+            <offset>(0,0,-0.08)</offset>
+          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
@@ -148,7 +151,7 @@
           <texPath>Things/Pawn/Animal/Weasels/Ferret/Ferret</texPath>
           <drawSize>1.05</drawSize>
           <shadowData>
-            <volume>(0.35, 0.4, 0.3)</volume>
+            <volume>(0.32, 0.36, 0.26)</volume>
             <offset>(0,0,-0.1)</offset>
           </shadowData>
 	 </femaleGraphicData>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<SkinSet>
+  
+  <lifeStage>
+    <appliesToAll>true</appliesToAll>
+    <variants>
+	  <skin>
+	    <commonality>0.1</commonality>
+        <texName>Gecko</texName>
+      </skin>
+	  <skin>
+	    <commonality>0.3</commonality>
+        <texName>1</texName>
+      </skin>
+	  <skin>
+	    <commonality>0.35</commonality>
+        <texName>2</texName>
+      </skin>
+	  <skin>
+	    <commonality>0.25</commonality>
+        <texName>3</texName>
+      </skin>
+	  <skin>
+	    <commonality>0.15</commonality>
+        <texName>4</texName>
+      </skin>
+	  <skin>
+	    <commonality>0.3</commonality>
+        <texName>5</texName>
+      </skin>
+	  <skin>
+	    <commonality>0.15</commonality>
+        <texName>6</texName>
+      </skin>
+	  <skin>
+	    <commonality>0.3</commonality>
+        <texName>7</texName>
+      </skin>
+	  <skin>
+	    <commonality>0.2</commonality>
+        <texName>8</texName>
+      </skin>
+	  <skin>
+	    <commonality>0.15</commonality>
+        <texName>9</texName>
+      </skin>
+	  <skin>
+	    <commonality>0.3</commonality>
+        <texName>10</texName>
+      </skin>
+    </variants>
+    <winterCoat>
+      <useWinterCoat>false</useWinterCoat>
+    </winterCoat>
+  </lifeStage>
+  
+</SkinSet>

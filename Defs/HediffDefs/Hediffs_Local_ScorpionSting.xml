@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<HediffDefs>
+
+	<HediffDef ParentName="InjuryBase">
+		<defName>Sting</defName>
+		<label>sting</label>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <labelTendedWell>bandaged</labelTendedWell>
+        <labelTendedWellInner>sutured</labelTendedWellInner>
+        <labelSolidTendedWell>set</labelSolidTendedWell>
+      </li>
+      <li Class="HediffCompProperties_Infecter">
+        <infectionChance>0.50</infectionChance>
+      </li>
+      <li Class="HediffCompProperties_GetsOld">
+        <oldLabel>sting scar</oldLabel>
+      </li>
+    </comps>
+		<injuryProps>
+      <painPerSeverity>0.025</painPerSeverity>
+      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+			<bleedRate>0.015</bleedRate>
+			<canMerge>false</canMerge>
+			<destroyedLabel>Torn off</destroyedLabel>
+			<destroyedOutLabel>Torn out</destroyedOutLabel>
+		</injuryProps>
+	</HediffDef>
+	
+</HediffDefs>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
   <ThingDef ParentName="AnimalThingBase">
     <defName>ACPMajoreraGoat</defName>
     <label>Majorera goat</label>
@@ -98,7 +97,7 @@
           <texPath>Things/Pawn/Animal/Bovids/Goat/MajoreraGoatMale</texPath>
           <drawSize>1</drawSize>
           <shadowData>
-            <volume>(0.4, 0.3, 0.3)</volume>
+            <volume>(0.3, 0.2, 0.2)</volume>
             <offset>(0,0,-0.2)</offset>
           </shadowData>
         </bodyGraphicData>
@@ -106,7 +105,7 @@
           <texPath>Things/Pawn/Animal/Bovids/Goat/MajoreraGoatFemale</texPath>
           <drawSize>1.2</drawSize>
           <shadowData>
-            <volume>(0.4, 0.3, 0.3)</volume>
+            <volume>(0.3, 0.2, 0.2)</volume>
             <offset>(0,0,-0.2)</offset>
           </shadowData>
         </femaleGraphicData>
@@ -120,7 +119,7 @@
            <texPath>Things/Pawn/Animal/Bovids/Goat/MajoreraGoatMale</texPath>
           <drawSize>1.35</drawSize>
           <shadowData>
-            <volume>(0.6, 0.45, 0.45)</volume>
+            <volume>(0.4, 0.3, 0.3)</volume>
             <offset>(0,0,-0.25)</offset>
           </shadowData>
         </bodyGraphicData>
@@ -128,7 +127,7 @@
           <texPath>Things/Pawn/Animal/Bovids/Goat/MajoreraGoatFemale</texPath>
           <drawSize>1.33</drawSize>
           <shadowData>
-            <volume>(0.6, 0.45, 0.45)</volume>
+            <volume>(0.4, 0.3, 0.3)</volume>
             <offset>(0,0,-0.25)</offset>
           </shadowData>
         </femaleGraphicData>
@@ -142,7 +141,7 @@
           <texPath>Things/Pawn/Animal/Bovids/Goat/MajoreraGoatMale</texPath>
           <drawSize>1.46</drawSize>
           <shadowData>
-            <volume>(0.8, 0.6, 0.6)</volume>
+            <volume>(0.5, 0.4, 0.4)</volume>
             <offset>(0,0,-0.3)</offset>
           </shadowData>
         </bodyGraphicData>
@@ -150,7 +149,7 @@
           <texPath>Things/Pawn/Animal/Bovids/Goat/MajoreraGoatFemale</texPath>
           <drawSize>1.40</drawSize>
           <shadowData>
-            <volume>(0.8, 0.6, 0.6)</volume>
+            <volume>(0.5, 0.4, 0.4)</volume>
             <offset>(0,0,-0.3)</offset>
           </shadowData>
         </femaleGraphicData>
