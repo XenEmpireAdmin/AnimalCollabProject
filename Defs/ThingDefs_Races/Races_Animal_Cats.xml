@@ -147,7 +147,7 @@
     <labelFemale>lioness</labelFemale>
     <lifeStages>
       <li>
-		<label>lion cub</label>
+        <label>lion cub</label>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Cats/Lion/LionCub</texPath>
           <drawSize>1.1</drawSize>
@@ -160,15 +160,15 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Cats/Lion/LionMale</texPath>
-          <drawSize>1.7</drawSize>
+          <drawSize>1.5</drawSize>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
             <offset>(0,0,-0.3)</offset>
           </shadowData>
         </bodyGraphicData>
-		<femaleGraphicData>
+        <femaleGraphicData>
           <texPath>Things/Pawn/Animal/Cats/Lion/LionFemale</texPath>
-          <drawSize>1.6</drawSize>
+          <drawSize>1.4</drawSize>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
             <offset>(0,0,-0.3)</offset>
@@ -176,21 +176,21 @@
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.7</drawSize>
+          <drawSize>1.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Cats/Lion/LionMale</texPath>
-          <drawSize>3.0</drawSize>
+          <drawSize>2.4</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
             <offset>(0,0,-0.1)</offset>
           </shadowData>
         </bodyGraphicData>
-		<femaleGraphicData>
+        <femaleGraphicData>
           <texPath>Things/Pawn/Animal/Cats/Lion/LionFemale</texPath>
-          <drawSize>3.0</drawSize>
+          <drawSize>2.3</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
             <offset>(0,0,-0.1)</offset>
@@ -198,7 +198,7 @@
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>2.9</drawSize>
+          <drawSize>2.3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -247,7 +247,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Cats/Tiger/Tiger</texPath>
-          <drawSize>2.8</drawSize>
+          <drawSize>2.0</drawSize>
           <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
             <offset>(0,0,-0.3)</offset>
@@ -255,13 +255,13 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>2.7</drawSize>
+          <drawSize>2.0</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Cats/Tiger/Tiger</texPath>
-          <drawSize>3.0</drawSize>
+          <drawSize>2.5</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
             <offset>(0,0,-0.1)</offset>
@@ -269,7 +269,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>2.9</drawSize>
+          <drawSize>2.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

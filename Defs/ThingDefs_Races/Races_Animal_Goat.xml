@@ -97,14 +97,14 @@
           <texPath>Things/Pawn/Animal/Bovids/Goat/MajoreraGoatMale</texPath>
           <drawSize>1</drawSize>
           <shadowData>
-            <volume>(0.3, 0.2, 0.2)</volume>
+            <volume>(0.1, 0.2, 0.1)</volume>
           </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
           <texPath>Things/Pawn/Animal/Bovids/Goat/MajoreraGoatFemale</texPath>
           <drawSize>1.2</drawSize>
           <shadowData>
-            <volume>(0.3, 0.2, 0.2)</volume>
+            <volume>(0.1, 0.2, 0.1)</volume>
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
@@ -117,14 +117,16 @@
            <texPath>Things/Pawn/Animal/Bovids/Goat/MajoreraGoatMale</texPath>
           <drawSize>1.35</drawSize>
           <shadowData>
-            <volume>(0.4, 0.3, 0.3)</volume>
+            <volume>(0.25, 0.3, 0.2)</volume>
+            <offset>(0,0,0.04)</offset>
           </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
           <texPath>Things/Pawn/Animal/Bovids/Goat/MajoreraGoatFemale</texPath>
           <drawSize>1.33</drawSize>
           <shadowData>
-            <volume>(0.4, 0.3, 0.3)</volume>
+            <volume>(0.25, 0.3, 0.2)</volume>
+            <offset>(0,0,0.04)</offset>
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
@@ -137,14 +139,16 @@
           <texPath>Things/Pawn/Animal/Bovids/Goat/MajoreraGoatMale</texPath>
           <drawSize>1.46</drawSize>
           <shadowData>
-            <volume>(0.5, 0.4, 0.4)</volume>
+            <volume>(0.35, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
           </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
           <texPath>Things/Pawn/Animal/Bovids/Goat/MajoreraGoatFemale</texPath>
           <drawSize>1.40</drawSize>
           <shadowData>
-            <volume>(0.5, 0.4, 0.4)</volume>
+            <volume>(0.35, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>

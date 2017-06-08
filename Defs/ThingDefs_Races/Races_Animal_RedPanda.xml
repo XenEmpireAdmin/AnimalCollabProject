@@ -114,7 +114,7 @@
           <shaderType>Cutout</shaderType>
           <shadowData>
             <volume>(0.3, 0.35, 0.25)</volume>
-            <offset>(0,0,-0.08)</offset>
+            <offset>(0.01,0,-0.08)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -128,8 +128,8 @@
           <drawSize>1.6</drawSize>
           <shaderType>Cutout</shaderType>
           <shadowData>
-            <volume>(0.35, 0.4, 0.3)</volume>
-            <offset>(0,0,-0.08)</offset>
+            <volume>(0.35, 0.4, 0.2)</volume>
+            <offset>(0.02,0,-0.08)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>

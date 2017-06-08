@@ -138,7 +138,7 @@
           <texPath>Things/Pawn/Animal/Weasels/Ferret/MFerret</texPath>
           <drawSize>1.25</drawSize>
           <shadowData>
-            <volume>(0.4, 0.5, 0.4)</volume>
+            <volume>(0.32, 0.36, 0.26)</volume>
             <offset>(0,0,-0.1)</offset>
           </shadowData>
 	 </femaleGraphicData>
