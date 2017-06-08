@@ -98,18 +98,10 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Birds/Duck/DuckMale</texPath>
           <drawSize>0.7</drawSize>
-          <shadowData>
-            <volume>(0.3, 0.3, 0.3)</volume>
-            <offset>(0,0,-0.3)</offset>
-          </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
           <texPath>Things/Pawn/Animal/Birds/Duck/DuckFemale</texPath>
           <drawSize>0.7</drawSize>
-          <shadowData>
-            <volume>(0.3, 0.3, 0.3)</volume>
-            <offset>(0,0,-0.3)</offset>
-          </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
@@ -120,18 +112,10 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Birds/Duck/DuckMale</texPath>
           <drawSize>0.95</drawSize>
-          <shadowData>
-            <volume>(0.4, 0.4, 0.4)</volume>
-            <offset>(0,0,-0.2)</offset>
-          </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
           <texPath>Things/Pawn/Animal/Birds/Duck/DuckFemale</texPath>
           <drawSize>0.95</drawSize>
-          <shadowData>
-            <volume>(0.4, 0.4, 0.4)</volume>
-            <offset>(0,0,-0.2)</offset>
-          </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>

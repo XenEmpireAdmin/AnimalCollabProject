@@ -116,10 +116,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Rodents/Hedgehog/Hedgehog</texPath>
           <drawSize>0.45</drawSize>
-          <shadowData>
-            <volume>(0.1, 0.1, 0.1)</volume>
-            <offset>(0,0,0)</offset>
-          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
@@ -130,10 +126,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Rodents/Hedgehog/Hedgehog</texPath>
           <drawSize>0.6</drawSize>
-          <shadowData>
-            <volume>(0.15, 0.15, 0.15)</volume>
-            <offset>(0,0,0)</offset>
-          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>

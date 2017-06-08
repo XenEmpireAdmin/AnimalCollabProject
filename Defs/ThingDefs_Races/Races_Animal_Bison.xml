@@ -88,7 +88,6 @@
           <drawSize>1.7</drawSize>
 		   <shadowData>
             <volume>(0.3, 0.3, 0.3)</volume>
-            <offset>(0,0,-0.3)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -102,7 +101,6 @@
           <drawSize>2.4</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
-            <offset>(0,0,-0.3)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
@@ -116,7 +114,6 @@
           <drawSize>2.4</drawSize>
           <shadowData>
             <volume>(0.5, 0.5, 0.5)</volume>
-            <offset>(0,0,-0.2)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
