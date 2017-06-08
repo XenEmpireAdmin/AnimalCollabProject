@@ -18,7 +18,7 @@
       <foodType>CarnivoreAnimal</foodType>
       <wildness>0.80</wildness>
       <lifeExpectancy>17</lifeExpectancy>
-	  <useLeatherFrom>ACPBlackRhinoceros</useLeatherFrom>
+      <useLeatherFrom>ACPBlackRhinoceros</useLeatherFrom>
       <useMeatFrom>Cassowary</useMeatFrom>
       <wildBiomes>
         <SeaIce>0.55</SeaIce>
@@ -82,8 +82,8 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Birds/Penguin/Penguin</texPath>
-          <drawSize>0.45</drawSize>
+          <texPath>Things/Pawn/Animal/Birds/Penguin/PenguinChick</texPath>
+          <drawSize>0.65</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
@@ -95,13 +95,13 @@
           <texPath>Things/Pawn/Animal/Birds/Penguin/Penguin</texPath>
           <drawSize>0.65</drawSize>
           <shadowData>
-            <volume>(0.3, 0.3, 0.3)</volume>
+            <volume>(0.1, 0.2, 0.1)</volume>
             <offset>(0,0,-0.3)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>0,6</drawSize>
+          <drawSize>0.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -109,7 +109,7 @@
           <texPath>Things/Pawn/Animal/Birds/Penguin/Penguin</texPath>
           <drawSize>0.95</drawSize>
           <shadowData>
-            <volume>(0.4, 0.4, 0.4)</volume>
+            <volume>(0.2, 0.3, 0.2)</volume>
             <offset>(0,0,-0.2)</offset>
           </shadowData>
         </bodyGraphicData>
