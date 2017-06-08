@@ -104,10 +104,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Insects/Silkspider/Silkspider</texPath>
           <drawSize>1.2</drawSize>
-          <shadowData>
-            <volume>(0.5, 0.7, 0.43)</volume>
-            <offset>(0,0,-0.1)</offset>
-          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
@@ -201,10 +197,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Insects/HaulerAnt/HaulerAnt</texPath>
           <drawSize>1</drawSize>
-          <shadowData>
-            <volume>(0.4, 0.5, 0.37)</volume>
-            <offset>(0,0,-0.15)</offset>
-          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
@@ -215,10 +207,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Insects/HaulerAnt/HaulerAnt</texPath>
           <drawSize>1.8</drawSize>
-          <shadowData>
-            <volume>(0.4, 0.5, 0.37)</volume>
-            <offset>(0,0,-0.15)</offset>
-          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
@@ -229,10 +217,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Insects/HaulerAnt/HaulerAnt</texPath>
           <drawSize>2.5</drawSize>
-          <shadowData>
-            <volume>(0.4, 0.5, 0.37)</volume>
-            <offset>(0,0,-0.15)</offset>
-          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
@@ -333,10 +317,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Insects/AcidAnt/AcidAnt</texPath>
           <drawSize>0.8</drawSize>
-          <shadowData>
-            <volume>(0.4, 0.5, 0.37)</volume>
-            <offset>(0,0,-0.15)</offset>
-          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
@@ -347,10 +327,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Insects/AcidAnt/AcidAnt</texPath>
           <drawSize>1</drawSize>
-          <shadowData>
-            <volume>(0.5, 0.7, 0.43)</volume>
-            <offset>(0,0,-0.1)</offset>
-          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>

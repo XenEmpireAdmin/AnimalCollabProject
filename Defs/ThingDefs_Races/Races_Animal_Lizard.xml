@@ -48,7 +48,7 @@
     <race>
       <baseHungerRate>0.10</baseHungerRate>
       <body>QuadrupedAnimalWithClawsTailAndJowl</body>
-	  <petness>1</petness>
+      <petness>1</petness>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>2.0</baseBodySize>
       <baseHealthScale>1.5</baseHealthScale>
@@ -56,12 +56,12 @@
       <leatherColor>(59,102,208)</leatherColor>
       <leatherLabel>xenguana skin</leatherLabel>
       <leatherInsulation>1.25</leatherInsulation>
-	  <useMeatFrom>Iguana</useMeatFrom>
-	  <nameOnTameChance>1</nameOnTameChance>
+      <useMeatFrom>Iguana</useMeatFrom>
+      <nameOnTameChance>1</nameOnTameChance>
       <trainableIntelligence>Advanced</trainableIntelligence>
       <wildness>0.45</wildness>
-	       <nuzzleMtbHours>12</nuzzleMtbHours>
-			<packAnimal>true</packAnimal>
+      <nuzzleMtbHours>12</nuzzleMtbHours>
+      <packAnimal>true</packAnimal>
       <gestationPeriodDays>25</gestationPeriodDays>
       <litterSizeCurve>
         <points>
@@ -110,10 +110,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Reptiles/Xenguana/Xenguana</texPath>
           <drawSize>1.2</drawSize>
-		  <shadowData>
-            <volume>(0.2, 0.3, 0.2)</volume>
-            <offset>(0,0,0)</offset>
-          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
@@ -124,11 +120,7 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Reptiles/Xenguana/Xenguana</texPath>
           <drawSize>1.7</drawSize>
-          <shadowData>
-            <volume>(0.25, 0.35, 0.25)</volume>
-            <offset>(0,0,0)</offset>
-          </shadowData>
-		</bodyGraphicData>
+        </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
           <drawSize>1.5</drawSize>
@@ -138,10 +130,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Reptiles/Xenguana/Xenguana</texPath>
           <drawSize>2.2</drawSize>
-          <shadowData>
-            <volume>(0.35, 0.45, 0.35)</volume>
-            <offset>(0,0,0)</offset>
-          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
@@ -151,10 +139,10 @@
     </lifeStages>
   </PawnKindDef>
     
-	  <!--===============================================-->
-	  
+<!--===============================================-->
+  
    <ThingDef ParentName="AnimalThingBase">
-	<thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
+    <thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
     <defName>ACPXGecko</defName>
     <label>gecko</label>
     <description>A small reptile, subspecies can be found in a variety of climates and biospheres.</description>
@@ -201,26 +189,26 @@
     <race>
       <baseHungerRate>0.10</baseHungerRate>
       <body>QuadrupedAnimalWithClawsTailAndJowl</body>
-	  <petness>1</petness>
+      <petness>1</petness>
       <herdAnimal>false</herdAnimal>
       <baseBodySize>0.12</baseBodySize>
       <baseHealthScale>0.12</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
-	  	  <wildBiomes>
-		<TropicalRainforest>0.065</TropicalRainforest>
-		<TemperateForest>0.05</TemperateForest>
-		<AridShrubland>0.025</AridShrubland>
-		<Desert>0.02</Desert>
-		<ExtremeDesert>0.01</ExtremeDesert>
+      <wildBiomes>
+        <TropicalRainforest>0.065</TropicalRainforest>
+        <TemperateForest>0.05</TemperateForest>
+        <AridShrubland>0.025</AridShrubland>
+        <Desert>0.02</Desert>
+        <ExtremeDesert>0.01</ExtremeDesert>
       </wildBiomes>
       <leatherColor>(59,202,108)</leatherColor>
       <leatherLabel>gecko skin</leatherLabel>
       <leatherInsulation>1.25</leatherInsulation>
-	  <useMeatFrom>Iguana</useMeatFrom>
-	  <nameOnTameChance>1</nameOnTameChance>
+      <useMeatFrom>Iguana</useMeatFrom>
+      <nameOnTameChance>1</nameOnTameChance>
       <trainableIntelligence>Advanced</trainableIntelligence>
       <wildness>0</wildness>
-	       <nuzzleMtbHours>12</nuzzleMtbHours>
+      <nuzzleMtbHours>12</nuzzleMtbHours>
       <gestationPeriodDays>2</gestationPeriodDays>
       <litterSizeCurve>
         <points>
@@ -279,10 +267,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Reptiles/Geckos/Gecko</texPath>
           <drawSize>0.7</drawSize>
-          <shadowData>
-            <volume>(0.2, 0.25, 0.2)</volume>
-            <offset>(0,0,0)</offset>
-          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
@@ -293,10 +277,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Reptiles/Geckos/Gecko</texPath>
           <drawSize>1.1</drawSize>
-          <shadowData>
-            <volume>(0.25, 0.3, 0.25)</volume>
-            <offset>(0,0,0)</offset>
-          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>

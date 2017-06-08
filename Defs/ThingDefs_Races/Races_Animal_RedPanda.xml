@@ -112,7 +112,7 @@
           <texPath>Things/Pawn/Animal/Bears/RedPanda/RedPanda</texPath>
           <drawSize>1.0</drawSize>
           <shaderType>Cutout</shaderType>
-		  <shadowData>
+          <shadowData>
             <volume>(0.3, 0.35, 0.25)</volume>
             <offset>(0,0,-0.08)</offset>
           </shadowData>
@@ -127,7 +127,7 @@
           <texPath>Things/Pawn/Animal/Bears/RedPanda/RedPanda</texPath>
           <drawSize>1.6</drawSize>
           <shaderType>Cutout</shaderType>
-		  <shadowData>
+          <shadowData>
             <volume>(0.35, 0.4, 0.3)</volume>
             <offset>(0,0,-0.08)</offset>
           </shadowData>

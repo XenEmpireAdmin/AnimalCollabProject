@@ -53,12 +53,12 @@
       <baseBodySize>0.28</baseBodySize>
       <baseHealthScale>0.5</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
-	  <useMeatFrom>Iguana</useMeatFrom>
+      <useMeatFrom>Iguana</useMeatFrom>
       <wildness>0.7</wildness>
-	  <wildBiomes>
-		<ExtremeDesert>0.25</ExtremeDesert>
-		<Desert>0.15</Desert>
-		<AridShrubland>0.05</AridShrubland>
+      <wildBiomes>
+        <ExtremeDesert>0.25</ExtremeDesert>
+        <Desert>0.15</Desert>
+        <AridShrubland>0.05</AridShrubland>
       </wildBiomes>
       <gestationPeriodDays>16</gestationPeriodDays>
       <litterSizeCurve>
@@ -129,10 +129,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Reptiles/ThornyDevil/ThornyDevil</texPath>
           <drawSize>0.9</drawSize>
-          <shadowData>
-            <volume>(0.25, 0.3, 0.25)</volume>
-            <offset>(0,0,0)</offset>
-          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
