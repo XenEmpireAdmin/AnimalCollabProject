@@ -98,7 +98,6 @@
           <drawSize>1</drawSize>
           <shadowData>
             <volume>(0.3, 0.2, 0.2)</volume>
-            <offset>(0,0,-0.2)</offset>
           </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
@@ -106,7 +105,6 @@
           <drawSize>1.2</drawSize>
           <shadowData>
             <volume>(0.3, 0.2, 0.2)</volume>
-            <offset>(0,0,-0.2)</offset>
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
@@ -120,7 +118,6 @@
           <drawSize>1.35</drawSize>
           <shadowData>
             <volume>(0.4, 0.3, 0.3)</volume>
-            <offset>(0,0,-0.25)</offset>
           </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
@@ -128,7 +125,6 @@
           <drawSize>1.33</drawSize>
           <shadowData>
             <volume>(0.4, 0.3, 0.3)</volume>
-            <offset>(0,0,-0.25)</offset>
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
@@ -142,7 +138,6 @@
           <drawSize>1.46</drawSize>
           <shadowData>
             <volume>(0.5, 0.4, 0.4)</volume>
-            <offset>(0,0,-0.3)</offset>
           </shadowData>
         </bodyGraphicData>
         <femaleGraphicData>
@@ -150,7 +145,6 @@
           <drawSize>1.40</drawSize>
           <shadowData>
             <volume>(0.5, 0.4, 0.4)</volume>
-            <offset>(0,0,-0.3)</offset>
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>

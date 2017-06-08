@@ -112,10 +112,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Mammals/DuckBilledPlatypus/DuckBilledPlatypus</texPath>
           <drawSize>1.25</drawSize>
-          <shadowData>
-            <volume>(0.32, 0.37, 0.27)</volume>
-            <offset>(0,0,-0.08)</offset>
-          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
@@ -126,10 +122,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Mammals/DuckBilledPlatypus/DuckBilledPlatypus</texPath>
           <drawSize>1.7</drawSize>
-          <shadowData>
-            <volume>(0.38, 0.42, 0.33)</volume>
-            <offset>(0,0,-0.08)</offset>
-          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>

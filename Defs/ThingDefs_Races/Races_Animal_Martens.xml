@@ -158,10 +158,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Weasels/Fisher/Fisher</texPath>
           <drawSize>0.8</drawSize>
-          <shadowData>
-            <volume>(0.3, 0.3, 0.3)</volume>
-            <offset>(0,0,-0.3)</offset>
-          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
@@ -172,18 +168,10 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Weasels/Fisher/Fisher</texPath>
           <drawSize>1.3</drawSize>
-          <shadowData>
-            <volume>(0.3, 0.3, 0.3)</volume>
-            <offset>(0,0,-0.1)</offset>
-          </shadowData>
         </bodyGraphicData>
 	<femaleGraphicData>
           <texPath>Things/Pawn/Animal/Weasels/Fisher/Fisher</texPath>
           <drawSize>1.1</drawSize>
-          <shadowData>
-            <volume>(0.3, 0.3, 0.3)</volume>
-            <offset>(0,0,-0.1)</offset>
-          </shadowData>
 	</femaleGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
@@ -294,10 +282,6 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Weasels/Ermine/Ermine</texPath>
           <drawSize>0.6</drawSize>
-          <shadowData>
-            <volume>(0.3, 0.3, 0.3)</volume>
-            <offset>(0,0,-0.3)</offset>
-          </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
@@ -308,18 +292,10 @@
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Weasels/Ermine/Ermine</texPath>
           <drawSize>0.9</drawSize>
-          <shadowData>
-            <volume>(0.3, 0.3, 0.3)</volume>
-            <offset>(0,0,-0.1)</offset>
-          </shadowData>
         </bodyGraphicData>
 	<femaleGraphicData>
           <texPath>Things/Pawn/Animal/Weasels/Ermine/Ermine</texPath>
           <drawSize>0.8</drawSize>
-          <shadowData>
-            <volume>(0.3, 0.3, 0.3)</volume>
-            <offset>(0,0,-0.1)</offset>
-          </shadowData>
 	</femaleGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
