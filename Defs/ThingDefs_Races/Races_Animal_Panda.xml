@@ -51,7 +51,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Bears/Panda/Panda</texPath>
-          <drawSize>1.65</drawSize>
+          <drawSize>2.1</drawSize>
           <shadowData>
             <volume>(0.6, 0.45, 0.45)</volume>
             <offset>(0,0,-0.25)</offset>
@@ -59,13 +59,13 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-          <drawSize>1.6</drawSize>
+          <drawSize>2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Bears/Panda/Panda</texPath>
-          <drawSize>1.9</drawSize>
+          <drawSize>2.8</drawSize>
           <shadowData>
             <volume>(0.8, 0.6, 0.6)</volume>
             <offset>(0,0,-0.3)</offset>
@@ -73,7 +73,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-          <drawSize>1.8</drawSize>
+          <drawSize>2.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
