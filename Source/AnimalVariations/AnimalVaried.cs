@@ -298,9 +298,10 @@ namespace AnimalVariations
 
 				draw_size *= float.Parse (GetWinterCoatValue (ageInd, "scale"));
 
-				pawn_renderer.graphics.ClearCache();
+				//pawn_renderer.graphics.ClearCache();
 				pawn_renderer.graphics.nakedGraphic = GraphicDatabase.Get<Graphic_Multi> (winter_graphic, shader, draw_size, draw_color, draw_color2);
 				skin_index = index;
+				ReloadGraphicData ();
 				return true;
 			}
 
@@ -323,8 +324,10 @@ namespace AnimalVariations
 				if (gdata.shaderType == ShaderType.CutoutComplex)
 					shader = ShaderDatabase.CutoutComplex;
 
-				pawn_renderer.graphics.ClearCache();
+
+				//pawn_renderer.graphics.ClearCache();
 				pawn_renderer.graphics.nakedGraphic = GraphicDatabase.Get<Graphic_Multi> (base_graphic_path, shader, draw_size, draw_color, draw_color2);
+				ReloadGraphicData ();
 				skin_index = 0;
 				return true;
 			}
@@ -358,12 +361,20 @@ namespace AnimalVariations
 			} else
 				texSetPath = texSetPath.Substring (0, texSetPath.LastIndexOf ('/') + 1)+ GetSkinValue (ageInd, index, "texName", female);
 
-			pawn_renderer.graphics.ClearCache();
+			//pawn_renderer.graphics.ClearCache();
 			Graphic_Multi new_graphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi> (texSetPath, shader, draw_size, draw_color, draw_color2);
 			pawn_renderer.graphics.nakedGraphic = new_graphic;
 			skin_index = index;
+			ReloadGraphicData ();
 			return true;
 		}
+
+		private void ReloadGraphicData()
+		{
+			GraphicData rData = pawn_renderer.graphics.nakedGraphic.data = new GraphicData();
+			rData.shadowData = ageTracker.CurKindLifeStage.bodyGraphicData.shadowData;
+		}
+
 
 		public override void TickRare ()
 		{
@@ -447,12 +458,11 @@ namespace AnimalVariations
 		{
 			base.SpawnSetup (map, respawningAfterLoad);
 
-			male_graphic = this.ageTracker.CurKindLifeStage.bodyGraphicData.texPath;
+			male_graphic = ageTracker.CurKindLifeStage.bodyGraphicData.texPath;
 			bool female = false;
 			if (ageTracker.CurKindLifeStage.femaleGraphicData != null) {
-				female_graphic = this.ageTracker.CurKindLifeStage.femaleGraphicData.texPath;
-				if (gender == Gender.Female)
-					female = true;
+				female_graphic = ageTracker.CurKindLifeStage.femaleGraphicData.texPath;
+				female |= gender == Gender.Female;
 			}
 			pawn_renderer = ((Pawn_DrawTracker)(typeof(Pawn).GetField ("drawer", BindingFlags.Instance | BindingFlags.NonPublic).GetValue (this))).renderer;
 
