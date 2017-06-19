@@ -14,7 +14,7 @@
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
         <defaultCooldownTime>1.95</defaultCooldownTime>
-        <meleeDamageBaseAmount>17</meleeDamageBaseAmount>
+        <meleeDamageBaseAmount>12</meleeDamageBaseAmount>
         <meleeDamageDef>Blunt</meleeDamageDef>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
       </li>

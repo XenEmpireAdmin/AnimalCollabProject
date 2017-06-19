@@ -63,6 +63,14 @@
           </extraMeleeDamages>
         </surpriseAttack>
       </li>
+	  <li>
+		<verbClass>Verb_MeleeAttack</verbClass>
+		<defaultCooldownTime>1.65</defaultCooldownTime>
+		<meleeDamageBaseAmount>4</meleeDamageBaseAmount>
+		<meleeDamageDef>Blunt</meleeDamageDef>
+		<commonality>0.01</commonality>
+		<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+	  </li>
     </verbs>
     <race>
       <body>QuadrupedAnimalWithPawsAndTail</body>
@@ -254,6 +262,14 @@
           </extraMeleeDamages>
         </surpriseAttack>
       </li>
+	  <li>
+		<verbClass>Verb_MeleeAttack</verbClass>
+		<defaultCooldownTime>1.65</defaultCooldownTime>
+		<meleeDamageBaseAmount>6</meleeDamageBaseAmount>
+		<meleeDamageDef>Blunt</meleeDamageDef>
+		<commonality>0.01</commonality>
+		<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+	  </li>
     </verbs>
 		    <comps>
       <li Class="CompProperties_Milkable">
@@ -452,6 +468,14 @@
           </extraMeleeDamages>
         </surpriseAttack>
       </li>
+	  <li>
+		<verbClass>Verb_MeleeAttack</verbClass>
+		<defaultCooldownTime>1.65</defaultCooldownTime>
+		<meleeDamageBaseAmount>8</meleeDamageBaseAmount>
+		<meleeDamageDef>Blunt</meleeDamageDef>
+		<commonality>0.01</commonality>
+		<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+	  </li>
     </verbs>
     <race>
       <body>QuadrupedAnimalWithPawsAndTail</body>
@@ -462,16 +486,16 @@
       <baseHealthScale>13.15</baseHealthScale>
       <foodType>CarnivoreAnimal</foodType>
 	  	  	<wildBiomes>
-			<Tundra>0.025</Tundra>
-			<IceSheet>0.015</IceSheet>
-			<SeaIce>0.01</SeaIce>
-			<TropicalRainforest>0.025</TropicalRainforest>
-			<TemperateForest>0.06</TemperateForest>
-			<BorealForest>0.075</BorealForest>
-			<AridShrubland>0.06</AridShrubland>
-			<Desert>0.03</Desert>
-			<ExtremeDesert>0.015</ExtremeDesert>
-	<!-- <Cave>0.05</Cave> -->
+			<Tundra>0.01</Tundra>
+			<IceSheet>0.005</IceSheet>
+			<SeaIce>0.005</SeaIce>
+			<TropicalRainforest>0.01</TropicalRainforest>
+			<TemperateForest>0.02</TemperateForest>
+			<BorealForest>0.03</BorealForest>
+			<AridShrubland>0.02</AridShrubland>
+			<Desert>0.015</Desert>
+			<ExtremeDesert>0.005</ExtremeDesert>
+	<!-- <Cave>0.01</Cave> -->
         </wildBiomes>
       <useLeatherFrom>WolfArctic</useLeatherFrom>
       <useMeatFrom>WolfTimber</useMeatFrom>

@@ -33,6 +33,14 @@
         <meleeDamageDef>Bite</meleeDamageDef>
         <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
       </li>
+	  <li>
+		<verbClass>Verb_MeleeAttack</verbClass>
+		<defaultCooldownTime>1.65</defaultCooldownTime>
+		<meleeDamageBaseAmount>1</meleeDamageBaseAmount>
+		<meleeDamageDef>Blunt</meleeDamageDef>
+		<commonality>0.01</commonality>
+		<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+	  </li>
     </verbs>
     <race>
       <body>BeetleLike</body>
@@ -68,7 +76,6 @@
     </race>
     <tradeTags>
       <li>StandardAnimal</li>
-      <li>BadassAnimal</li>
     </tradeTags>
   </ThingDef>
 
@@ -83,31 +90,34 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Insects/Silkspider/Silkspider</texPath>
-          <drawSize>0.7</drawSize>
+          <drawSize>0.5</drawSize>
+          <color>(77,104,112)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>0.7</drawSize>
+          <drawSize>0.45</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Insects/Silkspider/Silkspider</texPath>
-          <drawSize>0.9</drawSize>
+          <drawSize>0.65</drawSize>
+          <color>(77,104,112)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>0.9</drawSize>
+          <drawSize>0.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Insects/Silkspider/Silkspider</texPath>
-          <drawSize>1.2</drawSize>
+          <drawSize>0.8</drawSize>
+          <color>(74,65,62)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>1.2</drawSize>
+          <drawSize>0.75</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -253,6 +263,14 @@
         <meleeDamageDef>AcidBite</meleeDamageDef>
         <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
       </li>
+	  <li>
+		<verbClass>Verb_MeleeAttack</verbClass>
+		<defaultCooldownTime>1.65</defaultCooldownTime>
+		<meleeDamageBaseAmount>2</meleeDamageBaseAmount>
+		<meleeDamageDef>Blunt</meleeDamageDef>
+		<commonality>0.01</commonality>
+		<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+	  </li>
     </verbs>
     <race>
       <body>BeetleLike</body>

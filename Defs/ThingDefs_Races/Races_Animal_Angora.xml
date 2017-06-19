@@ -15,7 +15,7 @@
     </statBases>
     
 	<verbs>
-	    <li>
+		<li>
 			<verbClass>Verb_MeleeAttack</verbClass>
 			<defaultCooldownTime>1.65</defaultCooldownTime>
 			<meleeDamageBaseAmount>4</meleeDamageBaseAmount>
@@ -35,6 +35,14 @@
 			<meleeDamageBaseAmount>1</meleeDamageBaseAmount>
 			<meleeDamageDef>Scratch</meleeDamageDef>
 			<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+		</li>
+		<li>
+			<verbClass>Verb_MeleeAttack</verbClass>
+			<defaultCooldownTime>1.65</defaultCooldownTime>
+			<meleeDamageBaseAmount>1</meleeDamageBaseAmount>
+			<meleeDamageDef>Blunt</meleeDamageDef>
+			<commonality>0.01</commonality>
+			<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 		</li>
 
     </verbs>

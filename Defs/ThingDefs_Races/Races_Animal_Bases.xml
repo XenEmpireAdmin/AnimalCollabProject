@@ -60,7 +60,7 @@
   
   <!-- Bear base -->
   
-    <ThingDef Abstract="True" ParentName="AnimalThingBase" Name="BaseBear">
+ <ThingDef Abstract="True" ParentName="AnimalThingBase" Name="BaseBear">
     <statBases>
       <MoveSpeed>4.3</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
@@ -69,7 +69,7 @@
     <verbs>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>2</defaultCooldownTime>
+        <defaultCooldownTime>2.0</defaultCooldownTime>
         <meleeDamageBaseAmount>17</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
@@ -84,7 +84,7 @@
       </li>
       <li>
         <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>2</defaultCooldownTime>
+        <defaultCooldownTime>2.0</defaultCooldownTime>
         <meleeDamageBaseAmount>17</meleeDamageBaseAmount>
         <meleeDamageDef>Scratch</meleeDamageDef>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
@@ -112,6 +112,14 @@
           </extraMeleeDamages>
         </surpriseAttack>
       </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.65</defaultCooldownTime>
+        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <commonality>0.01</commonality>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+      </li>
     </verbs>
     <race>
       <herdAnimal>false</herdAnimal>
@@ -125,7 +133,7 @@
       <wildness>0.80</wildness>
       <lifeExpectancy>22</lifeExpectancy>
       <trainableIntelligence>Advanced</trainableIntelligence>
-      <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
+      <manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <lifeStageAges>
         <li>
@@ -138,7 +146,7 @@
         </li>
         <li>
           <def>AnimalAdult</def>
-          <minAge>1.9</minAge>
+          <minAge>0.8</minAge>
           <soundWounded>Pawn_Bear_Injured</soundWounded>
           <soundDeath>Pawn_Bear_Death</soundDeath>
           <soundCall>Pawn_Bear_Call</soundCall>
@@ -154,6 +162,7 @@
       <li>BadassAnimal</li>
     </tradeTags>
   </ThingDef>
+  
   <PawnKindDef Abstract="True" ParentName="AnimalKindBase" Name="BearBase">
     <combatPower>240</combatPower>
     <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
@@ -162,7 +171,7 @@
   
   <!-- Insect base -->
   
-  <ThingDef Abstract="True" ParentName="AnimalThingBase" Name="BaseInsect">
+ <ThingDef Abstract="True" ParentName="AnimalThingBase" Name="BaseInsect">
     <statBases>
       <ToxicSensitivity>0</ToxicSensitivity>
     </statBases>
@@ -172,14 +181,16 @@
       <meatColor>(160,150,140)</meatColor>
       <foodType>OmnivoreAnimal, AnimalProduct</foodType>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
-      <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
+      <manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
     </race>
   </ThingDef>
+
   
   
     <!-- Hare base -->
   
-   <ThingDef Abstract="True" ParentName="AnimalThingBase" Name="BaseHare">
+ 
+  <ThingDef Abstract="True" ParentName="AnimalThingBase" Name="BaseHare">
     <statBases>
       <MoveSpeed>5.5</MoveSpeed>
       <ComfyTemperatureMin>-30</ComfyTemperatureMin>
@@ -193,6 +204,14 @@
         <meleeDamageDef>Bite</meleeDamageDef>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.65</defaultCooldownTime>
+        <meleeDamageBaseAmount>1</meleeDamageBaseAmount>
+        <meleeDamageDef>Blunt</meleeDamageDef>
+        <commonality>0.01</commonality>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+      </li>
     </verbs>
     <race>
       <body>QuadrupedAnimalWithPawsAndTail</body>
@@ -201,7 +220,7 @@
       <baseHealthScale>0.4</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
       <wildness>0.75</wildness>
-      <mateMtbHours>4</mateMtbHours>
+      <mateMtbHours>8</mateMtbHours>
       <nuzzleMtbHours>120</nuzzleMtbHours>
       <gestationPeriodDays>8.5</gestationPeriodDays>
       <litterSizeCurve>
@@ -246,4 +265,40 @@
     <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
   </PawnKindDef>
  
+     <!-- Bird base -->
+
+  <ThingDef ParentName="AnimalThingBase" Name="BigBirdThingBase" Abstract="True">
+    <race>
+      <body>Bird</body>
+			<leatherInsulation>0.5</leatherInsulation>      
+      <gestationPeriodDays>20</gestationPeriodDays>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBabyTiny</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.22</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.45</minAge>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>StandardAnimal</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase" Name="BigBirdKindBase" Abstract="True">
+    <combatPower>155</combatPower>
+    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <wildSpawn_EcoSystemWeight>0.42</wildSpawn_EcoSystemWeight>
+  </PawnKindDef>
+  
 </Defs>
