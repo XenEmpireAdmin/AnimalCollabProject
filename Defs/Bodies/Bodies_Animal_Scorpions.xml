@@ -28,6 +28,9 @@
             <li>
               <def>InsectHead</def>
               <coverage>0.65</coverage>
+			  <groups>
+				<li>HeadAttackTool</li>
+			  </groups>
               <parts>
                 <li>
                   <def>Brain</def>

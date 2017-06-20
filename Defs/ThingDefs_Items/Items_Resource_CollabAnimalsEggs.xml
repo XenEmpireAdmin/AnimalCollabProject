@@ -1,58 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-<ThingDef Abstract="True" Name="SilkieEggBase" ParentName="OrganicProductBase" >
-	<graphicData>
-		<texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
-		<graphicClass>Graphic_StackCount</graphicClass>
-    </graphicData>
-    <ingestible>
-		<foodType>AnimalProduct</foodType>
-		<nutrition>0.25</nutrition>
-		<ingestEffect>EatMeat</ingestEffect>
-		<ingestSound>RawMeat_Eat</ingestSound>
-		<tasteThought>AteRawFood</tasteThought>
-    </ingestible>
-    <statBases>
-		<Mass>0.12</Mass>
-    </statBases>
-</ThingDef>
-
-<ThingDef Abstract="True" Name="SilkieEggUnfertBase" ParentName="SilkieEggBase" >
-    <ingestible>
-		<preferability>RawBad</preferability>
-    </ingestible>
-    <thingCategories>
-		<li>EggsUnfertilized</li>
-    </thingCategories>
-    <comps>
-		<li Class="CompProperties_Rottable">
-			<daysToRotStart>15</daysToRotStart>
-			<rotDestroys>true</rotDestroys>
-		</li>
-		<li Class="CompProperties_FoodPoisoningChance" />
-    </comps>
-</ThingDef>
-
-<ThingDef Abstract="True" Name="SilkieEggFertBase" ParentName="SilkieEggBase" >
-    <tickerType>Normal</tickerType>
-    <ingestible>
-		<preferability>DesperateOnly</preferability>
-    </ingestible>
-    <thingCategories>
-		<li>EggsFertilized</li>
-    </thingCategories>
-    <comps>
-		<li Class="CompProperties_FoodPoisoningChance" />
-		<li Class="CompProperties_TemperatureRuinable">
-	<minSafeTemperature>0</minSafeTemperature>
-	<maxSafeTemperature>50</maxSafeTemperature>
-	<progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
-		</li>
-    </comps>
-</ThingDef>
   
-<ThingDef ParentName="SilkieEggUnfertBase">
+<ThingDef ParentName="EggUnfertBase">
     <defName>ACPSilkieEggUnfertilized</defName>
     <label>silkie egg (unfert.)</label>
     <description>A small cream colored silkie egg.</description>
@@ -64,7 +13,7 @@
     </statBases>
 </ThingDef>
 
-<ThingDef ParentName="SilkieEggFertBase">
+<ThingDef ParentName="EggFertBase">
     <defName>ACPSilkieEggFertilized</defName>
     <label>silkie egg (fert.)</label>
     <description>A small cream colored silkie egg, this one should hatch into a chick in a few days.</description>
@@ -82,60 +31,7 @@
     </comps>
 </ThingDef>
 
-
-
-   <ThingDef Abstract="True" Name="QuailEggBase" ParentName="OrganicProductBase" >
-	<graphicData>
-		<texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
-		<graphicClass>Graphic_StackCount</graphicClass>
-    </graphicData>
-    <ingestible>
-		<foodType>AnimalProduct</foodType>
-		<nutrition>0.30</nutrition>
-		<ingestEffect>EatMeat</ingestEffect>
-		<ingestSound>RawMeat_Eat</ingestSound>
-		<tasteThought>AteRawFood</tasteThought>
-    </ingestible>
-    <statBases>
-		<Mass>0.08</Mass>
-    </statBases>
-</ThingDef>
-
-<ThingDef Abstract="True" Name="QuailEggUnfertBase" ParentName="QuailEggBase" >
-    <ingestible>
-		<preferability>RawBad</preferability>
-    </ingestible>
-    <thingCategories>
-		<li>EggsUnfertilized</li>
-    </thingCategories>
-    <comps>
-		<li Class="CompProperties_Rottable">
-			<daysToRotStart>15</daysToRotStart>
-			<rotDestroys>true</rotDestroys>
-		</li>
-		<li Class="CompProperties_FoodPoisoningChance" />
-    </comps>
-</ThingDef>
-
-<ThingDef Abstract="True" Name="QuailEggFertBase" ParentName="QuailEggBase" >
-    <tickerType>Normal</tickerType>
-    <ingestible>
-		<preferability>DesperateOnly</preferability>
-    </ingestible>
-    <thingCategories>
-		<li>EggsFertilized</li>
-    </thingCategories>
-    <comps>
-		<li Class="CompProperties_FoodPoisoningChance" />
-		<li Class="CompProperties_TemperatureRuinable">
-	<minSafeTemperature>0</minSafeTemperature>
-	<maxSafeTemperature>50</maxSafeTemperature>
-	<progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
-		</li>
-    </comps>
-</ThingDef>
-  
-<ThingDef ParentName="QuailEggUnfertBase">
+<ThingDef ParentName="EggUnfertBase">
     <defName>ACPQuailEggUnfertilized</defName>
     <label>quail egg (unfert.)</label>
     <description>A small speckled quail egg.</description>
@@ -147,7 +43,7 @@
     </statBases>
 </ThingDef>
 
-<ThingDef ParentName="QuailEggFertBase">
+<ThingDef ParentName="EggFertBase">
     <defName>ACPQuailEggFertilized</defName>
     <label>quail egg (fert.)</label>
     <description>A small speckled quail egg, this one should hatch into a chick in a few days.</description>

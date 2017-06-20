@@ -63,6 +63,9 @@
 						<li>
 							<def>Head</def>
 							<coverage>0.75</coverage>
+							<groups>
+								<li>HeadAttackTool</li>
+							</groups>
 							<parts>
 								<li>
 									<def>Skull</def>
