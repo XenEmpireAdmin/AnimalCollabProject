@@ -53,6 +53,7 @@
       <foodType>VegetarianRoughAnimal</foodType>
 	  <useLeatherFrom>ACPFerret</useLeatherFrom>
       <meatLabel>horsemeat</meatLabel>
+      <trainableIntelligence>Advanced</trainableIntelligence>
       <wildness>0.5</wildness>
       <manhunterOnDamageChance>0.025</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.01</manhunterOnTameFailChance>
@@ -226,6 +227,7 @@
       <foodType>VegetarianRoughAnimal, CarnivoreAnimal</foodType>
       <leatherColor>(255,255,255)</leatherColor>
       <leatherLabel>woolyhorse hide</leatherLabel>
+      <trainableIntelligence>Advanced</trainableIntelligence>
       <leatherInsulation>1.2</leatherInsulation>
       <useMeatFrom>ACPHorse</useMeatFrom>
       <wildness>0.85</wildness>
