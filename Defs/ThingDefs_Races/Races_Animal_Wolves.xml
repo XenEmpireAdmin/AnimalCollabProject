@@ -148,8 +148,8 @@
     <combatPower>75</combatPower>
     <lifeStages>
       <li>
-        <label>red dire wolf puppy</label>
-        <labelPlural>red dire wolf puppies</labelPlural>
+        <label>dire wolf puppy</label>
+        <labelPlural>dire wolf puppies</labelPlural>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Wolves/DireWolf/RedWolf</texPath>
 		  <color>(250,250,250)</color>
@@ -272,11 +272,6 @@
 	  </li>
     </verbs>
 		    <comps>
-      <li Class="CompProperties_Milkable">
-        <milkDef>Milk</milkDef>
-        <milkIntervalDays>5</milkIntervalDays>
-        <milkAmount>25</milkAmount>
-      </li>
       <li Class="CompProperties_Shearable">
         <woolDef>ACPBDireWolfWool</woolDef>
         <shearIntervalDays>7</shearIntervalDays>
