@@ -1,0 +1,11 @@
+c:\users\tjx\documents\visual studio 2017\Projects\SpiritWolfEvent\SpiritWolfEvent\bin\Release\SpiritWolfEvent.dll
+c:\users\tjx\documents\visual studio 2017\Projects\SpiritWolfEvent\SpiritWolfEvent\bin\Release\SpiritWolfEvent.pdb
+c:\users\tjx\documents\visual studio 2017\Projects\SpiritWolfEvent\SpiritWolfEvent\bin\Release\Assembly-CSharp.dll
+c:\users\tjx\documents\visual studio 2017\Projects\SpiritWolfEvent\SpiritWolfEvent\bin\Release\UnityEngine.dll
+c:\users\tjx\documents\visual studio 2017\Projects\SpiritWolfEvent\SpiritWolfEvent\bin\Release\Assembly-CSharp-firstpass.dll
+c:\users\tjx\documents\visual studio 2017\Projects\SpiritWolfEvent\SpiritWolfEvent\bin\Release\NAudio.dll
+c:\users\tjx\documents\visual studio 2017\Projects\SpiritWolfEvent\SpiritWolfEvent\bin\Release\NVorbis.dll
+c:\users\tjx\documents\visual studio 2017\Projects\SpiritWolfEvent\SpiritWolfEvent\bin\Release\UnityEngine.xml
+c:\users\tjx\documents\visual studio 2017\Projects\SpiritWolfEvent\SpiritWolfEvent\obj\Release\SpiritWolfEvent.csprojResolveAssemblyReference.cache
+c:\users\tjx\documents\visual studio 2017\Projects\SpiritWolfEvent\SpiritWolfEvent\obj\Release\SpiritWolfEvent.dll
+c:\users\tjx\documents\visual studio 2017\Projects\SpiritWolfEvent\SpiritWolfEvent\obj\Release\SpiritWolfEvent.pdb
