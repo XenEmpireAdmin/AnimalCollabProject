@@ -481,22 +481,10 @@
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <predator>true</predator>
       <petness>0.75</petness>
-      <baseBodySize>3.0</baseBodySize>
+      <baseBodySize>2.5</baseBodySize>
       <baseHungerRate>1.25</baseHungerRate>
-      <baseHealthScale>13.15</baseHealthScale>
+      <baseHealthScale>10.15</baseHealthScale>
       <foodType>CarnivoreAnimal</foodType>
-	  	  	<wildBiomes>
-			<Tundra>0.01</Tundra>
-			<IceSheet>0.005</IceSheet>
-			<SeaIce>0.005</SeaIce>
-			<TropicalRainforest>0.01</TropicalRainforest>
-			<TemperateForest>0.02</TemperateForest>
-			<BorealForest>0.03</BorealForest>
-			<AridShrubland>0.02</AridShrubland>
-			<Desert>0.015</Desert>
-			<ExtremeDesert>0.005</ExtremeDesert>
-	<!-- <Cave>0.01</Cave> -->
-        </wildBiomes>
       <useLeatherFrom>WolfArctic</useLeatherFrom>
       <useMeatFrom>WolfTimber</useMeatFrom>
       <gestationPeriodDays>30</gestationPeriodDays>
@@ -581,7 +569,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Wolves/SpiritWolf/SpiritLG</texPath>
-          <drawSize>3.55</drawSize>
+          <drawSize>3.25</drawSize>
           <shadowData>
             <volume>(0.5, 0.6, 0.5)</volume>
             <offset>(0,0,-0.15)</offset>
@@ -589,7 +577,7 @@
         </bodyGraphicData>
 		<femaleGraphicData>
           <texPath>Things/Pawn/Animal/Wolves/SpiritWolf/Spiritwolf</texPath>
-          <drawSize>3.55</drawSize>
+          <drawSize>3.25</drawSize>
           <shadowData>
             <volume>(0.6, 0.7, 0.6)</volume>
             <offset>(0,0,-0.15)</offset>
@@ -601,12 +589,6 @@
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.9</wildSpawn_EcoSystemWeight>
-    <wildSpawn_GroupSizeRange>
-      <min>2</min>
-      <max>3</max>
-    </wildSpawn_GroupSizeRange>
   </PawnKindDef>
   
 </Defs>
