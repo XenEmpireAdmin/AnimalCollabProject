@@ -134,7 +134,7 @@
     <label>hauler ant</label>
     <description>An enormous engineered ant bred for hauling.</description>
     <statBases>
-      <MoveSpeed>2.3</MoveSpeed>
+      <MoveSpeed>3.4</MoveSpeed>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
       <MarketValue>550</MarketValue>
       <LeatherAmount>0</LeatherAmount>
@@ -165,7 +165,7 @@
       <baseHealthScale>1.3</baseHealthScale>
       <gestationPeriodDays>20</gestationPeriodDays>
       <useMeatFrom>Megaspider</useMeatFrom>
-      <wildness>0.95</wildness>
+      <wildness>0.6</wildness>
 	  <wildBiomes>
 		<ExtremeDesert>0.25</ExtremeDesert>
 		<Desert>0.15</Desert>
