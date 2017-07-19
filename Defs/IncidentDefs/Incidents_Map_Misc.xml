@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- =========================== Good ============================-->
+
+
+
+  <IncidentDef>
+    <defName>SpiritWolfHunt</defName>
+    <label>spiritwolf hunt</label>
+		<category>Misc</category>
+		<targetType>MapPlayerHome</targetType>
+    <workerClass>SpiritWolfEvent.IncidentWorker_SpiritWolves</workerClass>
+    <baseChance>0.7</baseChance>
+    <minRefireDays>13</minRefireDays>
+  </IncidentDef>
+
+
+
+</Defs>
