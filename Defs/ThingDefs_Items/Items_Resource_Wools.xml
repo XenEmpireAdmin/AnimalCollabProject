@@ -118,8 +118,34 @@
   
    <ThingDef ParentName="WoolBase">
     <defName>ACPBDireWolfWool</defName>
-    <label>black direwolf wool</label>
-    <description>Wool from the rare once-extinct Dire Wolves is extremely strong, has excellent insulation, and is therefore quite valuable.</description>
+    <label>direwolf wool</label>
+    <description>Wool from the rare once-extinct Dire Wolves is very strong, has excellent insulation, and is therefore quite valuable.</description>
+    <graphicData>
+      <color>(70,70,73)</color>
+    </graphicData>
+	 <statBases>
+      <MarketValue>8</MarketValue>
+   </statBases>
+    <stuffProps>
+      <color>(70,70,73)</color>
+      <commonality>0.01</commonality>
+      <statOffsets>
+        <ArmorRating_Heat>0.25</ArmorRating_Heat>
+        <ArmorRating_Electric>0.3</ArmorRating_Electric>
+      </statOffsets>
+      <statFactors>
+        <ArmorRating_Sharp>1.1</ArmorRating_Sharp>
+        <ArmorRating_Heat>1.2</ArmorRating_Heat>
+        <Insulation_Cold>1.2</Insulation_Cold>
+        <Insulation_Heat>1.1</Insulation_Heat>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+ 
+    <ThingDef ParentName="WoolBase">
+    <defName>ACPDireWolfWool</defName>
+    <label>direwolf wool</label>
+    <description>Wool from the rare once-extinct Dire Wolves is very strong, has excellent insulation, and is therefore quite valuable.</description>
     <graphicData>
       <color>(70,70,73)</color>
     </graphicData>

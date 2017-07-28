@@ -5,7 +5,7 @@
    <thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
     <defName>ACPSheep</defName>
     <label>sheep</label>
-	<description>A mid-sized farm animal, farmed enmasse for it's warm and .</description>
+	<description>A mid-sized farm animal, widely farmed for its warm wool and friendly nature.</description>
     <statBases>
       <MoveSpeed>3</MoveSpeed>
       <ComfyTemperatureMin>-18</ComfyTemperatureMin>
