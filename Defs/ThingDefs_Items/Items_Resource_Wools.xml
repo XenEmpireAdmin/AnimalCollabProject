@@ -88,31 +88,7 @@
       </statFactors>
     </stuffProps>
   </ThingDef>
-  
-	<!-- Muahaha -->
-<ThingDef ParentName="WoolBase">
-    <defName>ACPDireWolfWool</defName>
-    <label>direwolf wool</label>
-    <description>Wool from the rare once-extinct Dire Wolves is extremely strong, has excellent insulation, and is therefore quite valuable.</description>
-    <graphicData>
-      <color>(198,198,200)</color>
-    </graphicData>
-    <stuffProps>
-      <color>(198,198,200)</color>
-      <commonality>0.01</commonality>
-      <statOffsets>
-        <ArmorRating_Heat>0.78</ArmorRating_Heat>
-        <ArmorRating_Electric>0.62</ArmorRating_Electric>
-      </statOffsets>
-      <statFactors>
-        <ArmorRating_Sharp>2.1</ArmorRating_Sharp>
-        <ArmorRating_Heat>2.2</ArmorRating_Heat>
-        <Insulation_Cold>1.2</Insulation_Cold>
-        <Insulation_Heat>0.9</Insulation_Heat>
-      </statFactors>
-    </stuffProps>
-  </ThingDef>
-  
+    
    <ThingDef ParentName="WoolBase">
     <defName>ACPBisondown</defName>
     <label>downy bison wool</label>
@@ -120,12 +96,6 @@
     <graphicData>
       <color>(85,75,70)</color>
     </graphicData>
-	 <statBases>
-      <MarketValue>13</MarketValue>
-      <Flammability>0</Flammability>
-      <DeteriorationRate>0.1</DeteriorationRate>
-       <Mass>0.028</Mass>
-   </statBases>
     <stuffProps>
       <color>(85,75,70)</color>
       <commonality>0.01</commonality>
@@ -154,29 +124,20 @@
       <color>(70,70,73)</color>
     </graphicData>
 	 <statBases>
-      <MaxHitPoints>1200</MaxHitPoints>
-      <MarketValue>13</MarketValue>
-      <Flammability>0</Flammability>
-      <DeteriorationRate>0.1</DeteriorationRate>
-       <Mass>0.028</Mass>
+      <MarketValue>8</MarketValue>
    </statBases>
     <stuffProps>
       <color>(70,70,73)</color>
       <commonality>0.01</commonality>
       <statOffsets>
-        <ArmorRating_Heat>1.08</ArmorRating_Heat>
-        <ArmorRating_Electric>1.02</ArmorRating_Electric>
-		<Beauty>20</Beauty>
-		<ImmunityGainSpeedFactor>1.2</ImmunityGainSpeedFactor>
-		<MedicalTendQualityOffset>1.2</MedicalTendQualityOffset>
+        <ArmorRating_Heat>0.25</ArmorRating_Heat>
+        <ArmorRating_Electric>0.3</ArmorRating_Electric>
       </statOffsets>
       <statFactors>
         <ArmorRating_Sharp>1.1</ArmorRating_Sharp>
         <ArmorRating_Heat>1.2</ArmorRating_Heat>
         <Insulation_Cold>1.2</Insulation_Cold>
         <Insulation_Heat>1.1</Insulation_Heat>
-		<Beauty>3</Beauty>
-		<BedRestEffectiveness>1.1</BedRestEffectiveness>
       </statFactors>
     </stuffProps>
   </ThingDef>
@@ -188,30 +149,18 @@
     <graphicData>
       <color>(245,245,245)</color>
     </graphicData>
-	 <statBases>
-      <MaxHitPoints>120</MaxHitPoints>
-      <MarketValue>13</MarketValue>
-      <Flammability>0</Flammability>
-      <DeteriorationRate>0.1</DeteriorationRate>
-       <Mass>0.028</Mass>
-   </statBases>
     <stuffProps>
       <color>(245,245,245)</color>
       <commonality>0.01</commonality>
       <statOffsets>
-        <ArmorRating_Heat>0.18</ArmorRating_Heat>
-        <ArmorRating_Electric>1.02</ArmorRating_Electric>
-		<Beauty>20</Beauty>
-		<ImmunityGainSpeedFactor>0.2</ImmunityGainSpeedFactor>
-		<MedicalTendQualityOffset>0.2</MedicalTendQualityOffset>
+        <ArmorRating_Heat>0.08</ArmorRating_Heat>
+        <ArmorRating_Electric>0.02</ArmorRating_Electric>
       </statOffsets>
       <statFactors>
-        <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
-        <ArmorRating_Heat>0.2</ArmorRating_Heat>
-        <Insulation_Cold>0.2</Insulation_Cold>
-        <Insulation_Heat>0.15</Insulation_Heat>
-		<Beauty>1.1</Beauty>
-		<BedRestEffectiveness>0.3</BedRestEffectiveness>
+        <ArmorRating_Sharp>1</ArmorRating_Sharp>
+        <ArmorRating_Heat>2.4</ArmorRating_Heat>
+        <Insulation_Cold>2.8</Insulation_Cold>
+        <Insulation_Heat>3.2</Insulation_Heat>
       </statFactors>
     </stuffProps>
   </ThingDef>
@@ -224,9 +173,7 @@
       <color>(198,198,200)</color>
     </graphicData>
     <statBases>
-      <Flammability>0</Flammability>
-      <DeteriorationRate>0.2</DeteriorationRate>
-       <Mass>0.028</Mass>
+      <MarketValue>9</MarketValue>
    </statBases>
     <stuffProps>
       <color>(198,198,200)</color>

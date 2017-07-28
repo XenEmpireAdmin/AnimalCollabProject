@@ -13,8 +13,8 @@
 	<comps>
 	      <li Class="CompProperties_Shearable">
         <woolDef>ACPFerretSilk</woolDef>
-        <shearIntervalDays>6</shearIntervalDays>
-        <woolAmount>35</woolAmount>
+        <shearIntervalDays>7</shearIntervalDays>
+        <woolAmount>15</woolAmount>
       </li>
 	  </comps>
     <verbs>
