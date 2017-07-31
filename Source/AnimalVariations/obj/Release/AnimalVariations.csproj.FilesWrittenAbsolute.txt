@@ -1,0 +1,2 @@
+/home/thirite/Games/Rimworld_A17/RimWorld1557Linux/Mods/AnimalCollabProjectA17/Source/AnimalVariations/obj/Release/AnimalVariations.dll
+/home/thirite/Games/Rimworld_A17/RimWorld1557Linux/Mods/AnimalCollabProjectA17/Assemblies/AnimalVariations.dll

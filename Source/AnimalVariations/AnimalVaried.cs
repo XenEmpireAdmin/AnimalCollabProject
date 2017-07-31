@@ -5,6 +5,7 @@ using Verse;
 using System.Reflection;
 using UnityEngine;
 using System.Xml;
+using System.Linq;
 
 namespace AnimalVariations
 {
@@ -97,30 +98,27 @@ namespace AnimalVariations
 			// the xml is already loaded
 			if (skinset_xml != null) {
 				string xml_owner = skinset_xml.BaseURI.Substring (skinset_xml.BaseURI.LastIndexOf ('/') + 1, skinset_xml.BaseURI.Length - (skinset_xml.BaseURI.LastIndexOf ('/') + 1) - "_SkinSet.xml".Length);
-
 				// The currently loaded xml is the same as the one being requested
 				if(xml_owner == def.defName)
 					return true;
 			}
 
-			string xmlpath = "";
 			// loading SkinSet
-			ModMetaData thismod = null;
-			foreach (ModMetaData mod in ModLister.AllInstalledMods) {
-				if (mod.Active && mod.Name == "AnimalCollabProj") {
-					thismod = mod;
+			string tex_path = kindDef.lifeStages [kindDef.lifeStages.Count -1].bodyGraphicData.texPath;
+			string xmlpath = "";
+			bool found = false;
+
+			foreach (ModMetaData mod in ModLister.AllInstalledMods.Where(m => m.Active)) {
+				xmlpath = mod.RootDir + "/Textures/" + tex_path.Substring(0,tex_path.LastIndexOf('/') + 1) + def.defName + "_SkinSet.xml";
+				if (System.IO.File.Exists (xmlpath)) {
+					skinset_xml = new XmlDocument ();
+					skinset_xml.Load (xmlpath);
+					found = true;
+					break;
 				}
 			}
-			if (thismod != null){
-				string tex_path = kindDef.lifeStages [kindDef.lifeStages.Count -1].bodyGraphicData.texPath;
-				xmlpath = thismod.RootDir.ToString() + "/Textures/" + tex_path.Substring(0,tex_path.LastIndexOf('/') + 1) + def.defName + "_SkinSet.xml";
-				Log.Message (xmlpath);
-			}
-			//Log.Message (xmlpath);
-			if (System.IO.File.Exists (xmlpath)) {
-				skinset_xml = new XmlDocument ();
-				skinset_xml.Load (xmlpath);
-				//Log.Message ("Loaded xml");
+			if (found){
+				if (Prefs.DevMode) Log.Message ("["+assembly_name+"] Loading XML data from: " + xmlpath);
 				return true;
 			} else {
 				skinset_xml = null;
@@ -391,7 +389,7 @@ namespace AnimalVariations
 				}
 				if (Map.mapTemperature.OutdoorTemp > 0 && winter_coat_timer > 0) {
 					winter_coat_timer--;
-					Log.Message ("winter_coat_timer at " + winter_coat_timer);
+					//Log.Message ("winter_coat_timer at " + winter_coat_timer);
 					if (winter_coat_timer == 0) {
 						//Log.Message ("Winter coat removed");
 						winterized = false;
@@ -433,8 +431,9 @@ namespace AnimalVariations
 							father = relative.otherPawn;
 					}
 				}
-			} else
-				Log.Warning ("Fug, no relations!");
+			} else if (Prefs.DevMode) {
+				Log.Warning ("No relations found!");
+			}
 
 			// Define a new skin
 			int new_skin = 0;
