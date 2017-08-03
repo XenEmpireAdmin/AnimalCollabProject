@@ -533,6 +533,7 @@
     <label>spirit wolf</label>
 	<labelPlural>spirit wolves</labelPlural>
     <race>ACPSpiritwolf</race>
+	<canArriveManhunter>false</canArriveManhunter>
     <combatPower>605</combatPower>
     <lifeStages>
       <li>
