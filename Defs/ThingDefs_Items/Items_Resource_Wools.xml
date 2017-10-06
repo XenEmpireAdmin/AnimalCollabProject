@@ -102,16 +102,12 @@
       <statOffsets>
         <ArmorRating_Heat>0.2</ArmorRating_Heat>
         <ArmorRating_Electric>0.2</ArmorRating_Electric>
-		<ImmunityGainSpeedFactor>0.2</ImmunityGainSpeedFactor>
-		<MedicalTendQualityOffset>0.2</MedicalTendQualityOffset>
       </statOffsets>
       <statFactors>
-        <ArmorRating_Sharp>0.3</ArmorRating_Sharp>
-        <ArmorRating_Heat>0.3</ArmorRating_Heat>
-        <Insulation_Cold>0.3</Insulation_Cold>
-        <Insulation_Heat>0.3</Insulation_Heat>
-		<Beauty>1.2</Beauty>
-		<BedRestEffectiveness>0.1</BedRestEffectiveness>
+        <ArmorRating_Sharp>1.6</ArmorRating_Sharp>
+        <ArmorRating_Heat>1.6</ArmorRating_Heat>
+        <Insulation_Cold>1.6</Insulation_Cold>
+        <Insulation_Heat>1.6</Insulation_Heat>
       </statFactors>
     </stuffProps>
   </ThingDef>
@@ -135,8 +131,8 @@
       </statOffsets>
       <statFactors>
         <ArmorRating_Sharp>1.1</ArmorRating_Sharp>
-        <ArmorRating_Heat>1.2</ArmorRating_Heat>
-        <Insulation_Cold>1.2</Insulation_Cold>
+        <ArmorRating_Heat>1.4</ArmorRating_Heat>
+        <Insulation_Cold>1.5</Insulation_Cold>
         <Insulation_Heat>1.1</Insulation_Heat>
       </statFactors>
     </stuffProps>
@@ -162,8 +158,8 @@
       <statFactors>
         <ArmorRating_Sharp>1.1</ArmorRating_Sharp>
         <ArmorRating_Heat>1.2</ArmorRating_Heat>
-        <Insulation_Cold>1.2</Insulation_Cold>
-        <Insulation_Heat>1.1</Insulation_Heat>
+        <Insulation_Cold>1.9</Insulation_Cold>
+        <Insulation_Heat>1.3</Insulation_Heat>
       </statFactors>
     </stuffProps>
   </ThingDef>
@@ -211,8 +207,8 @@
       <statFactors>
         <ArmorRating_Sharp>2.1</ArmorRating_Sharp>
         <ArmorRating_Heat>2.2</ArmorRating_Heat>
-        <Insulation_Cold>1.2</Insulation_Cold>
-        <Insulation_Heat>0.9</Insulation_Heat>
+        <Insulation_Cold>1.6</Insulation_Cold>
+        <Insulation_Heat>1.4</Insulation_Heat>
       </statFactors>
     </stuffProps>
   </ThingDef>
