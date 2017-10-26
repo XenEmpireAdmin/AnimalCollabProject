@@ -8,7 +8,7 @@
     <statBases>
       <MoveSpeed>5.63</MoveSpeed>
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
-      <MarketValue>2100</MarketValue>
+      <MarketValue>900</MarketValue>
     </statBases>
     <verbs>
       <li>
@@ -45,7 +45,7 @@
       <li Class="CompProperties_EggLayer">
         <eggFertilizedDef>ACPEggxenguanaFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
-        <eggLayIntervalDays>1</eggLayIntervalDays>
+        <eggLayIntervalDays>15</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
         <eggCountRange>
           <min>1</min>
@@ -54,16 +54,16 @@
       </li>
     </comps>
     <race>
-      <baseHungerRate>0.10</baseHungerRate>
+      <baseHungerRate>0.35</baseHungerRate>
       <body>QuadrupedAnimalWithClawsTailAndJowl</body>
       <petness>1</petness>
       <herdAnimal>true</herdAnimal>
-      <baseBodySize>2.0</baseBodySize>
-      <baseHealthScale>1.5</baseHealthScale>
+      <baseBodySize>1.3</baseBodySize>
+      <baseHealthScale>1.2</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
       <leatherColor>(59,102,208)</leatherColor>
       <leatherLabel>xenguana skin</leatherLabel>
-      <leatherInsulation>1.25</leatherInsulation>
+      <leatherInsulation>0.9</leatherInsulation>
       <useMeatFrom>Iguana</useMeatFrom>
       <nameOnTameChance>1</nameOnTameChance>
       <trainableIntelligence>Advanced</trainableIntelligence>

@@ -134,7 +134,7 @@
     <label>hauler ant</label>
     <description>An enormous engineered ant bred for hauling.</description>
     <statBases>
-      <MoveSpeed>3.4</MoveSpeed>
+      <MoveSpeed>3</MoveSpeed>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
       <MarketValue>550</MarketValue>
       <LeatherAmount>0</LeatherAmount>
@@ -235,11 +235,11 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Insects/HaulerAnt/HaulerAnt</texPath>
-          <drawSize>2.5</drawSize>
+          <drawSize>2.9</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
-          <drawSize>2.5</drawSize>
+          <drawSize>2.9</drawSize>
         </dessicatedBodyGraphicData>
         <butcherBodyPart>
           <bodyPartGroup>Mouth</bodyPartGroup>

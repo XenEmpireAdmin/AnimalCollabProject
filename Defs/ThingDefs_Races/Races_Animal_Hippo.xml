@@ -46,7 +46,8 @@
 		<TemperateForest>0.01</TemperateForest>
       </wildBiomes>
       <trainableIntelligence>Advanced</trainableIntelligence>
-      <manhunterOnTameFailChance>0.6</manhunterOnTameFailChance>
+      <manhunterOnTameFailChance>0.15</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.95</manhunterOnDamageChance>
       <gestationPeriodDays>21</gestationPeriodDays>
       <litterSizeCurve>
         <points>

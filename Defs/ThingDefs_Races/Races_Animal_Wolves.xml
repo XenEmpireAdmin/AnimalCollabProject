@@ -94,7 +94,7 @@
 			</wildBiomes>
       <useLeatherFrom>WolfTimber</useLeatherFrom>
 	  <useMeatFrom>WolfTimber</useMeatFrom>
-      <gestationPeriodDays>18.5</gestationPeriodDays>
+      <gestationPeriodDays>20.5</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
       <trainableIntelligence>Advanced</trainableIntelligence>
       <wildness>0.85</wildness>
@@ -274,8 +274,8 @@
 		    <comps>
       <li Class="CompProperties_Shearable">
         <woolDef>ACPBDireWolfWool</woolDef>
-        <shearIntervalDays>7</shearIntervalDays>
-        <woolAmount>100</woolAmount>
+        <shearIntervalDays>15</shearIntervalDays>
+        <woolAmount>25</woolAmount>
       </li>
     </comps>
     <race>
@@ -302,7 +302,7 @@
       <leatherLabel>Black wolf fur</leatherLabel>
       <leatherInsulation>1.1</leatherInsulation>
 	  <useMeatFrom>WolfTimber</useMeatFrom>
-      <gestationPeriodDays>25.5</gestationPeriodDays>
+      <gestationPeriodDays>27.5</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
       <trainableIntelligence>Advanced</trainableIntelligence>
       <wildness>0.85</wildness>
@@ -482,7 +482,7 @@
       <foodType>CarnivoreAnimal</foodType>
       <useLeatherFrom>WolfArctic</useLeatherFrom>
       <useMeatFrom>WolfTimber</useMeatFrom>
-      <gestationPeriodDays>30</gestationPeriodDays>
+      <gestationPeriodDays>39</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
       <trainableIntelligence>Advanced</trainableIntelligence>
       <wildness>0.95</wildness>
@@ -533,6 +533,7 @@
     <label>spirit wolf</label>
 	<labelPlural>spirit wolves</labelPlural>
     <race>ACPSpiritwolf</race>
+	<canArriveManhunter>false</canArriveManhunter>
     <combatPower>605</combatPower>
     <lifeStages>
       <li>
