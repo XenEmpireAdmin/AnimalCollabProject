@@ -114,6 +114,10 @@
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+      <wildBiomes>
+      <AridShrubland>0.025</AridShrubland>
+	    <Desert>0.08</Desert>
+      </wildBiomes>
     </race>
     <tradeTags>
       <li>StandardAnimal</li>

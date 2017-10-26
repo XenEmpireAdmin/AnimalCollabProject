@@ -78,9 +78,11 @@
       <leatherInsulation>1</leatherInsulation>
       <useMeatFrom>GrizzlyBear</useMeatFrom>
       <wildBiomes>
-	<Tundra>0.05</Tundra>
-	<BorealForest>0.09</BorealForest>
-	<TemperateForest>0.12</TemperateForest>
+    	<Tundra>0.05</Tundra>
+    	<BorealForest>0.09</BorealForest>
+    	<TemperateForest>0.12</TemperateForest>
+      <AridShrubland>0.015</AridShrubland>
+	    <Desert>0.01</Desert>
       </wildBiomes>
     </race>
   </ThingDef>

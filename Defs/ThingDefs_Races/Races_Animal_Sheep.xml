@@ -76,6 +76,13 @@
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+      <wildBiomes>
+    	<Tundra>0.06</Tundra>
+    	<BorealForest>0.095</BorealForest>
+    	<TemperateForest>0.17</TemperateForest>
+      <AridShrubland>0.016</AridShrubland>
+	    <Desert>0.01</Desert>
+      </wildBiomes>
     </race>
     <tradeTags>
       <li>StandardAnimal</li>
