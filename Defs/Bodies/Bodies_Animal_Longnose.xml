@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
-<BodyDefs>
+<Defs>
 	<BodyDef>
 		<defName>BodyLongnose</defName>
 		<label>quadruped animal</label>
@@ -161,4 +161,4 @@
 			</parts>
 		</corePart>
 	</BodyDef> 
-</BodyDefs>
+</Defs>

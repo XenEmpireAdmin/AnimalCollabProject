@@ -9,7 +9,9 @@
     <defName>SpiritWolfHunt</defName>
     <label>spiritwolf hunt</label>
 		<category>Misc</category>
-		<targetType>MapPlayerHome</targetType>
+        <targetTypes>
+      <li>MapPlayerHome</li>
+    </targetTypes>
     <workerClass>SpiritWolfEvent.IncidentWorker_SpiritWolves</workerClass>
     <baseChance>0.7</baseChance>
     <minRefireDays>13</minRefireDays>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<GameData>
+<Defs>
 
   
   <ThingDef Name="ResourceVerbBase" ParentName="ResourceBase" Abstract="True">
@@ -28,18 +28,28 @@
       <Mass>1.4</Mass>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>0.4</DeteriorationRate>
-      <MeleeWeapon_DamageAmount>16</MeleeWeapon_DamageAmount>
-      <MeleeWeapon_Cooldown>2.5</MeleeWeapon_Cooldown>
     </statBases>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
     <stackLimit>10</stackLimit>
-    <verbs>
+     <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <meleeDamageDef>Scratch</meleeDamageDef>
+        <label>point</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2.5</cooldownTime>
       </li>
-    </verbs>
+      <li>
+        <label>base</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2.5</cooldownTime>
+      </li>
+    </tools>
     <thingCategories>
       <li>Items</li>
     </thingCategories>
@@ -49,4 +59,4 @@
   </ThingDef>
 
 
-</GameData>
+</Defs>

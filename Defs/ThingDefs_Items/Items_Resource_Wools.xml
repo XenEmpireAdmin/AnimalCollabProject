@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Resources> 
+<Defs> 
 
 <ThingDef ParentName="WoolBase">
     <defName>ACPAngoraWool</defName>
@@ -212,4 +212,4 @@
       </statFactors>
     </stuffProps>
   </ThingDef>
-</Resources>
+</Defs>

@@ -25,7 +25,7 @@
     </statBases>
     <comps>
 		<li Class="CompProperties_Hatcher">
-			<hatcherDaysToHatch>4</hatcherDaysToHatch>
+			<hatcherDaystoHatch>4</hatcherDaystoHatch>
 			<hatcherPawn>ACPSilkieChicken</hatcherPawn>
 		</li>
     </comps>
@@ -55,7 +55,7 @@
     </statBases>
     <comps>
 		<li Class="CompProperties_Hatcher">
-			<hatcherDaysToHatch>4</hatcherDaysToHatch>
+			<hatcherDaystoHatch>4</hatcherDaystoHatch>
 			<hatcherPawn>ACPValleyQuail</hatcherPawn>
 		</li>
     </comps>
@@ -87,7 +87,7 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaysToHatch>4</hatcherDaysToHatch>
+        <hatcherDaystoHatch>4</hatcherDaystoHatch>
         <hatcherPawn>ACPPtarmigan</hatcherPawn>
       </li>
     </comps>
@@ -105,7 +105,7 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaysToHatch>8</hatcherDaysToHatch>
+        <hatcherDaystoHatch>8</hatcherDaystoHatch>
         <hatcherPawn>ACPGreatBustard</hatcherPawn>
       </li>
     </comps>
@@ -124,7 +124,7 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaysToHatch>12</hatcherDaysToHatch>
+        <hatcherDaystoHatch>12</hatcherDaystoHatch>
         <hatcherPawn>ACPThornyDevil</hatcherPawn>
       </li>
     </comps>
@@ -144,7 +144,7 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaysToHatch>25</hatcherDaysToHatch>
+        <hatcherDaystoHatch>25</hatcherDaystoHatch>
         <hatcherPawn>ACPDuckBilledPlatypus</hatcherPawn>
       </li>
     </comps>
@@ -164,7 +164,7 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaysToHatch>9</hatcherDaysToHatch>
+        <hatcherDaystoHatch>9</hatcherDaystoHatch>
         <hatcherPawn>ACPPenguin</hatcherPawn>
       </li>
     </comps>
@@ -184,7 +184,7 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaysToHatch>2.5</hatcherDaysToHatch>
+        <hatcherDaystoHatch>2.5</hatcherDaystoHatch>
         <hatcherPawn>ACPXenguana</hatcherPawn>
       </li>
     </comps>
@@ -203,7 +203,7 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaysToHatch>4.5</hatcherDaysToHatch>
+        <hatcherDaystoHatch>4.5</hatcherDaystoHatch>
         <hatcherPawn>ACPXGecko</hatcherPawn>
       </li>
     </comps>
@@ -223,7 +223,7 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaysToHatch>8</hatcherDaysToHatch>
+        <hatcherDaystoHatch>8</hatcherDaystoHatch>
         <hatcherPawn>ACPKiwi</hatcherPawn>
       </li>
     </comps>
@@ -253,7 +253,7 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaysToHatch>7</hatcherDaysToHatch>
+        <hatcherDaystoHatch>7</hatcherDaystoHatch>
         <hatcherPawn>ACPDomesticGoose</hatcherPawn>
       </li>
     </comps>
@@ -271,7 +271,7 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaysToHatch>7</hatcherDaysToHatch>
+        <hatcherDaystoHatch>7</hatcherDaystoHatch>
         <hatcherPawn>ACPWildGoose</hatcherPawn>
       </li>
     </comps>
@@ -289,7 +289,7 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaysToHatch>5.5</hatcherDaysToHatch>
+        <hatcherDaystoHatch>5.5</hatcherDaystoHatch>
         <hatcherPawn>ACPDuck</hatcherPawn>
       </li>
     </comps>
@@ -308,7 +308,7 @@
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
-        <hatcherDaysToHatch>36</hatcherDaysToHatch>
+        <hatcherDaystoHatch>36</hatcherDaystoHatch>
         <hatcherPawn>ACPKomodo</hatcherPawn>
       </li>
     </comps>

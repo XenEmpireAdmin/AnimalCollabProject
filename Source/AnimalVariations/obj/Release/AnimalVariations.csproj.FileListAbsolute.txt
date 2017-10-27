@@ -9,3 +9,6 @@ C:\Users\TJX\Desktop\XenAnimalVar\AnimalVariations\AnimalVariations\bin\Release\
 C:\Users\TJX\Desktop\XenAnimalVar\AnimalVariations\AnimalVariations\obj\Release\AnimalVariations.dll
 C:\Users\TJX\Desktop\XenAnimalVar\AnimalVariations\AnimalVariations\obj\Release\AnimalVariations.pdb
 C:\Users\TJX\Desktop\XenAnimalVar\AnimalVariations\AnimalVariations\obj\Release\AnimalVariations.csprojResolveAssemblyReference.cache
+E:\Steam2\steamapps\common\RimWorld\Mods\AnimalCollabProjectA17-master\Assemblies\AnimalVariations.dll
+E:\Steam2\steamapps\common\RimWorld\Mods\AnimalCollabProjectA17-master\Source\AnimalVariations\obj\Release\AnimalVariations.csprojResolveAssemblyReference.cache
+E:\Steam2\steamapps\common\RimWorld\Mods\AnimalCollabProjectA17-master\Source\AnimalVariations\obj\Release\AnimalVariations.dll

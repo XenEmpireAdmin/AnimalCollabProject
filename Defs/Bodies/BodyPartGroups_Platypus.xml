@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<BodyPartGroupDefs>
+<Defs>
 
  
   <BodyPartGroupDef>
@@ -14,4 +14,4 @@
     <listOrder>12</listOrder>
   </BodyPartGroupDef>
  
-</BodyPartGroupDefs>
+</Defs>

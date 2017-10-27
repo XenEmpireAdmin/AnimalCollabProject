@@ -9,3 +9,15 @@ c:\users\tjx\documents\visual studio 2017\Projects\SpiritWolfEvent\SpiritWolfEve
 c:\users\tjx\documents\visual studio 2017\Projects\SpiritWolfEvent\SpiritWolfEvent\obj\Release\SpiritWolfEvent.csprojResolveAssemblyReference.cache
 c:\users\tjx\documents\visual studio 2017\Projects\SpiritWolfEvent\SpiritWolfEvent\obj\Release\SpiritWolfEvent.dll
 c:\users\tjx\documents\visual studio 2017\Projects\SpiritWolfEvent\SpiritWolfEvent\obj\Release\SpiritWolfEvent.pdb
+E:\Steam2\steamapps\common\RimWorld\Mods\AnimalCollabProjectA17-master\Source\SpiritWolfEvent\bin\Release\SpiritWolfEvent.dll
+E:\Steam2\steamapps\common\RimWorld\Mods\AnimalCollabProjectA17-master\Source\SpiritWolfEvent\bin\Release\SpiritWolfEvent.pdb
+E:\Steam2\steamapps\common\RimWorld\Mods\AnimalCollabProjectA17-master\Source\SpiritWolfEvent\bin\Release\Assembly-CSharp.dll
+E:\Steam2\steamapps\common\RimWorld\Mods\AnimalCollabProjectA17-master\Source\SpiritWolfEvent\bin\Release\UnityEngine.dll
+E:\Steam2\steamapps\common\RimWorld\Mods\AnimalCollabProjectA17-master\Source\SpiritWolfEvent\bin\Release\TextMeshPro-1.0.55.56.0b11.dll
+E:\Steam2\steamapps\common\RimWorld\Mods\AnimalCollabProjectA17-master\Source\SpiritWolfEvent\bin\Release\Assembly-CSharp-firstpass.dll
+E:\Steam2\steamapps\common\RimWorld\Mods\AnimalCollabProjectA17-master\Source\SpiritWolfEvent\bin\Release\NAudio.dll
+E:\Steam2\steamapps\common\RimWorld\Mods\AnimalCollabProjectA17-master\Source\SpiritWolfEvent\bin\Release\NVorbis.dll
+E:\Steam2\steamapps\common\RimWorld\Mods\AnimalCollabProjectA17-master\Source\SpiritWolfEvent\bin\Release\UnityEngine.UI.dll
+E:\Steam2\steamapps\common\RimWorld\Mods\AnimalCollabProjectA17-master\Source\SpiritWolfEvent\obj\Release\SpiritWolfEvent.csprojResolveAssemblyReference.cache
+E:\Steam2\steamapps\common\RimWorld\Mods\AnimalCollabProjectA17-master\Source\SpiritWolfEvent\obj\Release\SpiritWolfEvent.dll
+E:\Steam2\steamapps\common\RimWorld\Mods\AnimalCollabProjectA17-master\Source\SpiritWolfEvent\obj\Release\SpiritWolfEvent.pdb

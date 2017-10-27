@@ -13,39 +13,44 @@
 		<MarketValue>240</MarketValue>
 		<Mass>1.4</Mass>
     </statBases>
-    
-	<verbs>
-		<li>
-			<verbClass>Verb_MeleeAttack</verbClass>
-			<defaultCooldownTime>1.65</defaultCooldownTime>
-			<meleeDamageBaseAmount>4</meleeDamageBaseAmount>
-			<meleeDamageDef>Bite</meleeDamageDef>
-			<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-		</li>
-		<li>
-			<verbClass>Verb_MeleeAttack</verbClass>
-			<defaultCooldownTime>1.85</defaultCooldownTime>
-			<meleeDamageBaseAmount>1</meleeDamageBaseAmount>
-			<meleeDamageDef>Scratch</meleeDamageDef>
-			<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
-		</li>
-		<li>
-			<verbClass>Verb_MeleeAttack</verbClass>
-			<defaultCooldownTime>1.85</defaultCooldownTime>
-			<meleeDamageBaseAmount>1</meleeDamageBaseAmount>
-			<meleeDamageDef>Scratch</meleeDamageDef>
-			<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
-		</li>
-		<li>
-			<verbClass>Verb_MeleeAttack</verbClass>
-			<defaultCooldownTime>1.65</defaultCooldownTime>
-			<meleeDamageBaseAmount>1</meleeDamageBaseAmount>
-			<meleeDamageDef>Blunt</meleeDamageDef>
-			<commonality>0.01</commonality>
-			<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-		</li>
-
-    </verbs>
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1.85</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1.85</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>1</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <commonality>0.2</commonality>
+      </li>
+    </tools>
     
 	<comps>
 		<li Class="CompProperties_Shearable">

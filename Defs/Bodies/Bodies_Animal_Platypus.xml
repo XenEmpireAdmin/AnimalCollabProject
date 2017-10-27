@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 
-<BodyDefs>
+<Defs>
 
 	<BodyDef>
 		<defName>PlatypusLike</defName>
@@ -174,4 +174,4 @@
 		</corePart>
 	</BodyDef>
 
-</BodyDefs>
+</Defs>

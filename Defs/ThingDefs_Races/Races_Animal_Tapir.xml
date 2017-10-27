@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Def>
+<Defs>
 
   <ThingDef ParentName="AnimalThingBase">
     <defName>ACPTapir</defName>
@@ -145,4 +145,4 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-</Def>
+</Defs>

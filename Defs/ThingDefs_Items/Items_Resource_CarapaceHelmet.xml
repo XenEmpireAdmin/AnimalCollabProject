@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <ThingDef Name="NaturalApparelBase" Abstract="True">
     <thingClass>Apparel</thingClass>
@@ -53,7 +53,7 @@
       <bodyPartGroups>
         <li>UpperHead</li>
       </bodyPartGroups>
-      <worngraphicPath>Things/Pawn/Humanlike/Apparel/CarapaceHelmet/CarapaceHelmet</worngraphicPath>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/CarapaceHelmet/CarapaceHelmet</wornGraphicPath>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -65,4 +65,4 @@
   </ThingDef>
 
 
-</ThingDefs>
+</Defs>
