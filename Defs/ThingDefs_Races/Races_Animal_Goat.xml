@@ -17,15 +17,46 @@
         <milkAmount>7</milkAmount>
       </li>
     </comps>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.75</defaultCooldownTime>
-        <meleeDamageBaseAmount>8</meleeDamageBaseAmount>
-        <meleeDamageDef>Blunt</meleeDamageDef>
-        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <label>left hoof</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
       </li>
-    </verbs>
+      <li>
+        <label>right hoof</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <commonality>0.2</commonality>
+      </li>
+    </tools>
     <race>
       <body>QuadrupedAnimalWithHooves</body>
       <baseBodySize>0.7</baseBodySize>
@@ -78,8 +109,11 @@
     	<Tundra>0.05</Tundra>
     	<BorealForest>0.09</BorealForest>
     	<TemperateForest>0.12</TemperateForest>
-      <AridShrubland>0.015</AridShrubland>
+		<AridShrubland>0.015</AridShrubland>
 	    <Desert>0.01</Desert>
+		<TropicalSwamp>0.15</TropicalSwamp>
+		<TemperateSwamp>0.08</TemperateSwamp>
+		<ColdBog>0.1</ColdBog>
       </wildBiomes>
     </race>
     <tradeTags>

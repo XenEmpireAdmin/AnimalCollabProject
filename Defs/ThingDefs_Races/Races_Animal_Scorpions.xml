@@ -15,30 +15,36 @@
       <MarketValue>120</MarketValue>
       <LeatherAmount>0</LeatherAmount>
     </statBases>
-    <verbs>
-	  <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.55</defaultCooldownTime>
-        <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
-        <meleeDamageDef>ScorpionSting</meleeDamageDef>
+    <tools>
+      <li>
+        <label>stinger</label>
+        <capacities>
+          <li>ScorpionSting</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.55</cooldownTime>
         <linkedBodyPartsGroup>StingerAttackTool</linkedBodyPartsGroup>
       </li>
-	  <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.95</defaultCooldownTime>
-        <meleeDamageBaseAmount>12</meleeDamageBaseAmount>
-        <meleeDamageDef>Blunt</meleeDamageDef>
+      <li>
+        <label>pincer</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.9</cooldownTime>
         <linkedBodyPartsGroup>PincerAttackTool</linkedBodyPartsGroup>
       </li>
-	  <li>
-		<verbClass>Verb_MeleeAttack</verbClass>
-		<defaultCooldownTime>1.65</defaultCooldownTime>
-		<meleeDamageBaseAmount>3</meleeDamageBaseAmount>
-		<meleeDamageDef>Blunt</meleeDamageDef>
-		<commonality>0.01</commonality>
-		<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-	  </li>
-    </verbs>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <commonality>0.2</commonality>
+      </li>
+    </tools>
     <race>
       <body>ScorpionLike</body>
       <baseBodySize>0.7</baseBodySize>

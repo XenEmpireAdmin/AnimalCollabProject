@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ManeuverDef>
+    <defName>Sting</defName>
+    <requiredCapacity>Sting</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttack</verbClass>
+      <meleeDamageDef>Sting</meleeDamageDef>
+    </verb>
+    <combatLogRules>Maneuver_Stab</combatLogRules>
+  </ManeuverDef>
+
+  <ManeuverDef>
+    <defName>ScorpionSting</defName>
+    <requiredCapacity>ScorpionSting</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttack</verbClass>
+      <meleeDamageDef>ScorpionSting</meleeDamageDef>
+    </verb>
+    <combatLogRules>Maneuver_Stab</combatLogRules>
+  </ManeuverDef>
+  
+   <ManeuverDef>
+    <defName>PlatypusSting</defName>
+    <requiredCapacity>PlatypusSting</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttack</verbClass>
+      <meleeDamageDef>PlatypusSting</meleeDamageDef>
+    </verb>
+    <combatLogRules>Maneuver_Stab</combatLogRules>
+  </ManeuverDef>
+  
+  <ManeuverDef>
+    <defName>AcidBite</defName>
+    <requiredCapacity>AcidBite</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttack</verbClass>
+      <meleeDamageDef>AcidBite</meleeDamageDef>
+    </verb>
+    <combatLogRules>Bite</combatLogRules>
+  </ManeuverDef>
+  
+</Defs>

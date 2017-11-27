@@ -65,6 +65,8 @@
 		<AridShrubland>0.25</AridShrubland>
 		<TropicalRainforest>0.08</TropicalRainforest>
 		<TemperateForest>0.01</TemperateForest>
+		<TropicalSwamp>0.1</TropicalSwamp>
+		<TemperateSwamp>0.03</TemperateSwamp>
       </wildBiomes>
       <trainableIntelligence>Advanced</trainableIntelligence>
       <manhunterOnTameFailChance>0.15</manhunterOnTameFailChance>

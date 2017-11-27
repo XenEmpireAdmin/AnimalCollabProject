@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <DamageDef Name="LocalInjuryBase" Abstract="True">
+    <workerClass>DamageWorker_AddInjury</workerClass>
+  </DamageDef>
+
+  <DamageDef ParentName="LocalInjuryBase">
+    <defName>AcidBite</defName>
+    <label>acid bite</label>
+    <workerClass>DamageWorker_Bite</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has succumbed to acid burns.</deathMessage>
+    <hediff>AcidBurn</hediff>
+    <hediffSolid>Crack</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Slice</impactSoundType>
+    <armorCategory>Heat</armorCategory>
+    <biteDamageMultiplier>1.25</biteDamageMultiplier>
+  </DamageDef>
+
+  <DamageDef Name="Sting" ParentName="LocalInjuryBase">
+    <defName>Sting</defName>
+    <workerClass>DamageWorker_Stab</workerClass>
+    <label>sting</label>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been stung to death.</deathMessage>
+    <hediff>Sting</hediff>
+    <hediffSolid>Crack</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Slice</impactSoundType>
+    <armorCategory>Sharp</armorCategory>
+  </DamageDef>
+  
+  <DamageDef ParentName="Sting">
+    <defName>ScorpionSting</defName>
+    <label>scorpion sting</label>
+    <additionalHediffs>
+      <li>
+        <hediff>ScorpionVenom</hediff>
+        <severityPerDamageDealt>0.04</severityPerDamageDealt>
+      </li>
+    </additionalHediffs>
+  </DamageDef>
+ 
+  <DamageDef ParentName="Sting">
+    <defName>PlatypusSting</defName>
+    <label>platypus spur sting</label>
+    <additionalHediffs>
+      <li>
+        <hediff>PlatypusVenom</hediff>
+        <severityPerDamageDealt>0.045</severityPerDamageDealt>
+      </li>
+    </additionalHediffs>
+  </DamageDef>
+  
+</Defs>

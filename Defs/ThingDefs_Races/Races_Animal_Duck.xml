@@ -20,10 +20,13 @@
       <useLeatherFrom>ACPDomesticGoose</useLeatherFrom>
       <wildness>0.35</wildness>
       <wildBiomes>
-		    <AridShrubland>0.02</AridShrubland>
-		    <TropicalRainforest>0.08</TropicalRainforest>
-		    <TemperateForest>0.26</TemperateForest>
-		    <BorealForest>0.22</BorealForest>
+		<AridShrubland>0.02</AridShrubland>
+		<TropicalRainforest>0.05</TropicalRainforest>
+		<TemperateForest>0.17</TemperateForest>
+		<BorealForest>0.15</BorealForest>
+		<TropicalSwamp>0.08</TropicalSwamp>
+		<TemperateSwamp>0.26</TemperateSwamp>
+		<ColdBog>0.22</ColdBog>
       </wildBiomes>
       <lifeExpectancy>6</lifeExpectancy>
     </race>
@@ -36,46 +39,51 @@
         <eggCountRange>1</eggCountRange>
       </li>
     </comps>
-    <verbs>
+   <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.65</defaultCooldownTime>
-        <meleeDamageBaseAmount>3</meleeDamageBaseAmount>
-        <meleeDamageDef>Scratch</meleeDamageDef>
+        <label>claws</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>20</amount>
+              <amount>6</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.85</defaultCooldownTime>
-        <meleeDamageBaseAmount>4</meleeDamageBaseAmount>
-        <meleeDamageDef>Bite</meleeDamageDef>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1.85</cooldownTime>
         <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>20</amount>
+              <amount>7</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
       </li>
-	  <li>
-		<verbClass>Verb_MeleeAttack</verbClass>
-		<defaultCooldownTime>1.65</defaultCooldownTime>
-		<meleeDamageBaseAmount>1</meleeDamageBaseAmount>
-		<meleeDamageDef>Blunt</meleeDamageDef>
-		<commonality>0.01</commonality>
-		<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-	  </li>
-    </verbs>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>1</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <commonality>0.2</commonality>
+      </li>
+    </tools>
   </ThingDef>
   
   <PawnKindDef ParentName="BigBirdKindBase">

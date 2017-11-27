@@ -2,8 +2,7 @@
 <Defs>
 
   <!-- Everything in here should just be duplicates from the Core game mod folder -->
- 
-  <ThingDef Name="BasePawn" Abstract="True">
+ <ThingDef Name="BasePawn" Abstract="True">
     <thingClass>Pawn</thingClass>
     <category>Pawn</category>
     <selectable>true</selectable>
@@ -24,6 +23,7 @@
       <li>ITab_Pawn_Guest</li>
       <li>ITab_Pawn_Prisoner</li>
       <li>ITab_Pawn_Social</li>
+      <li>ITab_Pawn_Combat</li>
     </inspectorTabs>
     <comps>
       <li>
@@ -53,6 +53,7 @@
     </race>
     <recipes>
 			<li>ExciseCarcinoma</li>
+      <li>AdministerMechSerumHealer</li>
       <li>RemoveBodyPart</li>
       <li>Euthanize</li>
       <li>Anesthetize</li>
@@ -70,12 +71,14 @@
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>700</MarketValue>
     </statBases>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>2.0</defaultCooldownTime>
-        <meleeDamageBaseAmount>17</meleeDamageBaseAmount>
-        <meleeDamageDef>Scratch</meleeDamageDef>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>2.0</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -87,10 +90,12 @@
         </surpriseAttack>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>2.0</defaultCooldownTime>
-        <meleeDamageBaseAmount>17</meleeDamageBaseAmount>
-        <meleeDamageDef>Scratch</meleeDamageDef>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>2.0</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -102,10 +107,11 @@
         </surpriseAttack>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.65</defaultCooldownTime>
-        <meleeDamageBaseAmount>15</meleeDamageBaseAmount>
-        <meleeDamageDef>Bite</meleeDamageDef>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -117,14 +123,16 @@
         </surpriseAttack>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.65</defaultCooldownTime>
-        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
-        <meleeDamageDef>Blunt</meleeDamageDef>
-        <commonality>0.01</commonality>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <commonality>0.2</commonality>
       </li>
-    </verbs>
+    </tools>
     <race>
       <herdAnimal>false</herdAnimal>
       <predator>true</predator>
@@ -168,7 +176,7 @@
   </ThingDef>
   
   <PawnKindDef Abstract="True" ParentName="AnimalKindBase" Name="BearBase">
-    <combatPower>240</combatPower>
+    <combatPower>200</combatPower>
     <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
     <wildSpawn_EcoSystemWeight>0.3</wildSpawn_EcoSystemWeight>
   </PawnKindDef>
@@ -188,35 +196,35 @@
       <manhunterOnTameFailChance>0.018</manhunterOnTameFailChance>
     </race>
   </ThingDef>
-
-  
   
     <!-- Hare base -->
   
- 
   <ThingDef Abstract="True" ParentName="AnimalThingBase" Name="BaseHare">
     <statBases>
       <MoveSpeed>5.5</MoveSpeed>
       <ComfyTemperatureMin>-30</ComfyTemperatureMin>
       <MarketValue>40</MarketValue>
     </statBases>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.65</defaultCooldownTime>
-        <meleeDamageBaseAmount>3</meleeDamageBaseAmount>
-        <meleeDamageDef>Bite</meleeDamageDef>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.65</defaultCooldownTime>
-        <meleeDamageBaseAmount>1</meleeDamageBaseAmount>
-        <meleeDamageDef>Blunt</meleeDamageDef>
-        <commonality>0.01</commonality>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>1</power>
+        <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <commonality>0.2</commonality>
       </li>
-    </verbs>
+    </tools>
     <race>
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <baseBodySize>0.2</baseBodySize>
@@ -264,7 +272,7 @@
   </ThingDef>
 
   <PawnKindDef Abstract="True" ParentName="AnimalKindBase" Name="HareBase">
-    <combatPower>25</combatPower>
+    <combatPower>33</combatPower>
     <wildSpawn_EcoSystemWeight>0.25</wildSpawn_EcoSystemWeight>
     <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
   </PawnKindDef>
@@ -300,7 +308,7 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase" Name="BigBirdKindBase" Abstract="True">
-    <combatPower>155</combatPower>
+    <combatPower>70</combatPower>
     <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
     <wildSpawn_EcoSystemWeight>0.42</wildSpawn_EcoSystemWeight>
   </PawnKindDef>
