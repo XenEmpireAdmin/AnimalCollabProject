@@ -19,6 +19,7 @@
     <defName>ACPDomesticRabbit</defName>
     <label>domestic rabbit</label>
     <race>ACPDomesticRabbit</race>
+    <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
     <lifeStages>
       <li>
         <bodyGraphicData>

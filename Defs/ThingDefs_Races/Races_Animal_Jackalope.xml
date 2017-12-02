@@ -48,8 +48,10 @@
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
       <wildBiomes>
-	<BorealForest>0.05</BorealForest>
-	<TemperateForest>0.08</TemperateForest>
+		<BorealForest>0.05</BorealForest>
+		<TemperateForest>0.08</TemperateForest>
+		<TemperateSwamp>0.03</TemperateSwamp>
+		<ColdBog>0.045</ColdBog>
       </wildBiomes>
     </race>
     <statBases>
@@ -57,30 +59,35 @@
       <ComfyTemperatureMin>-30</ComfyTemperatureMin>
       <MarketValue>90</MarketValue>
     </statBases>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.65</defaultCooldownTime>
-        <meleeDamageBaseAmount>8</meleeDamageBaseAmount>
-        <meleeDamageDef>Scratch</meleeDamageDef>
+        <label>antlers</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>Antlers</linkedBodyPartsGroup>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.65</defaultCooldownTime>
-        <meleeDamageBaseAmount>3</meleeDamageBaseAmount>
-        <meleeDamageDef>Bite</meleeDamageDef>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
-	  <li>
-		<verbClass>Verb_MeleeAttack</verbClass>
-		<defaultCooldownTime>1.65</defaultCooldownTime>
-		<meleeDamageBaseAmount>1</meleeDamageBaseAmount>
-		<meleeDamageDef>Blunt</meleeDamageDef>
-		<commonality>0.01</commonality>
-		<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-	  </li>
-    </verbs>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>1</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <commonality>0.2</commonality>
+      </li>
+    </tools>
     <tradeTags>
       <li>StandardAnimal</li>
     </tradeTags>

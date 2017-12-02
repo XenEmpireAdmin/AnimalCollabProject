@@ -10,37 +10,61 @@
       <ComfyTemperatureMin>-45</ComfyTemperatureMin>
       <MarketValue>250</MarketValue>
     </statBases>
-    <verbs>
-	    <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.95</defaultCooldownTime>
-        <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
-        <meleeDamageDef>PlatypusSting</meleeDamageDef>
+    <tools>
+      <li>
+        <label>spurs</label>
+        <capacities>
+          <li>PlatypusSting</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.9</cooldownTime>
         <linkedBodyPartsGroup>Spurs</linkedBodyPartsGroup>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.65</defaultCooldownTime>
-        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
-        <meleeDamageDef>Scratch</meleeDamageDef>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>8</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.65</defaultCooldownTime>
-        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
-        <meleeDamageDef>Scratch</meleeDamageDef>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>8</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
       </li>
-	  <li>
-		<verbClass>Verb_MeleeAttack</verbClass>
-		<defaultCooldownTime>1.65</defaultCooldownTime>
-		<meleeDamageBaseAmount>3</meleeDamageBaseAmount>
-		<meleeDamageDef>Blunt</meleeDamageDef>
-		<commonality>0.01</commonality>
-		<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-	  </li>
-    </verbs>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>1</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <commonality>0.2</commonality>
+      </li>
+    </tools>
 	<comps>
       <li Class="CompProperties_EggLayer">
         <eggFertilizedDef>ACPEggPlatypusFertilized</eggFertilizedDef>
@@ -60,12 +84,12 @@
 	  <useLeatherFrom>ACPBison</useLeatherFrom>
       <wildness>0.85</wildness>
 	  <wildBiomes>
-        <TropicalRainforest>0.12</TropicalRainforest>
-        <TemperateForest>0.15</TemperateForest>
-        <BorealForest>0.10</BorealForest>
-        <TropicalSwamp>0.15</TropicalSwamp>
-        <ColdBog>0.1</ColdBog>
-        <TemperateSwamp>0.15</TemperateSwamp>
+        <TropicalRainforest>0.05</TropicalRainforest>
+        <TemperateForest>0.02</TemperateForest>
+        <BorealForest>0.02</BorealForest>
+		<TropicalSwamp>0.1</TropicalSwamp>
+		<TemperateSwamp>0.04</TemperateSwamp>
+		<ColdBog>0.01</ColdBog>
       </wildBiomes>
       <gestationPeriodDays>14</gestationPeriodDays>
       <lifeExpectancy>12</lifeExpectancy>

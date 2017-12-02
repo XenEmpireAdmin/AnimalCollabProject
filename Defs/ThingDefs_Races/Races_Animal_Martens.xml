@@ -68,27 +68,31 @@
       <MarketValue>150</MarketValue>
       <LeatherAmount>15</LeatherAmount>
     </statBases>
-        <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>0.8</defaultCooldownTime>
-        <meleeDamageBaseAmount>4</meleeDamageBaseAmount>
-        <meleeDamageDef>Scratch</meleeDamageDef>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>6</amount>
+              <amount>7</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>0.8</defaultCooldownTime>
-        <meleeDamageBaseAmount>4</meleeDamageBaseAmount>
-        <meleeDamageDef>Scratch</meleeDamageDef>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -100,29 +104,32 @@
         </surpriseAttack>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>0.77</defaultCooldownTime>
-        <meleeDamageBaseAmount>5</meleeDamageBaseAmount>
-        <meleeDamageDef>Bite</meleeDamageDef>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>7</amount>
+              <amount>9</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
       </li>
-	  <li>
-		<verbClass>Verb_MeleeAttack</verbClass>
-		<defaultCooldownTime>1.65</defaultCooldownTime>
-		<meleeDamageBaseAmount>1</meleeDamageBaseAmount>
-		<meleeDamageDef>Blunt</meleeDamageDef>
-		<commonality>0.01</commonality>
-		<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-	  </li>
-    </verbs>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>1</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <commonality>0.2</commonality>
+      </li>
+    </tools>
     <race>
       <baseBodySize>0.3</baseBodySize>
       <baseHealthScale>0.8</baseHealthScale>
@@ -131,11 +138,13 @@
       <wildness>0.90</wildness>
       <gestationPeriodDays>55</gestationPeriodDays>
       <lifeExpectancy>8</lifeExpectancy>
-      <maxPreyBodySize>0.8</maxPreyBodySize>
+      <maxPreyBodySize>0.7</maxPreyBodySize>
       <wildBiomes>
-	<BorealForest>0.1</BorealForest>
-	<TemperateForest>0.07</TemperateForest>
-	<Tundra>0.02</Tundra>
+		<BorealForest>0.1</BorealForest>
+		<TemperateForest>0.07</TemperateForest>
+		<Tundra>0.02</Tundra>
+		<TemperateSwamp>0.05</TemperateSwamp>
+		<ColdBog>0.07</ColdBog>
       </wildBiomes>
     </race>
     <tradeTags>
@@ -201,12 +210,14 @@
       <MarketValue>200</MarketValue>
       <LeatherAmount>7</LeatherAmount>
     </statBases>
-        <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1</defaultCooldownTime>
-        <meleeDamageBaseAmount>3</meleeDamageBaseAmount>
-        <meleeDamageDef>Scratch</meleeDamageDef>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -218,10 +229,12 @@
         </surpriseAttack>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1</defaultCooldownTime>
-        <meleeDamageBaseAmount>3</meleeDamageBaseAmount>
-        <meleeDamageDef>Scratch</meleeDamageDef>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -232,30 +245,33 @@
           </extraMeleeDamages>
         </surpriseAttack>
       </li>
-	  <li>
-		<verbClass>Verb_MeleeAttack</verbClass>
-		<defaultCooldownTime>1.65</defaultCooldownTime>
-		<meleeDamageBaseAmount>1</meleeDamageBaseAmount>
-		<meleeDamageDef>Blunt</meleeDamageDef>
-		<commonality>0.01</commonality>
-		<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-	  </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>0.8</defaultCooldownTime>
-        <meleeDamageBaseAmount>5</meleeDamageBaseAmount>
-        <meleeDamageDef>Bite</meleeDamageDef>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>4</amount>
+              <amount>6</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
       </li>
-    </verbs>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>1</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <commonality>0.2</commonality>
+      </li>
+    </tools>
     <race>
       <leatherLabel>white pelt</leatherLabel>
       <leatherColor>(255,255,255)</leatherColor>
@@ -266,8 +282,9 @@
       <lifeExpectancy>8</lifeExpectancy>
       <maxPreyBodySize>0.5</maxPreyBodySize>
       <wildBiomes>
-	<BorealForest>0.07</BorealForest>
-	<Tundra>0.09</Tundra>
+		<BorealForest>0.07</BorealForest>
+		<Tundra>0.09</Tundra>
+		<ColdBog>0.06</ColdBog>
       </wildBiomes>
     </race>
     <tradeTags>

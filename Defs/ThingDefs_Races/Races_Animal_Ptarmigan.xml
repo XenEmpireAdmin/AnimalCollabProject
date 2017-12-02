@@ -13,23 +13,26 @@
       <MarketValue>75</MarketValue>
       <LeatherAmount>0</LeatherAmount>
     </statBases>
-    <verbs>
+   <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.65</defaultCooldownTime>
-        <meleeDamageBaseAmount>4</meleeDamageBaseAmount>
-        <meleeDamageDef>Bite</meleeDamageDef>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1.85</cooldownTime>
         <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
       </li>
-	  <li>
-		<verbClass>Verb_MeleeAttack</verbClass>
-		<defaultCooldownTime>1.65</defaultCooldownTime>
-		<meleeDamageBaseAmount>1</meleeDamageBaseAmount>
-		<meleeDamageDef>Blunt</meleeDamageDef>
-		<commonality>0.01</commonality>
-		<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-	  </li>
-    </verbs>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>1</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <commonality>0.2</commonality>
+      </li>
+    </tools>
     <comps>
       <li Class="CompProperties_EggLayer">
         <eggUnfertilizedDef>ACPEggPtarmiganUnfertilized</eggUnfertilizedDef>
@@ -87,8 +90,9 @@
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
       <wildBiomes>
-	<Tundra>0.05</Tundra>
-	<BorealForest>0.6</BorealForest>
+		<Tundra>0.05</Tundra>
+		<BorealForest>0.6</BorealForest>
+		<ColdBog>0.2</ColdBog>
       </wildBiomes>
     </race>
     <tradeTags>

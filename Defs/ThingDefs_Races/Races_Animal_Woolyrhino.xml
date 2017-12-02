@@ -11,30 +11,46 @@
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>1200</MarketValue>
     </statBases>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.65</defaultCooldownTime>
-        <meleeDamageBaseAmount>15</meleeDamageBaseAmount>
-        <meleeDamageDef>Scratch</meleeDamageDef>
+        <id>hornScratch</id>
+        <label>horn</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.65</defaultCooldownTime>
-        <meleeDamageBaseAmount>17</meleeDamageBaseAmount>
-        <meleeDamageDef>Blunt</meleeDamageDef>
+        <id>hornBlunt</id>
+        <label>horn</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
       </li>
-	  <li>
-		<verbClass>Verb_MeleeAttack</verbClass>
-		<defaultCooldownTime>1.65</defaultCooldownTime>
-		<meleeDamageBaseAmount>9</meleeDamageBaseAmount>
-		<meleeDamageDef>Blunt</meleeDamageDef>
-		<commonality>0.01</commonality>
-		<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-	  </li>
-    </verbs>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <commonality>0.2</commonality>
+      </li>
+    </tools>
     <race>
       <body>QuadrupedAnimalWithHoovesAndHorn</body>
       <packAnimal>true</packAnimal>
@@ -86,8 +102,10 @@
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
       <wildBiomes>
-	<Tundra>0.095</Tundra>
-	<BorealForest>0.05</BorealForest>
+		<Tundra>0.02</Tundra>
+		<BorealForest>0.01</BorealForest>
+		<TemperateSwamp>0.02</TemperateSwamp>
+		<ColdBog>0.03</ColdBog>
       </wildBiomes>
     </race>
     <tradeTags>

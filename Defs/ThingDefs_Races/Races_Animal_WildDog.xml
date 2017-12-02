@@ -11,37 +11,68 @@
 	  <ComfyTemperatureMax>60</ComfyTemperatureMax>
       <MarketValue>180</MarketValue>
     </statBases>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.65</defaultCooldownTime>
-        <meleeDamageBaseAmount>8</meleeDamageBaseAmount>
-        <meleeDamageDef>Scratch</meleeDamageDef>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>15</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.45</defaultCooldownTime>
-        <meleeDamageBaseAmount>6</meleeDamageBaseAmount>
-        <meleeDamageDef>Scratch</meleeDamageDef>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>15</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.45</defaultCooldownTime>
-        <meleeDamageBaseAmount>7</meleeDamageBaseAmount>
-        <meleeDamageDef>Bite</meleeDamageDef>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2.0</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>17</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
       </li>
-	  <li>
-		<verbClass>Verb_MeleeAttack</verbClass>
-		<defaultCooldownTime>1.65</defaultCooldownTime>
-		<meleeDamageBaseAmount>3</meleeDamageBaseAmount>
-		<meleeDamageDef>Blunt</meleeDamageDef>
-		<commonality>0.01</commonality>
-		<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-	  </li>
-    </verbs>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <commonality>0.2</commonality>
+      </li>
+    </tools>
     <race>
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <herdAnimal>true</herdAnimal>
@@ -56,13 +87,10 @@
       <trainableIntelligence>Advanced</trainableIntelligence>
       <wildness>0.6</wildness>
       <wildBiomes>
-		  	<TropicalRainforest>0.02</TropicalRainforest>
-		  	<AridShrubland>0.01</AridShrubland>
-		  	<Desert>0.008</Desert>
-		  	<ExtremeDesert>0.002</ExtremeDesert>
-        <TropicalSwamp>0.15</TropicalSwamp>
-        <TemperateSwamp>0.15</TemperateSwamp>
-			</wildBiomes>
+        <ExtremeDesert>0.01</ExtremeDesert>
+        <Desert>0.03</Desert>
+        <AridShrubland>0.025</AridShrubland>
+      </wildBiomes>
       <nuzzleMtbHours>24</nuzzleMtbHours>
       <litterSizeCurve>
         <points>

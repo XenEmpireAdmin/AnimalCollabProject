@@ -6,65 +6,10 @@
     <label>black bear</label>
     <description>An average sized bear native to thickly wooded forests. The black bear is a notably less dangerous animal than its larger cousins, rarely attacking people unless directly provoked. The black bear is- much like nearly all other bears- omniverous and solitary in nature.</description>
     <statBases>
-      <MoveSpeed>4.0</MoveSpeed>
+      <MoveSpeed>4.3</MoveSpeed>
       <ComfyTemperatureMin>-30</ComfyTemperatureMin>
       <MarketValue>550</MarketValue>
     </statBases>
-    <verbs>
-      <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>2</defaultCooldownTime>
-        <meleeDamageBaseAmount>15</meleeDamageBaseAmount>
-        <meleeDamageDef>Scratch</meleeDamageDef>
-        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
-        <surpriseAttack>
-          <extraMeleeDamages>
-            <li>
-              <def>Stun</def>
-              <amount>21</amount>
-            </li>
-          </extraMeleeDamages>
-        </surpriseAttack>
-      </li>
-      <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>2</defaultCooldownTime>
-        <meleeDamageBaseAmount>15</meleeDamageBaseAmount>
-        <meleeDamageDef>Scratch</meleeDamageDef>
-        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
-        <surpriseAttack>
-          <extraMeleeDamages>
-            <li>
-              <def>Stun</def>
-              <amount>21</amount>
-            </li>
-          </extraMeleeDamages>
-        </surpriseAttack>
-      </li>
-      <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.65</defaultCooldownTime>
-        <meleeDamageBaseAmount>15</meleeDamageBaseAmount>
-        <meleeDamageDef>Bite</meleeDamageDef>
-        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
-        <surpriseAttack>
-          <extraMeleeDamages>
-            <li>
-              <def>Stun</def>
-              <amount>21</amount>
-            </li>
-          </extraMeleeDamages>
-        </surpriseAttack>
-      </li>
-	  <li>
-		<verbClass>Verb_MeleeAttack</verbClass>
-		<defaultCooldownTime>1.65</defaultCooldownTime>
-		<meleeDamageBaseAmount>6</meleeDamageBaseAmount>
-		<meleeDamageDef>Blunt</meleeDamageDef>
-		<commonality>0.01</commonality>
-		<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-	  </li>
-    </verbs>
     <race>
       <packAnimal>true</packAnimal>
       <wildness>0.70</wildness>
@@ -78,11 +23,13 @@
       <leatherInsulation>1</leatherInsulation>
       <useMeatFrom>GrizzlyBear</useMeatFrom>
       <wildBiomes>
-    	<Tundra>0.05</Tundra>
-    	<BorealForest>0.09</BorealForest>
-    	<TemperateForest>0.12</TemperateForest>
-      <AridShrubland>0.015</AridShrubland>
-	    <Desert>0.01</Desert>
+    	<Tundra>0.005</Tundra>
+    	<BorealForest>0.02</BorealForest>
+    	<TemperateForest>0.025</TemperateForest>
+		<AridShrubland>0.005</AridShrubland>
+	    <Desert>0.001</Desert>
+		<TemperateSwamp>0.025</TemperateSwamp>
+		<ColdBog>0.01</ColdBog>
       </wildBiomes>
     </race>
   </ThingDef>
@@ -91,8 +38,6 @@
     <defName>ACPBlackbear</defName>
     <label>black bear</label>
     <race>ACPBlackbear</race>
-    <combatPower>200</combatPower>
-    <wildSpawn_EcoSystemWeight>0.3</wildSpawn_EcoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>

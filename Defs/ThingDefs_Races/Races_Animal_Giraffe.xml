@@ -11,30 +11,46 @@
       <ComfyTemperatureMin>-10</ComfyTemperatureMin>
       <MarketValue>800</MarketValue>
     </statBases>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>2.4</defaultCooldownTime>
-        <meleeDamageBaseAmount>23</meleeDamageBaseAmount>
-        <meleeDamageDef>Blunt</meleeDamageDef>
+        <label>left hoof</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.8</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
       </li>
       <li>
-     	<verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>2.4</defaultCooldownTime>
-        <meleeDamageBaseAmount>23</meleeDamageBaseAmount>
-        <meleeDamageDef>Blunt</meleeDamageDef>
+        <label>right hoof</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.8</cooldownTime>
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
       </li>
-	  <li>
-		<verbClass>Verb_MeleeAttack</verbClass>
-		<defaultCooldownTime>1.65</defaultCooldownTime>
-		<meleeDamageBaseAmount>25</meleeDamageBaseAmount>
-		<meleeDamageDef>Blunt</meleeDamageDef>
-		<commonality>0.01</commonality>
-		<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-	  </li>
-    </verbs>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.9</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <commonality>0.2</commonality>
+      </li>
+    </tools>
     <race>
       <body>QuadrupedAnimalWithHooves</body>
       <herdAnimal>true</herdAnimal>
@@ -48,7 +64,7 @@
       <petness>0.15</petness>
       <nuzzleMtbHours>50</nuzzleMtbHours>
       <wildBiomes>
-		<AridShrubland>1</AridShrubland>
+		<AridShrubland>0.7</AridShrubland>
 		<Desert>0.45</Desert>
       </wildBiomes>
       <gestationPeriodDays>35</gestationPeriodDays>

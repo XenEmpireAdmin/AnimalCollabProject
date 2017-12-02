@@ -10,23 +10,26 @@
       <ComfyTemperatureMin>-55</ComfyTemperatureMin>
       <MarketValue>300</MarketValue>
     </statBases>
-    <verbs>
+    <tools>
       <li>
-		<verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>2.0</defaultCooldownTime>
-        <meleeDamageBaseAmount>10</meleeDamageBaseAmount>
-        <meleeDamageDef>Bite</meleeDamageDef>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.85</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
-	  <li>
-		<verbClass>Verb_MeleeAttack</verbClass>
-		<defaultCooldownTime>1.65</defaultCooldownTime>
-		<meleeDamageBaseAmount>3</meleeDamageBaseAmount>
-		<meleeDamageDef>Blunt</meleeDamageDef>
-		<commonality>0.01</commonality>
-		<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-	  </li>
-    </verbs>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <commonality>0.2</commonality>
+      </li>
+    </tools>
     <race>
       <herdAnimal>true</herdAnimal>
       <body>WalrusLike</body>
@@ -42,8 +45,8 @@
         <SeaIce>0.4</SeaIce>
         <IceSheet>0.45</IceSheet>
         <Tundra>0.2</Tundra>
-        <BorealForest>0.02</BorealForest>
-        <ColdBog>0.1</ColdBog>
+        <BorealForest>0.01</BorealForest>
+		<ColdBog>0.035</ColdBog>
       </wildBiomes>
       <nuzzleMtbHours>160</nuzzleMtbHours>
       <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>

@@ -10,23 +10,26 @@
       <ComfyTemperatureMin>-5</ComfyTemperatureMin>
       <MarketValue>180</MarketValue>
     </statBases>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.65</defaultCooldownTime>
-        <meleeDamageBaseAmount>8</meleeDamageBaseAmount>
-        <meleeDamageDef>Scratch</meleeDamageDef>
-        <linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
-	  <li>
-		<verbClass>Verb_MeleeAttack</verbClass>
-		<defaultCooldownTime>1.65</defaultCooldownTime>
-		<meleeDamageBaseAmount>4</meleeDamageBaseAmount>
-		<meleeDamageDef>Blunt</meleeDamageDef>
-		<commonality>0.01</commonality>
-		<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-	  </li>
-    </verbs>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <commonality>0.2</commonality>
+      </li>
+    </tools>
     <race>
       <body>QuadrupedAnimalWithHoovesAndTusks</body>
       <baseBodySize>0.55</baseBodySize>
@@ -40,6 +43,8 @@
 		<AridShrubland>0.2</AridShrubland>
 		<TropicalRainforest>0.08</TropicalRainforest>
 		<TemperateForest>0.01</TemperateForest>
+		<TropicalSwamp>0.08</TropicalSwamp>
+		<TemperateSwamp>0.01</TemperateSwamp>
       </wildBiomes>
       <trainableIntelligence>Advanced</trainableIntelligence>
       <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
