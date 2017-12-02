@@ -45,7 +45,7 @@
       <wildness>0.57</wildness>
       <wildBiomes>
     	<TemperateForest>0.01</TemperateForest>
-		<AridShrubland>0.04</AridShrubland>
+		<AridShrubland>0.02</AridShrubland>
       </wildBiomes>
       <trainableIntelligence>Advanced</trainableIntelligence>
       <useMeatFrom>Pig</useMeatFrom>

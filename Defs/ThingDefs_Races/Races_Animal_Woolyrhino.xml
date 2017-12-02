@@ -95,10 +95,10 @@
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
       <wildBiomes>
-		<Tundra>0.095</Tundra>
-		<BorealForest>0.05</BorealForest>
-		<TemperateSwamp>0.04</TemperateSwamp>
-		<ColdBog>0.06</ColdBog>
+		<Tundra>0.02</Tundra>
+		<BorealForest>0.01</BorealForest>
+		<TemperateSwamp>0.02</TemperateSwamp>
+		<ColdBog>0.03</ColdBog>
       </wildBiomes>
     </race>
     <tradeTags>

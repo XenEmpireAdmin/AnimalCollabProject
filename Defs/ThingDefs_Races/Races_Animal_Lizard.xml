@@ -226,7 +226,7 @@
       <foodType>OmnivoreRoughAnimal</foodType>
       <wildBiomes>
         <TropicalRainforest>0.065</TropicalRainforest>
-        <TemperateForest>0.05</TemperateForest>
+        <TemperateForest>0.02</TemperateForest>
         <AridShrubland>0.025</AridShrubland>
         <Desert>0.02</Desert>
         <ExtremeDesert>0.01</ExtremeDesert>

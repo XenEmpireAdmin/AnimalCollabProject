@@ -107,11 +107,11 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
       
       <wildBiomes>
-        <AridShrubland>0.30</AridShrubland>
-        <TemperateForest>0.20</TemperateForest>
-        <BorealForest>0.10</BorealForest>
+        <AridShrubland>0.08</AridShrubland>
+        <TemperateForest>0.1</TemperateForest>
+        <BorealForest>0.05</BorealForest>
 		<TemperateSwamp>0.08</TemperateSwamp>
-		<ColdBog>0.1</ColdBog>
+		<ColdBog>0.03</ColdBog>
       </wildBiomes>
     </race>
     

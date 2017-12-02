@@ -64,7 +64,7 @@
       <petness>0.15</petness>
       <nuzzleMtbHours>50</nuzzleMtbHours>
       <wildBiomes>
-		<AridShrubland>1</AridShrubland>
+		<AridShrubland>0.7</AridShrubland>
 		<Desert>0.45</Desert>
       </wildBiomes>
       <gestationPeriodDays>35</gestationPeriodDays>

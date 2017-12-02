@@ -91,9 +91,9 @@
       <nuzzleMtbHours>120</nuzzleMtbHours>
 	  <wildBiomes>
 		<ExtremeDesert>0.015</ExtremeDesert>
-		<Desert>0.09</Desert>
-		<AridShrubland>0.15</AridShrubland>
-		<TropicalRainforest>0.1</TropicalRainforest>
+		<Desert>0.07</Desert>
+		<AridShrubland>0.1</AridShrubland>
+		<TropicalRainforest>0.08</TropicalRainforest>
 		<TemperateForest>0.02</TemperateForest>
       </wildBiomes>
       <litterSizeCurve>

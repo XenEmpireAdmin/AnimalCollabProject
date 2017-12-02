@@ -87,9 +87,9 @@
       <trainableIntelligence>Advanced</trainableIntelligence>
       <wildness>0.6</wildness>
       <wildBiomes>
-        <ExtremeDesert>0.05</ExtremeDesert>
-        <Desert>0.15</Desert>
-        <AridShrubland>0.25</AridShrubland>
+        <ExtremeDesert>0.01</ExtremeDesert>
+        <Desert>0.03</Desert>
+        <AridShrubland>0.025</AridShrubland>
       </wildBiomes>
       <nuzzleMtbHours>24</nuzzleMtbHours>
       <litterSizeCurve>

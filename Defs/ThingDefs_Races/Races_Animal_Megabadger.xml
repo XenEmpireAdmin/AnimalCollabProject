@@ -114,8 +114,8 @@
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
       <wildBiomes>
 		<BorealForest>0.01</BorealForest>
-		<Tundra>0.03</Tundra>
-		<ColdBog>0.02</ColdBog>
+		<Tundra>0.02</Tundra>
+		<ColdBog>0.015</ColdBog>
       </wildBiomes>
     </race>
     <tradeTags>

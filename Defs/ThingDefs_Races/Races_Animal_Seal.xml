@@ -45,7 +45,7 @@
         <SeaIce>0.4</SeaIce>
         <IceSheet>0.45</IceSheet>
         <Tundra>0.2</Tundra>
-        <BorealForest>0.02</BorealForest>
+        <BorealForest>0.01</BorealForest>
 		<ColdBog>0.035</ColdBog>
       </wildBiomes>
       <nuzzleMtbHours>160</nuzzleMtbHours>

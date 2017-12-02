@@ -75,7 +75,7 @@
 	    <Desert>0.01</Desert>
 		<TropicalSwamp>0.02</TropicalSwamp>
 		<TemperateSwamp>0.035</TemperateSwamp>
-		<ColdBog>0.25</ColdBog>
+		<ColdBog>0.03</ColdBog>
       </wildBiomes>
     </race>
     <tradeTags>

@@ -91,7 +91,7 @@
         <TropicalRainforest>0.1</TropicalRainforest>
         <TemperateForest>0.20</TemperateForest>
         <BorealForest>0.15</BorealForest>
-        <IceSheet>0.08</IceSheet>
+        <IceSheet>0.01</IceSheet>
         <Tundra>0.15</Tundra>
 		<TropicalSwamp>0.15</TropicalSwamp>
 		<TemperateSwamp>0.35</TemperateSwamp>

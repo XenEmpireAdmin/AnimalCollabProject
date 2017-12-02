@@ -84,12 +84,12 @@
 	  <useLeatherFrom>ACPBison</useLeatherFrom>
       <wildness>0.85</wildness>
 	  <wildBiomes>
-        <TropicalRainforest>0.1</TropicalRainforest>
-        <TemperateForest>0.08</TemperateForest>
-        <BorealForest>0.05</BorealForest>
-		<TropicalSwamp>0.15</TropicalSwamp>
-		<TemperateSwamp>0.08</TemperateSwamp>
-		<ColdBog>0.1</ColdBog>
+        <TropicalRainforest>0.05</TropicalRainforest>
+        <TemperateForest>0.02</TemperateForest>
+        <BorealForest>0.02</BorealForest>
+		<TropicalSwamp>0.1</TropicalSwamp>
+		<TemperateSwamp>0.04</TemperateSwamp>
+		<ColdBog>0.01</ColdBog>
       </wildBiomes>
       <gestationPeriodDays>14</gestationPeriodDays>
       <lifeExpectancy>12</lifeExpectancy>
