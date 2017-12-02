@@ -52,6 +52,13 @@
       </leatherStatFactors>
       <useMeatFrom>Rhinoceros</useMeatFrom>
       <wildness>0.90</wildness>
+    <wildBiomes>
+			<Tundra>0.015</Tundra>
+			<IceSheet>0.01</IceSheet>
+			<SeaIce>0.01</SeaIce>
+			<BorealForest>0.02</BorealForest>
+      <ColdBog>0.1</ColdBog>
+		</wildBiomes>
       <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <gestationPeriodDays>45</gestationPeriodDays>

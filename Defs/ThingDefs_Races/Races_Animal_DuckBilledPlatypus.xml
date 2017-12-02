@@ -63,6 +63,9 @@
         <TropicalRainforest>0.12</TropicalRainforest>
         <TemperateForest>0.15</TemperateForest>
         <BorealForest>0.10</BorealForest>
+        <TropicalSwamp>0.15</TropicalSwamp>
+        <ColdBog>0.1</ColdBog>
+        <TemperateSwamp>0.15</TemperateSwamp>
       </wildBiomes>
       <gestationPeriodDays>14</gestationPeriodDays>
       <lifeExpectancy>12</lifeExpectancy>

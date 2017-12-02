@@ -62,6 +62,9 @@
         <BorealForest>0.35</BorealForest>
         <IceSheet>0.08</IceSheet>
         <Tundra>0.15</Tundra>
+        <TropicalSwamp>0.15</TropicalSwamp>
+        <ColdBog>0.1</ColdBog>
+        <TemperateSwamp>0.15</TemperateSwamp>
       </wildBiomes>
       <gestationPeriodDays>17</gestationPeriodDays>
       <litterSizeCurve>

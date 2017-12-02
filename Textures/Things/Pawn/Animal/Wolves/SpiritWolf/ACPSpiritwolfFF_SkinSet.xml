@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<SkinSet>
+
+  <lifeStage>
+    <appliesToAll>true</appliesToAll>
+    <variants>
+      <skin>
+        <color>(255,255,255)</color>
+        <commonality>0.3</commonality>
+        <texName>okamimale</texName>
+        <useComplexShader>false</useComplexShader>
+      </skin>
+
+      <skin>
+        <color>(255,255,255)</color>
+        <commonality>0.03</commonality>
+        <texName>okamimalDK</texName>
+        <useComplexShader>false</useComplexShader>
+      </skin>
+    </variants>
+
+    <variantsFemale>
+      <skin>
+        <color>(255,255,255)</color>
+        <commonality>0.5</commonality>
+        <texName>okamifem</texName>
+        <useComplexShader>false</useComplexShader>
+      </skin>
+      <skin>
+        <color>(255,255,255)</color>
+        <commonality>0.5</commonality>
+        <texName>okamifemB</texName>
+        <useComplexShader>false</useComplexShader>
+      </skin>
+    </variantsFemale>
+    <winterCoat>
+      <useWinterCoat>false</useWinterCoat>
+    </winterCoat>
+  </lifeStage>
+
+</SkinSet>

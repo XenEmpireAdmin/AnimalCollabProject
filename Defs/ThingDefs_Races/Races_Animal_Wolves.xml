@@ -80,18 +80,6 @@
       <baseHungerRate>0.25</baseHungerRate>
       <baseHealthScale>1.15</baseHealthScale>
       <foodType>CarnivoreAnimal</foodType>
-	  	  	<wildBiomes>
-			<Tundra>0.015</Tundra>
-			<IceSheet>0.01</IceSheet>
-			<SeaIce>0.01</SeaIce>
-			<TropicalRainforest>0.02</TropicalRainforest>
-			<TemperateForest>0.015</TemperateForest>
-			<BorealForest>0.02</BorealForest>
-			<AridShrubland>0.01</AridShrubland>
-			<Desert>0.008</Desert>
-			<ExtremeDesert>0.002</ExtremeDesert>
-			<!-- <Cave>0.05</Cave> -->
-			</wildBiomes>
       <useLeatherFrom>WolfTimber</useLeatherFrom>
 	  <useMeatFrom>WolfTimber</useMeatFrom>
       <gestationPeriodDays>20.5</gestationPeriodDays>
@@ -587,4 +575,197 @@
     </lifeStages>
   </PawnKindDef>
   
+  
+  <ThingDef ParentName="AnimalThingBase">
+    <thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
+    <defName>ACPSpiritwolfFF</defName>
+    <label>spirit wolf</label>
+    <description>The spirit wolf is said to be a forest spirit, or ancestral wolf guardian. A truly formidable creature, whatever it's origins.</description>
+    <statBases>
+      <MoveSpeed>5.10</MoveSpeed>
+      <ComfyTemperatureMin>-85</ComfyTemperatureMin>
+      <MarketValue>1950</MarketValue>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.25</defaultCooldownTime>
+        <meleeDamageBaseAmount>16</meleeDamageBaseAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.25</defaultCooldownTime>
+        <meleeDamageBaseAmount>16</meleeDamageBaseAmount>
+        <meleeDamageDef>Scratch</meleeDamageDef>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <verbClass>Verb_MeleeAttack</verbClass>
+        <defaultCooldownTime>1.30</defaultCooldownTime>
+        <meleeDamageBaseAmount>20</meleeDamageBaseAmount>
+        <meleeDamageDef>Bite</meleeDamageDef>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+    </verbs>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <petness>0.75</petness>
+      <baseBodySize>3.0</baseBodySize>
+      <baseHungerRate>1.25</baseHungerRate>
+      <baseHealthScale>13.15</baseHealthScale>
+      <foodType>CarnivoreAnimal</foodType>
+      <useLeatherFrom>WolfArctic</useLeatherFrom>
+      <useMeatFrom>WolfTimber</useMeatFrom>
+      <gestationPeriodDays>30</gestationPeriodDays>
+      <nameOnTameChance>1</nameOnTameChance>
+      <trainableIntelligence>Advanced</trainableIntelligence>
+      <wildness>0.95</wildness>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
+      <nuzzleMtbHours>120</nuzzleMtbHours>
+	  <packAnimal>true</packAnimal>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 1.7)</li>
+          <li>(3, 0.7)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>150</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.25</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.8</minAge>
+          <soundWounded>Pawn_Dog_Injured</soundWounded>
+          <soundDeath>Pawn_Dog_Death</soundDeath>
+          <soundCall>Pawn_Dog_Call</soundCall>
+          <soundAngry>Pawn_Dog_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>StandardAnimal</li>
+      <li>BadassAnimal</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>ACPSpiritwolfFF</defName>
+    <label>Ancient spirit wolf</label>
+	<labelPlural>ancient spirit wolves</labelPlural>
+    <race>ACPSpiritwolfFF</race>
+    <combatPower>605</combatPower>
+    <lifeStages>
+      <li>
+        <label>spirit wolf puppy</label>
+        <labelPlural>spirit wolf puppies</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolves/SpiritWolf/okamimalDK</texPath>
+          <drawSize>1.05</drawSize>
+        </bodyGraphicData>
+        <femaleGraphicData>
+              <texPath>Things/Pawn/Animal/Wolves/SpiritWolf/okamifem</texPath>
+              <drawSize>1.05</drawSize>
+              <shadowData>
+                <volume>(0.6, 0.7, 0.6)</volume>
+                <offset>(0,0,-0.15)</offset>
+              </shadowData>
+            </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolves/SpiritWolf/okamimalDK</texPath>
+          <drawSize>2.3</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+              <texPath>Things/Pawn/Animal/Wolves/SpiritWolf/okamifem</texPath>
+              <drawSize>2.3</drawSize>
+              <shadowData>
+                <volume>(0.25, 0.3, 0.25)</volume>
+                <offset>(0,0,-0.15)</offset>
+              </shadowData>
+            </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolves/SpiritWolf/okamimalDK</texPath>
+          <drawSize>3.55</drawSize>
+          <shadowData>
+            <volume>(0.5, 0.6, 0.5)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+		<femaleGraphicData>
+          <texPath>Things/Pawn/Animal/Wolves/SpiritWolf/okamifem</texPath>
+          <drawSize>3.55</drawSize>
+          <shadowData>
+            <volume>(0.6, 0.7, 0.6)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <drawSize>2.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <wildSpawn_EcoSystemWeight>0.9</wildSpawn_EcoSystemWeight>
+    <wildSpawn_GroupSizeRange>
+      <min>2</min>
+      <max>3</max>
+    </wildSpawn_GroupSizeRange>
+  </PawnKindDef>
 </Defs>

@@ -18,10 +18,13 @@ namespace SpiritWolfEvent
             {
                 Map map = (Map)parms.target;
                 IntVec3 intVec;
-                if (!RCellFinder.TryFindRandomPawnEntryCell(out intVec, map, CellFinder.EdgeRoadChance_Animal + 0.2f, null))
-                {
-                    return false;
-                }
+                bool result;
+            if (!RCellFinder.TryFindRandomPawnEntryCell(out intVec, map, CellFinder.EdgeRoadChance_Animal + 0.2f, null))
+            {
+                result = false;
+            }
+            else
+            {
                 PawnKindDef spiritwolf = PawnKindDefOf.ACPSpiritwolf;
                 float points = StorytellerUtility.DefaultParmsNow(Find.Storyteller.def, IncidentCategory.ThreatBig, map).points;
                 int num = GenMath.RoundRandom(points / spiritwolf.combatPower);
@@ -52,7 +55,9 @@ namespace SpiritWolfEvent
                 {
                 spiritwolf.label
                 }), LetterDefOf.PositiveEvent, pawn, null);
-                return true;
+                result = true;
+            }
+            return result;
             }
         }
     }

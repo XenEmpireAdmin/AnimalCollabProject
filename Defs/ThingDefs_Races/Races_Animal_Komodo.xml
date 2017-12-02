@@ -82,6 +82,8 @@
 		<TropicalRainforest>0.25</TropicalRainforest>
 		<Desert>0.05</Desert>
 		<AridShrubland>0.15</AridShrubland>
+    <TropicalSwamp>0.15</TropicalSwamp>
+        <TemperateSwamp>0.15</TemperateSwamp>
       </wildBiomes>
       <gestationPeriodDays>16</gestationPeriodDays>
       <litterSizeCurve>

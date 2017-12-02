@@ -24,6 +24,9 @@
 		    <TropicalRainforest>0.08</TropicalRainforest>
 		    <TemperateForest>0.26</TemperateForest>
 		    <BorealForest>0.22</BorealForest>
+        <TropicalSwamp>0.15</TropicalSwamp>
+        <ColdBog>0.1</ColdBog>
+        <TemperateSwamp>0.15</TemperateSwamp>
       </wildBiomes>
       <lifeExpectancy>6</lifeExpectancy>
     </race>

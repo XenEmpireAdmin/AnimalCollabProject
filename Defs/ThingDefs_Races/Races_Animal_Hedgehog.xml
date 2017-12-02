@@ -58,11 +58,14 @@
 	  <useMeatFrom>Squirrel</useMeatFrom>
       <wildness>0.65</wildness>
 	  <wildBiomes>
-		<Desert>0.02</Desert>
-		<AridShrubland>0.07</AridShrubland>
-		<TropicalRainforest>0.05</TropicalRainforest>
-		<TemperateForest>0.25</TemperateForest>
-		<BorealForest>0.2</BorealForest>
+    		<Desert>0.02</Desert>
+    		<AridShrubland>0.07</AridShrubland>
+	    	<TropicalRainforest>0.05</TropicalRainforest>
+	    	<TemperateForest>0.25</TemperateForest>
+	    	<BorealForest>0.2</BorealForest>
+         <TropicalSwamp>0.15</TropicalSwamp>
+        <ColdBog>0.1</ColdBog>
+        <TemperateSwamp>0.15</TemperateSwamp>
       </wildBiomes>
       <mateMtbHours>8</mateMtbHours>
       <gestationPeriodDays>11</gestationPeriodDays>

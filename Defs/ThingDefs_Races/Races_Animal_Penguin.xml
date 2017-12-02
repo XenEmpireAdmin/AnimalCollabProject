@@ -25,6 +25,7 @@
         <IceSheet>0.35</IceSheet>
         <Tundra>0.2</Tundra>
         <BorealForest>0.02</BorealForest>
+        <ColdBog>0.1</ColdBog>
       </wildBiomes>
       <manhunterOnTameFailChance>0.0015</manhunterOnTameFailChance>
     </race>

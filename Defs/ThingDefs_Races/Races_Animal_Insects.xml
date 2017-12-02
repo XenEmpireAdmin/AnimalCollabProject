@@ -52,7 +52,10 @@
       <trainableIntelligence>None</trainableIntelligence>
       <wildness>0.1</wildness>
 	  <wildBiomes>
-		<AridShrubland>0.02</AridShrubland>
+	    	<AridShrubland>0.02</AridShrubland>
+         <TropicalSwamp>0.15</TropicalSwamp>
+        <ColdBog>0.1</ColdBog>
+        <TemperateSwamp>0.15</TemperateSwamp>
       </wildBiomes>
       <lifeExpectancy>3</lifeExpectancy>
       <lifeStageAges>

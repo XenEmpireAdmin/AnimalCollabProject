@@ -60,11 +60,11 @@
 	  <meatLabel>blubbery meat</meatLabel>
       <wildness>0.75</wildness>
 	  <wildBiomes>
-		<ExtremeDesert>0.02</ExtremeDesert>
-		<Desert>0.15</Desert>
-		<AridShrubland>0.25</AridShrubland>
-		<TropicalRainforest>0.08</TropicalRainforest>
-		<TemperateForest>0.01</TemperateForest>
+	  	<AridShrubland>0.25</AridShrubland>
+	  	<TropicalRainforest>0.08</TropicalRainforest>
+	  	<TemperateForest>0.01</TemperateForest>
+       <TropicalSwamp>0.15</TropicalSwamp>
+        <TemperateSwamp>0.15</TemperateSwamp>
       </wildBiomes>
       <trainableIntelligence>Advanced</trainableIntelligence>
       <manhunterOnTameFailChance>0.15</manhunterOnTameFailChance>

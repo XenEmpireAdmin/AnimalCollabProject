@@ -20,11 +20,14 @@
 	  <useMeatFrom>Cassowary</useMeatFrom>
 	  <useLeatherFrom>ACPDomesticGoose</useLeatherFrom>
 	  <wildBiomes>
-		<AridShrubland>0.02</AridShrubland>
-		<TropicalRainforest>0.05</TropicalRainforest>
-		<TemperateForest>0.15</TemperateForest>
-		<BorealForest>0.1</BorealForest>
-		<Tundra>0.05</Tundra>
+  	  	<AridShrubland>0.02</AridShrubland>
+  	  	<TropicalRainforest>0.05</TropicalRainforest>
+	     	<TemperateForest>0.15</TemperateForest>
+	    	<BorealForest>0.1</BorealForest>
+	    	<Tundra>0.05</Tundra>
+        <TropicalSwamp>0.15</TropicalSwamp>
+        <ColdBog>0.1</ColdBog>
+        <TemperateSwamp>0.15</TemperateSwamp>
       </wildBiomes>
       <lifeExpectancy>10</lifeExpectancy>
     </race>

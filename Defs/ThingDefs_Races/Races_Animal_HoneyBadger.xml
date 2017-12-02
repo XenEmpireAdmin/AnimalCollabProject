@@ -88,6 +88,9 @@
 		<AridShrubland>0.15</AridShrubland>
 		<TropicalRainforest>0.1</TropicalRainforest>
 		<TemperateForest>0.02</TemperateForest>
+    <TropicalSwamp>0.15</TropicalSwamp>
+        <ColdBog>0.1</ColdBog>
+        <TemperateSwamp>0.15</TemperateSwamp>
       </wildBiomes>
       <litterSizeCurve>
         <points>

@@ -82,6 +82,9 @@
     	<TemperateForest>0.17</TemperateForest>
       <AridShrubland>0.016</AridShrubland>
 	    <Desert>0.01</Desert>
+      <TropicalSwamp>0.15</TropicalSwamp>
+        <ColdBog>0.1</ColdBog>
+        <TemperateSwamp>0.15</TemperateSwamp>
       </wildBiomes>
     </race>
     <tradeTags>

@@ -137,10 +137,13 @@
     <race>
       <useLeatherFrom>ACPDomesticGoose</useLeatherFrom>
       <wildBiomes>
-		<AridShrubland>0.03</AridShrubland>
-		<TropicalRainforest>0.05</TropicalRainforest>
-		<TemperateForest>0.22</TemperateForest>
-		<BorealForest>0.23</BorealForest>
+		    <AridShrubland>0.03</AridShrubland>
+		    <TropicalRainforest>0.05</TropicalRainforest>
+		    <TemperateForest>0.22</TemperateForest>
+		    <BorealForest>0.23</BorealForest>
+        <TropicalSwamp>0.15</TropicalSwamp>
+        <ColdBog>0.1</ColdBog>
+        <TemperateSwamp>0.15</TemperateSwamp>
       </wildBiomes>
       <wildness>0.5</wildness>
       <manhunterOnTameFailChance>0.35</manhunterOnTameFailChance>

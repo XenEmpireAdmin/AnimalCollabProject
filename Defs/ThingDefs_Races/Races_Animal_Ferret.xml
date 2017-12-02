@@ -65,6 +65,9 @@
         <TemperateForest>0.2</TemperateForest>
         <BorealForest>0.2</BorealForest>
         <Tundra>0.01</Tundra>
+        <TropicalSwamp>0.15</TropicalSwamp>
+        <ColdBog>0.1</ColdBog>
+        <TemperateSwamp>0.15</TemperateSwamp>
       </wildBiomes>
       <petness>0.9</petness>
       <nuzzleMtbHours>15</nuzzleMtbHours>

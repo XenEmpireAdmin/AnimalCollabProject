@@ -55,6 +55,14 @@
       <nameOnTameChance>1</nameOnTameChance>
       <trainableIntelligence>Advanced</trainableIntelligence>
       <wildness>0.6</wildness>
+      <wildBiomes>
+		  	<TropicalRainforest>0.02</TropicalRainforest>
+		  	<AridShrubland>0.01</AridShrubland>
+		  	<Desert>0.008</Desert>
+		  	<ExtremeDesert>0.002</ExtremeDesert>
+        <TropicalSwamp>0.15</TropicalSwamp>
+        <TemperateSwamp>0.15</TemperateSwamp>
+			</wildBiomes>
       <nuzzleMtbHours>24</nuzzleMtbHours>
       <litterSizeCurve>
         <points>

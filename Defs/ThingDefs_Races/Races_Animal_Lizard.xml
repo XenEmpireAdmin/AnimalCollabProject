@@ -216,6 +216,8 @@
         <AridShrubland>0.025</AridShrubland>
         <Desert>0.02</Desert>
         <ExtremeDesert>0.01</ExtremeDesert>
+        <TropicalSwamp>0.15</TropicalSwamp>
+        <TemperateSwamp>0.15</TemperateSwamp>
       </wildBiomes>
       <leatherColor>(59,202,108)</leatherColor>
       <leatherLabel>gecko skin</leatherLabel>

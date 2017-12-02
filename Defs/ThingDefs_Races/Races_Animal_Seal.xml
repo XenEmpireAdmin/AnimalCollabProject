@@ -43,6 +43,7 @@
         <IceSheet>0.45</IceSheet>
         <Tundra>0.2</Tundra>
         <BorealForest>0.02</BorealForest>
+        <ColdBog>0.1</ColdBog>
       </wildBiomes>
       <nuzzleMtbHours>160</nuzzleMtbHours>
       <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>

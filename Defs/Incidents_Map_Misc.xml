@@ -9,7 +9,7 @@
     <defName>SpiritWolfHunt</defName>
     <label>spiritwolf hunt</label>
 		<category>Misc</category>
-        <targetTypes>
+		<targetTypes>
       <li>MapPlayerHome</li>
     </targetTypes>
     <workerClass>SpiritWolfEvent.IncidentWorker_SpiritWolves</workerClass>
