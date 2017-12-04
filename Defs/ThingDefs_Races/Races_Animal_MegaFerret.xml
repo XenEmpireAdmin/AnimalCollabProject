@@ -3,17 +3,17 @@
 
   <ThingDef ParentName="AnimalThingBase">
     <defName>ACPMegaFerret</defName>
-    <label>Megaferret</label>
+    <label>megaferret</label>
     <description>This carnivorous animal from the weasel genus is cuddly and adorable. This version seems to have been genetically enhanced to make an even better pet!</description>
     <statBases>
-      <MoveSpeed>7.2</MoveSpeed>
+      <MoveSpeed>6.2</MoveSpeed>
       <ComfyTemperatureMin>-95</ComfyTemperatureMin>
       <MarketValue>950</MarketValue>
     </statBases>
 	<comps>
 	      <li Class="CompProperties_Shearable">
         <woolDef>ACPFerretSilk</woolDef>
-        <shearIntervalDays>7</shearIntervalDays>
+        <shearIntervalDays>12</shearIntervalDays>
         <woolAmount>15</woolAmount>
       </li>
 	  </comps>
@@ -84,14 +84,14 @@
       <herdAnimal>true</herdAnimal>
       <predator>true</predator>
       <baseBodySize>1.05</baseBodySize>
-      <baseHungerRate>0.12</baseHungerRate>
-      <baseHealthScale>1.15</baseHealthScale>
+      <baseHungerRate>0.25</baseHungerRate>
+      <baseHealthScale>1.05</baseHealthScale>
       <foodType>CarnivoreAnimalStrict, Kibble, AnimalProduct</foodType>
 	  <useLeatherFrom>ACPSnowLeopard</useLeatherFrom>
 	  <useMeatFrom>Alphabeaver</useMeatFrom>
 	  <nameOnTameChance>1</nameOnTameChance>
       <trainableIntelligence>Advanced</trainableIntelligence>
-      <wildness>0.3</wildness>
+      <wildness>0.45</wildness>
       <petness>0.9</petness>
       <nuzzleMtbHours>30</nuzzleMtbHours>
       <gestationPeriodDays>25</gestationPeriodDays>
@@ -189,7 +189,5 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-
-
 
 </Defs>
