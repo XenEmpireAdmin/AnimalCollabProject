@@ -82,6 +82,7 @@
     <race>
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <herdAnimal>true</herdAnimal>
+      <predator>true</predator>
       <baseBodySize>1.05</baseBodySize>
       <baseHungerRate>0.12</baseHungerRate>
       <baseHealthScale>1.15</baseHealthScale>
