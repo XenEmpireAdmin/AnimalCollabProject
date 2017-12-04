@@ -53,12 +53,9 @@
       <gestationPeriodDays>15</gestationPeriodDays>
       <useMeatFrom>Megaspider</useMeatFrom>
       <trainableIntelligence>None</trainableIntelligence>
-      <wildness>0.1</wildness>
+      <wildness>0.75</wildness>
 	  <wildBiomes>
-	    	<AridShrubland>0.02</AridShrubland>
-         <TropicalSwamp>0.15</TropicalSwamp>
-        <ColdBog>0.1</ColdBog>
-        <TemperateSwamp>0.15</TemperateSwamp>
+	    <AridShrubland>0.02</AridShrubland>
       </wildBiomes>
       <lifeExpectancy>3</lifeExpectancy>
       <lifeStageAges>
