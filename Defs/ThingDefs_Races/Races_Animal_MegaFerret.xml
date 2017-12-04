@@ -83,7 +83,7 @@
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <herdAnimal>true</herdAnimal>
       <baseBodySize>1.05</baseBodySize>
-      <baseHungerRate>0.28</baseHungerRate>
+      <baseHungerRate>0.12</baseHungerRate>
       <baseHealthScale>1.15</baseHealthScale>
       <foodType>CarnivoreAnimalStrict, Kibble, AnimalProduct</foodType>
 	  <useLeatherFrom>ACPSnowLeopard</useLeatherFrom>
@@ -136,7 +136,7 @@
     <race>ACPMegaFerret</race>
 	<labelMale>megaferret hob</labelMale>
 	<labelFemale>megaferret jill</labelFemale>
-    <combatPower>43</combatPower>
+    <combatPower>55</combatPower>
     <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
     <lifeStages>
       <li>
