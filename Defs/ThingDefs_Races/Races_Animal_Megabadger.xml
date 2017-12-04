@@ -56,7 +56,7 @@
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>20</amount>
+              <amount>24</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -85,7 +85,7 @@
       <leatherInsulation>1</leatherInsulation>
 	  <useMeatFrom>Alphabeaver</useMeatFrom>
       <gestationPeriodDays>60</gestationPeriodDays>
-      <wildness>0.98</wildness>
+      <wildness>0.85</wildness>
       <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <trainableIntelligence>Advanced</trainableIntelligence>
