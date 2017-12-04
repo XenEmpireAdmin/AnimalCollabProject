@@ -84,7 +84,7 @@
       <herdAnimal>true</herdAnimal>
       <predator>true</predator>
       <baseBodySize>1.05</baseBodySize>
-      <baseHungerRate>0.12</baseHungerRate>
+      <baseHungerRate>0.22</baseHungerRate>
       <baseHealthScale>1.15</baseHealthScale>
       <foodType>CarnivoreAnimalStrict, Kibble, AnimalProduct</foodType>
 	  <useLeatherFrom>ACPSnowLeopard</useLeatherFrom>
