@@ -7,7 +7,7 @@
 	<defName>ACPLlama</defName>
 	<label>llama</label>
 	<description>A domesticated camelid, widely used as a source of meat and wool. They can act as pack animals and make fantastic guard animals for none aggressive livestock, like sheep.</description> 
-    
+ 
 	<statBases>
 		<MoveSpeed>3.8</MoveSpeed>
 		<ComfyTemperatureMin>-28</ComfyTemperatureMin>
@@ -59,7 +59,7 @@
 	<comps>
 		<li Class="CompProperties_Shearable">
 				<woolDef>ACPLlamaWool</woolDef>
-				<shearIntervalDays>60</shearIntervalDays>
+				<shearIntervalDays>20</shearIntervalDays>
 				<woolAmount>120</woolAmount>
 		</li>
     </comps>

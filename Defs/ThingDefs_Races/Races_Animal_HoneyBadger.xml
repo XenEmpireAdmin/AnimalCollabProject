@@ -7,7 +7,7 @@
     <description>Well known for their preference for honey, honey badgers are fully omnivorous animals. You do not want to get between them and their next meal</description>
     <statBases>
       <MoveSpeed>5.5</MoveSpeed>
-      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
       <MarketValue>650</MarketValue>
     </statBases>
     <tools>
@@ -95,9 +95,9 @@
 		<AridShrubland>0.1</AridShrubland>
 		<TropicalRainforest>0.08</TropicalRainforest>
 		<TemperateForest>0.02</TemperateForest>
-    <TropicalSwamp>0.15</TropicalSwamp>
-        <ColdBog>0.1</ColdBog>
-        <TemperateSwamp>0.15</TemperateSwamp>
+		<TropicalSwamp>0.005</TropicalSwamp>
+        <ColdBog>0.001</ColdBog>
+        <TemperateSwamp>0.003</TemperateSwamp>
       </wildBiomes>
       <litterSizeCurve>
         <points>
