@@ -147,7 +147,7 @@
 			</bodyGraphicData>
 			<dessicatedBodyGraphicData>
 				<texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
-				<drawSize>1</drawSize>
+				<drawSize>1.1</drawSize>
 			</dessicatedBodyGraphicData>
 		</li>
     </lifeStages>

@@ -292,7 +292,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Cow/Dessicated_Cow</texPath>
-          <drawSize>0.5</drawSize>
+          <drawSize>1.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -300,12 +300,12 @@
 	<labelFemale>Woolyhorse filly</labelFemale>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Horses/WoolyHorse/WoolyHorse</texPath>
-          <drawSize>2.0</drawSize>
+          <drawSize>2</drawSize>
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Cow/Dessicated_Cow</texPath>
-          <drawSize>0.8</drawSize>
+          <drawSize>2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -316,7 +316,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Cow/Dessicated_Cow</texPath>
-          <drawSize>1.2</drawSize>
+          <drawSize>2.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

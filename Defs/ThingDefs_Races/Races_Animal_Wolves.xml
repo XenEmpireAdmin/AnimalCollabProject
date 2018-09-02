@@ -166,7 +166,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
-          <drawSize>1.4</drawSize>
+          <drawSize>1.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -181,7 +181,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
-          <drawSize>1.7</drawSize>
+          <drawSize>1.9</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -376,7 +376,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
-          <drawSize>1.4</drawSize>
+          <drawSize>2.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -391,7 +391,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
-          <drawSize>1.7</drawSize>
+          <drawSize>2.9</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -562,7 +562,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
-          <drawSize>1.4</drawSize>
+          <drawSize>2.1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -584,7 +584,7 @@
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
-          <drawSize>2.5</drawSize>
+          <drawSize>3.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -765,7 +765,7 @@
             </femaleGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
-          <drawSize>1.4</drawSize>
+          <drawSize>2.3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -787,7 +787,7 @@
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
-          <drawSize>2.5</drawSize>
+          <drawSize>3.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

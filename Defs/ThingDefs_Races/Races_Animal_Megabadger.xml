@@ -140,7 +140,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <texPath>Things/Pawn/Animal/Megasloth/Dessicated_Megasloth</texPath>
           <drawSize>1.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -154,7 +154,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
+          <texPath>Things/Pawn/Animal/Megasloth/Dessicated_Megasloth</texPath>
           <drawSize>2.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -168,8 +168,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-          <drawSize>3.6</drawSize>
+          <texPath>Things/Pawn/Animal/Megasloth/Dessicated_Megasloth</texPath>
+          <drawSize>3.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

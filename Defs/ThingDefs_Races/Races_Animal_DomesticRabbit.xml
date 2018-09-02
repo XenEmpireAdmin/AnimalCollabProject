@@ -27,7 +27,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
-          <drawSize>0.45</drawSize>
+          <drawSize>0.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -41,7 +41,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
-          <drawSize>0.6</drawSize>
+          <drawSize>0.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -55,7 +55,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
-          <drawSize>0.85</drawSize>
+          <drawSize>0.95</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

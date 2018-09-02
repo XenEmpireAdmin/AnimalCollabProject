@@ -105,7 +105,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
            <texPath>Things/Pawn/Animal/Turkey/Dessicated_TurkeyHen</texPath>
-          <drawSize>0.45</drawSize>
+          <drawSize>0.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -115,7 +115,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
            <texPath>Things/Pawn/Animal/Turkey/Dessicated_TurkeyHen</texPath>
-          <drawSize>0.8</drawSize>
+          <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -125,7 +125,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
            <texPath>Things/Pawn/Animal/Turkey/Dessicated_TurkeyHen</texPath>
-          <drawSize>1.1</drawSize>
+          <drawSize>1.3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -180,7 +180,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
            <texPath>Things/Pawn/Animal/Turkey/Dessicated_TurkeyHen</texPath>
-          <drawSize>0.5</drawSize>
+          <drawSize>0.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -190,7 +190,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
            <texPath>Things/Pawn/Animal/Turkey/Dessicated_TurkeyHen</texPath>
-          <drawSize>0.9</drawSize>
+          <drawSize>1.1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -200,7 +200,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Turkey/Dessicated_TurkeyHen</texPath>
-          <drawSize>1.1</drawSize>
+          <drawSize>1.3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

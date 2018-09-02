@@ -83,8 +83,8 @@
         <drawSize>0.65</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Ostrich/Dessicated_Ostrich</texPath>
-          <drawSize>0.55</drawSize>
+          <texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
+          <drawSize>0.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -93,8 +93,8 @@
           <drawSize>0.7</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Ostrich/Dessicated_Ostrich</texPath>
-          <drawSize>0.6</drawSize>
+          <texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
+          <drawSize>0.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -103,8 +103,8 @@
           <drawSize>0.9</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Ostrich/Dessicated_Ostrich</texPath>
-          <drawSize>0.8</drawSize>
+          <texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
+          <drawSize>0.9</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

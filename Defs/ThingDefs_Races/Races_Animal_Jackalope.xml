@@ -103,7 +103,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Rabbits/Jackalope/JackalopeAdo</texPath>
-          <drawSize>1</drawSize>
+          <drawSize>0.75</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
@@ -113,7 +113,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Rabbits/Jackalope/JackalopeAdo</texPath>
-          <drawSize>1.0</drawSize>
+          <drawSize>1</drawSize>
           <shadowData>
             <volume>(0.27, 0.3, 0.27)</volume>
             <offset>(0,0,-0.15)</offset>
@@ -135,7 +135,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
-          <drawSize>1.15</drawSize>
+          <drawSize>1.25</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

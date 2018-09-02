@@ -100,8 +100,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
-          <drawSize>0.9</drawSize>
+          <texPath>Things/Pawn/Animal/Lynx/Dessicated_Lynx</texPath>
+          <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -114,8 +114,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
-          <drawSize>1.1</drawSize>
+          <texPath>Things/Pawn/Animal/Lynx/Dessicated_Lynx</texPath>
+          <drawSize>1.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -128,8 +128,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
-          <drawSize>1.5</drawSize>
+          <texPath>Things/Pawn/Animal/Lynx/Dessicated_Lynx</texPath>
+          <drawSize>1.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

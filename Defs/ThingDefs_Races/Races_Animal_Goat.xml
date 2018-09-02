@@ -136,20 +136,20 @@
         </bodyGraphicData>
         <femaleGraphicData>
           <texPath>Things/Pawn/Animal/Bovids/Goat/MajoreraGoatFemale</texPath>
-          <drawSize>1.2</drawSize>
+          <drawSize>1</drawSize>
           <shadowData>
             <volume>(0.1, 0.2, 0.1)</volume>
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Gazelle/Dessicated_Gazelle</texPath>
+          <texPath>Things/Pawn/Animal/Ibex/Dessicated_IbexFemale</texPath>
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
            <texPath>Things/Pawn/Animal/Bovids/Goat/MajoreraGoatMale</texPath>
-          <drawSize>1.35</drawSize>
+          <drawSize>1.3</drawSize>
           <shadowData>
             <volume>(0.25, 0.3, 0.2)</volume>
             <offset>(0,0,0.04)</offset>
@@ -157,21 +157,21 @@
         </bodyGraphicData>
         <femaleGraphicData>
           <texPath>Things/Pawn/Animal/Bovids/Goat/MajoreraGoatFemale</texPath>
-          <drawSize>1.33</drawSize>
+          <drawSize>1.3</drawSize>
           <shadowData>
             <volume>(0.25, 0.3, 0.2)</volume>
             <offset>(0,0,0.04)</offset>
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Gazelle/Dessicated_Gazelle</texPath>
-          <drawSize>2.15</drawSize>
+          <texPath>Things/Pawn/Animal/Ibex/Dessicated_IbexFemale</texPath>
+          <drawSize>1.3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Bovids/Goat/MajoreraGoatMale</texPath>
-          <drawSize>1.46</drawSize>
+          <drawSize>1.5</drawSize>
           <shadowData>
             <volume>(0.35, 0.4, 0.3)</volume>
             <offset>(0,0,-0.2)</offset>
@@ -179,15 +179,15 @@
         </bodyGraphicData>
         <femaleGraphicData>
           <texPath>Things/Pawn/Animal/Bovids/Goat/MajoreraGoatFemale</texPath>
-          <drawSize>1.40</drawSize>
+          <drawSize>1.45</drawSize>
           <shadowData>
             <volume>(0.35, 0.4, 0.3)</volume>
             <offset>(0,0,-0.2)</offset>
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Gazelle/Dessicated_Gazelle</texPath>
-          <drawSize>1.1</drawSize>
+          <texPath>Things/Pawn/Animal/Ibex/Dessicated_IbexFemale</texPath>
+          <drawSize>1.45</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

@@ -145,7 +145,7 @@
       </bodyGraphicData>
       <dessicatedBodyGraphicData>
         <texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
-        <drawSize>0.4</drawSize>
+        <drawSize>0.45</drawSize>
       </dessicatedBodyGraphicData>
     </li>
     <li>
@@ -160,7 +160,7 @@
       </femaleGraphicData>
       <dessicatedBodyGraphicData>
         <texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
-        <drawSize>0.7</drawSize>
+        <drawSize>0.75</drawSize>
       </dessicatedBodyGraphicData>
     </li>
     <li>
@@ -174,7 +174,7 @@
       </femaleGraphicData>
       <dessicatedBodyGraphicData>
         <texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
-        <drawSize>0.75</drawSize>
+        <drawSize>0.8</drawSize>
       </dessicatedBodyGraphicData>
     </li>
   </lifeStages>

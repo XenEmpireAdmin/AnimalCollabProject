@@ -139,7 +139,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Beaver/Dessicated_Beaver</texPath>
-          <drawSize>1</drawSize>
+          <drawSize>0.9</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -149,7 +149,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Beaver/Dessicated_Beaver</texPath>
-          <drawSize>1.25</drawSize>
+          <drawSize>1.15</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -159,7 +159,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Beaver/Dessicated_Beaver</texPath>
-          <drawSize>1.7</drawSize>
+          <drawSize>1.65</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

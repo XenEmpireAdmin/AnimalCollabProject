@@ -130,8 +130,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-          <drawSize>1.5</drawSize>
+          <texPath>Things/Pawn/Animal/Rhino/Dessicated_Rhino</texPath>
+          <drawSize>1.3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -143,8 +143,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-          <drawSize>1.9</drawSize>
+          <texPath>Things/Pawn/Animal/Rhino/Dessicated_Rhino</texPath>
+          <drawSize>1.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -157,8 +157,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Muffalo/MuffaloDessicated</texPath>
-          <drawSize>2.8</drawSize>
+          <texPath>Things/Pawn/Animal/Rhino/Dessicated_Rhino</texPath>
+          <drawSize>2.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

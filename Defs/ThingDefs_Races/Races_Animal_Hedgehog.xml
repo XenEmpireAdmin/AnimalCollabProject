@@ -118,8 +118,8 @@
           <drawSize>0.3</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
-          <drawSize>0.3</drawSize>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
+          <drawSize>0.35</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -128,8 +128,8 @@
           <drawSize>0.45</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
-          <drawSize>.40</drawSize>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
+          <drawSize>0.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -138,8 +138,8 @@
           <drawSize>0.6</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
-          <drawSize>0.55</drawSize>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
+          <drawSize>0.65</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

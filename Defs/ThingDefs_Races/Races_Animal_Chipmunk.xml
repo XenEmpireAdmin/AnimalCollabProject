@@ -137,8 +137,8 @@
           <drawSize>0.5</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Squirrel/Dessicated_Squirrel</texPath>
-          <drawSize>1</drawSize>
+          <texPath>Things/Pawn/Animal/Chinchilla/Dessicated_Chinchilla</texPath>
+          <drawSize>0.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -147,8 +147,8 @@
           <drawSize>0.6</drawSize>		  
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Squirrel/Dessicated_Squirrel</texPath>
-          <drawSize>1.0</drawSize>
+          <texPath>Things/Pawn/Animal/Chinchilla/Dessicated_Chinchilla</texPath>
+          <drawSize>0.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -157,8 +157,8 @@
           <drawSize>0.7</drawSize>	  
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Squirrel/Dessicated_Squirrel</texPath>
-          <drawSize>1.1</drawSize>
+          <texPath>Things/Pawn/Animal/Chinchilla/Dessicated_Chinchilla</texPath>
+          <drawSize>0.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
