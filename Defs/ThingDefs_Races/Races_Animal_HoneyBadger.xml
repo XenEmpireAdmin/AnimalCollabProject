@@ -69,7 +69,7 @@
         <power>3</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -84,7 +84,7 @@
 	  <useMeatFrom>Alphabeaver</useMeatFrom>
       <gestationPeriodDays>18.5</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
-      <trainableIntelligence>Advanced</trainableIntelligence>
+      <trainability>Advanced</trainability>
       <wildness>0.80</wildness>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
@@ -141,8 +141,7 @@
     <label>honey badger</label>
     <race>ACPHoneyBadger</race>
     <combatPower>180</combatPower>
-	<wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.8</wildSpawn_EcoSystemWeight>
+    <ecoSystemWeight>0.8</ecoSystemWeight>
     <lifeStages>
       <li>
         <label>honey badger cub</label>
@@ -152,7 +151,7 @@
           <drawSize>0.75</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
           <drawSize>0.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -165,7 +164,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
           <drawSize>1.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -178,7 +177,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
           <drawSize>1.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>

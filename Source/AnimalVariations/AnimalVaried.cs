@@ -319,7 +319,7 @@ namespace AnimalVariations
 				GraphicData gdata = ageTracker.CurKindLifeStage.bodyGraphicData;
 				if(gender == Gender.Female && ageTracker.CurKindLifeStage.femaleGraphicData != null)
 					gdata = ageTracker.CurKindLifeStage.femaleGraphicData;
-				if (gdata.shaderType == ShaderType.CutoutComplex)
+				if (gdata.shaderType == ShaderTypeDefOf.CutoutComplex)
 					shader = ShaderDatabase.CutoutComplex;
 
 

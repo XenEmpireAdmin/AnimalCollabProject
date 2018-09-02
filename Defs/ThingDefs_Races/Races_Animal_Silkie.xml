@@ -34,7 +34,7 @@
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     
@@ -58,7 +58,7 @@
 		<baseBodySize>0.25</baseBodySize>
 		<baseHealthScale>0.35</baseHealthScale>
 		<foodType>VegetarianRoughAnimal</foodType>
-		<trainableIntelligence>None</trainableIntelligence>
+		<trainability>None</trainability>
 		<useMeatFrom>Cassowary</useMeatFrom>
 		<wildness>0</wildness>
 		<gestationPeriodDays>7</gestationPeriodDays>
@@ -112,7 +112,6 @@
     <label>silkie chicken</label>
     <race>ACPSilkieChicken</race>
     <combatPower>15</combatPower>
-   	<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
     <labelMale>silkie cock</labelMale>
     <labelFemale>silkie hen</labelFemale>
     
@@ -124,7 +123,7 @@
 				<drawSize>0.35</drawSize>
 			</bodyGraphicData>
 			<dessicatedBodyGraphicData>
-				<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+				<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
 				<drawSize>0.35</drawSize>
 			</dessicatedBodyGraphicData>
 		</li>
@@ -139,7 +138,7 @@
 			</shadowData>
 			</bodyGraphicData>
 			<dessicatedBodyGraphicData>
-				<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+				<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
 				<drawSize>0.60</drawSize>
 			</dessicatedBodyGraphicData>
 		</li>
@@ -153,7 +152,7 @@
 			</shadowData>
 			</bodyGraphicData>
 			<dessicatedBodyGraphicData>
-				<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+				<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
 				<drawSize>0.75</drawSize>
 			</dessicatedBodyGraphicData>
 		</li>

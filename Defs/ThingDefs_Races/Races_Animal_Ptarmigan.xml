@@ -30,7 +30,7 @@
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <comps>
@@ -52,7 +52,7 @@
       <baseHealthScale>0.35</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
 	  <useMeatFrom>Cassowary</useMeatFrom>
-      <trainableIntelligence>None</trainableIntelligence>
+      <trainability>None</trainability>
       <wildness>0.05</wildness>
       <gestationPeriodDays>7</gestationPeriodDays>
       <mateMtbHours>3</mateMtbHours>
@@ -105,7 +105,7 @@
     <label>ptarmigan</label>
     <race>ACPPtarmigan</race>
     <combatPower>15</combatPower>
-    <wildSpawn_EcoSystemWeight>0.20</wildSpawn_EcoSystemWeight>
+    <ecoSystemWeight>0.20</ecoSystemWeight>
     <labelMale>ptarmigan cock</labelMale>
     <labelFemale>ptarmigan hen</labelFemale>
     <lifeStages>
@@ -116,7 +116,7 @@
           <drawSize>0.45</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
           <drawSize>0.45</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -139,7 +139,7 @@
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
           <drawSize>0.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -161,7 +161,7 @@
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
           <drawSize>0.85</drawSize>
         </dessicatedBodyGraphicData>
       </li>

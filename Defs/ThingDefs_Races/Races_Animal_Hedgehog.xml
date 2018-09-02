@@ -45,7 +45,7 @@
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -109,8 +109,8 @@
     <label>hedgehog</label>
     <race>ACPHedgehog</race>
     <combatPower>22</combatPower>
-    <wildSpawn_EcoSystemWeight>0.2</wildSpawn_EcoSystemWeight>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <ecoSystemWeight>0.2</ecoSystemWeight>
+
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -118,7 +118,7 @@
           <drawSize>0.3</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
           <drawSize>0.3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -128,7 +128,7 @@
           <drawSize>0.45</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
           <drawSize>.40</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -138,7 +138,7 @@
           <drawSize>0.6</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
           <drawSize>0.55</drawSize>
         </dessicatedBodyGraphicData>
       </li>

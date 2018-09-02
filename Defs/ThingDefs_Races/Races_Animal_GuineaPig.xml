@@ -70,7 +70,7 @@
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -140,12 +140,11 @@
     <label>guinea pig</label>
     <race>ACPGuineaPig</race>
     <combatPower>20</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.23</wildSpawn_EcoSystemWeight>
-    <wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>0.23</ecoSystemWeight>
+    <wildGroupSize>
       <min>3</min>
       <max>5</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <labelMale>guinea pig boar</labelMale>
     <labelFemale>guinea pig sow</labelFemale>
     <lifeStages>
@@ -156,7 +155,7 @@
         <drawSize>0.4</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
           <drawSize>0.45</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -170,7 +169,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+         <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
           <drawSize>0.65</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -184,7 +183,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
           <drawSize>0.85</drawSize>
         </dessicatedBodyGraphicData>
       </li>

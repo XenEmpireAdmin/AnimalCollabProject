@@ -19,7 +19,7 @@
         <power>12</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <comps>
@@ -36,11 +36,9 @@
       <baseHungerRate>0.9</baseHungerRate>
       <baseHealthScale>1.75</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
-      <leatherColor>(84,73,52)</leatherColor>
-      <leatherLabel>brown pelt</leatherLabel>
-      <leatherInsulation>1</leatherInsulation>
+      <leatherDef>Leather_Brownfur</leatherDef>
       <wildness>0.7</wildness>
-      <trainableIntelligence>Advanced</trainableIntelligence>
+      <trainability>Advanced</trainability>
       <useMeatFrom>Cow</useMeatFrom>
 	  <nuzzleMtbHours>180</nuzzleMtbHours>
 	  <packAnimal>true</packAnimal>
@@ -88,12 +86,11 @@
     <label>bison</label>
     <race>ACPBison</race>
     <combatPower>95</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>1</wildSpawn_EcoSystemWeight>
-    <wildSpawn_GroupSizeRange>
+     <ecoSystemWeight>0.5</ecoSystemWeight>
+    <wildGroupSize>
       <min>6</min>
       <max>14</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -104,7 +101,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Muffalo/Dessicated_Muffalo</texPath>
           <drawSize>2.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -117,7 +114,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Muffalo/Dessicated_Muffalo</texPath>
           <drawSize>1.9</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -130,7 +127,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Muffalo/Dessicated_Muffalo</texPath>
           <drawSize>3</drawSize>
         </dessicatedBodyGraphicData>
       </li>

@@ -45,7 +45,7 @@
         <power>12</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -54,9 +54,7 @@
       <baseHungerRate>0.3</baseHungerRate>
       <baseHealthScale>1.85</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
-	  <leatherColor>(92,92,92)</leatherColor>
-	  <leatherLabel>blubbery leather</leatherLabel>
-	  <leatherInsulation>1.8</leatherInsulation>
+	  <leatherDef>Leather_ACP</leatherDef>
 	  <meatLabel>blubbery meat</meatLabel>
       <wildness>0.75</wildness>
 	  <wildBiomes>
@@ -68,7 +66,7 @@
 		<TropicalSwamp>0.1</TropicalSwamp>
 		<TemperateSwamp>0.003</TemperateSwamp>
       </wildBiomes>
-      <trainableIntelligence>Advanced</trainableIntelligence>
+      <trainability>Advanced</trainability>
       <manhunterOnTameFailChance>0.15</manhunterOnTameFailChance>
       <manhunterOnDamageChance>0.95</manhunterOnDamageChance>
       <gestationPeriodDays>21</gestationPeriodDays>
@@ -115,12 +113,11 @@
 	<labelPlural>hippopotamuses</labelPlural>
     <race>ACPHippopotamus</race>
     <combatPower>450</combatPower>
-    <wildSpawn_EcoSystemWeight>0.3</wildSpawn_EcoSystemWeight>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>0.3</ecoSystemWeight>
+    <wildGroupSize>
       <min>5</min>
       <max>8</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <lifeStages>
       <li>
 	    <label>hippopotamus calf</label>

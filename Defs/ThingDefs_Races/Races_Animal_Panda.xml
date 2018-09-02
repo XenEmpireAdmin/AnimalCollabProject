@@ -12,11 +12,9 @@
       <baseHungerRate>0.5</baseHungerRate>
       <baseHealthScale>2.7</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
-      <leatherColor>(238,180,180)</leatherColor>
-      <leatherLabel>panda leather</leatherLabel>
-      <leatherInsulation>1.0</leatherInsulation>
-      <useMeatFrom>GrizzlyBear</useMeatFrom>
-      <trainableIntelligence>Advanced</trainableIntelligence>
+      <leatherDef>Leather_Bear</leatherDef>
+      <useMeatFrom>Bear_Grizzly</useMeatFrom>
+      <trainability>Advanced</trainability>
       <packAnimal>true</packAnimal>
       <petness>0.5</petness>
       <wildBiomes>

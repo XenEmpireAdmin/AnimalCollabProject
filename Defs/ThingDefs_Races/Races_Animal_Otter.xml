@@ -69,7 +69,7 @@
         <power>2</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -83,7 +83,7 @@
       <foodType>CarnivoreAnimalStrict, Kibble, AnimalProduct</foodType>
 	  <useLeatherFrom>ACPBison</useLeatherFrom>
 	  <useMeatFrom>Alphabeaver</useMeatFrom>
-      <trainableIntelligence>Advanced</trainableIntelligence>
+      <trainability>Advanced</trainability>
       <wildness>0.65</wildness>
       <petness>0.5</petness>
       <nuzzleMtbHours>32</nuzzleMtbHours>
@@ -139,12 +139,11 @@
     <label>otter</label>
     <race>ACPOtter</race>
     <combatPower>55</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.25</wildSpawn_EcoSystemWeight>
-    <wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>0.25</ecoSystemWeight>
+    <wildGroupSize>
       <min>3</min>
       <max>5</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -152,7 +151,7 @@
           <drawSize>0.9</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
           <drawSize>0.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -166,7 +165,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
           <drawSize>1.25</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -180,7 +179,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
           <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>

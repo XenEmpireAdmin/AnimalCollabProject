@@ -6,7 +6,7 @@
   <ThingDef ParentName="AnimalThingBase">
     <defName>ACPKomodo</defName>
     <label>komodo dragon</label>
-    <description>The Komodo dragon is the largest living species of lizard, growing to a maximum length of 3 metres (10 ft) in rare cases and weighing up to approximately 70 kilograms (150 lb). It has been claimed that they have a venomous bite; there are two glands in the lower jaw which secrete several toxic proteins. Komodo dragon group behaviour in hunting is exceptional in the reptile world. </description>
+    <description>The Komodo dragon is the largest living species of lizard, growing to a maximum length of 3 metres (10 ft) in rare cases and weighing up to approximately 70 kilograms (150 lb). It has been claimed that they have a venomous bite; there are two glands in the lower jaw which secrete several toxic proteins. Komodo dragon group behaviour in hunting is exceptional in the reptile world.</description>
     <statBases>
       <MoveSpeed>2.5</MoveSpeed>
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
@@ -49,7 +49,7 @@
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <comps>
@@ -70,19 +70,17 @@
       <baseBodySize>1.1</baseBodySize>
       <baseHealthScale>1.2</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
-	  <leatherLabel>komodo dragon leather</leatherLabel>
-      <leatherColor>(100,100,100)</leatherColor>
-      <leatherInsulation>0.75</leatherInsulation>
+	  <leatherDef>Leather_ACP</leatherDef>
 	  <useMeatFrom>Iguana</useMeatFrom>
       <wildness>0.8</wildness>
       <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
 	  <wildBiomes>
-		<TropicalRainforest>0.25</TropicalRainforest>
-		<Desert>0.05</Desert>
-		<AridShrubland>0.15</AridShrubland>
-		<TropicalSwamp>0.1</TropicalSwamp>
-      </wildBiomes>
+	    	<TropicalRainforest>0.25</TropicalRainforest>
+	    	<Desert>0.05</Desert>
+	    	<AridShrubland>0.15</AridShrubland>
+	    	<TropicalSwamp>0.1</TropicalSwamp>
+    </wildBiomes>
       <gestationPeriodDays>16</gestationPeriodDays>
       <litterSizeCurve>
         <points>
@@ -114,10 +112,6 @@
       <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
-      <wildBiomes>
-		<AridShrubland>0.025</AridShrubland>
-	    <Desert>0.08</Desert>
-      </wildBiomes>
     </race>
     <tradeTags>
       <li>StandardAnimal</li>
@@ -129,12 +123,11 @@
     <label>komodo dragon</label>
     <race>ACPKomodo</race>
     <combatPower>67</combatPower>
-    <wildSpawn_EcoSystemWeight>0.33</wildSpawn_EcoSystemWeight>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-	<wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>0.33</ecoSystemWeight>
+	<wildGroupSize>
       <min>3</min>
       <max>7</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -142,7 +135,7 @@
           <drawSize>0.8</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Iguana/Dessicated_Iguana</texPath>
           <drawSize>0.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -152,7 +145,7 @@
           <drawSize>2</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Iguana/Dessicated_Iguana</texPath>
           <drawSize>0.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -166,7 +159,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Iguana/Dessicated_Iguana</texPath>
           <drawSize>0.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>

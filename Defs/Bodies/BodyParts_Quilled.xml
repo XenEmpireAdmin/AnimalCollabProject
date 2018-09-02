@@ -4,10 +4,10 @@
     <defName>Quills</defName>
     <label>quills</label>
     <hitPoints>10</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
-    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
   </BodyPartDef>
 </Defs>

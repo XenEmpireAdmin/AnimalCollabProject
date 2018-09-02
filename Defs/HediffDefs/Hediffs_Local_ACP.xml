@@ -22,13 +22,13 @@
       <li Class="HediffCompProperties_Infecter">
         <infectionChance>0.40</infectionChance>
       </li>
-      <li Class="HediffCompProperties_GetsOld">
-        <oldLabel>acid burn scar</oldLabel>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>acid burn scar</permanentLabel>
       </li>
     </comps>
     <injuryProps>
       <painPerSeverity>0.0125</painPerSeverity>
-      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
       <canMerge>true</canMerge>
       <destroyedLabel>Lost to acid burns</destroyedLabel>
       <destroyedOutLabel>Lost to acid burns</destroyedOutLabel>
@@ -48,13 +48,13 @@
       <li Class="HediffCompProperties_Infecter">
         <infectionChance>0.40</infectionChance>
       </li>
-      <li Class="HediffCompProperties_GetsOld">
-        <oldLabel>sting scar</oldLabel>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>sting scar</permanentLabel>
       </li>
     </comps>
 		<injuryProps>
       <painPerSeverity>0.025</painPerSeverity>
-      <averagePainPerSeverityOld>0.00625</averagePainPerSeverityOld>
+      <averagePainPerSeverityPermanent>0.00625</averagePainPerSeverityPermanent>
 			<bleedRate>0.015</bleedRate>
 			<canMerge>false</canMerge>
 			<destroyedLabel>Torn off</destroyedLabel>
@@ -89,7 +89,7 @@
         </disappearsAfterTicks>
       </li>
       <li Class="HediffCompProperties_TendDuration">
-        <tendDuration>30000</tendDuration>
+        <baseTendDurationHours>5</baseTendDurationHours>
         <severityPerDayTended>-0.75</severityPerDayTended>
       </li>
     </comps>
@@ -156,7 +156,7 @@
         </disappearsAfterTicks>
       </li>
       <li Class="HediffCompProperties_TendDuration">
-        <tendDuration>30000</tendDuration>
+        <baseTendDurationHours>12</baseTendDurationHours>
         <severityPerDayTended>-0.75</severityPerDayTended>
       </li>
     </comps>

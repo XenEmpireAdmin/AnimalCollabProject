@@ -4,19 +4,21 @@
     <defName>LeftAntler</defName>
     <label>left antler</label>
     <hitPoints>15</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <bleedRate>0</bleedRate>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
+    <solid>true</solid>
+    <alive>false</alive>
   </BodyPartDef>
   
   <BodyPartDef>
     <defName>RightAntler</defName>
     <label>right antler</label>
     <hitPoints>15</hitPoints>
-    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
     <skinCovered>false</skinCovered>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
+    <bleedRate>0</bleedRate>
+    <solid>true</solid>
+    <alive>false</alive>
   </BodyPartDef>
 </Defs>

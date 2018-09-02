@@ -45,7 +45,7 @@
         <power>3</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <comps>
@@ -68,12 +68,10 @@
       <baseBodySize>1.3</baseBodySize>
       <baseHealthScale>1.2</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
-      <leatherColor>(59,102,208)</leatherColor>
-      <leatherLabel>xenguana skin</leatherLabel>
-      <leatherInsulation>0.9</leatherInsulation>
+      <leatherDef>Leather_ACP</leatherDef>
       <useMeatFrom>Iguana</useMeatFrom>
       <nameOnTameChance>1</nameOnTameChance>
-      <trainableIntelligence>Advanced</trainableIntelligence>
+      <trainability>Advanced</trainability>
       <wildness>0.45</wildness>
       <nuzzleMtbHours>12</nuzzleMtbHours>
       <packAnimal>true</packAnimal>
@@ -119,7 +117,6 @@
     <label>xenguana</label>
     <race>ACPXenguana</race>
     <combatPower>80</combatPower>
-    <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -127,7 +124,7 @@
           <drawSize>1.2</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Iguana/Dessicated_Iguana</texPath>
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -137,7 +134,7 @@
           <drawSize>1.7</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Iguana/Dessicated_Iguana</texPath>
           <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -147,7 +144,7 @@
           <drawSize>2.2</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Iguana/Dessicated_Iguana</texPath>
           <drawSize>2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -201,7 +198,7 @@
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <comps>
@@ -233,12 +230,10 @@
         <TropicalSwamp>0.15</TropicalSwamp>
         <TemperateSwamp>0.15</TemperateSwamp>
       </wildBiomes>
-      <leatherColor>(59,202,108)</leatherColor>
-      <leatherLabel>gecko skin</leatherLabel>
-      <leatherInsulation>1.25</leatherInsulation>
+      <leatherDef>Leather_ACP</leatherDef>
       <useMeatFrom>Iguana</useMeatFrom>
       <nameOnTameChance>1</nameOnTameChance>
-      <trainableIntelligence>Advanced</trainableIntelligence>
+      <trainability>Advanced</trainability>
       <wildness>0</wildness>
       <nuzzleMtbHours>12</nuzzleMtbHours>
       <gestationPeriodDays>2</gestationPeriodDays>
@@ -283,7 +278,6 @@
     <label>gecko</label>
     <race>ACPXGecko</race>
     <combatPower>17</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -291,7 +285,7 @@
           <drawSize>0.45</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Iguana/Dessicated_Iguana</texPath>
           <drawSize>0.21</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -301,7 +295,7 @@
           <drawSize>0.7</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Iguana/Dessicated_Iguana</texPath>
           <drawSize>0.25</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -311,7 +305,7 @@
           <drawSize>1.1</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Iguana/Dessicated_Iguana</texPath>
           <drawSize>0.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>

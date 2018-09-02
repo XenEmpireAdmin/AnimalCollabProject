@@ -19,7 +19,6 @@
     <defName>ACPDomesticRabbit</defName>
     <label>domestic rabbit</label>
     <race>ACPDomesticRabbit</race>
-    <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -27,7 +26,7 @@
           <drawSize>0.55</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
           <drawSize>0.45</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -41,7 +40,7 @@
           </shadowData>  
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
           <drawSize>0.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -55,7 +54,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
           <drawSize>0.85</drawSize>
         </dessicatedBodyGraphicData>
       </li>

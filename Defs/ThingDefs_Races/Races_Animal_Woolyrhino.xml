@@ -11,44 +11,44 @@
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>1200</MarketValue>
     </statBases>
-    <tools>
+      <tools>
       <li>
-        <id>hornScratch</id>
         <label>horn</label>
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>15</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>19</power>
+        <cooldownTime>1.9</cooldownTime>
         <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
       </li>
       <li>
-        <id>hornBlunt</id>
         <label>horn</label>
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>17</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>19</power>
+        <cooldownTime>1.9</cooldownTime>
         <linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
       </li>
       <li>
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>12</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>19</power>
+        <cooldownTime>2.4</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
       </li>
       <li>
         <label>head</label>
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>9</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>15</power>
+        <cooldownTime>1.9</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -58,22 +58,16 @@
       <baseBodySize>3.0</baseBodySize>
       <baseHealthScale>3.5</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
-      <leatherColor>(96,80,59)</leatherColor>
-      <leatherLabel>wooly rhinohide</leatherLabel>
-      <leatherInsulation>0.9</leatherInsulation>
-      <leatherMarketValueFactor>2</leatherMarketValueFactor>
-      <leatherStatFactors>
-        <ArmorRating_Blunt>2.5</ArmorRating_Blunt>
-        <ArmorRating_Sharp>2.5</ArmorRating_Sharp>
-      </leatherStatFactors>
+      <leatherDef>Leather_ACP</leatherDef>
       <useMeatFrom>Rhinoceros</useMeatFrom>
       <wildness>0.90</wildness>
     <wildBiomes>
-			<Tundra>0.015</Tundra>
 			<IceSheet>0.01</IceSheet>
 			<SeaIce>0.01</SeaIce>
 			<BorealForest>0.02</BorealForest>
       <ColdBog>0.1</ColdBog>
+      <Tundra>0.02</Tundra>
+	  	<TemperateSwamp>0.02</TemperateSwamp>
 		</wildBiomes>
       <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
@@ -101,12 +95,6 @@
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
-      <wildBiomes>
-		<Tundra>0.02</Tundra>
-		<BorealForest>0.01</BorealForest>
-		<TemperateSwamp>0.02</TemperateSwamp>
-		<ColdBog>0.03</ColdBog>
-      </wildBiomes>
     </race>
     <tradeTags>
       <li>StandardAnimal</li>
@@ -119,12 +107,11 @@
     <label>wooly rhino</label>
     <race>ACPWoolyRhino</race>
     <combatPower>290</combatPower>
-    <wildSpawn_EcoSystemWeight>0.2</wildSpawn_EcoSystemWeight>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>0.2</ecoSystemWeight>
+    <wildGroupSize>
       <min>1</min>
       <max>3</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -136,7 +123,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Rhino/Dessicated_Rhino</texPath>
           <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -150,7 +137,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Rhino/Dessicated_Rhino</texPath>
           <drawSize>2.25</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -164,7 +151,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Rhino/Dessicated_Rhino</texPath>
           <drawSize>3</drawSize>
         </dessicatedBodyGraphicData>
       </li>

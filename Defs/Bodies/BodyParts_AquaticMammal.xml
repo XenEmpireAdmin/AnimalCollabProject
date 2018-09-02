@@ -5,7 +5,7 @@
     <defName>FrontLeftFlipper</defName>
     <label>front left flipper</label>
     <hitPoints>30</hitPoints>
-    <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+    <permanentInjuryChanceFactor>0.08</permanentInjuryChanceFactor>
     <skinCovered>true</skinCovered>
     <tags>
       <li>MovingLimbCore</li>
@@ -16,7 +16,7 @@
     <defName>FrontRightFlipper</defName>
     <label>front right flipper</label>
     <hitPoints>30</hitPoints>
-    <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+    <permanentInjuryChanceFactor>0.08</permanentInjuryChanceFactor>
     <skinCovered>true</skinCovered>
     <tags>
       <li>MovingLimbCore</li>

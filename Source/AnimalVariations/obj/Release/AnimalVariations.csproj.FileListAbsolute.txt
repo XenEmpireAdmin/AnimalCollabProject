@@ -12,3 +12,8 @@ C:\Users\TJX\Desktop\XenAnimalVar\AnimalVariations\AnimalVariations\obj\Release\
 E:\Steam2\steamapps\common\RimWorld\Mods\AnimalCollabProjectA17-master\Assemblies\AnimalVariations.dll
 E:\Steam2\steamapps\common\RimWorld\Mods\AnimalCollabProjectA17-master\Source\AnimalVariations\obj\Release\AnimalVariations.csprojResolveAssemblyReference.cache
 E:\Steam2\steamapps\common\RimWorld\Mods\AnimalCollabProjectA17-master\Source\AnimalVariations\obj\Release\AnimalVariations.dll
+F:\Steam\steamapps\common\RimWorld\Mods\AnimalCollabProject-master\Assemblies\AnimalVariations.dll
+F:\Steam\steamapps\common\RimWorld\Mods\AnimalCollabProject-master\Source\AnimalVariations\obj\Release\AnimalVariations.csprojAssemblyReference.cache
+F:\Steam\steamapps\common\RimWorld\Mods\AnimalCollabProject-master\Source\AnimalVariations\obj\Release\AnimalVariations.csproj.CoreCompileInputs.cache
+F:\Steam\steamapps\common\RimWorld\Mods\AnimalCollabProject-master\Source\AnimalVariations\obj\Release\AnimalVariations.csproj.CopyComplete
+F:\Steam\steamapps\common\RimWorld\Mods\AnimalCollabProject-master\Source\AnimalVariations\obj\Release\AnimalVariations.dll

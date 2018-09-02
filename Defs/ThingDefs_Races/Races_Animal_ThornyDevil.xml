@@ -47,7 +47,7 @@
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <comps>
@@ -117,8 +117,7 @@
     <label>thorny devil</label>
     <race>ACPThornyDevil</race>
     <combatPower>38</combatPower>
-    <wildSpawn_EcoSystemWeight>0.33</wildSpawn_EcoSystemWeight>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
+    <ecoSystemWeight>0.33</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -126,7 +125,7 @@
           <drawSize>0.45</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Iguana/Dessicated_Iguana</texPath>
           <drawSize>0.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -136,7 +135,7 @@
           <drawSize>0.7</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Iguana/Dessicated_Iguana</texPath>
           <drawSize>0.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -146,7 +145,7 @@
           <drawSize>0.9</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+          <texPath>Things/Pawn/Animal/Iguana/Dessicated_Iguana</texPath>
           <drawSize>0.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>

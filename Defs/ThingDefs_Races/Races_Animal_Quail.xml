@@ -41,7 +41,7 @@
         <power>3</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools> 
 
@@ -66,7 +66,7 @@
       <baseHealthScale>0.35</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
       <useMeatFrom>Cassowary</useMeatFrom>
-      <trainableIntelligence>None</trainableIntelligence>
+      <trainability>None</trainability>
       <wildness>0.55</wildness>
       <gestationPeriodDays>7</gestationPeriodDays>
       <mateMtbHours>3</mateMtbHours>
@@ -128,12 +128,11 @@
   <label>valley quail</label>
   <race>ACPValleyQuail</race>
   <combatPower>15</combatPower>
-  <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-  <wildSpawn_EcoSystemWeight>0.05</wildSpawn_EcoSystemWeight>
-  <wildSpawn_GroupSizeRange>
+  <ecoSystemWeight>0.05</ecoSystemWeight>
+  <wildGroupSize>
     <min>3</min>
     <max>8</max>
-  </wildSpawn_GroupSizeRange>
+  </wildGroupSize>
   <labelMale>quail cock</labelMale>
   <labelFemale>quail hen</labelFemale>
     
@@ -145,7 +144,7 @@
         <drawSize>0.45</drawSize>
       </bodyGraphicData>
       <dessicatedBodyGraphicData>
-        <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+        <texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
         <drawSize>0.4</drawSize>
       </dessicatedBodyGraphicData>
     </li>
@@ -160,7 +159,7 @@
         <drawSize>0.75</drawSize>
       </femaleGraphicData>
       <dessicatedBodyGraphicData>
-        <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+        <texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
         <drawSize>0.7</drawSize>
       </dessicatedBodyGraphicData>
     </li>
@@ -174,7 +173,7 @@
         <drawSize>0.80</drawSize>
       </femaleGraphicData>
       <dessicatedBodyGraphicData>
-        <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+        <texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
         <drawSize>0.75</drawSize>
       </dessicatedBodyGraphicData>
     </li>

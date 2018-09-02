@@ -28,22 +28,26 @@
 					<depth>Inside</depth>
 				</li>
 				<li>
-					<def>LeftLung</def>
+					<def>Lung</def>
+					<customLabel>left lung</customLabel>
 					<coverage>0.03</coverage>
 					<depth>Inside</depth>
 				</li>
 				<li>
-					<def>RightLung</def>
+					<def>Lung</def>
+					<customLabel>right lung</customLabel>
 					<coverage>0.03</coverage>
 					<depth>Inside</depth>
 				</li>
 				<li>
-					<def>LeftKidney</def>
+					<def>Kidney</def>
+					<customLabel>left kidney</customLabel>
 					<coverage>0.03</coverage>
 					<depth>Inside</depth>
 				</li>
 				<li>
-					<def>RightKidney</def>
+					<def>Kidney</def>
+					<customLabel>right kidney</customLabel>
 					<coverage>0.03</coverage>
 					<depth>Inside</depth>
 				</li>
@@ -77,19 +81,23 @@
 									</parts>
 								</li>
 								<li>
-									<def>LeftEye</def>
+									<def>Eye</def>
+									<customLabel>left eye</customLabel>
 									<coverage>0.1</coverage>
 								</li>
 								<li>
-									<def>RightEye</def>
+									<def>Eye</def>
+									<customLabel>right eye</customLabel>
 									<coverage>0.1</coverage>
 								</li>
 								<li>
-									<def>LeftEar</def>
+									<def>Ear</def>
+									<customLabel>left ear</customLabel>
 									<coverage>0.05</coverage>
 								</li>
 								<li>
-									<def>RightEar</def>
+									<def>Ear</def>
+									<customLabel>right ear</customLabel>
 									<coverage>0.05</coverage>
 								</li>
 								<li>
@@ -109,6 +117,7 @@
 				</li>
 				<li>
 					<def>FrontLeftFlipper</def>
+					<customLabel>left</customLabel>
 					<coverage>0.1</coverage>
 					<height>Bottom</height>
 					<groups>
@@ -157,22 +166,22 @@
 					<depth>Inside</depth>
 				</li>
 				<li>
-					<def>LeftLung</def>
+					<def>Lung</def> 					<customLabel>left lung</customLabel>
 					<coverage>0.03</coverage>
 					<depth>Inside</depth>
 				</li>
 				<li>
-					<def>RightLung</def>
+					<def>Lung</def> 					<customLabel>right lung</customLabel>
 					<coverage>0.03</coverage>
 					<depth>Inside</depth>
 				</li>
 				<li>
-					<def>LeftKidney</def>
+					<def>Kidney</def> 					<customLabel>left kidney</customLabel>
 					<coverage>0.03</coverage>
 					<depth>Inside</depth>
 				</li>
 				<li>
-					<def>RightKidney</def>
+					<def>Kidney</def> 					<customLabel>right kidney</customLabel>
 					<coverage>0.03</coverage>
 					<depth>Inside</depth>
 				</li>
@@ -206,19 +215,23 @@
 									</parts>
 								</li>
 								<li>
-									<def>LeftEye</def>
+									<def>Eye</def>
+									<customLabel>left eye</customLabel>
 									<coverage>0.15</coverage>
 								</li>
 								<li>
-									<def>RightEye</def>
+									<def>Eye</def>
+                 					 <customLabel>right eye</customLabel>
 									<coverage>0.15</coverage>
 								</li>
 								<li>
-									<def>LeftEar</def>
+									<def>Ear</def>
+									<customLabel>left ear</customLabel>
 									<coverage>0.05</coverage>
 								</li>
 								<li>
-									<def>RightEar</def>
+									<def>Ear</def>
+									<customLabel>right ear</customLabel>
 									<coverage>0.05</coverage>
 								</li>
 								<li>
@@ -233,14 +246,16 @@
 									</groups>
 									<parts>
 										<li>
-											<def>LeftTusk</def>
+											<def>Tusk</def>
+											<customLabel>left tusk</customLabel>
 											<coverage>0.1</coverage>
 											<groups>
 												<li>TuskAttackTool</li>
 											</groups>
 										</li>
 										<li>
-											<def>RightTusk</def>
+											<def>Tusk</def>
+											<customLabel>right tusk</customLabel>
 											<coverage>0.1</coverage>
 											<groups>
 												<li>TuskAttackTool</li>

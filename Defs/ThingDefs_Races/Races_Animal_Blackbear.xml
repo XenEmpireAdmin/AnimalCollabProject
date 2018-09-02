@@ -18,10 +18,8 @@
       <lifeExpectancy>25</lifeExpectancy>
       <gestationPeriodDays>45</gestationPeriodDays>
       <manhunterOnTameFailChance>0.010</manhunterOnTameFailChance>
-      <leatherColor>(45,45,45)</leatherColor>
-      <leatherLabel>black pelt</leatherLabel>
-      <leatherInsulation>1</leatherInsulation>
-      <useMeatFrom>GrizzlyBear</useMeatFrom>
+      <leatherDef>Leather_ACP</leatherDef>
+      <useMeatFrom>Bear_Grizzly</useMeatFrom>
       <wildBiomes>
     	<Tundra>0.005</Tundra>
     	<BorealForest>0.02</BorealForest>

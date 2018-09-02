@@ -48,7 +48,7 @@
         <power>5</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -62,7 +62,7 @@
       <foodType>VegetarianRoughAnimal</foodType>
 	  <useLeatherFrom>ACPFerret</useLeatherFrom>
       <meatLabel>horsemeat</meatLabel>
-      <trainableIntelligence>Advanced</trainableIntelligence>
+      <trainability>Advanced</trainability>
       <wildness>0.5</wildness>
       <manhunterOnDamageChance>0.025</manhunterOnDamageChance>
       <manhunterOnTameFailChance>0.01</manhunterOnTameFailChance>
@@ -107,12 +107,11 @@
     <label>horse</label>
     <race>ACPHorse</race>
     <combatPower>55</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.7</wildSpawn_EcoSystemWeight>
-    <wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>0.7</ecoSystemWeight>
+    <wildGroupSize>
       <min>3</min>
       <max>8</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <labelMale>Horse stallion</labelMale>
     <labelFemale>Horse mare</labelFemale>
     <lifeStages>
@@ -129,7 +128,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cow/Dessicated_Cow</texPath>
           <drawSize>1.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -146,7 +145,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+         <texPath>Things/Pawn/Animal/Cow/Dessicated_Cow</texPath>
           <drawSize>1.85</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -161,7 +160,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cow/Dessicated_Cow</texPath>
           <drawSize>2.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -218,7 +217,7 @@
         <power>4</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -229,10 +228,8 @@
       <baseHungerRate>0.5</baseHungerRate>
       <baseHealthScale>1.6</baseHealthScale>
       <foodType>VegetarianRoughAnimal, CarnivoreAnimal</foodType>
-      <leatherColor>(255,255,255)</leatherColor>
-      <leatherLabel>woolyhorse hide</leatherLabel>
-      <trainableIntelligence>Advanced</trainableIntelligence>
-      <leatherInsulation>1.2</leatherInsulation>
+      <leatherDef>Leather_ACP</leatherDef>
+      <trainability>Advanced</trainability>
       <useMeatFrom>ACPHorse</useMeatFrom>
       <wildness>0.85</wildness>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
@@ -277,12 +274,11 @@
     <label>woolyhorse</label>
     <race>ACPWoolyHorse</race>
     <combatPower>65</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.8</wildSpawn_EcoSystemWeight>
-    <wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>0.8</ecoSystemWeight>
+    <wildGroupSize>
       <min>2</min>
       <max>5</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <labelMale>Woolyhorse stallion</labelMale>
     <labelFemale>Woolyhorse mare</labelFemale>
     <lifeStages>
@@ -295,8 +291,8 @@
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.1</drawSize>
+          <texPath>Things/Pawn/Animal/Cow/Dessicated_Cow</texPath>
+          <drawSize>0.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -308,8 +304,8 @@
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>1.9</drawSize>
+          <texPath>Things/Pawn/Animal/Cow/Dessicated_Cow</texPath>
+          <drawSize>0.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -319,8 +315,8 @@
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
-          <drawSize>2.6</drawSize>
+          <texPath>Things/Pawn/Animal/Cow/Dessicated_Cow</texPath>
+          <drawSize>1.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

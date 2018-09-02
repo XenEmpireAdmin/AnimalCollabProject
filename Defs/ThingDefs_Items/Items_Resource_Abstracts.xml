@@ -117,7 +117,7 @@
       </categories>
       <commonality>0.15</commonality>
       <statFactors>
-        <ArmorRating_Electric>1.2</ArmorRating_Electric>
+        <ArmorRating_Blunt>1.2</ArmorRating_Blunt>
       </statFactors>
     </stuffProps>
     <thingCategories>

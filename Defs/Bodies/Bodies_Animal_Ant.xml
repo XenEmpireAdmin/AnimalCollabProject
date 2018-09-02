@@ -10,11 +10,13 @@
       <depth>Outside</depth>
       <parts>
         <li>
-          <def>LeftElytra</def>
+          <def>Elytra</def>
+          <customLabel>left elytra</customLabel>
           <coverage>0.05</coverage>
         </li>
         <li>
-          <def>RightElytra</def>
+          <def>Elytra</def>
+          <customLabel>right elytra</customLabel>
           <coverage>0.05</coverage>
         </li>
         <li>
@@ -45,19 +47,23 @@
                   <depth>Inside</depth>
                 </li>
                 <li>
-                  <def>LeftEye</def>
+                  <def>Eye</def>
+                  <customLabel>left eye</customLabel>
                   <coverage>0.15</coverage>
                 </li>
                 <li>
-                  <def>RightEye</def>
+                  <def>Eye</def>
+                  <customLabel>right eye</customLabel>
                   <coverage>0.15</coverage>
                 </li>
                 <li>
-                  <def>LeftAntenna</def>
+                  <def>Antenna</def>
+                  <customLabel>left antenna</customLabel>
                   <coverage>0.05</coverage>
                 </li>
                 <li>
-                  <def>RightAntenna</def>
+                  <def>Antenna</def>
+                  <customLabel>left</customLabel>
                   <coverage>0.05</coverage>
                 </li>
                 <li>
@@ -76,32 +82,38 @@
           </parts>
         </li>
         <li>
-          <def>FrontLeftInsectLeg</def>
+          <def>InsectLeg</def>
+          <customLabel>front left leg</customLabel>
           <coverage>0.06</coverage>
           <height>Bottom</height>
         </li>
         <li>
-          <def>FrontRightInsectLeg</def>
+          <def>InsectLeg</def>
+          <customLabel>front right leg</customLabel>
           <coverage>0.06</coverage>
           <height>Bottom</height>
         </li>
         <li>
-          <def>MiddleLeftInsectLeg</def>
+          <def>InsectLeg</def>
+          <customLabel>mid-left leg</customLabel>
           <coverage>0.06</coverage>
           <height>Bottom</height>
         </li>
         <li>
-          <def>MiddleRightInsectLeg</def>
+          <def>InsectLeg</def>
+          <customLabel>mid-right leg</customLabel>
           <coverage>0.06</coverage>
           <height>Bottom</height>
         </li>
         <li>
-          <def>RearLeftInsectLeg</def>
+          <def>InsectLeg</def>
+          <customLabel>rear left leg</customLabel>
           <coverage>0.06</coverage>
           <height>Bottom</height>
         </li>
         <li>
-          <def>RearRightInsectLeg</def>
+          <def>InsectLeg</def>
+          <customLabel>rear right leg</customLabel>
           <coverage>0.06</coverage>
           <height>Bottom</height>
         </li>

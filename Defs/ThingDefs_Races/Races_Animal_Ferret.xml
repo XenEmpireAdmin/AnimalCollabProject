@@ -70,7 +70,7 @@
         <power>1</power>
         <cooldownTime>1.35</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -82,12 +82,10 @@
       <baseHungerRate>0.08</baseHungerRate>
       <baseHealthScale>0.65</baseHealthScale>
       <foodType>CarnivoreAnimalStrict, Kibble, AnimalProduct</foodType>
-      <leatherColor>(237,222,190)</leatherColor>
-      <leatherLabel>buff leather</leatherLabel>
-      <leatherInsulation>1</leatherInsulation>
+      <leatherDef>Leather_ACP</leatherDef>
 	  <useMeatFrom>Alphabeaver</useMeatFrom>
 	  <nameOnTameChance>1</nameOnTameChance>
-      <trainableIntelligence>Advanced</trainableIntelligence>
+      <trainability>Advanced</trainability>
       <wildness>0.35</wildness>
       <wildBiomes>
         <Desert>0.02</Desert>
@@ -148,12 +146,11 @@
 	<labelMale>ferret hob</labelMale>
 	<labelFemale>ferret jill</labelFemale>
     <combatPower>30</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.25</wildSpawn_EcoSystemWeight>
-    <wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>0.25</ecoSystemWeight>
+    <wildGroupSize>
       <min>2</min>
       <max>5</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <lifeStages>
       <li>
         <label>kit</label>
@@ -162,7 +159,7 @@
           <drawSize>0.6</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
           <drawSize>0.55</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -176,7 +173,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
           <drawSize>0.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -198,7 +195,7 @@
           </shadowData>
 	 </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
           <drawSize>1.1</drawSize>
         </dessicatedBodyGraphicData>
       </li>

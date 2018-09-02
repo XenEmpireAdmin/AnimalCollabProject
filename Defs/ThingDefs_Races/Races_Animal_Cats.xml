@@ -16,7 +16,7 @@
       <baseHealthScale>1.8</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 	  <useMeatFrom>Cat</useMeatFrom>
-      <leatherInsulation>0.9</leatherInsulation>
+      <leatherDef>Leather_ACP</leatherDef>
       <wildness>0.80</wildness>
       <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
@@ -59,8 +59,6 @@
 
   <PawnKindDef ParentName="AnimalKindBase" Name="BigCatKindBase" Abstract="True">
     <combatPower>155</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.42</wildSpawn_EcoSystemWeight>
   </PawnKindDef>
 
   <!--===============================================-->
@@ -128,12 +126,11 @@
         <power>5</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
-      <leatherLabel>tawny pelt</leatherLabel>
-      <leatherColor>(225,169,95)</leatherColor>
+     <leatherDef>Leather_ACP</leatherDef>
 	  <herdAnimal>true</herdAnimal>
       <baseBodySize>1.5</baseBodySize>
       <baseHungerRate>0.3</baseHungerRate>
@@ -154,10 +151,11 @@
     <label>lion</label>
     <race>ACPLion</race>
 	<combatPower>255</combatPower>
-	<wildSpawn_GroupSizeRange>
+	<wildGroupSize>
       <min>3</min>
       <max>5</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
+     <ecoSystemWeight>0.5</ecoSystemWeight>
     <labelMale>lion</labelMale>
     <labelFemale>lioness</labelFemale>
     <lifeStages>
@@ -168,7 +166,7 @@
           <drawSize>1.1</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -190,7 +188,7 @@
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
           <drawSize>1.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -212,7 +210,7 @@
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
           <drawSize>2.3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -284,7 +282,7 @@
         <power>5</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -317,7 +315,7 @@
           <drawSize>1.6</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
           <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -331,7 +329,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
           <drawSize>2.0</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -345,7 +343,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
           <drawSize>2.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -421,7 +419,7 @@
         <power>2</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
 	<race>
@@ -448,7 +446,7 @@
           <drawSize>0.7</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
           <drawSize>0.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -462,7 +460,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
           <drawSize>0.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -476,7 +474,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
           <drawSize>1.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -553,7 +551,7 @@
         <power>2</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -579,7 +577,6 @@
     <label>amur leopard</label>
     <race>ACPAmurLeopard</race>
     <combatPower>110</combatPower>
-    <wildSpawn_EcoSystemWeight>0.22</wildSpawn_EcoSystemWeight>
     <lifeStages>
       <li>
         <label>amur leopard cub</label>
@@ -589,7 +586,7 @@
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
           <drawSize>0.9</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -604,7 +601,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
           <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -619,7 +616,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
           <drawSize>2.18</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -696,16 +693,14 @@
         <power>2</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
       <baseBodySize>0.7</baseBodySize>
       <baseHungerRate>0.2</baseHungerRate>
       <baseHealthScale>0.75</baseHealthScale>
-      <leatherColor>(200,200,200)</leatherColor>
-      <leatherInsulation>1.15</leatherInsulation>
-      <leatherLabel>grey pelt</leatherLabel>
+      <leatherDef>Leather_ACP</leatherDef>
       <wildness>0.80</wildness>
       <wildBiomes>
         <TemperateForest>0.035</TemperateForest>
@@ -725,7 +720,6 @@
     <label>snow leopard</label>
     <race>ACPSnowLeopard</race>
     <combatPower>110</combatPower>
-    <wildSpawn_EcoSystemWeight>0.22</wildSpawn_EcoSystemWeight>
     <lifeStages>
       <li>
         <label>snow leopard cub</label>
@@ -735,7 +729,7 @@
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -750,7 +744,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
           <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -765,7 +759,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
           <drawSize>2.18</drawSize>
         </dessicatedBodyGraphicData>
       </li>

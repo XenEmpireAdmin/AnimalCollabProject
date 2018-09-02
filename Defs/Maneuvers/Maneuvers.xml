@@ -8,7 +8,11 @@
       <verbClass>Verb_MeleeAttack</verbClass>
       <meleeDamageDef>Sting</meleeDamageDef>
     </verb>
-    <combatLogRules>Maneuver_Stab</combatLogRules>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Poke_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Poke_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Poke_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Poke_MeleeDodge</combatLogRulesDodge>
   </ManeuverDef>
 
   <ManeuverDef>
@@ -18,7 +22,11 @@
       <verbClass>Verb_MeleeAttack</verbClass>
       <meleeDamageDef>ScorpionSting</meleeDamageDef>
     </verb>
-    <combatLogRules>Maneuver_Stab</combatLogRules>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Poke_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Poke_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Poke_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Poke_MeleeDodge</combatLogRulesDodge>
   </ManeuverDef>
   
    <ManeuverDef>
@@ -28,7 +36,11 @@
       <verbClass>Verb_MeleeAttack</verbClass>
       <meleeDamageDef>PlatypusSting</meleeDamageDef>
     </verb>
-    <combatLogRules>Maneuver_Stab</combatLogRules>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Poke_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Poke_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Poke_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Poke_MeleeDodge</combatLogRulesDodge>
   </ManeuverDef>
   
   <ManeuverDef>
@@ -38,7 +50,11 @@
       <verbClass>Verb_MeleeAttack</verbClass>
       <meleeDamageDef>AcidBite</meleeDamageDef>
     </verb>
-    <combatLogRules>Bite</combatLogRules>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Bite_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Bite_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Bite_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Bite_MeleeDodge</combatLogRulesDodge>
   </ManeuverDef>
   
 </Defs>

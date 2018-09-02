@@ -16,7 +16,6 @@
       <baseHungerRate>0.3</baseHungerRate>
       <baseHealthScale>1.8</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-      <leatherInsulation>0.9</leatherInsulation>
 	  <useMeatFrom>Alphabeaver</useMeatFrom>
       <wildness>0.80</wildness>
       <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
@@ -52,8 +51,7 @@
 
   <PawnKindDef ParentName="AnimalKindBase" Name="MartenKindBase" Abstract="True">
     <combatPower>155</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.42</wildSpawn_EcoSystemWeight>
+    <ecoSystemWeight>0.42</ecoSystemWeight>
   </PawnKindDef>
   
   <!--===============================================-->
@@ -127,7 +125,7 @@
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -157,8 +155,7 @@
     <label>fisher</label>
     <race>ACPFishercat</race>
     <combatPower>90</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.22</wildSpawn_EcoSystemWeight>
+    <ecoSystemWeight>0.22</ecoSystemWeight>
     <lifeStages>
       <li>
 	<label>fisher kit</label>
@@ -167,7 +164,7 @@
           <drawSize>0.5</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
           <drawSize>0.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -177,7 +174,7 @@
           <drawSize>0.8</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
           <drawSize>0.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -191,7 +188,7 @@
           <drawSize>1.1</drawSize>
 	</femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
           <drawSize>1.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -269,12 +266,11 @@
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
-      <leatherLabel>white pelt</leatherLabel>
-      <leatherColor>(255,255,255)</leatherColor>
+      <leatherDef>Leather_ACP</leatherDef>
       <baseBodySize>0.7</baseBodySize>
       <baseHealthScale>0.75</baseHealthScale>
       <wildness>0.55</wildness>
@@ -297,8 +293,7 @@
     <label>ermine</label>
     <race>ACPErmine</race>
     <combatPower>40</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.11</wildSpawn_EcoSystemWeight>
+    <ecoSystemWeight>0.11</ecoSystemWeight>
     <lifeStages>
       <li>
 	<label>ermine kit</label>
@@ -307,7 +302,7 @@
           <drawSize>0.4</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
           <drawSize>0.35</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -317,7 +312,7 @@
           <drawSize>0.6</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
           <drawSize>0.55</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -331,7 +326,7 @@
           <drawSize>0.8</drawSize>
 	</femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
           <drawSize>0.75</drawSize>
         </dessicatedBodyGraphicData>
       </li>

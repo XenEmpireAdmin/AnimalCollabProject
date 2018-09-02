@@ -5,10 +5,10 @@
     <defName>RearLeftSpur</defName>
     <label>rear left spur</label>
     <hitPoints>30</hitPoints>
-	<oldInjuryBaseChance>0.001</oldInjuryBaseChance>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
-    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+	<permanentInjuryChanceFactor>0.001</permanentInjuryChanceFactor>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
     <skinCovered>false</skinCovered>
   </BodyPartDef>
 
@@ -16,10 +16,10 @@
     <defName>RearRightSpur</defName>
     <label>rear right spur</label>
     <hitPoints>30</hitPoints>
-    <oldInjuryBaseChance>0.001</oldInjuryBaseChance>
-    <isSolid>true</isSolid>
-    <isAlive>false</isAlive>
-    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <permanentInjuryChanceFactor>0.001</permanentInjuryChanceFactor>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
     <skinCovered>false</skinCovered>
   </BodyPartDef>
   
@@ -27,7 +27,7 @@
     <defName>Bill</defName>
     <label>bill</label>
     <hitPoints>35</hitPoints>
-    <oldInjuryBaseChance>0.02</oldInjuryBaseChance>
+    <permanentInjuryChanceFactor>0.02</permanentInjuryChanceFactor>
     <skinCovered>true</skinCovered>
   </BodyPartDef>
 

@@ -59,7 +59,7 @@
         <power>2</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
   </ThingDef>
@@ -75,9 +75,7 @@
     <label>domestic goose</label>
     <description>A large domestic bird frequently kept for its meat and feathers.</description>
 	<race>
-	  <leatherColor>(255,240,215)</leatherColor>
-	  <leatherLabel>bird leather</leatherLabel>
-	  <leatherInsulation>0.2</leatherInsulation>
+	  <leatherDef>Leather_Bird</leatherDef>
 	  <wildness>0.2</wildness>
 	</race>
     <comps>
@@ -96,7 +94,6 @@
     <label>domestic goose</label>
 	<labelPlural>domestic geese</labelPlural>
     <race>ACPDomesticGoose</race>
-	<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
     <labelMale>domestic gander</labelMale>
     <labelFemale>domestic goose</labelFemale>
     <lifeStages>
@@ -107,7 +104,7 @@
           <drawSize>0.5</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+           <texPath>Things/Pawn/Animal/Turkey/Dessicated_TurkeyHen</texPath>
           <drawSize>0.45</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -117,7 +114,7 @@
           <drawSize>0.9</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+           <texPath>Things/Pawn/Animal/Turkey/Dessicated_TurkeyHen</texPath>
           <drawSize>0.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -127,7 +124,7 @@
           <drawSize>1.2</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+           <texPath>Things/Pawn/Animal/Turkey/Dessicated_TurkeyHen</texPath>
           <drawSize>1.1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -182,7 +179,7 @@
           <drawSize>0.55</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+           <texPath>Things/Pawn/Animal/Turkey/Dessicated_TurkeyHen</texPath>
           <drawSize>0.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -192,7 +189,7 @@
           <drawSize>1</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+           <texPath>Things/Pawn/Animal/Turkey/Dessicated_TurkeyHen</texPath>
           <drawSize>0.9</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -202,17 +199,16 @@
           <drawSize>1.2</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Turkey/Dessicated_TurkeyHen</texPath>
           <drawSize>1.1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
-	<wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>0.3</wildSpawn_EcoSystemWeight>
-	<wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>0.3</ecoSystemWeight>
+	<wildGroupSize>
       <min>4</min>
       <max>7</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
   </PawnKindDef>
   
 </Defs>

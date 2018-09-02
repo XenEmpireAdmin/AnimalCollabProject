@@ -69,7 +69,7 @@
         <power>4</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -80,15 +80,13 @@
       <packAnimal>true</packAnimal>
       <predator>true</predator>
       <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
-      <leatherLabel>megabadger pelt</leatherLabel>
-      <leatherColor>(130,102,50)</leatherColor>
-      <leatherInsulation>1</leatherInsulation>
+      <leatherDef>Leather_ACP</leatherDef>
 	  <useMeatFrom>Alphabeaver</useMeatFrom>
       <gestationPeriodDays>60</gestationPeriodDays>
       <wildness>0.86</wildness>
       <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
-      <trainableIntelligence>Advanced</trainableIntelligence>
+      <trainability>Advanced</trainability>
       <nuzzleMtbHours>120</nuzzleMtbHours>
       <lifeExpectancy>32</lifeExpectancy>
       <lifeStageAges>
@@ -129,8 +127,7 @@
     <label>megabadger</label>
     <race>ACPMegabadger</race>
     <combatPower>400</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>1.5</wildSpawn_EcoSystemWeight>
+    <ecoSystemWeight>1.5</ecoSystemWeight>
     <lifeStages>
       <li>
 	<label>megabadger cub</label>

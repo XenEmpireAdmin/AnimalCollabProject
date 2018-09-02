@@ -8,12 +8,22 @@ namespace SpiritWolfEvent
 
         public class IncidentWorker_SpiritWolves : IncidentWorker
         {
-            protected override bool CanFireNowSub(IIncidentTarget target)
+               
+            protected override bool CanFireNowSub(IncidentParms parms)
             {
-                Map map = (Map)target;
-                return !map.gameConditionManager.ConditionIsActive(GameConditionDefOf.ToxicFallout);
+                if (!base.CanFireNowSub(parms))
+                {
+                    return false;
+                }
+                Map map = (Map)parms.target;
+                PawnKindDef pawnKindDef;
+                pawnKindDef = PawnKindDefOf.ACPSpiritwolf;
+                IntVec3 intVec;
+                return RCellFinder.TryFindRandomPawnEntryCell(out intVec, map, CellFinder.EdgeRoadChance_Animal, null);
             }
-
+            
+            
+            
             protected override bool TryExecuteWorker(IncidentParms parms)
             {
                 Map map = (Map)parms.target;
@@ -26,7 +36,7 @@ namespace SpiritWolfEvent
             else
             {
                 PawnKindDef spiritwolf = PawnKindDefOf.ACPSpiritwolf;
-                float points = StorytellerUtility.DefaultParmsNow(Find.Storyteller.def, IncidentCategory.ThreatBig, map).points;
+                float points = StorytellerUtility.DefaultThreatPointsNow(map);
                 int num = GenMath.RoundRandom(points / spiritwolf.combatPower);
                 int max = Rand.RangeInclusive(2, 4);
                 num = Mathf.Clamp(num, 1, max);
@@ -41,7 +51,7 @@ namespace SpiritWolfEvent
                 {
                     IntVec3 loc = CellFinder.RandomClosewalkCellNear(intVec, map, 10, null);
                     pawn = PawnGenerator.GeneratePawn(spiritwolf, null);
-                    GenSpawn.Spawn(pawn, loc, map, Rot4.Random, false);
+                    GenSpawn.Spawn(pawn, loc, map, Rot4.Random);
                     pawn.mindState.exitMapAfterTick = Find.TickManager.TicksGame + num2;
                     if (invalid.IsValid)
                     {

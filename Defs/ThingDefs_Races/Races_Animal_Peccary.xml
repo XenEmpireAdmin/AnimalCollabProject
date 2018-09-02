@@ -27,7 +27,7 @@
         <power>3</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -46,7 +46,7 @@
 		<TropicalSwamp>0.08</TropicalSwamp>
 		<TemperateSwamp>0.01</TemperateSwamp>
       </wildBiomes>
-      <trainableIntelligence>Advanced</trainableIntelligence>
+      <trainability>Advanced</trainability>
       <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
       <useMeatFrom>Pig</useMeatFrom>
       <useLeatherFrom>Pig</useLeatherFrom>
@@ -93,12 +93,11 @@
 	<labelPlural>peccaries</labelPlural>
     <race>ACPPeccary</race>
     <combatPower>50</combatPower>
-    <wildSpawn_EcoSystemWeight>0.4</wildSpawn_EcoSystemWeight>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>0.4</ecoSystemWeight>
+    <wildGroupSize>
       <min>5</min>
       <max>10</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -109,7 +108,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Ostrich/Dessicated_Ostrich</texPath>
           <drawSize>0.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -122,7 +121,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Ostrich/Dessicated_Ostrich</texPath>
           <drawSize>0.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -136,7 +135,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Ostrich/Dessicated_Ostrich</texPath>
           <drawSize>1.1</drawSize>
         </dessicatedBodyGraphicData>
       </li>

@@ -54,7 +54,7 @@
         <power>3</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -63,18 +63,12 @@
       <baseHungerRate>0.4</baseHungerRate>
       <baseHealthScale>0.8</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
-      <leatherColor>(201,201,201)</leatherColor>
       <useLeatherFrom>Ibex</useLeatherFrom>
 	  <useMeatFrom>Ibex</useMeatFrom>
-      <leatherInsulation>0.7</leatherInsulation>
       <gestationPeriodDays>15</gestationPeriodDays>
-      <leatherStatFactors>
-        <MarketValue>1</MarketValue>
-        <ArmorRating_Heat>2</ArmorRating_Heat>
-      </leatherStatFactors>
       <wildness>0.05</wildness>
       <petness>0.5</petness>
-      <trainableIntelligence>Intermediate</trainableIntelligence>
+      <trainability>Intermediate</trainability>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -126,8 +120,7 @@
     <label>majorera goat</label>
     <race>ACPMajoreraGoat</race>
     <combatPower>55</combatPower>
-    <wildSpawn_EcoSystemWeight>0.5</wildSpawn_EcoSystemWeight>
-    <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
+    <ecoSystemWeight>0.5</ecoSystemWeight>
     <labelMale>majorera billy goat</labelMale>
     <labelFemale>majorera nanny goat</labelFemale>
     <lifeStages>
@@ -149,7 +142,7 @@
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Gazelle/Dessicated_Gazelle</texPath>
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -171,7 +164,7 @@
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Gazelle/Dessicated_Gazelle</texPath>
           <drawSize>2.15</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -193,7 +186,7 @@
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Gazelle/Dessicated_Gazelle</texPath>
           <drawSize>1.1</drawSize>
         </dessicatedBodyGraphicData>
       </li>

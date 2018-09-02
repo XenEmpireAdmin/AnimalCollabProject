@@ -48,7 +48,7 @@
         <power>20</power>
         <cooldownTime>1.9</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -103,12 +103,11 @@
     <label>giraffe</label>
     <race>ACPGiraffe</race>
     <combatPower>150</combatPower>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>1</wildSpawn_EcoSystemWeight>
-    <wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>1</ecoSystemWeight>
+    <wildGroupSize>
       <min>4</min>
       <max>8</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <lifeStages>
       <li>
         <bodyGraphicData>

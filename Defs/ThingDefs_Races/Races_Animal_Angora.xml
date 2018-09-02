@@ -5,7 +5,7 @@
    <thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
 	<defName>ACPAngoraRabbit</defName>
 	<label>angora rabbit</label>
-	<description>A variety of domestic rabbit bred for its long, soft wool. </description>
+	<description>A variety of domestic rabbit bred for its long, soft wool.</description>
     
 	<statBases>
 		<MoveSpeed>5.0</MoveSpeed>
@@ -30,7 +30,7 @@
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     
@@ -103,7 +103,6 @@
     <label>angora rabbit</label>
     <race>ACPAngoraRabbit</race>
     <combatPower>15</combatPower>
-   	<wildSpawn_spawnWild>false</wildSpawn_spawnWild>
     <labelMale>angora buck</labelMale>
     <labelFemale>angora doe</labelFemale>
     
@@ -116,7 +115,7 @@
 				<color>(255,255,255)</color>
 			</bodyGraphicData>
 			<dessicatedBodyGraphicData>
-				<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+				<texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
 				<drawSize>0.5</drawSize>
 			</dessicatedBodyGraphicData>
 		</li>
@@ -132,7 +131,7 @@
 			</shadowData>
 			</bodyGraphicData>
 			<dessicatedBodyGraphicData>
-				<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+				<texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
 				<drawSize>0.75</drawSize>
 			</dessicatedBodyGraphicData>
 		</li>
@@ -147,7 +146,7 @@
 			</shadowData>
 			</bodyGraphicData>
 			<dessicatedBodyGraphicData>
-				<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+				<texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
 				<drawSize>1</drawSize>
 			</dessicatedBodyGraphicData>
 		</li>

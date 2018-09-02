@@ -29,7 +29,7 @@
         <power>10</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -52,7 +52,7 @@
       </wildBiomes>
       <nuzzleMtbHours>160</nuzzleMtbHours>
       <manhunterOnTameFailChance>0.09</manhunterOnTameFailChance>
-      <trainableIntelligence>Advanced</trainableIntelligence>
+      <trainability>Advanced</trainability>
       <lifeExpectancy>40</lifeExpectancy>
       <lifeStageAges>
         <li>
@@ -90,12 +90,11 @@
     <combatPower>310</combatPower>
 	<labelMale>walrus bull</labelMale>
     <labelFemale>walrus cow</labelFemale>
-    <wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    <wildSpawn_EcoSystemWeight>1</wildSpawn_EcoSystemWeight>
-    <wildSpawn_GroupSizeRange>
+    <ecoSystemWeight>1</ecoSystemWeight>
+    <wildGroupSize>
       <min>3</min>
       <max>7</max>
-    </wildSpawn_GroupSizeRange>
+    </wildGroupSize>
     <lifeStages>
       <li>
         <label>walrus calf</label>
