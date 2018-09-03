@@ -60,7 +60,7 @@
       <baseHealthScale>1.6</baseHealthScale>
       <petness>0.5</petness>
       <foodType>VegetarianRoughAnimal</foodType>
-	  <useLeatherFrom>ACPFerret</useLeatherFrom>
+      <leatherDef>Leather_Plain</leatherDef>
       <meatLabel>horsemeat</meatLabel>
       <trainability>Advanced</trainability>
       <wildness>0.5</wildness>
@@ -228,7 +228,7 @@
       <baseHungerRate>0.5</baseHungerRate>
       <baseHealthScale>1.6</baseHealthScale>
       <foodType>VegetarianRoughAnimal, CarnivoreAnimal</foodType>
-      <leatherDef>Leather_ACP</leatherDef>
+      <leatherDef>Leather_Plain</leatherDef>
       <trainability>Advanced</trainability>
       <useMeatFrom>ACPHorse</useMeatFrom>
       <wildness>0.85</wildness>

@@ -56,7 +56,7 @@
       <baseBodySize>3.0</baseBodySize>
       <baseHealthScale>5.5</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
-      <leatherDef>Leather_ACP</leatherDef>
+      <leatherDef>Leather_Rhinoceros</leatherDef>
       <useMeatFrom>Rhinoceros</useMeatFrom>
 	  <trainability>Advanced</trainability>
       <wildness>0.90</wildness>

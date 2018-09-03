@@ -80,7 +80,7 @@
       <packAnimal>true</packAnimal>
       <predator>true</predator>
       <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
-      <leatherDef>Leather_ACP</leatherDef>
+      <leatherDef>Leather_Heavy</leatherDef>
 	  <useMeatFrom>Alphabeaver</useMeatFrom>
       <gestationPeriodDays>60</gestationPeriodDays>
       <wildness>0.86</wildness>

@@ -11,7 +11,6 @@
       <ComfyTemperatureMin>-30</ComfyTemperatureMin>
       <ComfyTemperatureMax>30</ComfyTemperatureMax>
       <MarketValue>75</MarketValue>
-      <LeatherAmount>0</LeatherAmount>
     </statBases>
    <tools>
       <li>
@@ -51,6 +50,7 @@
       <baseBodySize>0.25</baseBodySize>
       <baseHealthScale>0.35</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
+      <leatherDef>Leather_Bird</leatherDef>
 	  <useMeatFrom>Cassowary</useMeatFrom>
       <trainability>None</trainability>
       <wildness>0.05</wildness>

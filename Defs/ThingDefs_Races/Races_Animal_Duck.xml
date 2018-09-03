@@ -17,7 +17,7 @@
       <baseHealthScale>0.6</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
       <useMeatFrom>Cassowary</useMeatFrom>
-      <useLeatherFrom>ACPDomesticGoose</useLeatherFrom>
+      <leatherDef>Leather_Bird</leatherDef>
       <wildness>0.35</wildness>
       <wildBiomes>
 		    <AridShrubland>0.02</AridShrubland>

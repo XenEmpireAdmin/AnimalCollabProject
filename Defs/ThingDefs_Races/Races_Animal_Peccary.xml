@@ -49,7 +49,7 @@
       <trainability>Advanced</trainability>
       <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
       <useMeatFrom>Pig</useMeatFrom>
-      <useLeatherFrom>Pig</useLeatherFrom>
+      <leatherDef>Leather_Pig</leatherDef>
       <gestationPeriodDays>13</gestationPeriodDays>
       <litterSizeCurve>
         <points>

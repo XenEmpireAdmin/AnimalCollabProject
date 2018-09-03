@@ -82,7 +82,7 @@
       <baseHungerRate>0.08</baseHungerRate>
       <baseHealthScale>0.65</baseHealthScale>
       <foodType>CarnivoreAnimalStrict, Kibble, AnimalProduct</foodType>
-      <leatherDef>Leather_ACP</leatherDef>
+      <leatherDef>Leather_Light</leatherDef>
 	  <useMeatFrom>Alphabeaver</useMeatFrom>
 	  <nameOnTameChance>1</nameOnTameChance>
       <trainability>Advanced</trainability>

@@ -86,7 +86,7 @@
       <baseHungerRate>0.25</baseHungerRate>
       <baseHealthScale>1.15</baseHealthScale>
       <foodType>CarnivoreAnimal</foodType>
-      <useLeatherFrom>Wolf_Timber</useLeatherFrom>
+      <leatherDef>Leather_Wolf</leatherDef>
 	  <useMeatFrom>Wolf_Timber</useMeatFrom>
       <gestationPeriodDays>20.5</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
@@ -297,7 +297,7 @@
 			<ExtremeDesert>0.002</ExtremeDesert>
 			<!-- <Cave>0.05</Cave> -->
 			</wildBiomes>
-      <useLeatherFrom>Wolf_Timber</useLeatherFrom>
+      <leatherDef>Leather_Wolf</leatherDef>
 	  <useMeatFrom>Wolf_Timber</useMeatFrom>
       <gestationPeriodDays>27.5</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
@@ -483,7 +483,7 @@
       <baseHungerRate>1.25</baseHungerRate>
       <baseHealthScale>10.15</baseHealthScale>
       <foodType>CarnivoreAnimal</foodType>
-      <useLeatherFrom>Wolf_Arctic</useLeatherFrom>
+      <leatherDef>Leather_Wolf</leatherDef>
       <useMeatFrom>Wolf_Timber</useMeatFrom>
       <gestationPeriodDays>39</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
@@ -671,7 +671,7 @@
       <baseHungerRate>1.25</baseHungerRate>
       <baseHealthScale>13.15</baseHealthScale>
       <foodType>CarnivoreAnimal</foodType>
-      <useLeatherFrom>Wolf_Arctic</useLeatherFrom>
+      <leatherDef>Leather_Wolf</leatherDef>
       <useMeatFrom>Wolf_Timber</useMeatFrom>
       <gestationPeriodDays>30</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>

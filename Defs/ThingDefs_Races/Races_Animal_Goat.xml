@@ -63,7 +63,7 @@
       <baseHungerRate>0.4</baseHungerRate>
       <baseHealthScale>0.8</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
-      <useLeatherFrom>Ibex</useLeatherFrom>
+      <leatherDef>Leather_Plain</leatherDef>
 	  <useMeatFrom>Ibex</useMeatFrom>
       <gestationPeriodDays>15</gestationPeriodDays>
       <wildness>0.05</wildness>

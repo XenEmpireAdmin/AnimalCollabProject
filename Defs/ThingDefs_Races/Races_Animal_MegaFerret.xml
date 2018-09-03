@@ -87,7 +87,7 @@
       <baseHungerRate>0.25</baseHungerRate>
       <baseHealthScale>1.05</baseHealthScale>
       <foodType>CarnivoreAnimalStrict, Kibble, AnimalProduct</foodType>
-	  <useLeatherFrom>ACPSnowLeopard</useLeatherFrom>
+      <leatherDef>Leather_ACP</leatherDef>
 	  <useMeatFrom>Alphabeaver</useMeatFrom>
 	  <nameOnTameChance>1</nameOnTameChance>
       <trainability>Advanced</trainability>

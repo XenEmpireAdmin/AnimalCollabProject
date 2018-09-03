@@ -18,7 +18,7 @@
       <lifeExpectancy>25</lifeExpectancy>
       <gestationPeriodDays>45</gestationPeriodDays>
       <manhunterOnTameFailChance>0.010</manhunterOnTameFailChance>
-      <leatherDef>Leather_ACP</leatherDef>
+      <leatherDef>Leather_Bear</leatherDef>
       <useMeatFrom>Bear_Grizzly</useMeatFrom>
       <wildBiomes>
     	<Tundra>0.005</Tundra>

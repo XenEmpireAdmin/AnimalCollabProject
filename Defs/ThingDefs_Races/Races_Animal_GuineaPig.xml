@@ -80,7 +80,7 @@
       <baseHungerRate>0.20</baseHungerRate>
       <baseHealthScale>0.4</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
-	  <useLeatherFrom>ACPFerret</useLeatherFrom>
+      <leatherDef>Leather_Light</leatherDef>
 	  <useMeatFrom>Squirrel</useMeatFrom>
       <nameOnTameChance>1</nameOnTameChance>
       <wildness>0.15</wildness>

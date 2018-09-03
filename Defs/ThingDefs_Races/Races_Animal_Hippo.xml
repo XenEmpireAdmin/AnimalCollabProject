@@ -54,7 +54,7 @@
       <baseHungerRate>0.3</baseHungerRate>
       <baseHealthScale>1.85</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
-	  <leatherDef>Leather_ACP</leatherDef>
+      <leatherDef>Leather_Heavy</leatherDef>
 	  <meatLabel>blubbery meat</meatLabel>
       <wildness>0.75</wildness>
 	  <wildBiomes>

@@ -37,7 +37,7 @@
       <baseBodySize>0.6</baseBodySize>
       <baseHealthScale>1.2</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
-	  <useLeatherFrom>ACPHippopotamus</useLeatherFrom>
+      <leatherDef>Leather_Heavy</leatherDef>
 	  <useMeatFrom>ACPHippopotamus</useMeatFrom>
       <gestationPeriodDays>16</gestationPeriodDays>
       <wildness>0.85</wildness>

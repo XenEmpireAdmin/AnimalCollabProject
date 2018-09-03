@@ -131,7 +131,7 @@
     <race>
       <baseBodySize>0.3</baseBodySize>
       <baseHealthScale>0.8</baseHealthScale>
-	  <useLeatherFrom>ACPBison</useLeatherFrom>
+      <leatherDef>Leather_Light</leatherDef>
       <manhunterOnTameFailChance>0.075</manhunterOnTameFailChance>
       <wildness>0.90</wildness>
       <gestationPeriodDays>55</gestationPeriodDays>
@@ -270,7 +270,7 @@
       </li>
     </tools>
     <race>
-      <leatherDef>Leather_ACP</leatherDef>
+      <leatherDef>Leather_Light</leatherDef>
       <baseBodySize>0.7</baseBodySize>
       <baseHealthScale>0.75</baseHealthScale>
       <wildness>0.55</wildness>

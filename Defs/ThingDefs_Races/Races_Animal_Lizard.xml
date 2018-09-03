@@ -230,7 +230,7 @@
         <TropicalSwamp>0.15</TropicalSwamp>
         <TemperateSwamp>0.15</TemperateSwamp>
       </wildBiomes>
-      <leatherDef>Leather_ACP</leatherDef>
+      <leatherDef>Leather_Lizard</leatherDef>
       <useMeatFrom>Iguana</useMeatFrom>
       <nameOnTameChance>1</nameOnTameChance>
       <trainability>Advanced</trainability>

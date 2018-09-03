@@ -80,7 +80,7 @@
       <baseHungerRate>0.3</baseHungerRate>
       <baseHealthScale>1.45</baseHealthScale>
       <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
-	  <useLeatherFrom>ACPSnowLeopard</useLeatherFrom>
+      <leatherDef>Leather_ACP</leatherDef>
 	  <useMeatFrom>Alphabeaver</useMeatFrom>
       <gestationPeriodDays>18.5</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>

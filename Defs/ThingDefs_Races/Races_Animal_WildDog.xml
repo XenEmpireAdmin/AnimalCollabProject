@@ -80,7 +80,7 @@
       <baseHungerRate>0.4</baseHungerRate>
       <baseHealthScale>1</baseHealthScale>
       <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
-	  <useLeatherFrom>ACPFerret</useLeatherFrom>
+      <leatherDef>Leather_Dog</leatherDef>
 	  <meatLabel>dog meat</meatLabel>
       <gestationPeriodDays>18.5</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>

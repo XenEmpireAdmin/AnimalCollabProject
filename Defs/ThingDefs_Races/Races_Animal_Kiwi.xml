@@ -9,7 +9,6 @@
       <MoveSpeed>2.7</MoveSpeed>
       <ComfyTemperatureMin>-15</ComfyTemperatureMin>
       <MarketValue>230</MarketValue>
-      <LeatherAmount>0</LeatherAmount>
     </statBases>
     <race>
       <herdAnimal>true</herdAnimal>
@@ -19,6 +18,7 @@
       <foodType>OmnivoreAnimal</foodType>
       <wildness>0.80</wildness>
       <lifeExpectancy>6</lifeExpectancy>
+      <leatherDef>Leather_Bird</leatherDef>
       <useMeatFrom>Cassowary</useMeatFrom>
       <wildBiomes>
         <TropicalRainforest>0.2</TropicalRainforest>

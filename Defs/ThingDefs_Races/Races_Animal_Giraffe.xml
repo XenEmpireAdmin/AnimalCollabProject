@@ -59,7 +59,7 @@
       <baseHealthScale>1.6</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
 	  <useMeatFrom>Cow</useMeatFrom>
-	  <useLeatherFrom>ACPLion</useLeatherFrom>
+      <leatherDef>Leather_ACP</leatherDef>
       <wildness>0.65</wildness>
       <petness>0.15</petness>
       <nuzzleMtbHours>50</nuzzleMtbHours>

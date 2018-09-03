@@ -18,7 +18,7 @@
       <foodType>CarnivoreAnimal</foodType>
       <wildness>0.80</wildness>
       <lifeExpectancy>17</lifeExpectancy>
-      <useLeatherFrom>ACPBlackRhinoceros</useLeatherFrom>
+      <leatherDef>Leather_Bird</leatherDef>
       <useMeatFrom>Cassowary</useMeatFrom>
       <wildBiomes>
         <SeaIce>0.55</SeaIce>

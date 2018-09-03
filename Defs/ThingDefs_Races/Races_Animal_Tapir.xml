@@ -37,7 +37,7 @@
       <baseBodySize>0.9</baseBodySize>
       <baseHealthScale>1</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
-	  <useLeatherFrom>ACPBlackRhinoceros</useLeatherFrom>
+      <leatherDef>Leather_ACP</leatherDef>
       <wildness>0.57</wildness>
       <wildBiomes>
     	<TemperateForest>0.01</TemperateForest>

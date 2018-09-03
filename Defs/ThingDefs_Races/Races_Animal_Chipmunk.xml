@@ -78,7 +78,7 @@
       <baseHungerRate>0.13</baseHungerRate>
       <baseHealthScale>0.20</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
-	  <useLeatherFrom>Squirrel</useLeatherFrom>
+      <leatherDef>Leather_Light</leatherDef>
 	  <useMeatFrom>Squirrel</useMeatFrom>
       <wildness>0.65</wildness>
       <mateMtbHours>8</mateMtbHours>

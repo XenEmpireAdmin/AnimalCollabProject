@@ -65,7 +65,7 @@
       <baseHungerRate>0.3</baseHungerRate>
       <baseHealthScale>0.7</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
-	  <useLeatherFrom>ACPBlackRhinoceros</useLeatherFrom>
+      <leatherDef>Leather_Plain</leatherDef>
 	  <meatLabel>mutton</meatLabel>
       <wildness>0</wildness>
       <nuzzleMtbHours>100</nuzzleMtbHours>

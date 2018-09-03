@@ -15,6 +15,7 @@
       <foodType>VegetarianRoughAnimal</foodType>
       <wildness>0.4</wildness>
       <lifeExpectancy>10</lifeExpectancy>
+      <leatherDef>Leather_Bird</leatherDef>
 	  <useMeatFrom>Cassowary</useMeatFrom>
     </race>
    <tools>

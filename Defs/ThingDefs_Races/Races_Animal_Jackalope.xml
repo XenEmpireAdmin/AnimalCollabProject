@@ -15,7 +15,7 @@
       <mateMtbHours>3</mateMtbHours>
       <nuzzleMtbHours>120</nuzzleMtbHours>
       <gestationPeriodDays>8.5</gestationPeriodDays>
-	  <useLeatherFrom>Hare</useLeatherFrom>
+      <leatherDef>Leather_Light</leatherDef>
 	  <useMeatFrom>Hare</useMeatFrom>
       <litterSizeCurve>
         <points>

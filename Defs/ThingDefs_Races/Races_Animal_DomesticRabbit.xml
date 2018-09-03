@@ -7,7 +7,7 @@
     <label>domestic rabbit</label>
     <description>The most innocent of domestic animals. Friendly but weak, rabbits have long been kept for companionship, food, and irresistable cuteness.</description>
     <race>
-      <useLeatherFrom>Hare</useLeatherFrom>
+      <leatherDef>Leather_Light</leatherDef>
 	  <useMeatFrom>Hare</useMeatFrom>
 	  <nuzzleMtbHours>15</nuzzleMtbHours>
 	  <wildness>0</wildness>
