@@ -4,7 +4,7 @@
 
 
 
-<ThingDef Abstract="True" Name="EggBaseACP" ParentName="OrganicProductBase" >
+<ThingDef Abstract="True" Name="EggBaseACP" ParentName="OrganicProductBaseACP" >
     <graphicData>
       <texPath>Things/Item/Resource/AnimalProductRaw/EggBirdSmall</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
