@@ -271,12 +271,14 @@
     </statBases>
     <tools>
       <li>
+	    <label>mandibles</label>
         <capacities>
           <li>AcidBite</li>
         </capacities>
         <power>4</power>
         <cooldownTime>1.6</cooldownTime>
         <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+        <chanceFactor>0.55</chanceFactor>
       </li>
       <li>
         <label>head</label>
@@ -286,7 +288,7 @@
         <power>1</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <chanceFactor>0.2</chanceFactor>
+        <chanceFactor>0.1</chanceFactor>
       </li>
     </tools>
     <race>

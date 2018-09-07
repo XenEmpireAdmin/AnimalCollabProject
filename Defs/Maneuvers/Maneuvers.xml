@@ -5,7 +5,7 @@
     <defName>Sting</defName>
     <requiredCapacity>Sting</requiredCapacity>
     <verb>
-      <verbClass>Verb_MeleeAttack</verbClass>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
       <meleeDamageDef>Sting</meleeDamageDef>
     </verb>
     <logEntryDef>MeleeAttack</logEntryDef>
@@ -19,7 +19,7 @@
     <defName>ScorpionSting</defName>
     <requiredCapacity>ScorpionSting</requiredCapacity>
     <verb>
-      <verbClass>Verb_MeleeAttack</verbClass>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
       <meleeDamageDef>ScorpionSting</meleeDamageDef>
     </verb>
     <logEntryDef>MeleeAttack</logEntryDef>
@@ -33,7 +33,7 @@
     <defName>PlatypusSting</defName>
     <requiredCapacity>PlatypusSting</requiredCapacity>
     <verb>
-      <verbClass>Verb_MeleeAttack</verbClass>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
       <meleeDamageDef>PlatypusSting</meleeDamageDef>
     </verb>
     <logEntryDef>MeleeAttack</logEntryDef>
@@ -47,7 +47,7 @@
     <defName>AcidBite</defName>
     <requiredCapacity>AcidBite</requiredCapacity>
     <verb>
-      <verbClass>Verb_MeleeAttack</verbClass>
+      <verbClass>Verb_MeleeAttackDamage</verbClass>
       <meleeDamageDef>AcidBite</meleeDamageDef>
     </verb>
     <logEntryDef>MeleeAttack</logEntryDef>

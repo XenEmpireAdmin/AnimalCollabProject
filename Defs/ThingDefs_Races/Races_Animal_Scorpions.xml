@@ -24,6 +24,7 @@
         <power>7</power>
         <cooldownTime>1.55</cooldownTime>
         <linkedBodyPartsGroup>StingerAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.6</chanceFactor>
       </li>
       <li>
         <label>pincer</label>
@@ -42,7 +43,7 @@
         <power>2</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <chanceFactor>0.2</chanceFactor>
+        <chanceFactor>0.1</chanceFactor>
       </li>
     </tools>
     <race>
