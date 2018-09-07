@@ -87,7 +87,7 @@
       <baseHungerRate>0.25</baseHungerRate>
       <baseHealthScale>1.05</baseHealthScale>
       <foodType>CarnivoreAnimalStrict, Kibble, AnimalProduct</foodType>
-	  <useLeatherFrom>ACPSnowLeopard</useLeatherFrom>
+      <leatherDef>Leather_ACP</leatherDef>
 	  <useMeatFrom>Alphabeaver</useMeatFrom>
 	  <nameOnTameChance>1</nameOnTameChance>
       <trainability>Advanced</trainability>
@@ -146,8 +146,8 @@
           <drawSize>0.7</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
-          <drawSize>0.55</drawSize>
+          <texPath>Things/Pawn/Animal/Fox_Fennec/Dessicated_Fox_Fennec</texPath>
+          <drawSize>0.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -160,8 +160,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
-          <drawSize>0.8</drawSize>
+          <texPath>Things/Pawn/Animal/Fox_Fennec/Dessicated_Fox_Fennec</texPath>
+          <drawSize>0.95</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -182,8 +182,8 @@
           </shadowData>
 	 </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
-          <drawSize>1.1</drawSize>
+          <texPath>Things/Pawn/Animal/Fox_Fennec/Dessicated_Fox_Fennec</texPath>
+          <drawSize>1.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

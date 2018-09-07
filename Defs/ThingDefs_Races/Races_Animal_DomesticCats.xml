@@ -83,7 +83,7 @@
       <baseHungerRate>0.1</baseHungerRate>
       <baseHealthScale>0.42</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-	  <useLeatherFrom>Cat</useLeatherFrom>
+      <leatherDef>Leather_Light</leatherDef>
 	  <useMeatFrom>Cat</useMeatFrom>
       <wildness>0.2</wildness>
       <petness>1</petness>

@@ -73,7 +73,7 @@
 		<baseHealthScale>1.0</baseHealthScale>
 		<foodType>VegetarianRoughAnimal</foodType>
 		<useMeatFrom>Alpaca</useMeatFrom>
-		<leatherDef>Leather_ACP</leatherDef>
+        <leatherDef>Leather_Brownfur</leatherDef>
 		<trainability>Advanced</trainability>
 		<wildness>0.75</wildness>
 		<petness>0.45</petness>

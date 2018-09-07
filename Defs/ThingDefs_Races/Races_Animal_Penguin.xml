@@ -18,7 +18,7 @@
       <foodType>CarnivoreAnimal</foodType>
       <wildness>0.80</wildness>
       <lifeExpectancy>17</lifeExpectancy>
-      <useLeatherFrom>ACPBlackRhinoceros</useLeatherFrom>
+      <leatherDef>Leather_Bird</leatherDef>
       <useMeatFrom>Cassowary</useMeatFrom>
       <wildBiomes>
         <SeaIce>0.55</SeaIce>
@@ -100,8 +100,8 @@
           <drawSize>0.65</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Turkey/Dessicated_TurkeyHen</texPath>
-          <drawSize>0.4</drawSize>
+          <texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+          <drawSize>0.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -114,8 +114,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Turkey/Dessicated_TurkeyHen</texPath>
-          <drawSize>0.6</drawSize>
+          <texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+          <drawSize>0.65</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -128,8 +128,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Turkey/Dessicated_TurkeyHen</texPath>
-          <drawSize>0.9</drawSize>
+          <texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+          <drawSize>0.95</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

@@ -50,7 +50,7 @@
 		<baseHealthScale>0.30</baseHealthScale>
 		<foodType>VegetarianRoughAnimal</foodType>
 		<useMeatFrom>Hare</useMeatFrom>
-		<useLeatherFrom>Hare</useLeatherFrom>
+      <leatherDef>Leather_Light</leatherDef>
 		<wildness>0</wildness>
 		<petness>1</petness>
 		<nuzzleMtbHours>34</nuzzleMtbHours>
@@ -147,7 +147,7 @@
 			</bodyGraphicData>
 			<dessicatedBodyGraphicData>
 				<texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
-				<drawSize>1</drawSize>
+				<drawSize>1.1</drawSize>
 			</dessicatedBodyGraphicData>
 		</li>
     </lifeStages>

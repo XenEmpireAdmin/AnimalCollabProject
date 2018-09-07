@@ -65,7 +65,7 @@
       <baseHungerRate>0.3</baseHungerRate>
       <baseHealthScale>0.7</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
-	  <useLeatherFrom>ACPBlackRhinoceros</useLeatherFrom>
+      <leatherDef>Leather_Plain</leatherDef>
 	  <meatLabel>mutton</meatLabel>
       <wildness>0</wildness>
       <nuzzleMtbHours>100</nuzzleMtbHours>
@@ -127,8 +127,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Gazelle/Dessicated_Gazelle</texPath>
-          <drawSize>0.8</drawSize>
+          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
+          <drawSize>0.9</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -142,8 +142,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Gazelle/Dessicated_Gazelle</texPath>
-          <drawSize>1.3</drawSize>
+          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
+          <drawSize>1.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -157,8 +157,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Gazelle/Dessicated_Gazelle</texPath>
-          <drawSize>1.55</drawSize>
+          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
+          <drawSize>1.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

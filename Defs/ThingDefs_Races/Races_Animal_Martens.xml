@@ -131,7 +131,7 @@
     <race>
       <baseBodySize>0.3</baseBodySize>
       <baseHealthScale>0.8</baseHealthScale>
-	  <useLeatherFrom>ACPBison</useLeatherFrom>
+      <leatherDef>Leather_Light</leatherDef>
       <manhunterOnTameFailChance>0.075</manhunterOnTameFailChance>
       <wildness>0.90</wildness>
       <gestationPeriodDays>55</gestationPeriodDays>
@@ -164,7 +164,7 @@
           <drawSize>0.5</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
+          <texPath>Things/Pawn/Animal/Fox_Fennec/Dessicated_Fox_Fennec</texPath>
           <drawSize>0.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -174,8 +174,8 @@
           <drawSize>0.8</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
-          <drawSize>0.7</drawSize>
+          <texPath>Things/Pawn/Animal/Fox_Fennec/Dessicated_Fox_Fennec</texPath>
+          <drawSize>0.65</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -188,8 +188,8 @@
           <drawSize>1.1</drawSize>
 	</femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
-          <drawSize>1.2</drawSize>
+          <texPath>Things/Pawn/Animal/Fox_Fennec/Dessicated_Fox_Fennec</texPath>
+          <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -270,7 +270,7 @@
       </li>
     </tools>
     <race>
-      <leatherDef>Leather_ACP</leatherDef>
+      <leatherDef>Leather_Light</leatherDef>
       <baseBodySize>0.7</baseBodySize>
       <baseHealthScale>0.75</baseHealthScale>
       <wildness>0.55</wildness>
@@ -302,7 +302,7 @@
           <drawSize>0.4</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
+          <texPath>Things/Pawn/Animal/Fox_Fennec/Dessicated_Fox_Fennec</texPath>
           <drawSize>0.35</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -312,7 +312,7 @@
           <drawSize>0.6</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
+          <texPath>Things/Pawn/Animal/Fox_Fennec/Dessicated_Fox_Fennec</texPath>
           <drawSize>0.55</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -326,7 +326,7 @@
           <drawSize>0.8</drawSize>
 	</femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
+          <texPath>Things/Pawn/Animal/Fox_Fennec/Dessicated_Fox_Fennec</texPath>
           <drawSize>0.75</drawSize>
         </dessicatedBodyGraphicData>
       </li>

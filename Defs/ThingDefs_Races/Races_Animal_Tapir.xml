@@ -37,7 +37,7 @@
       <baseBodySize>0.9</baseBodySize>
       <baseHealthScale>1</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
-	  <useLeatherFrom>ACPBlackRhinoceros</useLeatherFrom>
+      <leatherDef>Leather_ACP</leatherDef>
       <wildness>0.57</wildness>
       <wildBiomes>
     	<TemperateForest>0.01</TemperateForest>
@@ -97,7 +97,7 @@
           <drawSize>0.6</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
+          <texPath>Things/Pawn/Animal/Pig/Dessicated_Pig</texPath>
           <drawSize>0.55</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -119,14 +119,14 @@
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
+          <texPath>Things/Pawn/Animal/Pig/Dessicated_Pig</texPath>
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Ungulates/Tapir/Tapir</texPath>
-          <drawSize>1.42</drawSize>
+          <drawSize>1.4</drawSize>
 		  <shadowData>
             <volume>(0.4, 0.5, 0.4)</volume>
             <offset>(0,0,-0.03)</offset>
@@ -134,15 +134,15 @@
         </bodyGraphicData>
         <femaleGraphicData>
           <texPath>Things/Pawn/Animal/Ungulates/Tapir/Tapir</texPath>
-          <drawSize>1.30</drawSize>
+          <drawSize>1.3</drawSize>
 		  <shadowData>
             <volume>(0.4, 0.5, 0.4)</volume>
             <offset>(0,0,-0.03)</offset>
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
-          <drawSize>1.3</drawSize>
+          <texPath>Things/Pawn/Animal/Pig/Dessicated_Pig</texPath>
+          <drawSize>1.35</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

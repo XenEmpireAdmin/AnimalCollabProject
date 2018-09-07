@@ -80,7 +80,7 @@
       <baseHungerRate>0.4</baseHungerRate>
       <baseHealthScale>1</baseHealthScale>
       <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
-	  <useLeatherFrom>ACPFerret</useLeatherFrom>
+      <leatherDef>Leather_Dog</leatherDef>
 	  <meatLabel>dog meat</meatLabel>
       <gestationPeriodDays>18.5</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
@@ -144,7 +144,7 @@
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
+          <texPath>Things/Pawn/Animal/Labrador/Dessicated_Labrador</texPath>
           <drawSize>1.0</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -159,7 +159,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
+          <texPath>Things/Pawn/Animal/Labrador/Dessicated_Labrador</texPath>
           <drawSize>1.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -174,7 +174,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
+          <texPath>Things/Pawn/Animal/Labrador/Dessicated_Labrador</texPath>
           <drawSize>1.45</drawSize>
         </dessicatedBodyGraphicData>
       </li>

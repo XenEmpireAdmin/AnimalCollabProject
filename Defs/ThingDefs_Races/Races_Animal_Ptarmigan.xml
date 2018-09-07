@@ -11,7 +11,6 @@
       <ComfyTemperatureMin>-30</ComfyTemperatureMin>
       <ComfyTemperatureMax>30</ComfyTemperatureMax>
       <MarketValue>75</MarketValue>
-      <LeatherAmount>0</LeatherAmount>
     </statBases>
    <tools>
       <li>
@@ -51,6 +50,7 @@
       <baseBodySize>0.25</baseBodySize>
       <baseHealthScale>0.35</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
+      <leatherDef>Leather_Bird</leatherDef>
 	  <useMeatFrom>Cassowary</useMeatFrom>
       <trainability>None</trainability>
       <wildness>0.05</wildness>
@@ -140,7 +140,7 @@
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
-          <drawSize>0.7</drawSize>
+          <drawSize>0.73</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -162,7 +162,7 @@
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
-          <drawSize>0.85</drawSize>
+          <drawSize>0.9</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

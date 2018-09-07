@@ -100,8 +100,8 @@
           <color>(77,104,112)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Spelopede/Dessicated_Spelopede</texPath>
-          <drawSize>0.45</drawSize>
+          <texPath>Things/Pawn/Animal/Insects/Silkspider/Silkspider</texPath>
+          <drawSize>0.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -111,8 +111,8 @@
           <color>(77,104,112)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Spelopede/Dessicated_Spelopede</texPath>
-          <drawSize>0.6</drawSize>
+          <texPath>Things/Pawn/Animal/Insects/Silkspider/Silkspider</texPath>
+          <drawSize>0.65</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -122,8 +122,8 @@
           <color>(74,65,62)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Spelopede/Dessicated_Spelopede</texPath>
-          <drawSize>0.75</drawSize>
+          <texPath>Things/Pawn/Animal/Insects/Silkspider/Silkspider</texPath>
+          <drawSize>0.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -223,7 +223,7 @@
           <drawSize>1</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Spelopede/Dessicated_Spelopede</texPath>
+          <texPath>Things/Pawn/Animal/Insects/HaulerAnt/Dessicated_HaulerAnt</texPath>
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -233,7 +233,7 @@
           <drawSize>1.8</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Spelopede/Dessicated_Spelopede</texPath>
+          <texPath>Things/Pawn/Animal/Insects/HaulerAnt/Dessicated_HaulerAnt</texPath>
           <drawSize>1.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -243,7 +243,7 @@
           <drawSize>2.9</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Spelopede/Dessicated_Spelopede</texPath>
+          <texPath>Things/Pawn/Animal/Insects/HaulerAnt/Dessicated_HaulerAnt</texPath>
           <drawSize>2.9</drawSize>
         </dessicatedBodyGraphicData>
         <butcherBodyPart>
@@ -348,7 +348,7 @@
           <drawSize>0.5</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Spelopede/Dessicated_Spelopede</texPath>
+          <texPath>Things/Pawn/Animal/Insects/AcidAnt/Dessicated_AcidAnt</texPath>
           <drawSize>0.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -358,7 +358,7 @@
           <drawSize>0.8</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Spelopede/Dessicated_Spelopede</texPath>
+          <texPath>Things/Pawn/Animal/Insects/AcidAnt/Dessicated_AcidAnt</texPath>
           <drawSize>0.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -368,7 +368,7 @@
           <drawSize>1</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-           <texPath>Things/Pawn/Animal/Spelopede/Dessicated_Spelopede</texPath>
+          <texPath>Things/Pawn/Animal/Insects/AcidAnt/Dessicated_AcidAnt</texPath>
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>

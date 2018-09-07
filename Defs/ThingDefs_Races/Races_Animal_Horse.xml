@@ -60,7 +60,7 @@
       <baseHealthScale>1.6</baseHealthScale>
       <petness>0.5</petness>
       <foodType>VegetarianRoughAnimal</foodType>
-	  <useLeatherFrom>ACPFerret</useLeatherFrom>
+      <leatherDef>Leather_Plain</leatherDef>
       <meatLabel>horsemeat</meatLabel>
       <trainability>Advanced</trainability>
       <wildness>0.5</wildness>
@@ -228,7 +228,7 @@
       <baseHungerRate>0.5</baseHungerRate>
       <baseHealthScale>1.6</baseHealthScale>
       <foodType>VegetarianRoughAnimal, CarnivoreAnimal</foodType>
-      <leatherDef>Leather_ACP</leatherDef>
+      <leatherDef>Leather_Plain</leatherDef>
       <trainability>Advanced</trainability>
       <useMeatFrom>ACPHorse</useMeatFrom>
       <wildness>0.85</wildness>
@@ -292,7 +292,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Cow/Dessicated_Cow</texPath>
-          <drawSize>0.5</drawSize>
+          <drawSize>1.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -300,12 +300,12 @@
 	<labelFemale>Woolyhorse filly</labelFemale>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/Horses/WoolyHorse/WoolyHorse</texPath>
-          <drawSize>2.0</drawSize>
+          <drawSize>2</drawSize>
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Cow/Dessicated_Cow</texPath>
-          <drawSize>0.8</drawSize>
+          <drawSize>2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -316,7 +316,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Cow/Dessicated_Cow</texPath>
-          <drawSize>1.2</drawSize>
+          <drawSize>2.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

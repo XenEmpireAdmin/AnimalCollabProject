@@ -17,7 +17,7 @@
       <baseHealthScale>0.6</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
       <useMeatFrom>Cassowary</useMeatFrom>
-      <useLeatherFrom>ACPDomesticGoose</useLeatherFrom>
+      <leatherDef>Leather_Bird</leatherDef>
       <wildness>0.35</wildness>
       <wildBiomes>
 		    <AridShrubland>0.02</AridShrubland>
@@ -105,8 +105,8 @@
           <drawSize>0.4</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
-          <drawSize>0.4</drawSize>
+          <texPath>Things/Pawn/Animal/Turkey/Dessicated_TurkeyHen</texPath>
+          <drawSize>0.55</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -119,8 +119,8 @@
           <drawSize>0.7</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
-          <drawSize>0.6</drawSize>
+          <texPath>Things/Pawn/Animal/Turkey/Dessicated_TurkeyHen</texPath>
+          <drawSize>0.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -133,8 +133,8 @@
           <drawSize>0.95</drawSize>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
-          <drawSize>0.85</drawSize>
+          <texPath>Things/Pawn/Animal/Turkey/Dessicated_TurkeyHen</texPath>
+          <drawSize>1.05</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

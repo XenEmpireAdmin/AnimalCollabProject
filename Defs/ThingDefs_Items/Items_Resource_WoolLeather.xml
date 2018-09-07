@@ -9,22 +9,15 @@
 		<color>(255,255,255)</color>
     </graphicData>	
 	<statBases>
-		<MarketValue>16.0</MarketValue>
-		<DeteriorationRate>2.6</DeteriorationRate>
+		<MarketValue>3.5</MarketValue>
     </statBases>	
     <stuffProps>
-		<color>(255,255,255)</color>
-		<commonality>0.15</commonality>
-		<statOffsets>
-			<ArmorRating_Heat>0.05</ArmorRating_Heat>
-			<ArmorRating_Blunt>0.05</ArmorRating_Blunt>
-		</statOffsets>
-		<statFactors>
-			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
-			<ArmorRating_Heat>0.1</ArmorRating_Heat>
-			<Insulation_Cold>3.4</Insulation_Cold>
-			<Insulation_Heat>3.2</Insulation_Heat>
-		</statFactors>
+	  <color>(255,255,255)</color>
+	  <commonality>0.1</commonality>
+      <statFactors>
+		  <StuffPower_Insulation_Cold>36</StuffPower_Insulation_Cold>
+		  <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+      </statFactors>
 	</stuffProps>
 </ThingDef>
 
@@ -41,17 +34,11 @@
     </statBases>	
     <stuffProps>
 		<color>(114,64,45)</color> 
-		<commonality>0.15</commonality>
-		<statOffsets>
-			<ArmorRating_Heat>0.05</ArmorRating_Heat> 
-			<ArmorRating_Blunt>0.04</ArmorRating_Blunt> 
-		</statOffsets>
-		<statFactors>
-			<ArmorRating_Sharp>1.0</ArmorRating_Sharp>
-			<ArmorRating_Heat>1.8</ArmorRating_Heat>
-			<Insulation_Cold>2.9</Insulation_Cold> 
-			<Insulation_Heat>3.4</Insulation_Heat> 
-		</statFactors>
+		<commonality>0.1</commonality>
+        <statFactors>
+		  <StuffPower_Insulation_Cold>32</StuffPower_Insulation_Cold>
+		  <StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
+        </statFactors>
 	</stuffProps>
 </ThingDef>
 
@@ -64,25 +51,19 @@
       <color>(129,216,208)</color>
     </graphicData>
     <statBases>
-      <MarketValue>12</MarketValue>
+      <MarketValue>8</MarketValue>
       <Mass>0.03</Mass>
       <Flammability>1.0</Flammability>
-      <DeteriorationRate>2.6</DeteriorationRate>
+      <StuffPower_Armor_Sharp>0.45</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.05</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.40</StuffPower_Armor_Heat>
     </statBases>
     <stuffProps>
       <color>(129,216,208)</color>
       <commonality>0.15</commonality>
-      <statOffsets>
-        <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
-        <ArmorRating_Sharp>0.06</ArmorRating_Sharp>
-        <ArmorRating_Heat>0.01</ArmorRating_Heat>
-      </statOffsets>
       <statFactors>
-        <ArmorRating_Blunt>1.1</ArmorRating_Blunt>
-        <ArmorRating_Sharp>2.3</ArmorRating_Sharp>
-        <ArmorRating_Heat>1.2</ArmorRating_Heat>
-        <Insulation_Cold>1.3</Insulation_Cold>
-        <Insulation_Heat>2.4</Insulation_Heat>
+		  <StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
+		  <StuffPower_Insulation_Heat>34</StuffPower_Insulation_Heat>
       </statFactors>
     </stuffProps>
   </ThingDef>
@@ -96,15 +77,10 @@
     </graphicData>
     <stuffProps>
       <color>(85,75,70)</color>
-      <commonality>0.01</commonality>
-      <statOffsets>
-        <ArmorRating_Heat>0.2</ArmorRating_Heat>
-      </statOffsets>
+      <commonality>0.1</commonality>
       <statFactors>
-        <ArmorRating_Sharp>1.6</ArmorRating_Sharp>
-        <ArmorRating_Heat>1.6</ArmorRating_Heat>
-        <Insulation_Cold>1.6</Insulation_Cold>
-        <Insulation_Heat>1.6</Insulation_Heat>
+		  <StuffPower_Insulation_Cold>16</StuffPower_Insulation_Cold>
+		  <StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
       </statFactors>
     </stuffProps>
   </ThingDef>
@@ -117,48 +93,18 @@
       <color>(70,70,73)</color>
     </graphicData>
 	 <statBases>
-      <MarketValue>8</MarketValue>
+      <MarketValue>5</MarketValue>
    </statBases>
     <stuffProps>
       <color>(70,70,73)</color>
-      <commonality>0.01</commonality>
-      <statOffsets>
-        <ArmorRating_Heat>0.25</ArmorRating_Heat>
-      </statOffsets>
+      <commonality>0.1</commonality>
       <statFactors>
-        <ArmorRating_Sharp>1.1</ArmorRating_Sharp>
-        <ArmorRating_Heat>1.4</ArmorRating_Heat>
-        <Insulation_Cold>1.5</Insulation_Cold>
-        <Insulation_Heat>1.1</Insulation_Heat>
+		  <StuffPower_Insulation_Cold>32</StuffPower_Insulation_Cold>
+		  <StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
       </statFactors>
     </stuffProps>
   </ThingDef>
- 
-    <ThingDef ParentName="WoolBase">
-    <defName>ACPDireWolfWool</defName>
-    <label>direwolf wool</label>
-    <description>Wool from the rare once-extinct Dire Wolves is very strong, has excellent insulation, and is therefore quite valuable.</description>
-    <graphicData>
-      <color>(70,70,73)</color>
-    </graphicData>
-	 <statBases>
-      <MarketValue>8</MarketValue>
-   </statBases>
-    <stuffProps>
-      <color>(70,70,73)</color>
-      <commonality>0.01</commonality>
-      <statOffsets>
-        <ArmorRating_Heat>0.25</ArmorRating_Heat>
-      </statOffsets>
-      <statFactors>
-        <ArmorRating_Sharp>1.1</ArmorRating_Sharp>
-        <ArmorRating_Heat>1.2</ArmorRating_Heat>
-        <Insulation_Cold>1.9</Insulation_Cold>
-        <Insulation_Heat>1.3</Insulation_Heat>
-      </statFactors>
-    </stuffProps>
-  </ThingDef>
-  
+
      <ThingDef ParentName="WoolBase">
     <defName>ACPSheepWool</defName>
     <label>sheep wool</label>
@@ -168,15 +114,10 @@
     </graphicData>
     <stuffProps>
       <color>(245,245,245)</color>
-      <commonality>0.01</commonality>
-      <statOffsets>
-        <ArmorRating_Heat>0.08</ArmorRating_Heat>
-      </statOffsets>
+      <commonality>0.1</commonality>
       <statFactors>
-        <ArmorRating_Sharp>1</ArmorRating_Sharp>
-        <ArmorRating_Heat>2.4</ArmorRating_Heat>
-        <Insulation_Cold>2.8</Insulation_Cold>
-        <Insulation_Heat>3.2</Insulation_Heat>
+		  <StuffPower_Insulation_Cold>32</StuffPower_Insulation_Cold>
+		  <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
       </statFactors>
     </stuffProps>
   </ThingDef>
@@ -189,19 +130,15 @@
       <color>(198,198,200)</color>
     </graphicData>
     <statBases>
-      <MarketValue>9</MarketValue>
+      <MarketValue>6</MarketValue>
+      <StuffPower_Armor_Heat>0.42</StuffPower_Armor_Heat>
    </statBases>
     <stuffProps>
       <color>(198,198,200)</color>
       <commonality>0.01</commonality>
-      <statOffsets>
-        <ArmorRating_Heat>0.78</ArmorRating_Heat>
-      </statOffsets>
       <statFactors>
-        <ArmorRating_Sharp>2.1</ArmorRating_Sharp>
-        <ArmorRating_Heat>2.2</ArmorRating_Heat>
-        <Insulation_Cold>1.6</Insulation_Cold>
-        <Insulation_Heat>1.4</Insulation_Heat>
+		  <StuffPower_Insulation_Cold>14</StuffPower_Insulation_Cold>
+		  <StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
       </statFactors>
     </stuffProps>
   </ThingDef>

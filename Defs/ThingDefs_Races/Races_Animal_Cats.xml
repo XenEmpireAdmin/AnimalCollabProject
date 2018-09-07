@@ -16,7 +16,7 @@
       <baseHealthScale>1.8</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 	  <useMeatFrom>Cat</useMeatFrom>
-      <leatherDef>Leather_ACP</leatherDef>
+      <leatherDef>Leather_Panthera</leatherDef>
       <wildness>0.80</wildness>
       <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
@@ -130,7 +130,7 @@
       </li>
     </tools>
     <race>
-     <leatherDef>Leather_ACP</leatherDef>
+      <leatherDef>Leather_Panthera</leatherDef>
 	  <herdAnimal>true</herdAnimal>
       <baseBodySize>1.5</baseBodySize>
       <baseHungerRate>0.3</baseHungerRate>
@@ -166,7 +166,7 @@
           <drawSize>1.1</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -188,8 +188,8 @@
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
-          <drawSize>1.4</drawSize>
+          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
+          <drawSize>1.3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -210,8 +210,8 @@
           </shadowData>
         </femaleGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
-          <drawSize>2.3</drawSize>
+          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
+          <drawSize>2.15</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -286,7 +286,7 @@
       </li>
     </tools>
     <race>
-      <useLeatherFrom>ACPLion</useLeatherFrom>
+      <leatherDef>Leather_Panthera</leatherDef>
       <baseBodySize>1.6</baseBodySize>
       <baseHungerRate>0.3</baseHungerRate>
       <baseHealthScale>1.9</baseHealthScale>
@@ -329,7 +329,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
           <drawSize>2.0</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -343,7 +343,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
           <drawSize>2.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -423,7 +423,7 @@
       </li>
     </tools>
 	<race>
-      <useLeatherFrom>ACPLion</useLeatherFrom>
+      <leatherDef>Leather_Panthera</leatherDef>
       <baseBodySize>0.75</baseBodySize>
 	  <wildBiomes>
 		<ExtremeDesert>0.02</ExtremeDesert>
@@ -446,7 +446,7 @@
           <drawSize>0.7</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
           <drawSize>0.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -460,7 +460,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
           <drawSize>0.8</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -474,7 +474,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
           <drawSize>1.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -558,7 +558,7 @@
       <baseBodySize>0.7</baseBodySize>
       <baseHungerRate>0.2</baseHungerRate>
       <baseHealthScale>0.75</baseHealthScale>
-      <useLeatherFrom>ACPLion</useLeatherFrom>
+      <leatherDef>Leather_Panthera</leatherDef>
       <wildness>0.80</wildness>
 	  <wildBiomes>
 		<TemperateForest>0.08</TemperateForest>
@@ -586,7 +586,7 @@
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
           <drawSize>0.9</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -601,7 +601,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
           <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -616,8 +616,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
-          <drawSize>2.18</drawSize>
+          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
+          <drawSize>2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -700,7 +700,7 @@
       <baseBodySize>0.7</baseBodySize>
       <baseHungerRate>0.2</baseHungerRate>
       <baseHealthScale>0.75</baseHealthScale>
-      <leatherDef>Leather_ACP</leatherDef>
+      <leatherDef>Leather_Panthera</leatherDef>
       <wildness>0.80</wildness>
       <wildBiomes>
         <TemperateForest>0.035</TemperateForest>
@@ -729,7 +729,7 @@
           <shaderType>CutoutComplex</shaderType>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -744,7 +744,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
+          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
           <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -759,8 +759,8 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cat/Dessicated_Cat</texPath>
-          <drawSize>2.18</drawSize>
+          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
+          <drawSize>2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

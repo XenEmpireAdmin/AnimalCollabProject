@@ -230,7 +230,7 @@
         <TropicalSwamp>0.15</TropicalSwamp>
         <TemperateSwamp>0.15</TemperateSwamp>
       </wildBiomes>
-      <leatherDef>Leather_ACP</leatherDef>
+      <leatherDef>Leather_Lizard</leatherDef>
       <useMeatFrom>Iguana</useMeatFrom>
       <nameOnTameChance>1</nameOnTameChance>
       <trainability>Advanced</trainability>
@@ -286,7 +286,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Iguana/Dessicated_Iguana</texPath>
-          <drawSize>0.21</drawSize>
+          <drawSize>0.45</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -296,7 +296,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Iguana/Dessicated_Iguana</texPath>
-          <drawSize>0.25</drawSize>
+          <drawSize>0.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -306,7 +306,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/Iguana/Dessicated_Iguana</texPath>
-          <drawSize>0.6</drawSize>
+          <drawSize>1.1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

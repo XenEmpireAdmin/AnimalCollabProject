@@ -80,7 +80,7 @@
       <baseHungerRate>0.3</baseHungerRate>
       <baseHealthScale>1.45</baseHealthScale>
       <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
-	  <useLeatherFrom>ACPSnowLeopard</useLeatherFrom>
+      <leatherDef>Leather_ACP</leatherDef>
 	  <useMeatFrom>Alphabeaver</useMeatFrom>
       <gestationPeriodDays>18.5</gestationPeriodDays>
       <nameOnTameChance>1</nameOnTameChance>
@@ -151,7 +151,7 @@
           <drawSize>0.75</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
+          <texPath>Things/Pawn/Animal/Lynx/Dessicated_Lynx</texPath>
           <drawSize>0.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -164,7 +164,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
+          <texPath>Things/Pawn/Animal/Lynx/Dessicated_Lynx</texPath>
           <drawSize>1.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -177,7 +177,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Capybara/Dessicated_Capybara</texPath>
+          <texPath>Things/Pawn/Animal/Lynx/Dessicated_Lynx</texPath>
           <drawSize>1.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
