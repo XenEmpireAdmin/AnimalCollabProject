@@ -2,7 +2,9 @@
 <Defs>
   
 
-<ThingDef Abstract="True" Name="EggBaseACP" ParentName="OrganicProductBase" >
+
+
+<ThingDef Abstract="True" Name="EggBaseACP" ParentName="OrganicProductBaseACP" >
     <graphicData>
       <texPath>Things/Item/Resource/AnimalProductRaw/EggBirdSmall</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -16,8 +18,8 @@
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
       <Mass>0.15</Mass>
-	  <MaxHitPoints>20</MaxHitPoints>
-  	  <DeteriorationRate>2</DeteriorationRate>
+			<MaxHitPoints>20</MaxHitPoints>
+			<DeteriorationRate>2</DeteriorationRate>
       <Flammability>0.7</Flammability>
       <Nutrition>0.25</Nutrition>
       <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
@@ -96,8 +98,6 @@
     <description>A small speckled quail egg.</description>
     <graphicData>
 		<color>(255,255,255)</color>
-        <texPath>Things/Pawn/Animal/Birds/Quail/Egg</texPath>
-		<drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
 		<MarketValue>7.0</MarketValue>
@@ -110,8 +110,6 @@
     <description>A small speckled quail egg, this one should hatch into a chick in a few days.</description>
     <graphicData>
 		<color>(255,255,255)</color>
-        <texPath>Things/Pawn/Animal/Birds/Quail/Egg</texPath>
-		<drawSize>0.75</drawSize>
     </graphicData>
     <statBases>
 		<MarketValue>8.0</MarketValue>
@@ -164,7 +162,7 @@
       <color>(210,180,140)</color>
     </graphicData>
     <statBases>
-      <MarketValue>9</MarketValue>
+      <MarketValue>7.5</MarketValue>
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
@@ -203,7 +201,7 @@
       <drawSize>1</drawSize>
     </graphicData>
     <statBases>
-      <MarketValue>15.0</MarketValue>
+      <MarketValue>20.0</MarketValue>
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
@@ -223,7 +221,7 @@
       <drawSize>0.85</drawSize>
     </graphicData>
     <statBases>
-      <MarketValue>7.0</MarketValue>
+      <MarketValue>25.0</MarketValue>
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
@@ -262,7 +260,7 @@
       <color>(245,245,245)</color>
     </graphicData>
     <statBases>
-      <MarketValue>6.0</MarketValue>
+      <MarketValue>250.0</MarketValue>
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
@@ -282,7 +280,7 @@
       <drawSize>1.1</drawSize>
     </graphicData>
     <statBases>
-      <MarketValue>6.0</MarketValue>
+      <MarketValue>12.0</MarketValue>
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
@@ -312,7 +310,7 @@
       <color>(225,251,247)</color>
     </graphicData>
     <statBases>
-      <MarketValue>8.0</MarketValue>
+      <MarketValue>7.0</MarketValue>
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
@@ -330,7 +328,7 @@
       <color>(225,251,247)</color>
     </graphicData>
     <statBases>
-      <MarketValue>8.0</MarketValue>
+      <MarketValue>7.0</MarketValue>
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">
@@ -367,7 +365,7 @@
       <color>(240,240,240)</color>
     </graphicData>
     <statBases>
-      <MarketValue>13.5</MarketValue>
+      <MarketValue>17.5</MarketValue>
     </statBases>
     <comps>
       <li Class="CompProperties_Hatcher">

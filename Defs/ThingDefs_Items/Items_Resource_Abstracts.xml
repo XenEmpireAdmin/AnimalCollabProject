@@ -3,7 +3,7 @@
   
   <!--================== Bases ==================-->
   
-  <ThingDef Name="ResourceBase" Abstract="True">
+  <ThingDef Name="ResourceBaseACP" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
     <category>Item</category>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
@@ -23,7 +23,7 @@
 		<pathCost>15</pathCost>
 	</ThingDef>
 
-  <ThingDef Abstract="True" Name="OrganicProductBase" ParentName="ResourceBase">
+  <ThingDef Abstract="True" Name="OrganicProductBaseACP" ParentName="ResourceBaseACP">
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
@@ -35,70 +35,10 @@
     </statBases>
     <tickerType>Rare</tickerType>
   </ThingDef>
-  
-  <!-- Eggs --> 
-  
- <ThingDef Abstract="True" Name="EggBase" ParentName="OrganicProductBase" >
-    <graphicData>
-      <texPath>Things/Item/Resource/AnimalProductRaw/EggBirdSmall</texPath>
-      <graphicClass>Graphic_StackCount</graphicClass>
-    </graphicData>
-    <ingestible>
-      <foodType>AnimalProduct</foodType>
-      <nutrition>0.25</nutrition>
-      <ingestEffect>EatMeat</ingestEffect>
-      <ingestSound>RawMeat_Eat</ingestSound>
-      <tasteThought>AteRawFood</tasteThought>
-    </ingestible>
-    <socialPropernessMatters>true</socialPropernessMatters>
-    <statBases>
-      <Mass>0.15</Mass>
-			<MaxHitPoints>20</MaxHitPoints>
-			<DeteriorationRate>2</DeteriorationRate>
-    </statBases>
-  </ThingDef>
-
-  <ThingDef Abstract="True" Name="EggUnfertBase" ParentName="EggBase" >
-    <ingestible>
-      <preferability>RawBad</preferability>
-    </ingestible>
-    <thingCategories>
-      <li>EggsUnfertilized</li>
-    </thingCategories>
-    <comps>
-      <li Class="CompProperties_Rottable">
-        <daysToRotStart>15</daysToRotStart>
-				<rotDestroys>true</rotDestroys>
-			</li>
-			<li Class="CompProperties_FoodPoisoningChance">
-				<humanlikeOnly>true</humanlikeOnly>
-			</li>
-    </comps>
-  </ThingDef>
-
-  <ThingDef Abstract="True" Name="EggFertBase" ParentName="EggBase" >
-    <tickerType>Normal</tickerType>
-    <ingestible>
-      <preferability>DesperateOnly</preferability>
-    </ingestible>
-    <thingCategories>
-      <li>EggsFertilized</li>
-    </thingCategories>
-		<comps>
-			<li Class="CompProperties_FoodPoisoningChance">
-				<humanlikeOnly>true</humanlikeOnly>
-			</li>
-			<li Class="CompProperties_TemperatureRuinable">
-				<minSafeTemperature>0</minSafeTemperature>
-				<maxSafeTemperature>50</maxSafeTemperature>
-				<progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
-			</li>
-		</comps>
-  </ThingDef>
  
   <!-- Wool --> 
  
-  <ThingDef ParentName="ResourceBase" Name="WoolBase" Abstract="True">
+  <ThingDef ParentName="ResourceBaseACP" Name="WoolBaseACP" Abstract="True">
     <graphicData>
       <texPath>Things/Item/Resource/Wool</texPath>
       <graphicClass>Graphic_Single</graphicClass>
