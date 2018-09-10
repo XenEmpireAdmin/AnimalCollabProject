@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs> 
 
-<ThingDef ParentName="WoolBase">
+  <ThingDef ParentName="ResourceBase" Name="ACPWoolBase" Abstract="True">
+    <stackLimit>100</stackLimit>
+    <graphicData>
+      <texPath>Things/Item/Resource/Wool</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <MarketValue>2.7</MarketValue>
+      <Mass>0.028</Mass>
+      <Flammability>1.7</Flammability>
+      <DeteriorationRate>3.4</DeteriorationRate>
+      <StuffPower_Armor_Sharp>0.36</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.00</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.36</StuffPower_Armor_Heat>
+    </statBases>
+    <stuffProps>
+      <statFactors>
+        <Flammability>1.7</Flammability>
+      </statFactors>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <commonality>0.10</commonality>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+  </ThingDef>
+
+<ThingDef ParentName="ACPWoolBase">
     <defName>ACPAngoraWool</defName>
     <label>angora wool</label>
     <description>A light silky wool produced by the angora rabbit, it is very warm.</description>
@@ -10,18 +40,16 @@
     </graphicData>	
 	<statBases>
 		<MarketValue>3.5</MarketValue>
+		  <StuffPower_Insulation_Cold>36</StuffPower_Insulation_Cold>
+		  <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
     </statBases>	
     <stuffProps>
 	  <color>(255,255,255)</color>
 	  <commonality>0.1</commonality>
-      <statFactors>
-		  <StuffPower_Insulation_Cold>36</StuffPower_Insulation_Cold>
-		  <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
-      </statFactors>
 	</stuffProps>
 </ThingDef>
 
-<ThingDef ParentName="WoolBase">
+<ThingDef ParentName="ACPWoolBase">
     <defName>ACPLlamaWool</defName>
     <label>llama wool</label>
     <description>Soft warm wool from a llama.</description>
@@ -31,19 +59,17 @@
 	<statBases>
 		<MarketValue>5.0</MarketValue>
 		<DeteriorationRate>2.6</DeteriorationRate>
+		<StuffPower_Insulation_Cold>32</StuffPower_Insulation_Cold>
+		<StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
     </statBases>	
     <stuffProps>
 		<color>(114,64,45)</color> 
 		<commonality>0.1</commonality>
-        <statFactors>
-		  <StuffPower_Insulation_Cold>32</StuffPower_Insulation_Cold>
-		  <StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
-        </statFactors>
 	</stuffProps>
 </ThingDef>
 
 
-  <ThingDef ParentName="WoolBase">
+  <ThingDef ParentName="ACPWoolBase">
     <defName>ACPSpidersilk</defName>
     <label>spidersilk</label>
     <description>The unusually versatile quasi-silk produced by a genetically engineered insectoid.</description>
@@ -57,72 +83,70 @@
       <StuffPower_Armor_Sharp>0.45</StuffPower_Armor_Sharp>
       <StuffPower_Armor_Blunt>0.05</StuffPower_Armor_Blunt>
       <StuffPower_Armor_Heat>0.40</StuffPower_Armor_Heat>
+	  <StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
+	  <StuffPower_Insulation_Heat>34</StuffPower_Insulation_Heat>
     </statBases>
     <stuffProps>
       <color>(129,216,208)</color>
       <commonality>0.15</commonality>
-      <statFactors>
-		  <StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
-		  <StuffPower_Insulation_Heat>34</StuffPower_Insulation_Heat>
-      </statFactors>
     </stuffProps>
   </ThingDef>
     
-   <ThingDef ParentName="WoolBase">
+   <ThingDef ParentName="ACPWoolBase">
     <defName>ACPBisondown</defName>
     <label>downy bison wool</label>
     <description>Bison Wool. What, fool?</description>
     <graphicData>
       <color>(85,75,70)</color>
     </graphicData>
+	<statBases>
+		<MarketValue>5.0</MarketValue>
+		<DeteriorationRate>2.6</DeteriorationRate>
+		<StuffPower_Insulation_Cold>16</StuffPower_Insulation_Cold>
+		<StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
+    </statBases>
     <stuffProps>
       <color>(85,75,70)</color>
       <commonality>0.1</commonality>
-      <statFactors>
-		  <StuffPower_Insulation_Cold>16</StuffPower_Insulation_Cold>
-		  <StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
-      </statFactors>
     </stuffProps>
   </ThingDef>
   
-   <ThingDef ParentName="WoolBase">
+   <ThingDef ParentName="ACPWoolBase">
     <defName>ACPBDireWolfWool</defName>
     <label>direwolf wool</label>
     <description>Wool from the rare once-extinct Dire Wolves is very strong, has excellent insulation, and is therefore quite valuable.</description>
     <graphicData>
       <color>(70,70,73)</color>
     </graphicData>
-	 <statBases>
+	<statBases>
       <MarketValue>5</MarketValue>
-   </statBases>
+	  <StuffPower_Insulation_Cold>32</StuffPower_Insulation_Cold>
+	  <StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+    </statBases>
     <stuffProps>
       <color>(70,70,73)</color>
       <commonality>0.1</commonality>
-      <statFactors>
-		  <StuffPower_Insulation_Cold>32</StuffPower_Insulation_Cold>
-		  <StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
-      </statFactors>
     </stuffProps>
   </ThingDef>
 
-     <ThingDef ParentName="WoolBase">
+     <ThingDef ParentName="ACPWoolBase">
     <defName>ACPSheepWool</defName>
     <label>sheep wool</label>
     <description>Regular-ass wool.</description>
     <graphicData>
       <color>(245,245,245)</color>
     </graphicData>
+	<statBases>
+	  <StuffPower_Insulation_Cold>32</StuffPower_Insulation_Cold>
+	  <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>
     <stuffProps>
       <color>(245,245,245)</color>
       <commonality>0.1</commonality>
-      <statFactors>
-		  <StuffPower_Insulation_Cold>32</StuffPower_Insulation_Cold>
-		  <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
-      </statFactors>
     </stuffProps>
   </ThingDef>
 	
-	<ThingDef ParentName="WoolBase">
+	<ThingDef ParentName="ACPWoolBase">
     <defName>ACPFerretSilk</defName>
     <label>Ferret silk</label>
     <description>What the hell is this? Ferret silk? What?</description>
@@ -132,14 +156,12 @@
     <statBases>
       <MarketValue>6</MarketValue>
       <StuffPower_Armor_Heat>0.42</StuffPower_Armor_Heat>
+	  <StuffPower_Insulation_Cold>14</StuffPower_Insulation_Cold>
+	  <StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
    </statBases>
     <stuffProps>
       <color>(198,198,200)</color>
       <commonality>0.01</commonality>
-      <statFactors>
-		  <StuffPower_Insulation_Cold>14</StuffPower_Insulation_Cold>
-		  <StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
-      </statFactors>
     </stuffProps>
   </ThingDef>
 
