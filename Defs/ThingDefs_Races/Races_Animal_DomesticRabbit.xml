@@ -13,6 +13,10 @@
 	  <wildness>0</wildness>
 	  <petness>1</petness>
     </race>
+    <tradeTags>
+      <li>AnimalCommon</li>
+      <li>AnimalPet</li>
+    </tradeTags>
   </ThingDef>
 
   <PawnKindDef ParentName="HareBase">

@@ -84,6 +84,9 @@
         <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
+    <tradeTags>
+      <li>AnimalCommon</li>
+    </tradeTags>
   </ThingDef>
   
   <PawnKindDef ParentName="BigBirdKindBase">

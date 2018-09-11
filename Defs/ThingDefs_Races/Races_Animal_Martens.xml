@@ -44,8 +44,8 @@
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>StandardAnimal</li>
-      <li>BadassAnimal</li>
+      <li>AnimalUncommon</li>
+      <li>AnimalFighter</li>
     </tradeTags>
   </ThingDef>
 
@@ -145,9 +145,6 @@
 		<ColdBog>0.07</ColdBog>
       </wildBiomes>
     </race>
-    <tradeTags>
-      <li>StandardAnimal</li>
-    </tradeTags>
   </ThingDef>
 
   <PawnKindDef ParentName="MartenKindBase">
@@ -283,9 +280,6 @@
 		<ColdBog>0.06</ColdBog>
       </wildBiomes>
     </race>
-    <tradeTags>
-      <li>StandardAnimal</li>
-    </tradeTags>
   </ThingDef>
 
   <PawnKindDef ParentName="MartenKindBase">

@@ -95,9 +95,11 @@
       </wildBiomes>
     </race>
     <tradeTags>
-      <li>StandardAnimal</li>
+      <li>AnimalUncommon</li>
+      <li>AnimalFighter</li>
     </tradeTags>
   </ThingDef>
+ 
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>ACPBlackRhinoceros</defName>
     <label>black rhinoceros</label>

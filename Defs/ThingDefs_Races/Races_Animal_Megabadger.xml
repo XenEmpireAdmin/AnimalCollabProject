@@ -117,8 +117,8 @@
       </wildBiomes>
     </race>
     <tradeTags>
-      <li>StandardAnimal</li>
-      <li>BadassAnimal</li>
+      <li>AnimalUncommon</li>
+      <li>AnimalFighter</li>
     </tradeTags>
   </ThingDef>
   

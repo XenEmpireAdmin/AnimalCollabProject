@@ -116,7 +116,7 @@
     </race>
     
     <tradeTags>
-      <li>StandardAnimal</li>
+      <li>AnimalCommon</li>
     </tradeTags>
 
 </ThingDef>

@@ -80,6 +80,9 @@
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
+    <tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
@@ -202,7 +205,7 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>Insectoid</li>
+      <li>AnimalInsect</li>
     </tradeTags>
   </ThingDef>
 
@@ -329,7 +332,7 @@
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>Insectoid</li>
+      <li>AnimalInsect</li>
     </tradeTags>
   </ThingDef>
 

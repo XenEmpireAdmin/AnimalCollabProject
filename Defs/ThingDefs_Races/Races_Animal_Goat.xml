@@ -111,7 +111,8 @@
       </wildBiomes>
     </race>
     <tradeTags>
-      <li>StandardAnimal</li>
+      <li>AnimalCommon</li>
+      <li>AnimalFarm</li>
     </tradeTags>
   </ThingDef>
 

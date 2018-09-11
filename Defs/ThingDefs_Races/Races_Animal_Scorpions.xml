@@ -85,7 +85,7 @@
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
     </race>
     <tradeTags>
-      <li>Insectoid</li>
+      <li>AnimalInsect</li>
     </tradeTags>
   </ThingDef>
   
