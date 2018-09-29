@@ -54,8 +54,11 @@
       <li>Items</li>
     </thingCategories>
     <tradeTags>
-      <li>Exotic</li>
+      <li>ExoticMisc</li>
     </tradeTags>
+    <thingSetMakerTags>
+      <li>AnimalPart</li>
+    </thingSetMakerTags>
   </ThingDef>
 
 

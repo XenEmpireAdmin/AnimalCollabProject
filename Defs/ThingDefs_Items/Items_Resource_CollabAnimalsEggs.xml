@@ -374,5 +374,23 @@
       </li>
     </comps>
   </ThingDef>
+  
+   <ThingDef ParentName="EggFertBaseACP">
+    <defName>ACPEggFlamingoFertilized</defName>
+    <label>flamingo egg (fert.)</label>
+    <description>Fertilized egg of a flamingo. If all goes well, it should hatch into a flamingo. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <color>(240,240,240)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>17.5</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>36</hatcherDaystoHatch>
+        <hatcherPawn>ACPFlamingo</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
     
 </Defs>
