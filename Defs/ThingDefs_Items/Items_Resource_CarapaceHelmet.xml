@@ -57,10 +57,12 @@
       <layers>
         <li>Overhead</li>
       </layers>
-      <tags>
-        <li>Military</li>
-        <li>Tribal</li>
-      </tags>
+	  <tags>
+		 <li>Neolithic</li>
+	  </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
     </apparel>
   </ThingDef>
 

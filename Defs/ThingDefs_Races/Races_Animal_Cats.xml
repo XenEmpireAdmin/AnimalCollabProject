@@ -18,6 +18,7 @@
 	  <useMeatFrom>Cat</useMeatFrom>
       <leatherDef>Leather_Panthera</leatherDef>
       <wildness>0.80</wildness>
+      <trainability>Advanced</trainability>
       <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <gestationPeriodDays>22.5</gestationPeriodDays>
