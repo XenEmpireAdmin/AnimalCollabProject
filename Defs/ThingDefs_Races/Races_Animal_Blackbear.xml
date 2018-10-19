@@ -13,7 +13,7 @@
     <race>
       <packAnimal>true</packAnimal>
       <wildness>0.70</wildness>
-      <baseBodySize>0.9</baseBodySize>
+      <baseBodySize>1.7</baseBodySize>
       <baseHealthScale>1.5</baseHealthScale>
       <lifeExpectancy>25</lifeExpectancy>
       <gestationPeriodDays>45</gestationPeriodDays>
