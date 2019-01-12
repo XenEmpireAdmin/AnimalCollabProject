@@ -44,8 +44,8 @@
       <gestationPeriodDays>50</gestationPeriodDays>
       <wildness>0.85</wildness>
       <wildBiomes>
-        <SeaIce>0.4</SeaIce>
-        <IceSheet>0.3</IceSheet>
+        <SeaIce>0.35</SeaIce>
+        <IceSheet>0.5</IceSheet>
         <Tundra>0.15</Tundra>
         <BorealForest>0.02</BorealForest>
 		<ColdBog>0.05</ColdBog>

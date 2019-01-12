@@ -20,13 +20,13 @@
       <leatherDef>Leather_Bird</leatherDef>
       <wildness>0.35</wildness>
       <wildBiomes>
-		    <AridShrubland>0.02</AridShrubland>
-		    <TropicalRainforest>0.08</TropicalRainforest>
-		    <TemperateForest>0.26</TemperateForest>
-		    <BorealForest>0.22</BorealForest>
-        <TropicalSwamp>0.15</TropicalSwamp>
+		<AridShrubland>0.05</AridShrubland>
+		<TropicalRainforest>0.15</TropicalRainforest>
+		<TemperateForest>0.20</TemperateForest>
+		<BorealForest>0.25</BorealForest>
+        <TropicalSwamp>0.20</TropicalSwamp>
         <ColdBog>0.1</ColdBog>
-        <TemperateSwamp>0.15</TemperateSwamp>
+        <TemperateSwamp>0.30</TemperateSwamp>
       </wildBiomes>
       <lifeExpectancy>6</lifeExpectancy>
     </race>
@@ -35,8 +35,11 @@
         <eggFertilizedDef>ACPEggDuckFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>4</eggLayIntervalDays>
-	<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-        <eggCountRange>1</eggCountRange>
+		<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+        <eggCountRange>
+          <min>1</min>
+          <max>3</max>
+        </eggCountRange>
       </li>
     </comps>
     <tools>
@@ -45,14 +48,14 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>3</power>
+        <power>2</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>5</amount>
+              <amount>3</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -61,14 +64,14 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>4</power>
+        <power>3</power>
         <cooldownTime>1.85</cooldownTime>
         <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>6</amount>
+              <amount>5</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>

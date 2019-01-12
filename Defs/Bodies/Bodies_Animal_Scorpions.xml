@@ -3,7 +3,7 @@
 
 
   <BodyDef>
-    <defName>ScorpionLike</defName>
+    <defName>ACPScorpionLike</defName>
     <label>scorpion-like</label>
     <corePart>
       <def>Shell</def>

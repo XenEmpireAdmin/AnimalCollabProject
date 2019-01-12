@@ -3,11 +3,6 @@
 
   <!-- Injuries -->
 
-  <HediffDef Name="InjuryBase" Abstract="True">
-    <hediffClass>Hediff_Injury</hediffClass>
-    <tendable>true</tendable>
-    <displayWound>true</displayWound>
-  </HediffDef>
 
   <HediffDef ParentName="InjuryBase">
     <defName>AcidBurn</defName>

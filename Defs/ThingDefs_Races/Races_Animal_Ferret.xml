@@ -17,14 +17,14 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>2</power>
+        <power>4</power>
         <cooldownTime>1.25</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>4</amount>
+              <amount>6</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -34,14 +34,14 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>2</power>
+        <power>4</power>
         <cooldownTime>1.25</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>4</amount>
+              <amount>6</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -50,14 +50,14 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>5</power>
+        <power>6</power>
         <cooldownTime>1.4</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>7</amount>
+              <amount>8</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -88,15 +88,12 @@
       <trainability>Advanced</trainability>
       <wildness>0.35</wildness>
       <wildBiomes>
-        <Desert>0.02</Desert>
-        <AridShrubland>0.04</AridShrubland>
-        <TropicalRainforest>0.05</TropicalRainforest>
-        <TemperateForest>0.2</TemperateForest>
-        <BorealForest>0.2</BorealForest>
-        <Tundra>0.01</Tundra>
-        <TropicalSwamp>0.15</TropicalSwamp>
-        <ColdBog>0.1</ColdBog>
-        <TemperateSwamp>0.15</TemperateSwamp>
+        <AridShrubland>0.03</AridShrubland>
+        <TropicalRainforest>0.3</TropicalRainforest>
+        <TemperateForest>0.8</TemperateForest>
+        <BorealForest>0.75</BorealForest>
+        <TropicalSwamp>0.25</TropicalSwamp>
+        <TemperateSwamp>0.5</TemperateSwamp>
       </wildBiomes>
       <petness>0.9</petness>
       <nuzzleMtbHours>15</nuzzleMtbHours>

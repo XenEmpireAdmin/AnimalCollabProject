@@ -62,13 +62,13 @@
       <useMeatFrom>Rhinoceros</useMeatFrom>
       <wildness>0.90</wildness>
     <wildBiomes>
-			<IceSheet>0.01</IceSheet>
-			<SeaIce>0.01</SeaIce>
-			<BorealForest>0.02</BorealForest>
-      <ColdBog>0.1</ColdBog>
-      <Tundra>0.02</Tundra>
-	  	<TemperateSwamp>0.02</TemperateSwamp>
-		</wildBiomes>
+		<IceSheet>0.05</IceSheet>
+		<SeaIce>0.05</SeaIce>
+		<BorealForest>0.02</BorealForest>
+		<ColdBog>0.02</ColdBog>
+		<Tundra>0.05</Tundra>
+		<TemperateSwamp>0.02</TemperateSwamp>
+	</wildBiomes>
       <manhunterOnTameFailChance>0.10</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <gestationPeriodDays>45</gestationPeriodDays>

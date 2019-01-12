@@ -16,7 +16,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>11</power>
+        <power>12</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -33,7 +33,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>11</power>
+        <power>12</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -49,7 +49,7 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>14</power>
+        <power>15</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -94,10 +94,9 @@
 		<Desert>0.07</Desert>
 		<AridShrubland>0.1</AridShrubland>
 		<TropicalRainforest>0.08</TropicalRainforest>
-		<TemperateForest>0.02</TemperateForest>
-		<TropicalSwamp>0.005</TropicalSwamp>
-        <ColdBog>0.001</ColdBog>
-        <TemperateSwamp>0.003</TemperateSwamp>
+		<TemperateForest>0.035</TemperateForest>
+		<TropicalSwamp>0.01</TropicalSwamp>
+        <TemperateSwamp>0.01</TemperateSwamp>
       </wildBiomes>
       <litterSizeCurve>
         <points>

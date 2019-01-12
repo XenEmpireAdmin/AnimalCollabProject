@@ -16,7 +16,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>8</power>
+        <power>9</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
       </li>
@@ -25,7 +25,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>8</power>
+        <power>9</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
       </li>
@@ -33,7 +33,7 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>10</power>
+        <power>11</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
@@ -42,7 +42,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>3</power>
+        <power>6</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
@@ -52,7 +52,7 @@
       <li Class="CompProperties_EggLayer">
         <eggFertilizedDef>ACPEggxenguanaFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
-        <eggLayIntervalDays>15</eggLayIntervalDays>
+        <eggLayIntervalDays>20</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
         <eggCountRange>
           <min>1</min>
@@ -169,7 +169,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>3</power>
+        <power>2</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
       </li>
@@ -178,7 +178,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>3</power>
+        <power>2</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
       </li>
@@ -186,7 +186,7 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>4</power>
+        <power>3</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
@@ -205,7 +205,7 @@
       <li Class="CompProperties_EggLayer">
         <eggFertilizedDef>ACPEggGeckoFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
-        <eggLayIntervalDays>10.9</eggLayIntervalDays>
+        <eggLayIntervalDays>18</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.9</eggProgressUnfertilizedMax>
         <eggCountRange>
           <min>2</min>
@@ -222,13 +222,13 @@
       <baseHealthScale>0.12</baseHealthScale>
       <foodType>OmnivoreRoughAnimal</foodType>
       <wildBiomes>
-        <TropicalRainforest>0.065</TropicalRainforest>
-        <TemperateForest>0.02</TemperateForest>
-        <AridShrubland>0.025</AridShrubland>
-        <Desert>0.02</Desert>
-        <ExtremeDesert>0.01</ExtremeDesert>
-        <TropicalSwamp>0.15</TropicalSwamp>
-        <TemperateSwamp>0.15</TemperateSwamp>
+        <TropicalRainforest>0.15</TropicalRainforest>
+        <TemperateForest>0.3</TemperateForest>
+        <AridShrubland>0.2</AridShrubland>
+        <Desert>0.9</Desert>
+        <ExtremeDesert>0.7</ExtremeDesert>
+        <TropicalSwamp>0.3</TropicalSwamp>
+        <TemperateSwamp>0.3</TemperateSwamp>
       </wildBiomes>
       <leatherDef>Leather_Lizard</leatherDef>
       <useMeatFrom>Iguana</useMeatFrom>

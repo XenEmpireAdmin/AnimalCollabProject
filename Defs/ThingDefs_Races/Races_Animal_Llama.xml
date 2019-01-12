@@ -23,7 +23,7 @@
           <li>Poke</li>
         </capacities>
         <power>8</power>
-        <cooldownTime>1.65</cooldownTime>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
       </li>
       <li>
@@ -33,7 +33,7 @@
           <li>Poke</li>
         </capacities>
         <power>8</power>
-        <cooldownTime>1.65</cooldownTime>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
       </li>
       <li>
@@ -41,7 +41,7 @@
           <li>Bite</li>
         </capacities>
         <power>10</power>
-        <cooldownTime>1.85</cooldownTime>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
       <li>
@@ -49,8 +49,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>4</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
       </li>
@@ -68,15 +68,15 @@
 		<body>QuadrupedAnimalWithHooves</body>
 		<herdAnimal>true</herdAnimal>
 		<packAnimal>true</packAnimal>
-		<baseBodySize>1.0</baseBodySize> 		
+		<baseBodySize>1.1</baseBodySize> 		
 		<baseHungerRate>0.60</baseHungerRate> 
-		<baseHealthScale>1.0</baseHealthScale>
+		<baseHealthScale>1.1</baseHealthScale>
 		<foodType>VegetarianRoughAnimal</foodType>
 		<useMeatFrom>Alpaca</useMeatFrom>
         <leatherDef>Leather_Brownfur</leatherDef>
 		<trainability>Advanced</trainability>
 		<wildness>0.75</wildness>
-		<petness>0.45</petness>
+		<petness>0.35</petness>
 		<nuzzleMtbHours>120</nuzzleMtbHours>
 		<gestationPeriodDays>30</gestationPeriodDays> 
 		<mateMtbHours>8</mateMtbHours>
@@ -114,10 +114,10 @@
         <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		
 		<wildBiomes> 
-			<BorealForest>0.08</BorealForest>
-			<TemperateForest>0.1</TemperateForest>
-			<AridShrubland>0.02</AridShrubland>
-			<TemperateSwamp>0.02</TemperateSwamp>
+			<BorealForest>0.12</BorealForest>
+			<TemperateForest>0.2</TemperateForest>
+			<AridShrubland>0.05</AridShrubland>
+			<TemperateSwamp>0.05</TemperateSwamp>
 			<ColdBog>0.01</ColdBog>
 		</wildBiomes>
 		

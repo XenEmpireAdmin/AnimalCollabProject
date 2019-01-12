@@ -47,7 +47,7 @@
       </li>
     </tools>
     <race>
-      <body>ScorpionLike</body>
+      <body>ACPScorpionLike</body>
       <baseBodySize>0.7</baseBodySize>
       <baseHungerRate>0.10</baseHungerRate>
       <baseHealthScale>0.4</baseHealthScale>

@@ -210,7 +210,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>3</power>
+        <power>2</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -227,7 +227,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>3</power>
+        <power>2</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -243,7 +243,7 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>5</power>
+        <power>3</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -275,9 +275,9 @@
       <lifeExpectancy>8</lifeExpectancy>
       <maxPreyBodySize>0.5</maxPreyBodySize>
       <wildBiomes>
-		<BorealForest>0.07</BorealForest>
-		<Tundra>0.09</Tundra>
-		<ColdBog>0.06</ColdBog>
+		<BorealForest>0.15</BorealForest>
+		<Tundra>0.15</Tundra>
+		<ColdBog>0.1</ColdBog>
       </wildBiomes>
     </race>
   </ThingDef>

@@ -151,7 +151,7 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>6</power>
+        <power>4</power>
         <cooldownTime>2.5</cooldownTime>
         <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
       </li>
@@ -160,8 +160,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>12</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>14</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
       </li>
@@ -178,7 +178,7 @@
 	  <wildBiomes>
 		<ExtremeDesert>0.25</ExtremeDesert>
 		<Desert>0.15</Desert>
-		<AridShrubland>0.05</AridShrubland>
+		<AridShrubland>0.1</AridShrubland>
       </wildBiomes>
 	  <trainability>Advanced</trainability>
       <lifeExpectancy>6</lifeExpectancy>
@@ -306,7 +306,7 @@
 	  <wildBiomes>
 		<ExtremeDesert>0.25</ExtremeDesert>
 		<Desert>0.15</Desert>
-		<AridShrubland>0.05</AridShrubland>
+		<AridShrubland>0.1</AridShrubland>
       </wildBiomes>
       <lifeExpectancy>6</lifeExpectancy>
       <lifeStageAges>

@@ -18,36 +18,37 @@
       <leatherDef>Leather_Bird</leatherDef>
 	  <useMeatFrom>Cassowary</useMeatFrom>
     </race>
-   <tools>
+    <tools>
       <li>
         <label>claws</label>
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>8</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>5</power>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>10</amount>
+              <amount>14</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
       </li>
       <li>
+        <label>beak</label>
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>9</power>
-        <cooldownTime>1.85</cooldownTime>
+        <power>6</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>13</amount>
+              <amount>14</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -57,14 +58,16 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>2</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <tradeTags>
       <li>AnimalCommon</li>
+      <li>AnimalFarm</li>
     </tradeTags>
   </ThingDef>
   
@@ -88,7 +91,10 @@
         <eggFertilizedDef>ACPEggDGooseFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>4</eggLayIntervalDays>
-        <eggCountRange>1</eggCountRange>
+        <eggCountRange>
+          <min>1</min>
+          <max>3</max>
+        </eggCountRange>
       </li>
     </comps>
   </ThingDef>
@@ -145,9 +151,9 @@
       <wildBiomes>
 		<AridShrubland>0.01</AridShrubland>
 		<TropicalRainforest>0.02</TropicalRainforest>
-		<TemperateForest>0.15</TemperateForest>
-		<BorealForest>0.08</BorealForest>
-		<TropicalSwamp>0.05</TropicalSwamp>
+		<TemperateForest>0.4</TemperateForest>
+		<BorealForest>0.35</BorealForest>
+		<TropicalSwamp>0.2</TropicalSwamp>
 		<TemperateSwamp>0.22</TemperateSwamp>
 		<ColdBog>0.23</ColdBog>
       </wildBiomes>

@@ -89,12 +89,12 @@
         <Desert>0.01</Desert>
         <AridShrubland>0.015</AridShrubland>
         <TropicalRainforest>0.25</TropicalRainforest>
-        <TemperateForest>0.30</TemperateForest>
-        <BorealForest>0.20</BorealForest>
-        <Tundra>0.01</Tundra>
-		<TropicalSwamp>0.1</TropicalSwamp>
+        <TemperateForest>0.45</TemperateForest>
+        <BorealForest>0.6</BorealForest>
+        <Tundra>0.45</Tundra>
+		<TropicalSwamp>0.15</TropicalSwamp>
 		<TemperateSwamp>0.15</TemperateSwamp>
-		<ColdBog>0.1</ColdBog>
+		<ColdBog>0.3</ColdBog>
       </wildBiomes>
       <mateMtbHours>4</mateMtbHours>
       <nuzzleMtbHours>30</nuzzleMtbHours>

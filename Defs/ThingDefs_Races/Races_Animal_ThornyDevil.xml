@@ -18,7 +18,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>7</power>
+        <power>4</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftClaws</linkedBodyPartsGroup>
       </li>
@@ -27,7 +27,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>7</power>
+        <power>4</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>FrontRightClaws</linkedBodyPartsGroup>
       </li>
@@ -35,7 +35,7 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>5</power>
+        <power>2</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
@@ -54,7 +54,7 @@
       <li Class="CompProperties_EggLayer">
         <eggFertilizedDef>ACPEggThornyDevilFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
-        <eggLayIntervalDays>11</eggLayIntervalDays>
+        <eggLayIntervalDays>18</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
         <eggCountRange>
           <min>3</min>

@@ -20,10 +20,10 @@
 	  <useMeatFrom>Cassowary</useMeatFrom>
       <leatherDef>Leather_Bird</leatherDef>
 	  <wildBiomes>
-		<AridShrubland>0.02</AridShrubland>
+		<AridShrubland>0.1</AridShrubland>
 		<TropicalRainforest>0.05</TropicalRainforest>
-		<TemperateForest>0.15</TemperateForest>
-		<BorealForest>0.1</BorealForest>
+		<TemperateForest>0.2</TemperateForest>
+		<BorealForest>0.15</BorealForest>
 		<Tundra>0.05</Tundra>
 		<TropicalSwamp>0.02</TropicalSwamp>
 		<TemperateSwamp>0.1</TemperateSwamp>
@@ -35,9 +35,12 @@
       <li Class="CompProperties_EggLayer">
 		<eggFertilizedDef>ACPEggBustardFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
-        <eggLayIntervalDays>12</eggLayIntervalDays>
+        <eggLayIntervalDays>16</eggLayIntervalDays>
 		<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-        <eggCountRange>1</eggCountRange>
+        <eggCountRange>
+          <min>1</min>
+          <max>3</max>
+        </eggCountRange>
       </li>
     </comps>
    <tools>

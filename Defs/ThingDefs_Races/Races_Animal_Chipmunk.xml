@@ -114,10 +114,10 @@
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
       <wildBiomes>
-		<BorealForest>0.6</BorealForest>
-		<TemperateForest>0.3</TemperateForest>
-		<TemperateSwamp>0.3</TemperateSwamp>
-		<ColdBog>0.4</ColdBog>
+		<BorealForest>0.7</BorealForest>
+		<TemperateForest>0.7</TemperateForest>
+		<TemperateSwamp>0.7</TemperateSwamp>
+		<ColdBog>0.7</ColdBog>
       </wildBiomes>
     </race>
     <tradeTags>

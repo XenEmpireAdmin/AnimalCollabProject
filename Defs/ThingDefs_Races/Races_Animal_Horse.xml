@@ -5,7 +5,7 @@
     <thingClass>AnimalVariations.AnimalMultiSkins</thingClass>
     <defName>ACPHorse</defName>
     <label>horse</label>
-    <description>A large, peaceful herbivore widely known for its great speed and strength. Horses and humans have a history stretching back for millenia, so it is no surprise to see one. Unfortunately, all your colonists are absolutely inept at riding, otherwise it could make a fitting steed.</description>
+    <description>A large, peaceful herbivore widely known for its great speed and strength. Horses and humans have a history stretching back for millenia, so it is no surprise to see one.</description>
     <statBases>
       <MoveSpeed>8.5</MoveSpeed>
       <ComfyTemperatureMin>-20</ComfyTemperatureMin>
@@ -36,7 +36,7 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>4</power>
+        <power>5</power>
         <cooldownTime>1.85</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
@@ -45,7 +45,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>5</power>
+        <power>7</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
@@ -91,9 +91,9 @@
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
       <wildBiomes>
-		<BorealForest>0.05</BorealForest>
-		<TemperateForest>0.08</TemperateForest>
-		<TemperateSwamp>0.02</TemperateSwamp>
+		<BorealForest>0.15</BorealForest>
+		<TemperateForest>0.25</TemperateForest>
+		<TemperateSwamp>0.25</TemperateSwamp>
 		<ColdBog>0.04</ColdBog>
       </wildBiomes>
     </race>
@@ -178,7 +178,7 @@
     <statBases>
       <MoveSpeed>6.5</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
-      <ComfyTemperatureMax>5</ComfyTemperatureMax>
+      <ComfyTemperatureMax>25</ComfyTemperatureMax>
       <MarketValue>650</MarketValue>
     </statBases>
     <tools>
@@ -188,7 +188,7 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>8</power>
+        <power>10</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
       </li>
@@ -198,7 +198,7 @@
           <li>Blunt</li>
           <li>Poke</li>
         </capacities>
-        <power>8</power>
+        <power>10</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
       </li>
@@ -206,7 +206,7 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>6</power>
+        <power>9</power>
         <cooldownTime>1.85</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>

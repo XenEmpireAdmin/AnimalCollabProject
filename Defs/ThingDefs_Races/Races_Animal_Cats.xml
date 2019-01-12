@@ -1,67 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="AnimalThingBase" Name="BigCatThingBase" Abstract="True">
-    <statBases>
-      <MoveSpeed>6.5</MoveSpeed>
-      <ComfyTemperatureMin>-8</ComfyTemperatureMin>
-      <MarketValue>650</MarketValue>
-    </statBases>
-    <race>
-      <body>QuadrupedAnimalWithPawsAndTail</body>
-      <herdAnimal>false</herdAnimal>
-      <predator>true</predator>
-      <baseBodySize>1.4</baseBodySize>
-      <baseHungerRate>0.3</baseHungerRate>
-      <baseHealthScale>1.8</baseHealthScale>
-      <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
-	  <useMeatFrom>Cat</useMeatFrom>
-      <leatherDef>Leather_Panthera</leatherDef>
-      <wildness>0.80</wildness>
-      <trainability>Advanced</trainability>
-      <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
-      <manhunterOnDamageChance>1</manhunterOnDamageChance>
-      <gestationPeriodDays>22.5</gestationPeriodDays>
-	  <litterSizeCurve>
-        <points>
-          <li>(1.5, 0)</li>
-          <li>(2, 1)</li>
-          <li>(3, 1)</li>
-          <li>(3.5, 0)</li>
-        </points>
-      </litterSizeCurve>
-      <lifeExpectancy>13</lifeExpectancy>
-      <lifeStageAges>
-        <li>
-          <def>AnimalBaby</def>
-          <minAge>0</minAge>
-        </li>
-        <li>
-          <def>AnimalJuvenile</def>
-          <minAge>0.3</minAge>
-        </li>
-        <li>
-          <def>AnimalAdult</def>
-          <minAge>0.85</minAge>
-          <soundWounded>Pawn_Cougar_Injured</soundWounded>
-          <soundDeath>Pawn_Cougar_Death</soundDeath>
-          <soundAngry>Pawn_Cougar_Angry</soundAngry>
-        </li>
-      </lifeStageAges>
-      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
-      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
-      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
-    </race>
-    <tradeTags>
-      <li>AnimalUncommon</li>
-      <li>AnimalFighter</li>
-    </tradeTags>
-  </ThingDef>
-
-  <PawnKindDef ParentName="AnimalKindBase" Name="BigCatKindBase" Abstract="True">
-    <combatPower>155</combatPower>
-  </PawnKindDef>
-
   <!--===============================================-->
 
   <ThingDef ParentName="BigCatThingBase">
@@ -74,7 +13,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>11</power>
+        <power>14</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -91,7 +30,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>11</power>
+        <power>14</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -107,14 +46,14 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>15</power>
+        <power>18</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>20</amount>
+              <amount>22</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -124,7 +63,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>5</power>
+        <power>9</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
@@ -137,13 +76,15 @@
       <baseHungerRate>0.3</baseHungerRate>
       <baseHealthScale>1.9</baseHealthScale>
       <wildness>0.85</wildness>
+      <manhunterOnTameFailChance>0.15</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
 	  <wildBiomes>
-		<ExtremeDesert>0.02</ExtremeDesert>
-		<Desert>0.07</Desert>
-		<AridShrubland>0.08</AridShrubland>
+		<ExtremeDesert>0.1</ExtremeDesert>
+		<Desert>0.1</Desert>
+		<AridShrubland>0.1</AridShrubland>
 		<TropicalRainforest>0.01</TropicalRainforest>
       </wildBiomes>
-      <lifeExpectancy>15</lifeExpectancy>
+      <lifeExpectancy>25</lifeExpectancy>
     </race>
   </ThingDef>
 
@@ -230,7 +171,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>11</power>
+        <power>15</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -247,7 +188,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>11</power>
+        <power>15</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -263,14 +204,14 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>15</power>
+        <power>19</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>20</amount>
+              <amount>23</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -280,7 +221,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>5</power>
+        <power>8</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
@@ -292,12 +233,14 @@
       <baseHungerRate>0.3</baseHungerRate>
       <baseHealthScale>1.9</baseHealthScale>
       <wildness>0.85</wildness>
+      <manhunterOnTameFailChance>0.15</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
 	  <wildBiomes>
-		<AridShrubland>0.04</AridShrubland>
-		<TropicalRainforest>0.07</TropicalRainforest>
-		<TropicalSwamp>0.07</TropicalSwamp>
+		<AridShrubland>0.1</AridShrubland>
+		<TropicalRainforest>0.12</TropicalRainforest>
+		<TropicalSwamp>0.12</TropicalSwamp>
       </wildBiomes>
-      <lifeExpectancy>15</lifeExpectancy>
+      <lifeExpectancy>25</lifeExpectancy>
     </race>
   </ThingDef>
 
@@ -357,7 +300,7 @@
   <ThingDef ParentName="BigCatThingBase">
     <defName>ACPCheetah</defName>
     <label>cheetah</label>
-    <description>Though not the most powerful of hunters, the cheetah ia an unusually fast sprinter. Escaping one that has chosen to attack will be difficult.</description>
+    <description>Though not the most powerful of hunters, the cheetah is an unusually fast sprinter. Escaping one that has chosen to attack will be difficult.</description>
 	<statBases>
 		<MoveSpeed>7.5</MoveSpeed>
 	</statBases>
@@ -367,8 +310,8 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>8</power>
-        <cooldownTime>1.5</cooldownTime>
+        <power>9</power>
+        <cooldownTime>1.2</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -384,8 +327,8 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>8</power>
-        <cooldownTime>1.5</cooldownTime>
+        <power>9</power>
+        <cooldownTime>1.2</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -401,7 +344,7 @@
           <li>Bite</li>
         </capacities>
         <power>14</power>
-        <cooldownTime>1.65</cooldownTime>
+        <cooldownTime>1.35</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -417,8 +360,8 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>2</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>5</power>
+        <cooldownTime>1.55</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
       </li>
@@ -427,9 +370,9 @@
       <leatherDef>Leather_Panthera</leatherDef>
       <baseBodySize>0.75</baseBodySize>
 	  <wildBiomes>
-		<ExtremeDesert>0.02</ExtremeDesert>
+		<ExtremeDesert>0.05</ExtremeDesert>
 		<Desert>0.07</Desert>
-		<AridShrubland>0.08</AridShrubland>
+		<AridShrubland>0.1</AridShrubland>
 		<TropicalRainforest>0.005</TropicalRainforest>
       </wildBiomes>
     </race>
@@ -499,8 +442,8 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>8</power>
-        <cooldownTime>1.5</cooldownTime>
+        <power>9</power>
+        <cooldownTime>1.25</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -516,8 +459,8 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>8</power>
-        <cooldownTime>1.5</cooldownTime>
+        <power>9</power>
+        <cooldownTime>1.25</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -532,8 +475,8 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>12</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>13</power>
+        <cooldownTime>1.4</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -549,7 +492,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>2</power>
+        <power>4</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
@@ -641,8 +584,8 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>8</power>
-        <cooldownTime>1.5</cooldownTime>
+        <power>9</power>
+        <cooldownTime>1.25</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -658,8 +601,8 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>8</power>
-        <cooldownTime>1.5</cooldownTime>
+        <power>9</power>
+        <cooldownTime>1.25</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -674,8 +617,8 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>12</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>13</power>
+        <cooldownTime>1.4</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
@@ -691,7 +634,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>2</power>
+        <power>4</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>

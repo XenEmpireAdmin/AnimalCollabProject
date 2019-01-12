@@ -23,7 +23,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>6</power>
+        <power>7</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -40,7 +40,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>6</power>
+        <power>7</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>

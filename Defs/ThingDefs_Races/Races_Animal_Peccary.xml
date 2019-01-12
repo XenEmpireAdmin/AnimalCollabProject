@@ -24,7 +24,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>3</power>
+        <power>5</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
@@ -38,9 +38,9 @@
       <foodType>OmnivoreRoughAnimal</foodType>
       <wildness>0.45</wildness>
 	  <wildBiomes>
-		<ExtremeDesert>0.02</ExtremeDesert>
-		<Desert>0.1</Desert>
-		<AridShrubland>0.2</AridShrubland>
+		<ExtremeDesert>0.15</ExtremeDesert>
+		<Desert>0.3</Desert>
+		<AridShrubland>0.35</AridShrubland>
 		<TropicalRainforest>0.08</TropicalRainforest>
 		<TemperateForest>0.01</TemperateForest>
 		<TropicalSwamp>0.08</TropicalSwamp>

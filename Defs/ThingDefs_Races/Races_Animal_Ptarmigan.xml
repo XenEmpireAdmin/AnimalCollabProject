@@ -12,13 +12,23 @@
       <ComfyTemperatureMax>30</ComfyTemperatureMax>
       <MarketValue>75</MarketValue>
     </statBases>
-   <tools>
+    <tools>
       <li>
+        <label>claws</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>beak</label>
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>4</power>
-        <cooldownTime>1.85</cooldownTime>
+        <power>3</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
       </li>
       <li>
@@ -27,8 +37,9 @@
           <li>Blunt</li>
         </capacities>
         <power>1</power>
-        <cooldownTime>1.65</cooldownTime>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
@@ -39,9 +50,9 @@
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
         <eggLayIntervalDays>5</eggLayIntervalDays>
         <eggCountRange>
-	  <min>1</min>
-          <max>5</max>
-	</eggCountRange>
+			<min>1</min>
+            <max>5</max>
+		</eggCountRange>
       </li>
     </comps>
     <race>
@@ -90,7 +101,7 @@
       <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
       <wildBiomes>
-		<Tundra>0.05</Tundra>
+		<Tundra>0.15</Tundra>
 		<BorealForest>0.6</BorealForest>
 		<ColdBog>0.2</ColdBog>
       </wildBiomes>

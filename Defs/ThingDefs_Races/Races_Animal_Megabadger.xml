@@ -16,14 +16,14 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>15</power>
+        <power>19</power>
         <cooldownTime>1.8</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>20</amount>
+              <amount>23</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -33,14 +33,14 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>15</power>
+        <power>19</power>
         <cooldownTime>1.8</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>20</amount>
+              <amount>23</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -49,14 +49,14 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>17</power>
+        <power>24</power>
         <cooldownTime>1.75</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>24</amount>
+              <amount>28</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -66,7 +66,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>4</power>
+        <power>12</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
@@ -111,9 +111,9 @@
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
       <wildBiomes>
-		<BorealForest>0.01</BorealForest>
-		<Tundra>0.02</Tundra>
-		<ColdBog>0.015</ColdBog>
+		<BorealForest>0.05</BorealForest>
+		<Tundra>0.1</Tundra>
+		<ColdBog>0.05</ColdBog>
       </wildBiomes>
     </race>
     <tradeTags>

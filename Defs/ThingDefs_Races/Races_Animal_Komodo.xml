@@ -56,11 +56,11 @@
       <li Class="CompProperties_EggLayer">
         <eggFertilizedDef>ACPEggKomodoFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
-        <eggLayIntervalDays>48</eggLayIntervalDays>
+        <eggLayIntervalDays>32</eggLayIntervalDays>
         <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
         <eggCountRange>
-          <min>12</min>
-          <max>20</max>
+          <min>5</min>
+          <max>9</max>
         </eggCountRange>
       </li>
     </comps>

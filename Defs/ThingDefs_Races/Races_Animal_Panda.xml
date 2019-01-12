@@ -18,9 +18,9 @@
       <packAnimal>true</packAnimal>
       <petness>0.5</petness>
       <wildBiomes>
-        <TropicalRainforest>0.025</TropicalRainforest>
-        <TemperateForest>0.01</TemperateForest>
-        <BorealForest>0.02</BorealForest>
+        <TropicalRainforest>0.15</TropicalRainforest>
+        <TemperateForest>0.15</TemperateForest>
+        <BorealForest>0.07</BorealForest>
 		<TropicalSwamp>0.03</TropicalSwamp>
 		<TemperateSwamp>0.02</TemperateSwamp>
 		<ColdBog>0.005</ColdBog>

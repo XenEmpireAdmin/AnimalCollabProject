@@ -45,13 +45,18 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>2</power>
+        <power>5</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <comps>
+      <li Class="CompProperties_Milkable">
+        <milkDef>Milk</milkDef>
+        <milkIntervalDays>2</milkIntervalDays>
+        <milkAmount>5</milkAmount>
+      </li>
       <li Class="CompProperties_Shearable">
         <woolDef>ACPSheepWool</woolDef>
         <shearIntervalDays>5</shearIntervalDays>

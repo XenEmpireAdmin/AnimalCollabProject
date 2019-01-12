@@ -22,14 +22,14 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>11</power>
+        <power>13</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>20</amount>
+              <amount>14</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -39,30 +39,32 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>11</power>
+        <power>13</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>20</amount>
+              <amount>14</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
       </li>
       <li>
+        <label>razorfangs</label>
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>13</power>
-        <cooldownTime>2.0</cooldownTime>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.9</chanceFactor>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>20</amount>
+              <amount>14</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -72,9 +74,10 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>3</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
@@ -214,14 +217,14 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>14</power>
+        <power>15</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>20</amount>
+              <amount>17</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -231,30 +234,32 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>14</power>
+        <power>15</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>20</amount>
+              <amount>17</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
       </li>
       <li>
+        <label>razorfangs</label>
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>16</power>
-        <cooldownTime>2.0</cooldownTime>
+        <power>17</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.9</chanceFactor>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>20</amount>
+              <amount>19</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -265,8 +270,9 @@
           <li>Blunt</li>
         </capacities>
         <power>5</power>
-        <cooldownTime>1.65</cooldownTime>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
@@ -419,7 +425,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>16</power>
+        <power>17</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -436,7 +442,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>16</power>
+        <power>17</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -449,17 +455,19 @@
         </surpriseAttack>
       </li>
       <li>
+        <label>razorfangs</label>
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>19</power>
-        <cooldownTime>2.0</cooldownTime>
+        <power>18</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.9</chanceFactor>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>24</amount>
+              <amount>22</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -470,8 +478,9 @@
           <li>Blunt</li>
         </capacities>
         <power>7</power>
-        <cooldownTime>1.65</cooldownTime>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
@@ -607,7 +616,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>16</power>
+        <power>17</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -624,7 +633,7 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>16</power>
+        <power>17</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
@@ -637,17 +646,19 @@
         </surpriseAttack>
       </li>
       <li>
+        <label>razorfangs</label>
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>19</power>
-        <cooldownTime>2.0</cooldownTime>
+        <power>18</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.9</chanceFactor>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>24</amount>
+              <amount>22</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -658,8 +669,9 @@
           <li>Blunt</li>
         </capacities>
         <power>7</power>
-        <cooldownTime>1.65</cooldownTime>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>

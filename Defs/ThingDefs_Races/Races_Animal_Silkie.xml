@@ -11,18 +11,28 @@
     
 	<statBases>
 		<MoveSpeed>2.0</MoveSpeed>
-		<ComfyTemperatureMin>-5</ComfyTemperatureMin>
-		<ComfyTemperatureMax>20</ComfyTemperatureMax>
+		<ComfyTemperatureMin>-15</ComfyTemperatureMin>
+		<ComfyTemperatureMax>35</ComfyTemperatureMax>
 		<MarketValue>125</MarketValue>
     </statBases>
     
-   <tools>
+    <tools>
       <li>
+        <label>claws</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>beak</label>
         <capacities>
           <li>Bite</li>
         </capacities>
         <power>3</power>
-        <cooldownTime>1.85</cooldownTime>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
       </li>
       <li>
@@ -31,8 +41,9 @@
           <li>Blunt</li>
         </capacities>
         <power>1</power>
-        <cooldownTime>1.65</cooldownTime>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
@@ -42,7 +53,7 @@
 			<eggUnfertilizedDef>ACPSilkieEggUnfertilized</eggUnfertilizedDef>
 			<eggFertilizedDef>ACPSilkieEggFertilized</eggFertilizedDef>
 			<eggFertilizationCountMax>1</eggFertilizationCountMax>
-			<eggLayIntervalDays>2.3</eggLayIntervalDays>
+			<eggLayIntervalDays>2.7</eggLayIntervalDays>
 			<eggCountRange>
 				<min>1</min>
 				<max>5</max>

@@ -16,7 +16,7 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>4</power>
+        <power>5</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
@@ -25,7 +25,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>5</power>
+        <power>6</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
@@ -40,8 +40,8 @@
       <leatherDef>Leather_ACP</leatherDef>
       <wildness>0.57</wildness>
       <wildBiomes>
-    	<TemperateForest>0.01</TemperateForest>
-		<AridShrubland>0.02</AridShrubland>
+    	<TemperateForest>0.25</TemperateForest>
+		<AridShrubland>0.55</AridShrubland>
       </wildBiomes>
       <trainability>Advanced</trainability>
       <useMeatFrom>Pig</useMeatFrom>

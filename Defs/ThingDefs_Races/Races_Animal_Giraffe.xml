@@ -19,7 +19,7 @@
           <li>Poke</li>
         </capacities>
         <power>15</power>
-        <cooldownTime>1.8</cooldownTime>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
       </li>
       <li>
@@ -29,7 +29,7 @@
           <li>Poke</li>
         </capacities>
         <power>15</power>
-        <cooldownTime>1.8</cooldownTime>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
       </li>
       <li>
@@ -37,7 +37,7 @@
           <li>Bite</li>
         </capacities>
         <power>6</power>
-        <cooldownTime>1.65</cooldownTime>
+        <cooldownTime>2.1</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
       </li>
       <li>
@@ -46,7 +46,7 @@
           <li>Blunt</li>
         </capacities>
         <power>20</power>
-        <cooldownTime>1.9</cooldownTime>
+        <cooldownTime>2.4</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <chanceFactor>0.2</chanceFactor>
       </li>
@@ -66,6 +66,7 @@
       <wildBiomes>
 		<AridShrubland>0.7</AridShrubland>
 		<Desert>0.45</Desert>
+		<ExtremeDesert>0.2</ExtremeDesert>
       </wildBiomes>
       <gestationPeriodDays>35</gestationPeriodDays>
       <manhunterOnTameFailChance>0.015</manhunterOnTameFailChance>

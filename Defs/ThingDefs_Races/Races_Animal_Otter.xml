@@ -16,14 +16,14 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>5</power>
+        <power>7</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>7</amount>
+              <amount>9</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -33,14 +33,14 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>5</power>
+        <power>7</power>
         <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>7</amount>
+              <amount>9</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -49,14 +49,14 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>9</power>
+        <power>10</power>
         <cooldownTime>1.65</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>11</amount>
+              <amount>12</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
@@ -89,7 +89,7 @@
       <nuzzleMtbHours>32</nuzzleMtbHours>
       <wildBiomes>
         <TropicalRainforest>0.1</TropicalRainforest>
-        <TemperateForest>0.20</TemperateForest>
+        <TemperateForest>0.2</TemperateForest>
         <BorealForest>0.15</BorealForest>
         <IceSheet>0.01</IceSheet>
         <Tundra>0.15</Tundra>

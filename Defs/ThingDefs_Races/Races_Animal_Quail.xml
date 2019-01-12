@@ -20,16 +20,17 @@
         <capacities>
           <li>Scratch</li>
         </capacities>
-        <power>4</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>2</power>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
       </li>
       <li>
+        <label>beak</label>
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>8</power>
-        <cooldownTime>1.85</cooldownTime>
+        <power>3</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
       </li>
       <li>
@@ -37,22 +38,23 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>3</power>
-        <cooldownTime>1.65</cooldownTime>
+        <power>1</power>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
       </li>
-    </tools> 
+    </tools>
 
     <comps>
       <li Class="CompProperties_EggLayer">
         <eggUnfertilizedDef>ACPQuailEggUnfertilized</eggUnfertilizedDef>
         <eggFertilizedDef>ACPQuailEggFertilized</eggFertilizedDef>
         <eggFertilizationCountMax>1</eggFertilizationCountMax>
-        <eggLayIntervalDays>15</eggLayIntervalDays>
+        <eggLayIntervalDays>17</eggLayIntervalDays>
         <eggCountRange>
-          <min>5</min>
-          <max>9</max>
+          <min>3</min>
+          <max>7</max>
         </eggCountRange>
       </li>
     </comps>

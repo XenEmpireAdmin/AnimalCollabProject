@@ -4,7 +4,7 @@
   <ThingDef ParentName="BaseBear">
     <defName>ACPBlackbear</defName>
     <label>black bear</label>
-    <description>An average sized bear native to thickly wooded forests. The black bear is a notably less dangerous animal than its larger cousins, rarely attacking people unless directly provoked. The black bear is- much like nearly all other bears- omniverous and solitary in nature.</description>
+    <description>An average sized bear native to thickly wooded forests. The black bear is a notably less dangerous animal than its larger cousins, rarely attacking people unless directly provoked. The black bear is - much like nearly all other bears - omniverous and solitary in nature.</description>
     <statBases>
       <MoveSpeed>4.3</MoveSpeed>
       <ComfyTemperatureMin>-30</ComfyTemperatureMin>
@@ -22,12 +22,11 @@
       <useMeatFrom>Bear_Grizzly</useMeatFrom>
       <wildBiomes>
     	<Tundra>0.005</Tundra>
-    	<BorealForest>0.02</BorealForest>
-    	<TemperateForest>0.025</TemperateForest>
-		<AridShrubland>0.005</AridShrubland>
-	    <Desert>0.001</Desert>
-		<TemperateSwamp>0.025</TemperateSwamp>
-		<ColdBog>0.01</ColdBog>
+    	<BorealForest>0.04</BorealForest>
+    	<TemperateForest>0.05</TemperateForest>
+		<AridShrubland>0.001</AridShrubland>
+		<TemperateSwamp>0.05</TemperateSwamp>
+		<ColdBog>0.005</ColdBog>
       </wildBiomes>
     </race>
   </ThingDef>
