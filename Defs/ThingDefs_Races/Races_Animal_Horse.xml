@@ -55,7 +55,7 @@
       <body>QuadrupedAnimalWithHooves</body>
       <herdAnimal>true</herdAnimal>
       <packAnimal>true</packAnimal>
-      <baseBodySize>1.2</baseBodySize>
+      <baseBodySize>1.8</baseBodySize>
       <baseHungerRate>0.5</baseHungerRate>
       <baseHealthScale>1.6</baseHealthScale>
       <petness>0.5</petness>
@@ -225,7 +225,7 @@
       <body>QuadrupedAnimalWithHooves</body>
       <herdAnimal>true</herdAnimal>
       <packAnimal>true</packAnimal>
-      <baseBodySize>1.5</baseBodySize>
+      <baseBodySize>2</baseBodySize>
       <baseHungerRate>0.5</baseHungerRate>
       <baseHealthScale>1.6</baseHealthScale>
       <foodType>VegetarianRoughAnimal, CarnivoreAnimal</foodType>

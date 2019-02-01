@@ -61,6 +61,7 @@
       <leatherDef>Leather_Rhinoceros</leatherDef>
       <useMeatFrom>Rhinoceros</useMeatFrom>
       <wildness>0.90</wildness>
+      <trainability>Intermediate</trainability>
     <wildBiomes>
 		<IceSheet>0.05</IceSheet>
 		<SeaIce>0.05</SeaIce>

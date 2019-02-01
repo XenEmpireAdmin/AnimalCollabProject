@@ -17,6 +17,7 @@
       <baseHealthScale>0.9</baseHealthScale>
       <foodType>CarnivoreAnimal</foodType>
       <wildness>0.80</wildness>
+      <trainability>Simple</trainability>
       <lifeExpectancy>17</lifeExpectancy>
       <leatherDef>Leather_Bird</leatherDef>
       <useMeatFrom>Cassowary</useMeatFrom>

@@ -4,7 +4,7 @@ Q: What do I name the xml file?
 A: *_SkinSet.xml, where * represents the defName of the animal.
 
 Q: Where do I put the *_SkinSet.xml file?
-A: Typically "right alonside where you have your animal's textures", but specifically: wherever the PawnKindDef's oldest lifeStage bodyGraphicData (non-female) points its texPath to.
+A: Typically "right alongside where you have your animal's textures", but specifically: wherever the PawnKindDef's oldest lifeStage bodyGraphicData (non-female) points its texPath to.
 
 
 == Valid XML Elements ==

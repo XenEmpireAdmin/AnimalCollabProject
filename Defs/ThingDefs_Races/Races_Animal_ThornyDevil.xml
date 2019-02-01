@@ -70,6 +70,7 @@
       <foodType>OmnivoreRoughAnimal</foodType>
       <useMeatFrom>Iguana</useMeatFrom>
       <wildness>0.7</wildness>
+      <trainability>Simple</trainability>
       <wildBiomes>
         <ExtremeDesert>0.25</ExtremeDesert>
         <Desert>0.15</Desert>

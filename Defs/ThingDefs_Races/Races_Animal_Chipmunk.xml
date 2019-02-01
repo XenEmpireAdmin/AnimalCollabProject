@@ -81,6 +81,7 @@
       <leatherDef>Leather_Light</leatherDef>
 	  <useMeatFrom>Squirrel</useMeatFrom>
       <wildness>0.65</wildness>
+      <trainability>Simple</trainability>
       <mateMtbHours>8</mateMtbHours>
       <gestationPeriodDays>10</gestationPeriodDays>
       <litterSizeCurve>

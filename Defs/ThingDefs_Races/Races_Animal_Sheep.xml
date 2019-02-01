@@ -73,6 +73,7 @@
       <leatherDef>Leather_Plain</leatherDef>
 	  <meatLabel>mutton</meatLabel>
       <wildness>0</wildness>
+      <trainability>Intermediate</trainability>
       <nuzzleMtbHours>100</nuzzleMtbHours>
       <gestationPeriodDays>25</gestationPeriodDays>
       <lifeExpectancy>10</lifeExpectancy>

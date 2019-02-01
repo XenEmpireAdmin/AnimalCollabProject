@@ -41,6 +41,7 @@
 	  <useMeatFrom>ACPHippopotamus</useMeatFrom>
       <gestationPeriodDays>16</gestationPeriodDays>
       <wildness>0.85</wildness>
+      <trainability>Intermediate</trainability>
       <wildBiomes>
         <SeaIce>0.4</SeaIce>
         <IceSheet>0.45</IceSheet>

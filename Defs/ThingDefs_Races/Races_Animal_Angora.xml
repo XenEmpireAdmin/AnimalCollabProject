@@ -50,8 +50,9 @@
 		<baseHealthScale>0.30</baseHealthScale>
 		<foodType>VegetarianRoughAnimal</foodType>
 		<useMeatFrom>Hare</useMeatFrom>
-      <leatherDef>Leather_Light</leatherDef>
+        <leatherDef>Leather_Light</leatherDef>
 		<wildness>0</wildness>
+        <trainability>Simple</trainability>
 		<petness>1</petness>
 		<nuzzleMtbHours>34</nuzzleMtbHours>
 		<gestationPeriodDays>8.5</gestationPeriodDays>

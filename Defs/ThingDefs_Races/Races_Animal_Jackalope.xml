@@ -12,6 +12,7 @@
       <baseHealthScale>0.4</baseHealthScale>
       <foodType>VegetarianRoughAnimal</foodType>
       <wildness>0.75</wildness>
+      <trainability>Intermediate</trainability>
       <mateMtbHours>3</mateMtbHours>
       <nuzzleMtbHours>120</nuzzleMtbHours>
       <gestationPeriodDays>8.5</gestationPeriodDays>

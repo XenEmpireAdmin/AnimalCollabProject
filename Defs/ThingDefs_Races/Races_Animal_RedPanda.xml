@@ -82,6 +82,7 @@
       <foodType>OmnivoreRoughAnimal</foodType>
       <leatherDef>Leather_ACP</leatherDef>
       <wildness>0.2</wildness>
+      <trainability>Intermediate</trainability>
       <petness>0.75</petness>
       <mateMtbHours>72</mateMtbHours>
       <nuzzleMtbHours>15</nuzzleMtbHours>

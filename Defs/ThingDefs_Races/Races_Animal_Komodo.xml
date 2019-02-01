@@ -73,6 +73,7 @@
 	  <leatherDef>Leather_ACP</leatherDef>
 	  <useMeatFrom>Iguana</useMeatFrom>
       <wildness>0.8</wildness>
+      <trainability>Intermediate</trainability>
       <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
 	  <wildBiomes>

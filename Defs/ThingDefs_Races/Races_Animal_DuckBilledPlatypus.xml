@@ -83,6 +83,7 @@
       <foodType>VegetarianRoughAnimal</foodType>
       <leatherDef>Leather_Brownfur</leatherDef>
       <wildness>0.85</wildness>
+      <trainability>Intermediate</trainability>
 	  <wildBiomes>
         <TropicalRainforest>0.08</TropicalRainforest>
         <TemperateForest>0.05</TemperateForest>

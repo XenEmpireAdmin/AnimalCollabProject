@@ -74,6 +74,7 @@
       <foodType>VegetarianRoughAnimal</foodType>
 	  <useMeatFrom>Pig</useMeatFrom>
       <wildness>0.7</wildness>
+      <trainability>Intermediate</trainability>
       <gestationPeriodDays>16</gestationPeriodDays>
       <wildBiomes>
         <Desert>0.02</Desert>

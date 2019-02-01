@@ -233,7 +233,7 @@
       <leatherDef>Leather_Lizard</leatherDef>
       <useMeatFrom>Iguana</useMeatFrom>
       <nameOnTameChance>1</nameOnTameChance>
-      <trainability>Advanced</trainability>
+      <trainability>Simple</trainability>
       <wildness>0</wildness>
       <nuzzleMtbHours>12</nuzzleMtbHours>
       <gestationPeriodDays>2</gestationPeriodDays>
