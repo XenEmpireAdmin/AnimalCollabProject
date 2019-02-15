@@ -52,6 +52,8 @@
 		<useMeatFrom>Hare</useMeatFrom>
         <leatherDef>Leather_Light</leatherDef>
 		<wildness>0</wildness>
+	    <manhunterOnDamageChance>0</manhunterOnDamageChance>
+	    <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
         <trainability>Simple</trainability>
 		<petness>1</petness>
 		<nuzzleMtbHours>34</nuzzleMtbHours>

@@ -72,6 +72,8 @@
         <leatherDef>Leather_Bird</leatherDef>
 		<useMeatFrom>Cassowary</useMeatFrom>
 		<wildness>0</wildness>
+        <manhunterOnDamageChance>0</manhunterOnDamageChance>
+        <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
 		<gestationPeriodDays>7</gestationPeriodDays>
 		<mateMtbHours>3</mateMtbHours>
 		<litterSizeCurve>

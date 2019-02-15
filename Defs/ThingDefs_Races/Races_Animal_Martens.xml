@@ -135,7 +135,7 @@
       <leatherDef>Leather_Light</leatherDef>
       <manhunterOnTameFailChance>0.075</manhunterOnTameFailChance>
       <wildness>0.90</wildness>
-      <gestationPeriodDays>55</gestationPeriodDays>
+      <gestationPeriodDays>18</gestationPeriodDays>
       <lifeExpectancy>8</lifeExpectancy>
       <maxPreyBodySize>0.7</maxPreyBodySize>
       <wildBiomes>
@@ -272,7 +272,7 @@
       <baseBodySize>0.7</baseBodySize>
       <baseHealthScale>0.75</baseHealthScale>
       <wildness>0.55</wildness>
-      <gestationPeriodDays>55</gestationPeriodDays>
+      <gestationPeriodDays>18</gestationPeriodDays>
       <lifeExpectancy>8</lifeExpectancy>
       <maxPreyBodySize>0.5</maxPreyBodySize>
       <wildBiomes>

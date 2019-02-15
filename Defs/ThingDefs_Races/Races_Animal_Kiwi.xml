@@ -17,6 +17,8 @@
       <baseHealthScale>0.7</baseHealthScale>
       <foodType>OmnivoreAnimal</foodType>
       <wildness>0.80</wildness>
+      <manhunterOnDamageChance>0</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
       <lifeExpectancy>6</lifeExpectancy>
       <leatherDef>Leather_Bird</leatherDef>
       <useMeatFrom>Cassowary</useMeatFrom>

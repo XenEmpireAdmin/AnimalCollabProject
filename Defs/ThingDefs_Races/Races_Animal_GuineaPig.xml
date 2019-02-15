@@ -84,6 +84,8 @@
 	  <useMeatFrom>Squirrel</useMeatFrom>
       <nameOnTameChance>1</nameOnTameChance>
       <wildness>0.15</wildness>
+      <manhunterOnDamageChance>0</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
       <trainability>Intermediate</trainability>
       <wildBiomes>
         <ExtremeDesert>0.005</ExtremeDesert>

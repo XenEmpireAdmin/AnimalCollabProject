@@ -63,8 +63,8 @@
       <wildness>0.90</wildness>
       <trainability>Intermediate</trainability>
     <wildBiomes>
-		<IceSheet>0.05</IceSheet>
-		<SeaIce>0.05</SeaIce>
+		<IceSheet>0.15</IceSheet>
+		<SeaIce>0.1</SeaIce>
 		<BorealForest>0.02</BorealForest>
 		<ColdBog>0.02</ColdBog>
 		<Tundra>0.05</Tundra>
