@@ -500,7 +500,7 @@ namespace AnimalVariations
 				}
 
 				int skinChance = (int)((float.Parse(GetSkinValue (ageInd, new_skin, "commonality", female))/(num_skins(ageInd, female) + 1)) * 100);
-				Log.Message ("Creating new "+gender.ToString().ToLower() +" "+def.defName+" with skin index of " + new_skin +" where "+num_skins(ageInd, female)+" possible variants were available. Chance was "+ skinChance +"%.");
+				// Log.Message ("Creating new "+gender.ToString().ToLower() +" "+def.defName+" with skin index of " + new_skin +" where "+num_skins(ageInd, female)+" possible variants were available. Chance was "+ skinChance +"%.");
 				LongEventHandler.ExecuteWhenFinished (delegate {
 					ApplyNewSkin (new_skin);
 				});
