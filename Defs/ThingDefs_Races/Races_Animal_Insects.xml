@@ -263,7 +263,7 @@
   <ThingDef ParentName="BaseInsect">
     <defName>ACPAcidAnt</defName>
     <label>acid ant</label>
-    <description>This ant may be tiny, but beware its bite, as it van cause nasty acid burns.</description>
+    <description>This ant may be tiny, but beware its bite, as it can cause nasty acid burns.</description>
     <statBases>
       <MoveSpeed>3.9</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
