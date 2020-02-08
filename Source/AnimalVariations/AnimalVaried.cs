@@ -116,7 +116,7 @@ namespace AnimalVariations
 				}
 			}
 			if (found){
-				if (Prefs.DevMode) Log.Message ("["+assembly_name+"] Loading XML data from: " + xmlpath);
+				//if (Prefs.DevMode) Log.Message ("["+assembly_name+"] Loading XML data from: " + xmlpath);
 				return true;
 			} else {
 				skinset_xml = null;
