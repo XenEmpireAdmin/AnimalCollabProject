@@ -38,6 +38,7 @@ namespace AnimalVariations
 			Scribe_Values.Look<int> (ref skin_index, "skin_index", -1, false);
 			Scribe_Values.Look<int> (ref winter_coat_timer, "winter_coat_timer", 0, false);
 			Scribe_Values.Look<bool> (ref winterized, "winterized", false, false);
+			Scribe_Values.Look<int>(ref last_age_stage, "last_age_stage", 0, false);
 			base.ExposeData ();
 		}
 
