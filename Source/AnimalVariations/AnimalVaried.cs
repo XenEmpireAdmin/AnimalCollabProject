@@ -16,9 +16,6 @@ namespace AnimalVariations
 		//
 		private static string assembly_name = Assembly.GetExecutingAssembly().GetName().Name;
 
-		PawnRenderer pawn_renderer;
-		public string male_graphic;
-		public string female_graphic;
 
 		private int skin_index = -1;
 		private int winter_coat_timer;
@@ -41,6 +38,7 @@ namespace AnimalVariations
 			Scribe_Values.Look<int> (ref skin_index, "skin_index", -1, false);
 			Scribe_Values.Look<int> (ref winter_coat_timer, "winter_coat_timer", 0, false);
 			Scribe_Values.Look<bool> (ref winterized, "winterized", false, false);
+			Scribe_Values.Look<int>(ref last_age_stage, "last_age_stage", 0, false);
 			base.ExposeData ();
 		}
 
@@ -118,7 +116,7 @@ namespace AnimalVariations
 				}
 			}
 			if (found){
-				if (Prefs.DevMode) Log.Message ("["+assembly_name+"] Loading XML data from: " + xmlpath);
+				//if (Prefs.DevMode) Log.Message ("["+assembly_name+"] Loading XML data from: " + xmlpath);
 				return true;
 			} else {
 				skinset_xml = null;
@@ -238,14 +236,15 @@ namespace AnimalVariations
 		}
 
 		public bool ApplyNewSkin (int index){
-			// male
-			string base_graphic_path = male_graphic;
-			bool female = false;
-			if (this.gender == Gender.Female && female_graphic != null) {
-				female = true;
-				base_graphic_path = female_graphic;
-			}
 
+			// gender texture
+			bool female = this.gender == Gender.Female && ageTracker.CurKindLifeStage.femaleGraphicData != null;
+
+			string base_graphic_path = 
+				female ? ageTracker.CurKindLifeStage.femaleGraphicData.texPath
+				: ageTracker.CurKindLifeStage.bodyGraphicData.texPath;
+
+			
 			TryLoadSkinSet ();
 
 			// Throw an error when index out of range
@@ -296,8 +295,8 @@ namespace AnimalVariations
 
 				draw_size *= float.Parse (GetWinterCoatValue (ageInd, "scale"));
 
-				//pawn_renderer.graphics.ClearCache();
-				pawn_renderer.graphics.nakedGraphic = GraphicDatabase.Get<Graphic_Multi> (winter_graphic, shader, draw_size, draw_color, draw_color2);
+				//Drawer.renderer.graphics.ClearCache();
+				Drawer.renderer.graphics.nakedGraphic = GraphicDatabase.Get<Graphic_Multi> (winter_graphic, shader, draw_size, draw_color, draw_color2);
 				skin_index = index;
 				ReloadGraphicData ();
 				return true;
@@ -323,8 +322,8 @@ namespace AnimalVariations
 					shader = ShaderDatabase.CutoutComplex;
 
 
-				//pawn_renderer.graphics.ClearCache();
-				pawn_renderer.graphics.nakedGraphic = GraphicDatabase.Get<Graphic_Multi> (base_graphic_path, shader, draw_size, draw_color, draw_color2);
+				//Drawer.renderer.graphics.ClearCache();
+				Drawer.renderer.graphics.nakedGraphic = GraphicDatabase.Get<Graphic_Multi> (base_graphic_path, shader, draw_size, draw_color, draw_color2);
 				ReloadGraphicData ();
 				skin_index = 0;
 				return true;
@@ -359,9 +358,9 @@ namespace AnimalVariations
 			} else
 				texSetPath = texSetPath.Substring (0, texSetPath.LastIndexOf ('/') + 1)+ GetSkinValue (ageInd, index, "texName", female);
 
-			//pawn_renderer.graphics.ClearCache();
+			//Drawer.renderer.graphics.ClearCache();
 			Graphic_Multi new_graphic = (Graphic_Multi)GraphicDatabase.Get<Graphic_Multi> (texSetPath, shader, draw_size, draw_color, draw_color2);
-			pawn_renderer.graphics.nakedGraphic = new_graphic;
+			Drawer.renderer.graphics.nakedGraphic = new_graphic;
 			skin_index = index;
 			ReloadGraphicData ();
 			return true;
@@ -369,7 +368,7 @@ namespace AnimalVariations
 
 		private void ReloadGraphicData()
 		{
-			GraphicData rData = pawn_renderer.graphics.nakedGraphic.data = new GraphicData();
+			GraphicData rData = Drawer.renderer.graphics.nakedGraphic.data = new GraphicData();
 			rData.shadowData = ageTracker.CurKindLifeStage.bodyGraphicData.shadowData;
 		}
 
@@ -457,13 +456,7 @@ namespace AnimalVariations
 		{
 			base.SpawnSetup (map, respawningAfterLoad);
 
-			male_graphic = ageTracker.CurKindLifeStage.bodyGraphicData.texPath;
-			bool female = false;
-			if (ageTracker.CurKindLifeStage.femaleGraphicData != null) {
-				female_graphic = ageTracker.CurKindLifeStage.femaleGraphicData.texPath;
-				female |= gender == Gender.Female;
-			}
-			pawn_renderer = ((Pawn_DrawTracker)(typeof(Pawn).GetField ("drawer", BindingFlags.Instance | BindingFlags.NonPublic).GetValue (this))).renderer;
+			bool female = gender == Gender.Female && ageTracker.CurKindLifeStage.femaleGraphicData != null;
 
 			if (TryLoadSkinSet () == false) {
 				Log.Error ("Couldn't find " + def.defName + "_SkinSet.xml! This file is required for animals using the variations framework.");
