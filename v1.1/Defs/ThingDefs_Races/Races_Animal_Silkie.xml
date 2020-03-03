@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="AnimalThingBase">
+	<defName>ACPSilkieChicken</defName>
+	<label>silkie chicken</label>
+	<description>A breed of chicken named for its atypically fluffy plumage, 
+	which is said to feel like silk. Silkies are well known for their calm, friendly temperament. 
+	They are fair layers, producing small cream colored eggs every few days.</description>
+    
+	<statBases>
+		<MoveSpeed>2.0</MoveSpeed>
+		<ComfyTemperatureMin>-15</ComfyTemperatureMin>
+		<ComfyTemperatureMax>35</ComfyTemperatureMax>
+		<MarketValue>125</MarketValue>
+    </statBases>
+    
+    <tools>
+      <li>
+        <label>claws</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>beak</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>1</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    
+	<comps>
+		<li Class="CompProperties_EggLayer">
+			<eggUnfertilizedDef>ACPSilkieEggUnfertilized</eggUnfertilizedDef>
+			<eggFertilizedDef>ACPSilkieEggFertilized</eggFertilizedDef>
+			<eggFertilizationCountMax>1</eggFertilizationCountMax>
+			<eggLayIntervalDays>2.7</eggLayIntervalDays>
+			<eggCountRange>
+				<min>1</min>
+				<max>5</max>
+			</eggCountRange>
+		</li>
+    </comps>
+    
+	<race>
+		<body>Bird</body>
+		<herdAnimal>true</herdAnimal>
+		<baseHungerRate>0.25</baseHungerRate>
+		<baseBodySize>0.25</baseBodySize>
+		<baseHealthScale>0.35</baseHealthScale>
+		<foodType>VegetarianRoughAnimal</foodType>
+		<trainability>None</trainability>
+        <leatherDef>Leather_Bird</leatherDef>
+		<useMeatFrom>Cassowary</useMeatFrom>
+		<wildness>0</wildness>
+        <manhunterOnDamageChance>0</manhunterOnDamageChance>
+        <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
+		<gestationPeriodDays>7</gestationPeriodDays>
+		<mateMtbHours>3</mateMtbHours>
+		<litterSizeCurve>
+			<points>
+			<li>(0.99, 0)</li>
+			<li>(1, 1)</li>
+			<li>(1.01, 0)</li>
+			</points>
+		</litterSizeCurve>
+		<lifeExpectancy>7</lifeExpectancy>
+		
+		<lifeStageAges>
+        <li>
+			<def>AnimalBaby</def>
+			<minAge>0</minAge>
+			<soundWounded>Pawn_Chick_Call</soundWounded>
+			<soundDeath>Pawn_Chick_Call</soundDeath>
+			<soundCall>Pawn_Chick_Call</soundCall>
+			<soundAngry>Pawn_Chick_Call</soundAngry>
+        </li>
+		<li>
+			<def>AnimalJuvenile</def>
+			<minAge>0.10</minAge>
+        </li>
+		<li>
+			<def>AnimalAdult</def>
+			<minAge>0.30</minAge>
+			<soundWounded>Pawn_Chicken_Wounded</soundWounded>
+			<soundDeath>Pawn_Chicken_Death</soundDeath>
+			<soundCall>Pawn_Chicken_Call</soundCall>
+			<soundAngry>Pawn_Chicken_Angry</soundAngry>
+        </li>
+		</lifeStageAges>
+		
+		<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+		<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+		<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+		
+    </race>
+    
+    <tradeTags>
+      <li>AnimalCommon</li>
+      <li>AnimalFarm</li>
+    </tradeTags>
+
+</ThingDef>
+
+<PawnKindDef ParentName="AnimalKindBase">
+    <defName>ACPSilkieChicken</defName>
+    <label>silkie chicken</label>
+    <race>ACPSilkieChicken</race>
+    <combatPower>15</combatPower>
+    <labelMale>silkie cock</labelMale>
+    <labelFemale>silkie hen</labelFemale>
+ 	<alternateGraphicChance>0.8</alternateGraphicChance>
+	<alternateGraphics>
+		<li><texPath>Things/Pawn/Animal/Birds/Silkie/SilkieBrown</texPath></li>
+	</alternateGraphics>   
+	<lifeStages>
+		<li>
+			<label>chick</label>
+			<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/Birds/Silkie/SilkieWhite</texPath>
+				<drawSize>0.35</drawSize>
+			</bodyGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+				<drawSize>0.35</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+		<li>
+			<labelMale>cock</labelMale>
+			<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/Birds/Silkie/SilkieWhite</texPath>
+				<drawSize>0.60</drawSize>
+			<shadowData>
+				<volume>(0.25, 0.35, 0.2)</volume>
+				<offset>(0,0,-0.05)</offset>
+			</shadowData>
+			</bodyGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+				<drawSize>0.60</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+		<li>
+			<bodyGraphicData>
+				<texPath>Things/Pawn/Animal/Birds/Silkie/SilkieWhite</texPath>
+				<drawSize>0.75</drawSize>
+			<shadowData>
+				<volume>(0.3, 0.4, 0.3)</volume>
+				<offset>(0,0,-0.05)</offset>
+			</shadowData>
+			</bodyGraphicData>
+			<dessicatedBodyGraphicData>
+				<texPath>Things/Pawn/Animal/Chicken/Dessicated_Chicken</texPath>
+				<drawSize>0.75</drawSize>
+			</dessicatedBodyGraphicData>
+		</li>
+    </lifeStages>
+	
+  </PawnKindDef>
+  
+
+</Defs>

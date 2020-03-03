@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>ACPPeccary</defName>
+    <label>peccary</label>
+    <description>A small mammal closely resembling a pig, but more comfortable in warmer climates.</description>
+    <statBases>
+      <MoveSpeed>4.50</MoveSpeed>
+      <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+      <MarketValue>180</MarketValue>
+    </statBases>
+    <tools>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithHoovesAndTusks</body>
+      <baseBodySize>0.55</baseBodySize>
+      <baseHungerRate>0.3</baseHungerRate>
+      <baseHealthScale>0.65</baseHealthScale>
+      <foodType>OmnivoreRoughAnimal</foodType>
+      <wildness>0.45</wildness>
+	  <wildBiomes>
+		<ExtremeDesert>0.15</ExtremeDesert>
+		<Desert>0.3</Desert>
+		<AridShrubland>0.35</AridShrubland>
+		<TropicalRainforest>0.08</TropicalRainforest>
+		<TemperateForest>0.01</TemperateForest>
+		<TropicalSwamp>0.08</TropicalSwamp>
+		<TemperateSwamp>0.01</TemperateSwamp>
+      </wildBiomes>
+      <trainability>Advanced</trainability>
+      <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
+      <useMeatFrom>Pig</useMeatFrom>
+      <leatherDef>Leather_Pig</leatherDef>
+      <gestationPeriodDays>13</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(3, 1)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>10</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.1</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.5</minAge>
+          <soundWounded>Pawn_Wildboar_Wounded</soundWounded>
+          <soundDeath>Pawn_Wildboar_Death</soundDeath>
+          <soundCall>Pawn_Wildboar_Call</soundCall>
+          <soundAngry>Pawn_Wildboar_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalCommon</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>ACPPeccary</defName>
+    <label>peccary</label>
+	<labelPlural>peccaries</labelPlural>
+    <race>ACPPeccary</race>
+    <combatPower>50</combatPower>
+    <ecoSystemWeight>0.4</ecoSystemWeight>
+    <wildGroupSize>
+      <min>5</min>
+      <max>10</max>
+    </wildGroupSize>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Ungulates/Peccary/Peccary</texPath>
+          <drawSize>0.5</drawSize>
+          <shadowData>
+            <volume>(0.30, 0.25, 0.20)</volume>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Pig/Dessicated_Pig</texPath>
+          <drawSize>0.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Ungulates/Peccary/Peccary</texPath>
+          <drawSize>0.7</drawSize>
+          <shadowData>
+            <volume>(0.375, 0.375, 0.375)</volume>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Pig/Dessicated_Pig</texPath>
+          <drawSize>0.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Ungulates/Peccary/Peccary</texPath>
+          <drawSize>1.2</drawSize>
+          <shadowData>
+            <volume>(0.5, 0.5, 0.4)</volume>
+            <offset>(0,0,-0.05)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Pig/Dessicated_Pig</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+  
+  
+</Defs>

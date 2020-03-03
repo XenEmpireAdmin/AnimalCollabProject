@@ -1,0 +1,856 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>ACPDirewolf</defName>
+    <label>dire wolf</label>
+    <description>The Direwolf (Canis Lupus Horribilis sp., Grimm, A.D. 3462) is a probably mutated subspecies of the Wolf (Canis Lupus, Linnaeus, AD 1758). Adult specimen can reach the size of a pony or small horse, and especially the fur of the mane is partially matted into thick, felty lobes that provide excellent protection against cold and physical force effects. The dentition is of respectable size, too, but lies well in proportion to the skull and rest of the body. Applied biting force can only be estimated from the metrics that have been taken from the individual that also served as the defined Holotype of the species. 
+		The single specimen that has been thoroughly examined and described by an expert showed no differentiation from the common wolf in terms of anatomy of the internal organs, and a heavily degraded tissue sample was analyzed to yield a genetical similarity to Canis Lupus that makes a reproductive barrier very unlikely. 
+		Behavioral observations and the structure of the brain hint on the L. Horribilis being fiercely intelligent, and stories from crashlanded survivors on distant rimworlds even tell about Direwolves being capable of tool use that is only restricted by their lack of hands. Such anecdotes have not yet been verified by credible sources, though.
+
+		It should be noted that repeated sightings of Direwolves have been reported from completely different, far apart locations in the galaxy, so it can only be assumed that L. Horribilis is the product of a natural, convergent evolution and not some sort of artificial GMO that has been stored in and released from the early Ark-Hive ships that had left Earth during the first pioneering rush of the early 2100's.
+		Tribal cultures have established a rich folklore surrounding L. Horribilis, usually depicted as a helper, rescuing humans in danger; Or a hungry hunter, threatening whole villages and demanding draconic tributes. Shamanic societies worship the Direwolf as a protector of the family, gifting its disciples with supernatural endurance, resilience and valor.</description>
+    <statBases>
+      <MoveSpeed>5.10</MoveSpeed>
+      <ComfyTemperatureMin>-65</ComfyTemperatureMin>
+      <MarketValue>650</MarketValue>
+    </statBases>
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>razorfangs</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.9</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>14</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <petness>0.60</petness>
+      <baseBodySize>1.0</baseBodySize>
+      <baseHungerRate>0.25</baseHungerRate>
+      <baseHealthScale>1.15</baseHealthScale>
+      <foodType>CarnivoreAnimal</foodType>
+      <leatherDef>Leather_Wolf</leatherDef>
+	  <useMeatFrom>Wolf_Timber</useMeatFrom>
+      <gestationPeriodDays>20.5</gestationPeriodDays>
+      <nameOnTameChance>1</nameOnTameChance>
+      <trainability>Advanced</trainability>
+      <wildness>0.85</wildness>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
+      <nuzzleMtbHours>120</nuzzleMtbHours>
+	  <packAnimal>true</packAnimal>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 1.7)</li>
+          <li>(3, 0.7)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>15</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.25</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.8</minAge>
+          <soundWounded>Pawn_Dog_Injured</soundWounded>
+          <soundDeath>Pawn_Dog_Death</soundDeath>
+          <soundCall>Pawn_Dog_Call</soundCall>
+          <soundAngry>Pawn_Dog_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalUncommon</li>
+      <li>AnimalFighter</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>ACPDirewolf</defName>
+    <label>dire wolf</label>
+	<labelPlural>dire wolves</labelPlural>
+    <race>ACPDirewolf</race>
+    <combatPower>75</combatPower>
+	<alternateGraphicChance>0.5</alternateGraphicChance>
+	<alternateGraphics>
+		<li>
+		<texPath>Things/Pawn/Animal/Wolves/DireWolf/RedWolf_V1</texPath>
+		<color>(240,240,240)</color>
+		</li>
+		<li>
+		<texPath>Things/Pawn/Animal/Wolves/DireWolf/RedWolf_V2</texPath>
+		<color>(245,245,245)</color>
+		</li>
+		<li>
+		<texPath>Things/Pawn/Animal/Wolves/DireWolf/RedWolf_V1</texPath>
+		<color>(65,65,70)</color>
+		</li>
+		<li>
+		<texPath>Things/Pawn/Animal/Wolves/DireWolf/RedWolf_V1</texPath>
+		<color>(84,84,84)</color>
+		</li>
+		<li>
+		<texPath>Things/Pawn/Animal/Wolves/DireWolf/RedWolf_V1</texPath>
+		<color>(104,104,104)</color>
+		</li>
+		<li>
+		<texPath>Things/Pawn/Animal/Wolves/DireWolf/RedWolf_V1</texPath>
+		<color>(110,79,45)</color>
+		</li>
+		<li>
+		<texPath>Things/Pawn/Animal/Wolves/DireWolf/RedWolf_V1</texPath>
+		<color>(129,100,78)</color>
+		</li>
+		<li>
+		<texPath>Things/Pawn/Animal/Wolves/DireWolf/RedWolf_V1</texPath>
+		<color>(139,100,78)</color>
+		</li>
+		<li>
+		<texPath>Things/Pawn/Animal/Wolves/DireWolf/RedWolf_V1</texPath>
+		<color>(90,57,37)</color>
+		</li>
+	</alternateGraphics>
+    <lifeStages>
+      <li>
+        <label>dire wolf puppy</label>
+        <labelPlural>dire wolf puppies</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolves/DireWolf/RedWolf</texPath>
+		  <color>(250,250,250)</color>
+          <drawSize>1.05</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
+          <drawSize>1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolves/DireWolf/RedWolf</texPath>
+		  <color>(250,250,250)</color>
+          <drawSize>1.7</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
+          <drawSize>1.6</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolves/DireWolf/RedWolf</texPath>
+		  <color>(250,250,250)</color>
+          <drawSize>2.05</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
+          <drawSize>1.9</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+    <ecoSystemWeight>0.9</ecoSystemWeight>
+    <wildGroupSize>
+      <min>2</min>
+      <max>5</max>
+    </wildGroupSize>
+  </PawnKindDef>
+  
+    <!--===============================================-->
+  
+    <ThingDef ParentName="AnimalThingBase">
+    <defName>ACPBlackwolf</defName>
+    <label>black dire wolf</label>
+    <description>The Direwolf (Canis Lupus Horribilis sp., Grimm, A.D. 3462) is a probably mutated subspecies of the Wolf (Canis Lupus, Linnaeus, AD 1758). Adult specimen can reach the size of a pony or small horse, and especially the fur of the mane is partially matted into thick, felty lobes that provide excellent protection against cold and physical force effects. The dentition is of respectable size, too, but lies well in proportion to the skull and rest of the body. Applied biting force can only be estimated from the metrics that have been taken from the individual that also served as the defined Holotype of the species. 
+		The single specimen that has been thoroughly examined and described by an expert showed no differentiation from the common wolf in terms of anatomy of the internal organs, and a heavily degraded tissue sample was analyzed to yield a genetical similarity to Canis Lupus that makes a reproductive barrier very unlikely. 
+		Behavioral observations and the structure of the brain hint on the L. Horribilis being fiercely intelligent, and stories from crashlanded survivors on distant rimworlds even tell about Direwolves being capable of tool use that is only restricted by their lack of hands. Such anecdotes have not yet been verified by credible sources, though.
+
+		It should be noted that repeated sightings of Direwolves have been reported from completely different, far apart locations in the galaxy, so it can only be assumed that L. Horribilis is the product of a natural, convergent evolution and not some sort of artificial GMO that has been stored in and released from the early Ark-Hive ships that had left Earth during the first pioneering rush of the early 2100's.
+		Tribal cultures have established a rich folklore surrounding L. Horribilis, usually depicted as a helper, rescuing humans in danger; Or a hungry hunter, threatening whole villages and demanding draconic tributes. Shamanic societies worship the Direwolf as a protector of the family, gifting its disciples with supernatural endurance, resilience and valor.</description>
+    <statBases>
+      <MoveSpeed>5.10</MoveSpeed>
+      <ComfyTemperatureMin>-65</ComfyTemperatureMin>
+      <MarketValue>1250</MarketValue>
+    </statBases>
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>17</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>17</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>razorfangs</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.9</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>19</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+	<comps>
+      <li Class="CompProperties_Shearable">
+        <woolDef>ACPBDireWolfWool</woolDef>
+        <shearIntervalDays>15</shearIntervalDays>
+        <woolAmount>25</woolAmount>
+      </li>
+    </comps>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <petness>0.60</petness>
+      <baseBodySize>2.0</baseBodySize>
+      <baseHungerRate>0.25</baseHungerRate>
+      <baseHealthScale>1.15</baseHealthScale>
+      <foodType>CarnivoreAnimal</foodType>
+	  	  	<wildBiomes>
+			<Tundra>0.015</Tundra>
+			<IceSheet>0.01</IceSheet>
+			<SeaIce>0.01</SeaIce>
+			<TropicalRainforest>0.02</TropicalRainforest>
+			<TemperateForest>0.015</TemperateForest>
+			<BorealForest>0.02</BorealForest>
+			<AridShrubland>0.01</AridShrubland>
+			<Desert>0.008</Desert>
+			<ExtremeDesert>0.002</ExtremeDesert>
+			<!-- <Cave>0.05</Cave> -->
+			</wildBiomes>
+      <leatherDef>Leather_Wolf</leatherDef>
+	  <useMeatFrom>Wolf_Timber</useMeatFrom>
+      <gestationPeriodDays>27.5</gestationPeriodDays>
+      <nameOnTameChance>1</nameOnTameChance>
+      <trainability>Advanced</trainability>
+      <wildness>0.85</wildness>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
+      <nuzzleMtbHours>120</nuzzleMtbHours>
+	  <packAnimal>true</packAnimal>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 1.7)</li>
+          <li>(3, 0.7)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>40</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.25</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.8</minAge>
+          <soundWounded>Pawn_Dog_Injured</soundWounded>
+          <soundDeath>Pawn_Dog_Death</soundDeath>
+          <soundCall>Pawn_Dog_Call</soundCall>
+          <soundAngry>Pawn_Dog_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalUncommon</li>
+      <li>AnimalFighter</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>ACPBlackwolf</defName>
+    <label>black dire wolf</label>
+    <race>ACPBlackwolf</race>
+    <combatPower>175</combatPower>
+    <lifeStages>
+      <li>
+        <label>black dire wolf puppy</label>
+        <labelPlural>black dire wolf puppies</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolves/BDireWolf/DireWolf</texPath>
+          <drawSize>1.05</drawSize>
+		  <color>(64,64,70)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
+          <drawSize>1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolves/BDireWolf/DireWolf</texPath>
+          <drawSize>2.7</drawSize>
+		  <color>(64,64,70)</color>
+          <shadowData>
+            <volume>(0.4, 0.5, 04)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
+          <drawSize>2.6</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolves/BDireWolf/DireWolf</texPath>
+          <drawSize>3.05</drawSize>
+		  <color>(64,64,70)</color>
+          <shadowData>
+            <volume>(0.5, 0.6, 0.5)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
+          <drawSize>2.9</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+    <ecoSystemWeight>0.9</ecoSystemWeight>
+    <wildGroupSize>
+      <min>2</min>
+      <max>5</max>
+    </wildGroupSize>
+  </PawnKindDef>
+  
+    <!--===============================================-->
+	
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>ACPSpiritwolf</defName>
+    <label>spirit wolf</label>
+    <description>The spirit wolf is said to be a forest spirit, or ancestral wolf guardian. A truly formidable creature, whatever it's origins.</description>
+    <statBases>
+      <MoveSpeed>5.10</MoveSpeed>
+      <ComfyTemperatureMin>-85</ComfyTemperatureMin>
+      <MarketValue>1950</MarketValue>
+    </statBases>
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>razorfangs</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.9</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>22</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <petness>0.75</petness>
+      <baseBodySize>2.5</baseBodySize>
+      <baseHungerRate>1.25</baseHungerRate>
+      <baseHealthScale>10.15</baseHealthScale>
+      <foodType>CarnivoreAnimal</foodType>
+      <leatherDef>Leather_Wolf</leatherDef>
+      <useMeatFrom>Wolf_Timber</useMeatFrom>
+      <gestationPeriodDays>39</gestationPeriodDays>
+      <nameOnTameChance>1</nameOnTameChance>
+      <trainability>Advanced</trainability>
+      <wildness>0.95</wildness>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
+      <nuzzleMtbHours>120</nuzzleMtbHours>
+	  <packAnimal>true</packAnimal>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 1.7)</li>
+          <li>(3, 0.7)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>150</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.25</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.8</minAge>
+          <soundWounded>Pawn_Dog_Injured</soundWounded>
+          <soundDeath>Pawn_Dog_Death</soundDeath>
+          <soundCall>Pawn_Dog_Call</soundCall>
+          <soundAngry>Pawn_Dog_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalExotic</li>
+      <li>AnimalFighter</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>ACPSpiritwolf</defName>
+    <label>spirit wolf</label>
+	<labelPlural>spirit wolves</labelPlural>
+    <race>ACPSpiritwolf</race>
+	<canArriveManhunter>false</canArriveManhunter>
+    <combatPower>605</combatPower>
+    <lifeStages>
+      <li>
+        <label>spirit wolf puppy</label>
+        <labelPlural>spirit wolf puppies</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolves/SpiritWolf/SpiritG</texPath>
+          <drawSize>1.05</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
+          <drawSize>1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolves/SpiritWolf/SpiritLG</texPath>
+          <drawSize>2.3</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
+          <drawSize>2.1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolves/SpiritWolf/SpiritLG</texPath>
+          <drawSize>3.25</drawSize>
+          <shadowData>
+            <volume>(0.5, 0.6, 0.5)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+		<femaleGraphicData>
+          <texPath>Things/Pawn/Animal/Wolves/SpiritWolf/Spiritwolf</texPath>
+          <drawSize>3.25</drawSize>
+          <shadowData>
+            <volume>(0.6, 0.7, 0.6)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
+          <drawSize>3.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+  
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>ACPSpiritwolfFF</defName>
+    <label>spirit wolf</label>
+    <description>The spirit wolf is said to be a forest spirit, or ancestral wolf guardian. A truly formidable creature, whatever it's origins.</description>
+    <statBases>
+      <MoveSpeed>5.10</MoveSpeed>
+      <ComfyTemperatureMin>-85</ComfyTemperatureMin>
+      <MarketValue>1950</MarketValue>
+    </statBases>
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>17</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>razorfangs</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.9</chanceFactor>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>22</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <petness>0.75</petness>
+      <baseBodySize>3.0</baseBodySize>
+      <baseHungerRate>1.25</baseHungerRate>
+      <baseHealthScale>13.15</baseHealthScale>
+      <foodType>CarnivoreAnimal</foodType>
+      <leatherDef>Leather_Wolf</leatherDef>
+      <useMeatFrom>Wolf_Timber</useMeatFrom>
+      <gestationPeriodDays>30</gestationPeriodDays>
+      <nameOnTameChance>1</nameOnTameChance>
+      <trainability>Advanced</trainability>
+      <wildness>0.95</wildness>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.025</manhunterOnTameFailChance>
+      <nuzzleMtbHours>120</nuzzleMtbHours>
+	  <packAnimal>true</packAnimal>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 1.7)</li>
+          <li>(3, 0.7)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>150</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.25</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.8</minAge>
+          <soundWounded>Pawn_Dog_Injured</soundWounded>
+          <soundDeath>Pawn_Dog_Death</soundDeath>
+          <soundCall>Pawn_Dog_Call</soundCall>
+          <soundAngry>Pawn_Dog_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalExotic</li>
+      <li>AnimalFighter</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>ACPSpiritwolfFF</defName>
+    <label>Ancient spirit wolf</label>
+	<labelPlural>ancient spirit wolves</labelPlural>
+    <race>ACPSpiritwolfFF</race>
+    <combatPower>605</combatPower>
+	<alternateGraphicChance>0.8</alternateGraphicChance>
+	<alternateGraphics>
+		<li><texPath>Things/Pawn/Animal/Wolves/SpiritWolf/okamimale</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Wolves/SpiritWolf/okamimalDK</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Wolves/SpiritWolf/okamifem</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Wolves/SpiritWolf/okamifemB</texPath></li>
+	</alternateGraphics>
+    <lifeStages>
+      <li>
+        <label>spirit wolf puppy</label>
+        <labelPlural>spirit wolf puppies</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolves/SpiritWolf/okamimalDK</texPath>
+          <drawSize>1.05</drawSize>
+        </bodyGraphicData>
+        <femaleGraphicData>
+              <texPath>Things/Pawn/Animal/Wolves/SpiritWolf/okamifem</texPath>
+              <drawSize>1.05</drawSize>
+              <shadowData>
+                <volume>(0.6, 0.7, 0.6)</volume>
+                <offset>(0,0,-0.15)</offset>
+              </shadowData>
+            </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
+          <drawSize>1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolves/SpiritWolf/okamimalDK</texPath>
+          <drawSize>2.3</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+              <texPath>Things/Pawn/Animal/Wolves/SpiritWolf/okamifem</texPath>
+              <drawSize>2.3</drawSize>
+              <shadowData>
+                <volume>(0.25, 0.3, 0.25)</volume>
+                <offset>(0,0,-0.15)</offset>
+              </shadowData>
+            </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
+          <drawSize>2.3</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolves/SpiritWolf/okamimalDK</texPath>
+          <drawSize>3.55</drawSize>
+          <shadowData>
+            <volume>(0.5, 0.6, 0.5)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+		<femaleGraphicData>
+          <texPath>Things/Pawn/Animal/Wolves/SpiritWolf/okamifem</texPath>
+          <drawSize>3.55</drawSize>
+          <shadowData>
+            <volume>(0.6, 0.7, 0.6)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Wolf_Timber/Dessicated_Wolf_Timber</texPath>
+          <drawSize>3.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+    <ecoSystemWeight>0.9</ecoSystemWeight>
+    <wildGroupSize>
+      <min>2</min>
+      <max>3</max>
+    </wildGroupSize>
+  </PawnKindDef>
+</Defs>

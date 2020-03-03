@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BigBirdThingBase">
+    <defName>ACPKiwi</defName>
+    <label>kiwi</label>
+    <description>A flighless bird with unusually large eggs.</description>
+    <statBases>
+      <MoveSpeed>2.7</MoveSpeed>
+      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
+      <MarketValue>230</MarketValue>
+    </statBases>
+    <race>
+      <herdAnimal>true</herdAnimal>
+      <baseBodySize>0.25</baseBodySize>
+      <baseHungerRate>0.1</baseHungerRate>
+      <baseHealthScale>0.7</baseHealthScale>
+      <foodType>OmnivoreAnimal</foodType>
+      <wildness>0.80</wildness>
+      <manhunterOnDamageChance>0</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
+      <lifeExpectancy>6</lifeExpectancy>
+      <leatherDef>Leather_Bird</leatherDef>
+      <useMeatFrom>Cassowary</useMeatFrom>
+      <wildBiomes>
+        <TropicalRainforest>0.2</TropicalRainforest>
+        <TemperateForest>0.17</TemperateForest>
+        <BorealForest>0.13</BorealForest>
+        <Tundra>0.01</Tundra>
+      </wildBiomes>
+    </race>
+    <comps>
+      <li Class="CompProperties_EggLayer">
+        <eggFertilizedDef>ACPEggKiwiFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>15</eggLayIntervalDays>
+        <eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+        <eggCountRange>1</eggCountRange>
+      </li>
+    </comps>
+   <tools>
+      <li>
+        <label>claws</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1.85</cooldownTime>
+        <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>1</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <tradeTags>
+      <li>AnimalCommon</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <PawnKindDef ParentName="BigBirdKindBase">
+    <defName>ACPKiwi</defName>
+    <label>kiwi</label>
+    <race>ACPKiwi</race>
+    <wildGroupSize>
+      <min>2</min>
+      <max>3</max>
+    </wildGroupSize>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+        <texPath>Things/Pawn/Animal/Birds/Kiwi/Kiwi</texPath>
+        <drawSize>0.65</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
+          <drawSize>0.6</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Birds/Kiwi/Kiwi</texPath>
+          <drawSize>0.7</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
+          <drawSize>0.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Birds/Kiwi/Kiwi</texPath>
+          <drawSize>0.9</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
+          <drawSize>0.9</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+</Defs>

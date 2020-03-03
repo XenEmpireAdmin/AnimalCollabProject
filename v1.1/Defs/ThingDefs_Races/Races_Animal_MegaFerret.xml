@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>ACPMegaFerret</defName>
+    <label>megaferret</label>
+    <description>This carnivorous animal from the weasel genus is cuddly and adorable. This version seems to have been genetically enhanced to make an even better pet!</description>
+    <statBases>
+      <MoveSpeed>6.2</MoveSpeed>
+      <ComfyTemperatureMin>-95</ComfyTemperatureMin>
+      <MarketValue>950</MarketValue>
+    </statBases>
+	<comps>
+	      <li Class="CompProperties_Shearable">
+        <woolDef>ACPFerretSilk</woolDef>
+        <shearIntervalDays>12</shearIntervalDays>
+        <woolAmount>15</woolAmount>
+      </li>
+	  </comps>
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>9</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>9</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>12</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <herdAnimal>true</herdAnimal>
+      <predator>true</predator>
+      <baseBodySize>0.65</baseBodySize>
+      <baseHungerRate>0.25</baseHungerRate>
+      <baseHealthScale>1.05</baseHealthScale>
+      <foodType>CarnivoreAnimalStrict, Kibble, AnimalProduct</foodType>
+      <leatherDef>Leather_ACP</leatherDef>
+	  <useMeatFrom>Alphabeaver</useMeatFrom>
+	  <nameOnTameChance>1</nameOnTameChance>
+      <trainability>Advanced</trainability>
+      <wildness>0.45</wildness>
+      <petness>0.9</petness>
+      <nuzzleMtbHours>30</nuzzleMtbHours>
+      <gestationPeriodDays>25</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(1.5, 0)</li>
+          <li>(2, 1)</li>
+          <li>(3, 1)</li>
+          <li>(3.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>25</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.57</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>1.4</minAge>
+          <soundWounded>Pawn_Alphabeaver_Wounded</soundWounded>
+          <soundDeath>Pawn_Alphabeaver_Death</soundDeath>
+          <soundCall>Pawn_Alphabeaver_Call</soundCall>
+          <soundAngry>Pawn_Alphabeaver_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalUncommon</li>
+      <li>AnimalPet</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>ACPMegaFerret</defName>
+    <label>megaferret</label>
+    <race>ACPMegaFerret</race>
+	<labelMale>megaferret hob</labelMale>
+	<labelFemale>megaferret jill</labelFemale>
+    <combatPower>55</combatPower>
+    <lifeStages>
+      <li>
+        <label>kit</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Weasels/Ferret/MFerret</texPath>
+          <drawSize>0.7</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Fennec/Dessicated_Fox_Fennec</texPath>
+          <drawSize>0.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Weasels/Ferret/MFerret</texPath>
+          <drawSize>0.95</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.2)</volume>
+            <offset>(0,0,-0.08)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Fennec/Dessicated_Fox_Fennec</texPath>
+          <drawSize>0.95</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Weasels/Ferret/MFerret</texPath>
+          <drawSize>1.45</drawSize>
+          <shadowData>
+            <volume>(0.35, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.08)</offset>
+          </shadowData>
+        </bodyGraphicData>
+	<femaleGraphicData>
+          <texPath>Things/Pawn/Animal/Weasels/Ferret/MFerret</texPath>
+          <drawSize>1.25</drawSize>
+          <shadowData>
+            <volume>(0.32, 0.36, 0.26)</volume>
+            <offset>(0,0,-0.1)</offset>
+          </shadowData>
+	 </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Fennec/Dessicated_Fox_Fennec</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+</Defs>

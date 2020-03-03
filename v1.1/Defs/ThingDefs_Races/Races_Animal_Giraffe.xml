@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>ACPGiraffe</defName>
+    <label>giraffe</label>
+    <description>A giraffe, the smartest and most handsome of the animals. Just look at those debonair spots and that dashing blue tongue. The pinnacle of evolution.</description>
+    <statBases>
+      <MoveSpeed>4.3</MoveSpeed>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+      <MarketValue>800</MarketValue>
+    </statBases>
+    <tools>
+      <li>
+        <label>left hoof</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right hoof</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>2.1</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.4</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithHooves</body>
+      <herdAnimal>true</herdAnimal>
+      <baseBodySize>2.5</baseBodySize>
+      <baseHungerRate>1.0</baseHungerRate>
+      <baseHealthScale>1.6</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+	  <useMeatFrom>Cow</useMeatFrom>
+      <leatherDef>Leather_ACP</leatherDef>
+      <wildness>0.65</wildness>
+      <trainability>Intermediate</trainability>
+      <petness>0.15</petness>
+      <nuzzleMtbHours>50</nuzzleMtbHours>
+      <wildBiomes>
+		<AridShrubland>0.7</AridShrubland>
+		<Desert>0.45</Desert>
+		<ExtremeDesert>0.2</ExtremeDesert>
+      </wildBiomes>
+      <gestationPeriodDays>35</gestationPeriodDays>
+      <manhunterOnTameFailChance>0.015</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.03</manhunterOnDamageChance>
+      <lifeExpectancy>20</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.5</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>2</minAge>
+          <soundWounded>Pawn_Elk_Wounded</soundWounded>
+          <soundDeath>Pawn_Elk_Death</soundDeath>
+          <soundCall>Pawn_Elk_Call</soundCall>
+          <soundAngry>Pawn_Elk_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalUncommon</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>ACPGiraffe</defName>
+    <label>giraffe</label>
+    <race>ACPGiraffe</race>
+    <combatPower>150</combatPower>
+    <ecoSystemWeight>1</ecoSystemWeight>
+    <wildGroupSize>
+      <min>4</min>
+      <max>8</max>
+    </wildGroupSize>
+	<alternateGraphicChance>0.001</alternateGraphicChance>
+	<alternateGraphics>
+		<li><texPath>Things/Pawn/Animal/Ungulates/Giraffe/BGiraffe</texPath></li>
+	</alternateGraphics>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Ungulates/Giraffe/Giraffe</texPath>
+          <drawSize>1.5</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Alpaca/Dessicated_Alpaca</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Ungulates/Giraffe/Giraffe</texPath>
+          <drawSize>2.3</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.7, 0.4)</volume>
+            <offset>(1,1,0)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Alpaca/Dessicated_Alpaca</texPath>
+          <drawSize>2.3</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Ungulates/Giraffe/Giraffe</texPath>
+          <drawSize>3</drawSize>
+          <shadowData>
+            <volume>(0.5, 0.8, 0.5)</volume>
+            <offset>(1,1,0)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Alpaca/Dessicated_Alpaca</texPath>
+          <drawSize>3</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+
+
+</Defs>

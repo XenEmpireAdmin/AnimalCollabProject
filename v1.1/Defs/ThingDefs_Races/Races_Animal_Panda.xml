@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BaseBear">
+    <defName>ACPPanda</defName>
+    <label>panda</label>
+    <description>An oddly adorable bear with a distinct black and white colouring.</description>
+    <race>
+      <wildness>0.50</wildness>
+      <predator>false</predator>
+      <baseBodySize>1.5</baseBodySize>
+      <baseHungerRate>0.5</baseHungerRate>
+      <baseHealthScale>2.7</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+      <leatherDef>Leather_Bear</leatherDef>
+      <useMeatFrom>Bear_Grizzly</useMeatFrom>
+      <trainability>Advanced</trainability>
+      <packAnimal>true</packAnimal>
+      <petness>0.5</petness>
+      <wildBiomes>
+        <TropicalRainforest>0.15</TropicalRainforest>
+        <TemperateForest>0.15</TemperateForest>
+        <BorealForest>0.07</BorealForest>
+		<TropicalSwamp>0.03</TropicalSwamp>
+		<TemperateSwamp>0.02</TemperateSwamp>
+		<ColdBog>0.005</ColdBog>
+      </wildBiomes>
+      <manhunterOnTameFailChance>0.015</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.03</manhunterOnDamageChance>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BearBase">
+    <defName>ACPPanda</defName>
+    <label>panda</label>
+    <race>ACPPanda</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bears/Panda/Panda</texPath>
+          <drawSize>0.8</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>0.8</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bears/Panda/Panda</texPath>
+          <drawSize>1.9</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.4)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>1.9</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bears/Panda/Panda</texPath>
+          <drawSize>2.3</drawSize>
+          <shadowData>
+            <volume>(0.5, 0.4, 0.5)</volume>
+            <offset>(0,0,-0.1)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>2.3</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+    
+</Defs>

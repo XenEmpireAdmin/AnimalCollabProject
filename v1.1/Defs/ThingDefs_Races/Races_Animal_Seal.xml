@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>ACPSpottedSeal</defName>
+    <label>seal</label>
+    <description>A small aquatic mammal, not much into clubbing.</description>
+    <statBases>
+      <MoveSpeed>2.8</MoveSpeed>
+      <ComfyTemperatureMin>-55</ComfyTemperatureMin>
+      <MarketValue>300</MarketValue>
+    </statBases>
+    <tools>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.85</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <herdAnimal>true</herdAnimal>
+      <body>WalrusLike</body>
+      <baseHungerRate>0.4</baseHungerRate>
+      <baseBodySize>0.6</baseBodySize>
+      <baseHealthScale>1.2</baseHealthScale>
+      <foodType>OmnivoreRoughAnimal</foodType>
+      <leatherDef>Leather_Heavy</leatherDef>
+	  <useMeatFrom>ACPHippopotamus</useMeatFrom>
+      <gestationPeriodDays>16</gestationPeriodDays>
+      <wildness>0.85</wildness>
+      <trainability>Intermediate</trainability>
+      <wildBiomes>
+        <SeaIce>0.4</SeaIce>
+        <IceSheet>0.45</IceSheet>
+        <Tundra>0.2</Tundra>
+        <BorealForest>0.01</BorealForest>
+		<ColdBog>0.035</ColdBog>
+      </wildBiomes>
+      <nuzzleMtbHours>160</nuzzleMtbHours>
+      <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+      <lifeExpectancy>40</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.7</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>1.3</minAge>
+          <soundWounded>Pawn_Wildboar_Wounded</soundWounded>
+          <soundDeath>Pawn_Wildboar_Death</soundDeath>
+          <soundCall>Pawn_Wildboar_Call</soundCall>
+          <soundAngry>Pawn_Wildboar_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalCommon</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>ACPSpottedSeal</defName>
+    <label>seal</label>
+    <race>ACPSpottedSeal</race>
+    <combatPower>130</combatPower>
+    <ecoSystemWeight>1</ecoSystemWeight>
+    <wildGroupSize>
+      <min>6</min>
+      <max>12</max>
+    </wildGroupSize>
+    <lifeStages>
+      <li>
+        <label>seal pup</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Seals/Spotted Seal/SealPup</texPath>
+          <drawSize>1</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.2, 0.1)</volume>
+            <offset>(0,0,-0.1)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Lynx/Dessicated_Lynx</texPath>
+          <drawSize>1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Seals/Spotted Seal/Seal</texPath>
+          <drawSize>1.2</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.1)</volume>
+            <offset>(0,0,-0.1)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Lynx/Dessicated_Lynx</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Seals/Spotted Seal/Seal</texPath>
+          <drawSize>1.6</drawSize>
+          <shadowData>
+            <volume>(0.5, 0.4, 0.15)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Lynx/Dessicated_Lynx</texPath>
+          <drawSize>1.6</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+</Defs>

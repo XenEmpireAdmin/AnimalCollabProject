@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+   <ThingDef ParentName="AnimalThingBase">
+    <defName>ACPHoneyBadger</defName>
+    <label>honey badger</label>
+    <description>Well known for their preference for honey, honey badgers are fully omnivorous animals. You do not want to get between them and their next meal</description>
+    <statBases>
+      <MoveSpeed>5.5</MoveSpeed>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+      <MarketValue>650</MarketValue>
+    </statBases>
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>20</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <predator>true</predator>
+      <petness>0.3</petness>
+      <baseBodySize>0.9</baseBodySize>
+      <baseHungerRate>0.3</baseHungerRate>
+      <baseHealthScale>1.45</baseHealthScale>
+      <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
+      <leatherDef>Leather_ACP</leatherDef>
+	  <useMeatFrom>Alphabeaver</useMeatFrom>
+      <gestationPeriodDays>18.5</gestationPeriodDays>
+      <nameOnTameChance>1</nameOnTameChance>
+      <trainability>Advanced</trainability>
+      <wildness>0.80</wildness>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
+      <nuzzleMtbHours>120</nuzzleMtbHours>
+	  <wildBiomes>
+		<ExtremeDesert>0.015</ExtremeDesert>
+		<Desert>0.07</Desert>
+		<AridShrubland>0.1</AridShrubland>
+		<TropicalRainforest>0.08</TropicalRainforest>
+		<TemperateForest>0.035</TemperateForest>
+		<TropicalSwamp>0.01</TropicalSwamp>
+        <TemperateSwamp>0.01</TemperateSwamp>
+      </wildBiomes>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 0.5)</li>
+          <li>(2, 1.7)</li>
+          <li>(2.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>22</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.25</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.8</minAge>
+          <soundWounded>Pawn_Warg_Wounded</soundWounded>
+          <soundDeath>Pawn_Warg_Death</soundDeath>
+          <soundCall>Pawn_Warg_Call</soundCall>
+          <soundAngry>Pawn_Warg_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalUncommon</li>
+      <li>AnimalFighter</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>ACPHoneyBadger</defName>
+    <label>honey badger</label>
+    <race>ACPHoneyBadger</race>
+    <combatPower>180</combatPower>
+    <ecoSystemWeight>0.8</ecoSystemWeight>
+    <lifeStages>
+      <li>
+        <label>honey badger cub</label>
+        <labelPlural>honey badger cubs</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Weasels/Honey Badger/Badger</texPath>
+          <drawSize>0.75</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Lynx/Dessicated_Lynx</texPath>
+          <drawSize>0.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Weasels/Honey Badger/Badger</texPath>
+          <drawSize>1.5</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Lynx/Dessicated_Lynx</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Weasels/Honey Badger/Badger</texPath>
+          <drawSize>1.8</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Lynx/Dessicated_Lynx</texPath>
+          <drawSize>1.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+</Defs>

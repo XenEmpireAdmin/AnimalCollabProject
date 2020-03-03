@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>ACPRedPanda</defName>
+    <label>red panda</label>
+    <description>A fluffy little omnivore historically confused for a raccoon, the red panda (also known by many worlds as the "firefox") is a peaceful and friendly animal that feeds on bamboo, fruits, and small game. Despite its name and diet, the red panda is in fact not closely related to pandas or even bears, but is the sole survivor of its own distinct evolutionary family. Similar to domestic cats, red pandas spend much of their time either sleeping or eating.\n\nEarly in the 21st century, red pandas neared extinction on Earth due to illegal poaching and loss of habitat. However, they soon made an incredible rebound after it came into common fashion to keep them as household pets.</description>
+    <statBases>
+      <MoveSpeed>4.0</MoveSpeed>
+      <ComfyTemperatureMin>-35</ComfyTemperatureMin>
+      <ComfyTemperatureMax>25</ComfyTemperatureMax>
+      <MarketValue>130</MarketValue>
+    </statBases>
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>7</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>7</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>8</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <baseBodySize>0.25</baseBodySize>
+      <baseHungerRate>0.35</baseHungerRate>
+      <baseHealthScale>0.5</baseHealthScale>
+      <foodType>OmnivoreRoughAnimal</foodType>
+      <leatherDef>Leather_ACP</leatherDef>
+      <wildness>0.2</wildness>
+      <trainability>Intermediate</trainability>
+      <petness>0.75</petness>
+      <mateMtbHours>72</mateMtbHours>
+      <nuzzleMtbHours>15</nuzzleMtbHours>
+      <gestationPeriodDays>12</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 1)</li>
+          <li>(2.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>11</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.15</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>1.0</minAge>
+          <soundCall>Pawn_RedPanda_Call</soundCall>
+          <soundAngry>Pawn_Boomrat_Angry</soundAngry>
+          <soundWounded>Pawn_Boomrat_Wounded</soundWounded>
+          <soundDeath>Pawn_RedPanda_Death</soundDeath>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+      <wildBiomes>
+		<BorealForest>0.09</BorealForest>
+		<TemperateForest>0.06</TemperateForest>
+		<TemperateSwamp>0.04</TemperateSwamp>
+		<ColdBog>0.08</ColdBog>
+      </wildBiomes>
+    </race>
+    <tradeTags>
+      <li>AnimalCommon</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>ACPRedPanda</defName>
+    <label>red panda</label>
+    <race>ACPRedPanda</race>
+    <combatPower>25</combatPower>
+    <ecoSystemWeight>0.25</ecoSystemWeight>
+	<alternateGraphicChance>0.3</alternateGraphicChance>
+	<alternateGraphics>
+		<li>
+		<texPath>Things/Pawn/Animal/Bears/RedPanda/RedPanda_V1</texPath>
+		</li>
+	</alternateGraphics>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bears/RedPanda/RedPanda</texPath>
+          <drawSize>0.8</drawSize>
+          <shaderType>Cutout</shaderType>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Raccoon/Dessicated_Raccoon</texPath>
+          <drawSize>0.8</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bears/RedPanda/RedPanda</texPath>
+          <drawSize>1</drawSize>
+          <shaderType>Cutout</shaderType>
+          <shadowData>
+            <volume>(0.3, 0.35, 0.25)</volume>
+            <offset>(0.01,0,-0.08)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Raccoon/Dessicated_Raccoon</texPath>
+          <drawSize>1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bears/RedPanda/RedPanda</texPath>
+          <drawSize>1.6</drawSize>
+          <shaderType>Cutout</shaderType>
+          <shadowData>
+            <volume>(0.35, 0.4, 0.2)</volume>
+            <offset>(0.02,0,-0.08)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Raccoon/Dessicated_Raccoon</texPath>
+          <drawSize>1.6</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef> 
+  
+</Defs>

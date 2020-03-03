@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>ACPHedgehog</defName>
+    <label>hedgehog</label>
+    <description>A small spined mammal that curls up for protection.</description>
+    <statBases>
+      <MoveSpeed>3.00</MoveSpeed>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+      <MarketValue>70</MarketValue>
+	  <LeatherAmount>0</LeatherAmount>
+    </statBases>
+    <tools>
+      <li>
+        <label>quills</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>2</power>
+        <cooldownTime>1.4</cooldownTime>
+        <linkedBodyPartsGroup>Quills</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>5</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>1</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>BodyQuilled</body>
+      <baseBodySize>0.15</baseBodySize>
+      <baseHungerRate>0.15</baseHungerRate>
+      <baseHealthScale>0.3</baseHealthScale>
+      <foodType>OmnivoreAnimal</foodType>
+	  <useMeatFrom>Squirrel</useMeatFrom>
+      <wildness>0.65</wildness>
+      <manhunterOnDamageChance>0</manhunterOnDamageChance>
+      <manhunterOnTameFailChance>0</manhunterOnTameFailChance>
+      <trainability>Simple</trainability>
+	  <wildBiomes>
+		<Desert>0.02</Desert>
+		<AridShrubland>0.07</AridShrubland>
+		<TropicalRainforest>0.5</TropicalRainforest>
+		<TemperateForest>1</TemperateForest>
+		<BorealForest>1</BorealForest>
+		<TropicalSwamp>0.1</TropicalSwamp>
+		<TemperateSwamp>0.5</TemperateSwamp>
+		<ColdBog>0.01</ColdBog>
+      </wildBiomes>
+      <mateMtbHours>8</mateMtbHours>
+      <gestationPeriodDays>11</gestationPeriodDays>
+      <litterSizeCurve>
+        <points>
+          <li>(1.5, 0)</li>
+          <li>(2, 1)</li>
+          <li>(4, 1)</li>
+          <li>(5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>5</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.07</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.22</minAge>
+          <soundWounded>Pawn_Rodent_Wounded</soundWounded>
+          <soundDeath>Pawn_Rodent_Death</soundDeath>
+          <soundCall>Pawn_Rodent_Call</soundCall>
+          <soundAngry>Pawn_Rodent_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalCommon</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>ACPHedgehog</defName>
+    <label>hedgehog</label>
+    <race>ACPHedgehog</race>
+    <combatPower>22</combatPower>
+    <ecoSystemWeight>0.2</ecoSystemWeight>
+
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Rodents/Hedgehog/Hedgehog</texPath>
+          <drawSize>0.3</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
+          <drawSize>0.35</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Rodents/Hedgehog/Hedgehog</texPath>
+          <drawSize>0.45</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
+          <drawSize>0.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Rodents/Hedgehog/Hedgehog</texPath>
+          <drawSize>0.6</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Boomrat/Dessicated_Boomrat</texPath>
+          <drawSize>0.65</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+</Defs>

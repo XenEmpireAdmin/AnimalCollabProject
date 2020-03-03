@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    
+  <ThingDef ParentName="BaseBear">
+    <defName>ACPBlackbear</defName>
+    <label>black bear</label>
+    <description>An average sized bear native to thickly wooded forests. The black bear is a notably less dangerous animal than its larger cousins, rarely attacking people unless directly provoked. The black bear is - much like nearly all other bears - omniverous and solitary in nature.</description>
+    <statBases>
+      <MoveSpeed>4.3</MoveSpeed>
+      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
+      <MarketValue>550</MarketValue>
+    </statBases>
+    <race>
+      <packAnimal>true</packAnimal>
+      <wildness>0.70</wildness>
+      <baseBodySize>1.7</baseBodySize>
+      <baseHealthScale>1.5</baseHealthScale>
+      <lifeExpectancy>25</lifeExpectancy>
+      <gestationPeriodDays>45</gestationPeriodDays>
+      <manhunterOnTameFailChance>0.010</manhunterOnTameFailChance>
+      <leatherDef>Leather_Bear</leatherDef>
+      <useMeatFrom>Bear_Grizzly</useMeatFrom>
+      <wildBiomes>
+    	<Tundra>0.005</Tundra>
+    	<BorealForest>0.04</BorealForest>
+    	<TemperateForest>0.05</TemperateForest>
+		<AridShrubland>0.001</AridShrubland>
+		<TemperateSwamp>0.05</TemperateSwamp>
+		<ColdBog>0.005</ColdBog>
+      </wildBiomes>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BearBase">
+    <defName>ACPBlackbear</defName>
+    <label>black bear</label>
+    <race>ACPBlackbear</race>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bears/BlackBear/BlackBear</texPath>
+          <drawSize>0.8</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>0.8</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bears/BlackBear/BlackBear</texPath>
+          <drawSize>1.2</drawSize>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bears/BlackBear/BlackBear</texPath>
+          <drawSize>1.9</drawSize>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Bear/Dessicated_Bear</texPath>
+          <drawSize>1.9</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+</Defs>

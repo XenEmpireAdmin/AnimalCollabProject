@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BigBirdThingBase">
+    <defName>ACPGreatBustard</defName>
+    <label>great bustard</label>
+    <description>A fairly large bird with an unusual degree of gender dimorphism. Great bustards are known for flying and running surprisingly fast for their size.</description>
+    <statBases>
+      <MoveSpeed>5.5</MoveSpeed>
+      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+      <MarketValue>180</MarketValue>
+    </statBases>
+    <race>
+      <herdAnimal>true</herdAnimal>
+      <baseBodySize>0.4</baseBodySize>
+      <baseHungerRate>0.3</baseHungerRate>
+      <baseHealthScale>0.65</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+      <wildness>0.45</wildness>
+	  <useMeatFrom>Cassowary</useMeatFrom>
+      <leatherDef>Leather_Bird</leatherDef>
+	  <wildBiomes>
+		<AridShrubland>0.1</AridShrubland>
+		<TropicalRainforest>0.05</TropicalRainforest>
+		<TemperateForest>0.2</TemperateForest>
+		<BorealForest>0.15</BorealForest>
+		<Tundra>0.05</Tundra>
+		<TropicalSwamp>0.02</TropicalSwamp>
+		<TemperateSwamp>0.1</TemperateSwamp>
+		<ColdBog>0.08</ColdBog>
+      </wildBiomes>
+      <lifeExpectancy>10</lifeExpectancy>
+    </race>
+    <comps>
+      <li Class="CompProperties_EggLayer">
+		<eggFertilizedDef>ACPEggBustardFertilized</eggFertilizedDef>
+        <eggFertilizationCountMax>1</eggFertilizationCountMax>
+        <eggLayIntervalDays>16</eggLayIntervalDays>
+		<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+        <eggCountRange>
+          <min>1</min>
+          <max>3</max>
+        </eggCountRange>
+      </li>
+    </comps>
+   <tools>
+      <li>
+        <label>claws</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>Feet</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.85</cooldownTime>
+        <linkedBodyPartsGroup>Beak</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>1</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <tradeTags>
+      <li>AnimalCommon</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BigBirdKindBase">
+    <defName>ACPGreatBustard</defName>
+    <label>great bustard</label>
+    <race>ACPGreatBustard</race>
+	<combatPower>45</combatPower>
+    <ecoSystemWeight>0.3</ecoSystemWeight>
+	<wildGroupSize>
+      <min>2</min>
+      <max>4</max>
+    </wildGroupSize>
+    <lifeStages>
+      <li>
+        <label>great bustard chick</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Birds/GreatBustard/GreatBustardChick</texPath>
+          <drawSize>1.0</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Turkey/Dessicated_TurkeyHen</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Birds/GreatBustard/GreatBustardFemale</texPath>
+          <drawSize>1.2</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Turkey/Dessicated_TurkeyHen</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Birds/GreatBustard/GreatBustardMale</texPath>
+          <drawSize>1.4</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Animal/Birds/GreatBustard/GreatBustardFemale</texPath>
+          <drawSize>1.4</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Turkey/Dessicated_TurkeyHen</texPath>
+          <drawSize>1.6</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+</Defs>

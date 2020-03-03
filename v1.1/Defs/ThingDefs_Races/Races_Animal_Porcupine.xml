@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>ACPPorcupine</defName>
+    <label>porcupine</label>
+    <description>Large spined mammals with the ability to eject their spined quills to deter attacking predators.</description>
+    <statBases>
+      <MoveSpeed>4.00</MoveSpeed>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+      <MarketValue>120</MarketValue>
+      <LeatherAmount>0</LeatherAmount>
+    </statBases>
+    <tools>
+      <li>
+        <label>quills</label>
+        <capacities>
+          <li>Sting</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.5</cooldownTime>
+        <linkedBodyPartsGroup>Quills</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.8</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.8</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2.0</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>15</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>3</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>BodyQuilled</body>
+      <baseBodySize>0.4</baseBodySize>
+      <baseHungerRate>0.25</baseHungerRate>
+      <baseHealthScale>0.9</baseHealthScale>
+      <foodType>VegetarianRoughAnimal</foodType>
+	  <useMeatFrom>Pig</useMeatFrom>
+      <wildness>0.7</wildness>
+      <trainability>Intermediate</trainability>
+      <gestationPeriodDays>16</gestationPeriodDays>
+      <wildBiomes>
+        <Desert>0.02</Desert>
+        <AridShrubland>0.05</AridShrubland>
+        <TropicalRainforest>0.1</TropicalRainforest>
+        <TemperateForest>0.05</TemperateForest>
+        <TropicalSwamp>0.15</TropicalSwamp>
+        <ColdBog>0.1</ColdBog>
+        <TemperateSwamp>0.15</TemperateSwamp>
+      </wildBiomes>
+      <litterSizeCurve>
+        <points>
+          <li>(0.5, 0)</li>
+          <li>(1, 1)</li>
+          <li>(2, 1.7)</li>
+          <li>(2.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>25</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.07</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.22</minAge>
+          <soundWounded>Pawn_Rodent_Wounded</soundWounded>
+          <soundDeath>Pawn_Rodent_Death</soundDeath>
+          <soundCall>Pawn_Rodent_Call</soundCall>
+          <soundAngry>Pawn_Rodent_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalCommon</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>ACPPorcupine</defName>
+    <label>porcupine</label>
+    <race>ACPPorcupine</race>
+    <combatPower>45</combatPower>
+    <ecoSystemWeight>0.3</ecoSystemWeight>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Rodents/Porcupine/Porcupine</texPath>
+          <drawSize>0.8</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Warg/Dessicated_Warg</texPath>
+          <drawSize>0.8</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Rodents/Porcupine/Porcupine</texPath>
+          <drawSize>1.15</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.03)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Warg/Dessicated_Warg</texPath>
+          <drawSize>1.15</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Rodents/Porcupine/Porcupine</texPath>
+          <drawSize>1.3</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.5, 0.4)</volume>
+            <offset>(0,0,-0.03)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Warg/Dessicated_Warg</texPath>
+          <drawSize>1.3</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+ 
+</Defs>

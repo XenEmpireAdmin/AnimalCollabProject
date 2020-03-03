@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>ACPWalrus</defName>
+    <label>walrus</label>
+    <description>The largest arctic mammal is a strong swimmer and extremely dangerous though slow on land. Do not take them lightly and most importantly: do not ask them about the eggman.</description>
+    <statBases>
+      <MoveSpeed>1.8</MoveSpeed>
+      <ComfyTemperatureMin>-65</ComfyTemperatureMin>
+      <MarketValue>700</MarketValue>
+    </statBases>
+    <tools>
+      <li>
+        <label>tusk</label>
+        <capacities>
+          <li>Scratch</li>
+          <li>Stab</li>
+        </capacities>
+        <power>18</power>
+        <cooldownTime>2.4</cooldownTime>
+        <linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>1.65</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <herdAnimal>true</herdAnimal>
+      <body>WalrusLike</body>
+      <baseHungerRate>0.6</baseHungerRate>
+      <baseBodySize>2.5</baseBodySize>
+      <baseHealthScale>2.8</baseHealthScale>
+      <foodType>OmnivoreRoughAnimal</foodType>
+      <leatherDef>Leather_Heavy</leatherDef>
+	  <useMeatFrom>ACPHippopotamus</useMeatFrom>
+      <gestationPeriodDays>50</gestationPeriodDays>
+      <wildness>0.85</wildness>
+      <wildBiomes>
+        <SeaIce>0.35</SeaIce>
+        <IceSheet>0.5</IceSheet>
+        <Tundra>0.15</Tundra>
+        <BorealForest>0.02</BorealForest>
+		<ColdBog>0.05</ColdBog>
+      </wildBiomes>
+      <nuzzleMtbHours>160</nuzzleMtbHours>
+      <manhunterOnTameFailChance>0.09</manhunterOnTameFailChance>
+      <trainability>Advanced</trainability>
+      <lifeExpectancy>40</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.7</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>1.3</minAge>
+          <soundWounded>Pawn_Elephant_Injured</soundWounded>
+          <soundDeath>Pawn_Elephant_Dead</soundDeath>
+          <soundCall>Pawn_Elephant_Call</soundCall>
+          <soundAngry>Pawn_Elephant_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalUncommon</li>
+      <li>AnimalFighter</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>ACPWalrus</defName>
+    <label>walrus</label>
+	<labelPlural>walruses</labelPlural>
+    <race>ACPWalrus</race>
+    <combatPower>310</combatPower>
+	<labelMale>walrus bull</labelMale>
+    <labelFemale>walrus cow</labelFemale>
+    <ecoSystemWeight>1</ecoSystemWeight>
+    <wildGroupSize>
+      <min>3</min>
+      <max>7</max>
+    </wildGroupSize>
+    <lifeStages>
+      <li>
+        <label>walrus calf</label>
+		<labelPlural>walrus calves</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Seals/Walrus/WalrusCalf</texPath>
+          <drawSize>1.1</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cow/Dessicated_Cow</texPath>
+          <drawSize>1.1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Seals/Walrus/WalrusFemale</texPath>
+          <drawSize>1.6</drawSize>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cow/Dessicated_Cow</texPath>
+          <drawSize>1.6</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Seals/Walrus/Walrus</texPath>
+          <drawSize>2.2</drawSize>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+       <femaleGraphicData>
+          <texPath>Things/Pawn/Animal/Seals/Walrus/WalrusFemale</texPath>
+          <drawSize>2</drawSize>
+          <shadowData>
+            <volume>(0.75, 0.5, 0.5)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </femaleGraphicData>		
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cow/Dessicated_Cow</texPath>
+          <drawSize>2.2</drawSize>
+        </dessicatedBodyGraphicData>
+        <butcherBodyPart>
+          <bodyPartGroup>TuskAttackTool</bodyPartGroup>
+          <thing>ACPWalrusTusk</thing>
+          <allowFemale>false</allowFemale>
+        </butcherBodyPart>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+</Defs>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BaseHare">
+    <defName>ACPDomesticRabbit</defName>
+    <label>domestic rabbit</label>
+    <description>The most innocent of domestic animals. Friendly but weak, rabbits have long been kept for companionship, food, and irresistable cuteness.</description>
+    <race>
+      <leatherDef>Leather_Light</leatherDef>
+	  <useMeatFrom>Hare</useMeatFrom>
+	  <nuzzleMtbHours>15</nuzzleMtbHours>
+	  <wildness>0</wildness>
+	  <petness>1</petness>
+    </race>
+    <tradeTags>
+      <li>AnimalCommon</li>
+      <li>AnimalPet</li>
+    </tradeTags>
+  </ThingDef>
+
+  <PawnKindDef ParentName="HareBase">
+    <defName>ACPDomesticRabbit</defName>
+    <label>domestic rabbit</label>
+    <race>ACPDomesticRabbit</race>
+	<alternateGraphicChance>0.8</alternateGraphicChance>
+	<alternateGraphics>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/1</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/2</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/3</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/4</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/5</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/6</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/7</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/8</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/9</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/10</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/11</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/12</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/13</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/14</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/15</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/16</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/17</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/18</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/19</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/20</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/21</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/22</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/23</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/24</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/25</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/26</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/27</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/28</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/29</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/30</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/31</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/32</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/33</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/Crispy</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/ekksu</texPath></li>
+		<li><texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/Hambone</texPath></li>
+	</alternateGraphics>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/Rabbit</texPath>
+          <drawSize>0.55</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
+          <drawSize>0.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/Rabbit</texPath>
+          <drawSize>0.7</drawSize>
+          <shadowData>
+            <volume>(0.27, 0.3, 0.27)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>  
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
+          <drawSize>0.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Rabbits/DomesticRabbit/Rabbit</texPath>
+          <drawSize>0.95</drawSize>
+          <shadowData>
+            <volume>(0.32, 0.35, 0.32)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
+          <drawSize>0.95</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+  
+</Defs>
