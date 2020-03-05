@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <ToolCapacityDef>
+    <defName>Sting</defName>
+    <label>stinging</label>
+  </ToolCapacityDef>
+
+  <ToolCapacityDef>
+    <defName>ScorpionSting</defName>
+    <label>stinging</label>
+  </ToolCapacityDef>
+
+  <ToolCapacityDef>
+    <defName>PlatypusSting</defName>
+    <label>stinging</label>
+  </ToolCapacityDef>
+
+  <ToolCapacityDef>
+    <defName>AcidBite</defName>
+    <label>acid biting</label>
+  </ToolCapacityDef>
+
+</Defs>

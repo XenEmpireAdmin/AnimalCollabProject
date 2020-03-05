@@ -104,14 +104,6 @@
 	<alternateGraphics>
 		<li>
 		<texPath>Things/Pawn/Animal/Birds/Flamingo/ACPFlamingoW</texPath>
-		<color>(70,70,70)</color>
-		</li>
-		<li>
-		<texPath>Things/Pawn/Animal/Birds/Flamingo/ACPFlamingoW</texPath>
-		<color>(109,209,237)</color>
-		</li>
-		<li>
-		<texPath>Things/Pawn/Animal/Birds/Flamingo/ACPFlamingoW</texPath>
 		<color>(252,139,179)</color>
 		</li>
 		<li>

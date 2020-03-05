@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	<!--=====================  GuineaPig ========================-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/PawnKindDef[defName = "GuineaPig"]/alternateGraphics</xpath>
+			<value>
+				<alternateGraphics>
+					<li><texPath>Things/Pawn/Animal/Rodents/Guinea Pig/1</texPath></li>
+					<li><texPath>Things/Pawn/Animal/Rodents/Guinea Pig/2</texPath></li>
+					<li><texPath>Things/Pawn/Animal/Rodents/Guinea Pig/3</texPath></li>
+					<li><texPath>Things/Pawn/Animal/Rodents/Guinea Pig/4</texPath></li>
+					<li><texPath>Things/Pawn/Animal/Rodents/Guinea Pig/5</texPath></li>
+					<li><texPath>Things/Pawn/Animal/Rodents/Guinea Pig/6</texPath></li>
+					<li><texPath>Things/Pawn/Animal/Rodents/Guinea Pig/7</texPath></li>
+					<li><texPath>Things/Pawn/Animal/Rodents/Guinea Pig/8</texPath></li>
+					<li><texPath>Things/Pawn/Animal/Rodents/Guinea Pig/9</texPath></li>
+					<li><texPath>Things/Pawn/Animal/Rodents/Guinea Pig/10</texPath></li>
+				</alternateGraphics>
+			</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/PawnKindDef[defName = "GuineaPig"]/lifeStages</xpath>
+			<value>
+				<lifeStages>
+				  <li>
+					<label>guinea pig pup</label>
+					<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Rodents/Guinea Pig/GuineaPig1</texPath>
+					<drawSize>0.4</drawSize>
+					</bodyGraphicData>
+					<dessicatedBodyGraphicData>
+					  <texPath>Things/Pawn/Animal/GuineaPig/Dessicated_GuineaPig</texPath>
+					  <drawSize>0.5</drawSize>
+					</dessicatedBodyGraphicData>
+				  </li>
+				  <li>
+					<bodyGraphicData>
+					  <texPath>Things/Pawn/Animal/Rodents/Guinea Pig/GuineaPig1</texPath>
+					  <drawSize>0.6</drawSize>
+					  <shadowData>
+						<volume>(0.3, 0.35, 0.25)</volume>
+						<offset>(0,0,0)</offset>
+					  </shadowData>
+					</bodyGraphicData>
+					<dessicatedBodyGraphicData>
+					 <texPath>Things/Pawn/Animal/GuineaPig/Dessicated_GuineaPig</texPath>
+					  <drawSize>0.7</drawSize>
+					</dessicatedBodyGraphicData>
+				  </li>
+				  <li>
+					<bodyGraphicData>
+					  <texPath>Things/Pawn/Animal/Rodents/Guinea Pig/GuineaPig1</texPath>
+					  <drawSize>0.8</drawSize>
+					  <shadowData>
+						<volume>(0.35, 0.4, 0.3)</volume>
+						<offset>(0,0,0)</offset>
+					  </shadowData>
+					</bodyGraphicData>
+					<dessicatedBodyGraphicData>
+					  <texPath>Things/Pawn/Animal/GuineaPig/Dessicated_GuineaPig</texPath>
+					  <drawSize>0.9</drawSize>
+					</dessicatedBodyGraphicData>
+				  </li>
+				</lifeStages>
+			</value>
+	</Operation>
+
+</Patch>

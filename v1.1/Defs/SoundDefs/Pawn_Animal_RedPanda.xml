@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+  <SoundDef>
+    <defName>Pawn_RedPanda_Call</defName>  
+    <eventNames />
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>RedPanda/redpanda_chitter2</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>RedPanda/redpanda_chitter3</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>8</min>        
+          <max>10</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.9</min>
+          <max>1.0</max>
+        </pitchRange>      
+        <distRange>
+          <min>0</min>        
+          <max>50</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>Pawn_RedPanda_Death</defName>  
+    <eventNames /> 
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>RedPanda/redpanda_chitter1</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>
+          <min>15</min>        
+          <max>15</max>
+        </volumeRange>      
+        <pitchRange>
+          <min>0.9311765</min>        
+          <max>1.091765</max>
+        </pitchRange>      
+        <distRange>
+          <min>0</min>        
+          <max>70</max>
+        </distRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>

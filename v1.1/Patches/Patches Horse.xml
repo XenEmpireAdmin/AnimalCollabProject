@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	<!--=====================  Horse ========================-->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/PawnKindDef[defName = "Horse"]/alternateGraphics</xpath>
+			<value>
+				<alternateGraphics>
+					<li><texPath>Things/Pawn/Animal/Horses/Horse/1</texPath></li>
+					<li><texPath>Things/Pawn/Animal/Horses/Horse/2</texPath></li>
+					<li><texPath>Things/Pawn/Animal/Horses/Horse/3</texPath></li>
+					<li><texPath>Things/Pawn/Animal/Horses/Horse/4</texPath></li>
+					<li><texPath>Things/Pawn/Animal/Horses/Horse/5</texPath></li>
+					<li><texPath>Things/Pawn/Animal/Horses/Horse/6</texPath></li>
+					<li><texPath>Things/Pawn/Animal/Horses/Horse/7</texPath></li>
+					<li><texPath>Things/Pawn/Animal/Horses/Horse/8</texPath></li>
+					<li><texPath>Things/Pawn/Animal/Horses/Horse/9</texPath></li>
+					<li><texPath>Things/Pawn/Animal/Horses/Horse/10</texPath></li>
+					<li><texPath>Things/Pawn/Animal/Horses/Horse/Unicorn</texPath></li>
+				</alternateGraphics>
+			</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/PawnKindDef[defName = "Horse"]/lifeStages</xpath>
+			<value>
+				<lifeStages>
+				  <li>
+				<labelMale>horse colt</labelMale>
+				<labelFemale>horse filly</labelFemale>
+					<bodyGraphicData>
+					  <texPath>Things/Pawn/Animal/Horses/Horse/Horse</texPath>
+					  <drawSize>1.4</drawSize>
+					  <shaderType>CutoutComplex</shaderType>
+					  <shadowData>
+						<volume>(0.4, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					  </shadowData>
+					</bodyGraphicData>
+					<dessicatedBodyGraphicData>
+					  <texPath>Things/Pawn/Animal/Horse/Dessicated_Horse</texPath>
+					  <drawSize>1.4</drawSize>
+					</dessicatedBodyGraphicData>
+				  </li>
+				  <li>
+				<labelMale>Horse colt</labelMale>
+				<labelFemale>Horse filly</labelFemale>
+					<bodyGraphicData>
+					  <texPath>Things/Pawn/Animal/Horses/Horse/Horse</texPath>
+					  <drawSize>1.9</drawSize>
+					  <shaderType>CutoutComplex</shaderType>
+					  <shadowData>
+						<volume>(0.5, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.3)</offset>
+					  </shadowData>
+					</bodyGraphicData>
+					<dessicatedBodyGraphicData>
+					 <texPath>Things/Pawn/Animal/Horse/Dessicated_Horse</texPath>
+					  <drawSize>1.85</drawSize>
+					</dessicatedBodyGraphicData>
+				  </li>
+				  <li>
+					<bodyGraphicData>
+					  <texPath>Things/Pawn/Animal/Horses/Horse/Horse</texPath>
+					  <drawSize>2.5</drawSize>
+					  <shaderType>CutoutComplex</shaderType>
+					  <shadowData>
+						<volume>(0.7, 0.6, 0.6)</volume>
+						<offset>(0,0,-0.6)</offset>
+					  </shadowData>
+					</bodyGraphicData>
+					<dessicatedBodyGraphicData>
+					  <texPath>Things/Pawn/Animal/Horse/Dessicated_Horse</texPath>
+					  <drawSize>2.4</drawSize>
+					</dessicatedBodyGraphicData>
+				  </li>
+				</lifeStages>
+			</value>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+  <BodyPartGroupDef>
+    <defName>Spurs</defName>
+    <label>spurs</label>
+    <listOrder>10</listOrder>
+  </BodyPartGroupDef>
+  
+  <BodyPartGroupDef>
+    <defName>Bill</defName>
+    <label>bill</label>
+    <listOrder>12</listOrder>
+  </BodyPartGroupDef>
+ 
+</Defs>

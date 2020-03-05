@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+
+
+
+<ThingDef Abstract="True" Name="EggBaseACP" ParentName="OrganicProductBaseACP" >
+    <graphicData>
+      <texPath>Things/Item/Resource/AnimalProductRaw/EggBirdSmall</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <ingestible>
+      <foodType>AnimalProduct</foodType>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <tasteThought>AteRawFood</tasteThought>
+    </ingestible>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <Mass>0.15</Mass>
+			<MaxHitPoints>20</MaxHitPoints>
+			<DeteriorationRate>2</DeteriorationRate>
+      <Flammability>0.7</Flammability>
+      <Nutrition>0.25</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>15</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+        <disableIfHatcher>true</disableIfHatcher>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef Abstract="True" Name="EggUnfertBaseACP" ParentName="EggBaseACP" >
+    <ingestible>
+      <preferability>RawBad</preferability>
+    </ingestible>
+    <thingCategories>
+      <li>EggsUnfertilized</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef Abstract="True" Name="EggFertBaseACP" ParentName="EggBaseACP" >
+    <tickerType>Normal</tickerType>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+    </ingestible>
+    <thingCategories>
+      <li>EggsFertilized</li>
+    </thingCategories>
+		<comps>
+			<li Class="CompProperties_TemperatureRuinable">
+				<minSafeTemperature>0</minSafeTemperature>
+				<maxSafeTemperature>50</maxSafeTemperature>
+				<progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
+			</li>
+		</comps>
+  </ThingDef>
+
+
+
+
+<ThingDef ParentName="EggUnfertBaseACP">
+    <defName>ACPSilkieEggUnfertilized</defName>
+    <label>silkie egg (unfert.)</label>
+    <description>A small cream colored silkie egg.</description>
+    <graphicData>
+		<color>(255,255,255)</color>
+    </graphicData>
+    <statBases>
+		<MarketValue>7.0</MarketValue>
+    </statBases>
+</ThingDef>
+
+<ThingDef ParentName="EggFertBaseACP">
+    <defName>ACPSilkieEggFertilized</defName>
+    <label>silkie egg (fert.)</label>
+    <description>A small cream colored silkie egg, this one should hatch into a chick in a few days.</description>
+    <graphicData>
+		<color>(255,255,255)</color>
+    </graphicData>
+    <statBases>
+		<MarketValue>8.0</MarketValue>
+    </statBases>
+    <comps>
+		<li Class="CompProperties_Hatcher">
+			<hatcherDaystoHatch>4</hatcherDaystoHatch>
+			<hatcherPawn>ACPSilkieChicken</hatcherPawn>
+		</li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="EggUnfertBaseACP">
+    <defName>ACPQuailEggUnfertilized</defName>
+    <label>quail egg (unfert.)</label>
+    <description>A small speckled quail egg.</description>
+    <graphicData>
+		<color>(255,255,255)</color>
+    </graphicData>
+    <statBases>
+		<MarketValue>7.0</MarketValue>
+    </statBases>
+</ThingDef>
+
+<ThingDef ParentName="EggFertBaseACP">
+    <defName>ACPQuailEggFertilized</defName>
+    <label>quail egg (fert.)</label>
+    <description>A small speckled quail egg, this one should hatch into a chick in a few days.</description>
+    <graphicData>
+		<color>(255,255,255)</color>
+    </graphicData>
+    <statBases>
+		<MarketValue>8.0</MarketValue>
+    </statBases>
+    <comps>
+		<li Class="CompProperties_Hatcher">
+			<hatcherDaystoHatch>4</hatcherDaystoHatch>
+			<hatcherPawn>ACPValleyQuail</hatcherPawn>
+		</li>
+    </comps>
+</ThingDef>
+ 
+  <ThingDef ParentName="EggUnfertBaseACP">
+    <defName>ACPEggPtarmiganUnfertilized</defName>
+    <label>ptarmigan egg (unfert.)</label>
+    <description>Unfertilized ptarmigan egg. It can be eaten raw, but it's much, much better cooked.</description>
+    <graphicData>
+      <color>(255,255,255)</color>
+      <texPath>Things/Pawn/Animal/Birds/Ptarmigan/Egg</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>7.0</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="EggFertBaseACP">
+    <defName>ACPEggPtarmiganFertilized</defName>
+    <label>ptarmigan egg (fert.)</label>
+    <description>Fertilized ptarmigan egg. If all goes well, it should hatch into a chick. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <color>(255,255,255)</color>
+      <texPath>Things/Pawn/Animal/Birds/Ptarmigan/Egg</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>8.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>4</hatcherDaystoHatch>
+        <hatcherPawn>ACPPtarmigan</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="EggFertBaseACP">
+    <defName>ACPEggBustardFertilized</defName>
+    <label>great bustard egg (fert.)</label>
+    <description>Fertilized egg of a great bustard. If all goes well, it should hatch into a bustard chick. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <color>(210,180,140)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>7.5</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>8</hatcherDaystoHatch>
+        <hatcherPawn>ACPGreatBustard</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  
+    <ThingDef ParentName="EggFertBaseACP">
+    <defName>ACPEggThornyDevilFertilized</defName>
+    <label>thorny devil egg (fert.)</label>
+    <description>Fertilized egg of a thorny devil. If all goes well, it should hatch into a thorny devil. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+	  <texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+      <color>(210,180,140)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>7.5</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>12</hatcherDaystoHatch>
+        <hatcherPawn>ACPThornyDevil</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  
+    <ThingDef ParentName="EggFertBaseACP">
+    <defName>ACPEggPlatypusFertilized</defName>
+    <label>platypus egg (fert.)</label>
+    <description>Fertilized platypus egg. If all goes well, it should hatch into a baby duck-billed platypus. It can be eaten raw, but it's better cooked.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+      <color>(239,234,215)</color>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>20.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>25</hatcherDaystoHatch>
+        <hatcherPawn>ACPDuckBilledPlatypus</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  
+    <ThingDef ParentName="EggFertBaseACP">
+    <defName>ACPEggPenguinFertilized</defName>
+    <label>penguin egg (fert.)</label>
+    <description>Fertilized penguin egg. If all goes well, it should hatch into a baby penguin. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+      <color>(239,234,215)</color>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>25.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>9</hatcherDaystoHatch>
+        <hatcherPawn>ACPPenguin</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  
+   <ThingDef ParentName="EggFertBaseACP">
+    <defName>ACPEggxenguanaFertilized</defName>
+    <label>xenguana egg (fert.)</label>
+    <description>Fertilized xenguana egg. If all goes well, it should hatch into a baby xenguana. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+	  <drawSize>1.6</drawSize>
+      <color>(245,245,245)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>25.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>2.5</hatcherDaystoHatch>
+        <hatcherPawn>ACPXenguana</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  
+        <ThingDef ParentName="EggFertBaseACP">
+    <defName>ACPEggGeckoFertilized</defName>
+    <label>Gecko egg (fert.)</label>
+    <description>Fertilized Gecko egg. If all goes well, it should hatch into a baby Gecko. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+      <color>(245,245,245)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>250.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>4.5</hatcherDaystoHatch>
+        <hatcherPawn>ACPXGecko</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  
+    <ThingDef ParentName="EggFertBaseACP">
+    <defName>ACPEggKiwiFertilized</defName>
+    <label>kiwi egg (fert.)</label>
+    <description>Fertilized kiwi egg. If all goes well, it should hatch into a baby kiwi. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <color>(208,240,192)</color>
+      <drawSize>1.1</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>12.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>8</hatcherDaystoHatch>
+        <hatcherPawn>ACPKiwi</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  
+   <ThingDef ParentName="EggUnfertBaseACP">
+    <defName>ACPEggDGooseUnfertilized</defName>
+    <label>domestic goose egg (unfert.)</label>
+    <description>Unfertilized egg of a domestic goose. It can be eaten raw, but it's much, much better cooked.</description>
+    <graphicData>
+      <color>(225,251,247)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>7.0</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="EggFertBaseACP">
+    <defName>ACPEggDGooseFertilized</defName>
+    <label>domestic goose egg (fert.)</label>
+    <description>Fertilized egg of a domestic goose. If all goes well, it should hatch into a gosling. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <color>(225,251,247)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>7.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>7</hatcherDaystoHatch>
+        <hatcherPawn>ACPDomesticGoose</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="EggFertBaseACP">
+    <defName>ACPEggWGooseFertilized</defName>
+    <label>goose egg (fert.)</label>
+    <description>Fertilized egg of a wild goose. If all goes well, it should hatch into a gosling. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <color>(225,251,247)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>7.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>7</hatcherDaystoHatch>
+        <hatcherPawn>ACPWildGoose</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  
+    <ThingDef ParentName="EggFertBaseACP">
+    <defName>ACPEggDuckFertilized</defName>
+    <label>duck egg (fert.)</label>
+    <description>Fertilized duck egg. If all goes well, it should hatch into a duckling. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <color>(193,154,131)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>7.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>5.5</hatcherDaystoHatch>
+        <hatcherPawn>ACPDuck</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  
+      <ThingDef ParentName="EggFertBaseACP">
+    <defName>ACPEggKomodoFertilized</defName>
+    <label>komodo dragon egg (fert.)</label>
+    <description>Fertilized egg of a komodo dragon. If all goes well, it should hatch into a komodo dragon. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+	  <texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+      <color>(240,240,240)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>17.5</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>36</hatcherDaystoHatch>
+        <hatcherPawn>ACPKomodo</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+  
+   <ThingDef ParentName="EggFertBaseACP">
+    <defName>ACPEggFlamingoFertilized</defName>
+    <label>flamingo egg (fert.)</label>
+    <description>Fertilized egg of a flamingo. If all goes well, it should hatch into a flamingo. It can be eaten raw, but it's much better cooked.</description>
+    <graphicData>
+      <color>(240,240,240)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>17.5</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>36</hatcherDaystoHatch>
+        <hatcherPawn>ACPFlamingo</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+    
+</Defs>

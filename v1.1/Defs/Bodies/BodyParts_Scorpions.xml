@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <BodyPartDef>
+    <defName>InsectStinger</defName>
+    <label>stinger</label>
+    <hitPoints>20</hitPoints>
+    <permanentInjuryChanceFactor>0.2</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>true</alive>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+  
+    <BodyPartDef>
+    <defName>FrontLeftPincer</defName>
+    <label>left pincer</label>
+    <hitPoints>25</hitPoints>
+    <permanentInjuryChanceFactor>0.23</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>true</alive>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>FrontRightPincer</defName>
+    <label>right pincer</label>
+    <hitPoints>25</hitPoints>
+    <permanentInjuryChanceFactor>0.23</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>true</alive>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+
+
+</Defs>

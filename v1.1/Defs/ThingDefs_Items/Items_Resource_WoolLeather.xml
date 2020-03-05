@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs> 
+
+  <ThingDef ParentName="ResourceBase" Name="ACPWoolBase" Abstract="True">
+    <stackLimit>100</stackLimit>
+    <graphicData>
+      <texPath>Things/Item/Resource/Wool</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <MarketValue>2.7</MarketValue>
+      <Mass>0.028</Mass>
+      <Flammability>1.7</Flammability>
+      <DeteriorationRate>3.4</DeteriorationRate>
+      <StuffPower_Armor_Sharp>0.36</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.00</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.36</StuffPower_Armor_Heat>
+    </statBases>
+    <stuffProps>
+      <statFactors>
+        <Flammability>1.7</Flammability>
+      </statFactors>
+      <categories>
+        <li>Fabric</li>
+      </categories>
+      <commonality>0.10</commonality>
+    </stuffProps>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+  </ThingDef>
+
+<ThingDef ParentName="ACPWoolBase">
+    <defName>ACPAngoraWool</defName>
+    <label>angora wool</label>
+    <description>A light silky wool produced by the angora rabbit, it is very warm.</description>
+    <graphicData>
+		<color>(255,255,255)</color>
+    </graphicData>	
+	<statBases>
+		<MarketValue>4.2</MarketValue>
+		  <StuffPower_Insulation_Cold>36</StuffPower_Insulation_Cold>
+		  <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>	
+    <stuffProps>
+	  <color>(255,255,255)</color>
+	  <commonality>0.1</commonality>
+	</stuffProps>
+</ThingDef>
+
+<ThingDef ParentName="ACPWoolBase">
+    <defName>ACPLlamaWool</defName>
+    <label>llama wool</label>
+    <description>Soft warm wool from a llama.</description>
+    <graphicData>
+		<color>(114,64,45)</color>
+    </graphicData>
+	<statBases>
+		<MarketValue>2.9</MarketValue>
+        <StuffPower_Armor_Sharp>0.36</StuffPower_Armor_Sharp>
+        <StuffPower_Armor_Heat>0.32</StuffPower_Armor_Heat>
+		<StuffPower_Insulation_Cold>32</StuffPower_Insulation_Cold>
+		<StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
+    </statBases>	
+    <stuffProps>
+		<color>(114,64,45)</color> 
+		<commonality>0.1</commonality>
+	</stuffProps>
+</ThingDef>
+
+
+  <ThingDef ParentName="ACPWoolBase">
+    <defName>ACPSpidersilk</defName>
+    <label>spidersilk</label>
+    <description>The unusually versatile quasi-silk produced by a genetically engineered insectoid.</description>
+    <graphicData>
+      <color>(129,216,208)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>8</MarketValue>
+      <Mass>0.03</Mass>
+      <Flammability>1.0</Flammability>
+      <StuffPower_Armor_Sharp>0.55</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.15</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>0.85</StuffPower_Armor_Heat>
+	  <StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
+	  <StuffPower_Insulation_Heat>34</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(129,216,208)</color>
+      <commonality>0.15</commonality>
+    </stuffProps>
+  </ThingDef>
+    
+   <ThingDef ParentName="ACPWoolBase">
+    <defName>ACPBisondown</defName>
+    <label>downy bison wool</label>
+    <description>Bison Wool. What, fool?</description>
+    <graphicData>
+      <color>(85,75,70)</color>
+    </graphicData>
+	<statBases>
+		<MarketValue>1.9</MarketValue>
+		<StuffPower_Insulation_Cold>16</StuffPower_Insulation_Cold>
+		<StuffPower_Insulation_Heat>14</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(85,75,70)</color>
+      <commonality>0.1</commonality>
+    </stuffProps>
+  </ThingDef>
+  
+   <ThingDef ParentName="ACPWoolBase">
+    <defName>ACPBDireWolfWool</defName>
+    <label>direwolf wool</label>
+    <description>Wool from the rare once-extinct Dire Wolves is very strong, has excellent insulation, and is therefore quite valuable.</description>
+    <graphicData>
+      <color>(70,70,73)</color>
+    </graphicData>
+	<statBases>
+      <MarketValue>4.7</MarketValue>
+	  <StuffPower_Insulation_Cold>34</StuffPower_Insulation_Cold>
+	  <StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+      <StuffPower_Armor_Sharp>0.5</StuffPower_Armor_Sharp>
+    </statBases>
+    <stuffProps>
+      <color>(70,70,73)</color>
+      <commonality>0.1</commonality>
+    </stuffProps>
+  </ThingDef>
+
+     <ThingDef ParentName="ACPWoolBase">
+    <defName>ACPSheepWool</defName>
+    <label>sheep wool</label>
+    <description>Regular-ass wool.</description>
+    <graphicData>
+      <color>(245,245,245)</color>
+    </graphicData>
+	<statBases>
+	  <StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
+	  <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(245,245,245)</color>
+      <commonality>0.1</commonality>
+    </stuffProps>
+  </ThingDef>
+	
+	<ThingDef ParentName="ACPWoolBase">
+    <defName>ACPFerretSilk</defName>
+    <label>Ferret silk</label>
+    <description>What the hell is this? Ferret silk? What?</description>
+    <graphicData>
+      <color>(198,198,200)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>6</MarketValue>
+      <StuffPower_Armor_Heat>0.42</StuffPower_Armor_Heat>
+      <StuffPower_Armor_Sharp>0.40</StuffPower_Armor_Sharp>
+	  <StuffPower_Insulation_Cold>14</StuffPower_Insulation_Cold>
+	  <StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+   </statBases>
+    <stuffProps>
+      <color>(198,198,200)</color>
+      <commonality>0.01</commonality>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Brownfur</defName>
+    <label>brownfur</label>
+    <description>The furry pelt of bison and other large mammals. Similar to Muffalo bluefur. Good at temperature regulation in cold climates.</description>
+    <graphicData>
+      <color>(102,51,1)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.3</MarketValue>
+      <StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+    </statBases>
+    <stuffProps>
+      <color>(102,51,1)</color>
+      <commonality>0.025</commonality>
+    </stuffProps>
+  </ThingDef>
+
+
+<ThingDef ParentName="LeatherBase">
+    <defName>Leather_ACP</defName>
+    <label>exotic leather</label>
+    <description>Strong leather from exotic animals.</description>
+    <graphicData>
+      <color>(112,82,65)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.65</MarketValue>
+      <StuffPower_Armor_Sharp>1.12</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>20</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>20</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(112,82,65)</color>
+      <commonality>0.05</commonality>
+    </stuffProps>
+  </ThingDef>
+
+</Defs>

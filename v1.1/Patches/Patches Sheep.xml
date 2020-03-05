@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	<!--=====================  Sheep ========================-->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>*/PawnKindDef[defName = "Sheep"]</xpath>
+			<value>
+				<alternateGraphicChance>0.5</alternateGraphicChance>
+				<alternateGraphics>
+					<li>
+					<texPath>Things/Pawn/Animal/Bovids/Sheep/Sheep_V1</texPath>
+					<color>(240,240,240)</color>
+					</li>
+					<li>
+					<texPath>Things/Pawn/Animal/Bovids/Sheep/Sheep_V2</texPath>
+					<color>(240,240,240)</color>
+					</li>
+					<li>
+					<texPath>Things/Pawn/Animal/Bovids/Sheep/Sheep_V3</texPath>
+					<color>(240,240,240)</color>
+					</li>
+					<li>
+					<texPath>Things/Pawn/Animal/Bovids/Sheep/Sheep_V1</texPath>
+					<color>(64,64,64)</color>
+					</li>
+					<li>
+					<texPath>Things/Pawn/Animal/Bovids/Sheep/Sheep_V2</texPath>
+					<color>(64,64,64)</color>
+					</li>
+					<li>
+					<texPath>Things/Pawn/Animal/Bovids/Sheep/Sheep_V3</texPath>
+					<color>(64,64,64)</color>
+					</li>
+					<li>
+					<texPath>Things/Pawn/Animal/Bovids/Sheep/Sheep_V1</texPath>
+					<color>(129,100,78)</color>
+					</li>
+					<li>
+					<texPath>Things/Pawn/Animal/Bovids/Sheep/Sheep_V2</texPath>
+					<color>(129,100,78)</color>
+					</li>
+					<li>
+					<texPath>Things/Pawn/Animal/Bovids/Sheep/Sheep_V3</texPath>
+					<color>(129,100,78)</color>
+					</li>
+					<li>
+					<texPath>Things/Pawn/Animal/Bovids/Sheep/Sheep_V1</texPath>
+					<color>(126,133,145)</color>
+					</li>
+					<li>
+					<texPath>Things/Pawn/Animal/Bovids/Sheep/Sheep_V2</texPath>
+					<color>(126,133,145)</color>
+					</li>
+					<li>
+					<texPath>Things/Pawn/Animal/Bovids/Sheep/Sheep_V3</texPath>
+					<color>(126,133,145)</color>
+					</li>
+					<li>
+					<texPath>Things/Pawn/Animal/Bovids/Sheep/Sheep_V3</texPath>
+					<color>(237,199,217)</color>
+					</li>
+				</alternateGraphics>
+			</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>*/PawnKindDef[defName = "Sheep"]/lifeStages</xpath>
+			<value>
+				<lifeStages>
+				  <li>
+				<label>lamb</label>
+					<bodyGraphicData>
+					  <texPath>Things/Pawn/Animal/Bovids/Sheep/Sheep</texPath>
+					  <drawSize>0.9</drawSize>
+					  <color>(246,246,246)</color>
+					  <shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					  </shadowData>
+					</bodyGraphicData>
+					<dessicatedBodyGraphicData>
+					  <texPath>Things/Pawn/Animal/Sheep/Dessicated_SheepFemale</texPath>
+					  <drawSize>0.9</drawSize>
+					</dessicatedBodyGraphicData>
+				  </li>
+				  <li>
+					<bodyGraphicData>
+					  <texPath>Things/Pawn/Animal/Bovids/Sheep/Sheep</texPath>
+					  <drawSize>1.4</drawSize>
+					  <color>(246,246,246)</color>
+					  <shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.15)</offset>
+					  </shadowData>
+					</bodyGraphicData>
+					<dessicatedBodyGraphicData>
+					  <texPath>Things/Pawn/Animal/Sheep/Dessicated_SheepFemale</texPath>
+					  <drawSize>1.4</drawSize>
+					</dessicatedBodyGraphicData>
+				  </li>
+				  <li>
+					<bodyGraphicData>
+					  <texPath>Things/Pawn/Animal/Bovids/Sheep/Sheep</texPath>
+					  <drawSize>1.7</drawSize>
+					  <color>(246,246,246)</color>
+					  <shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.15)</offset>
+					  </shadowData>
+					</bodyGraphicData>
+					<dessicatedBodyGraphicData>
+					  <texPath>Things/Pawn/Animal/Sheep/Dessicated_SheepFemale</texPath>
+					  <drawSize>1.7</drawSize>
+					</dessicatedBodyGraphicData>
+				  </li>
+				</lifeStages>
+			</value>
+	</Operation>
+
+</Patch>
